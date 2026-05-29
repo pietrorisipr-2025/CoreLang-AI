@@ -1,0 +1,961 @@
+{
+  "library": "CoreLang5_Block02_math_",
+  "generated_at": "2025-09-02 23:14:49",
+  "dedup_method": "unicode-NFKD + lowercase + single-space; canonical=most_frequent_original",
+  "stats": {
+    "before": 165,
+    "after": 95
+  },
+  "tokens": [
+    {
+      "text": "ADD",
+      "norm": "add",
+      "variants_top": [
+        {
+          "text": "ADD",
+          "count": 7
+        }
+      ]
+    },
+    {
+      "text": "CL5/BLOCK",
+      "norm": "cl5/block",
+      "variants_top": [
+        {
+          "text": "CL5/BLOCK",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_ADD_0001",
+      "norm": "cl5_add_0001",
+      "variants_top": [
+        {
+          "text": "CL5_ADD_0001",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_ADD_0002",
+      "norm": "cl5_add_0002",
+      "variants_top": [
+        {
+          "text": "CL5_ADD_0002",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_ADD_0003",
+      "norm": "cl5_add_0003",
+      "variants_top": [
+        {
+          "text": "CL5_ADD_0003",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_ADD_0004",
+      "norm": "cl5_add_0004",
+      "variants_top": [
+        {
+          "text": "CL5_ADD_0004",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_ADD_0005",
+      "norm": "cl5_add_0005",
+      "variants_top": [
+        {
+          "text": "CL5_ADD_0005",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_ADD_0006",
+      "norm": "cl5_add_0006",
+      "variants_top": [
+        {
+          "text": "CL5_ADD_0006",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_ADD_0007",
+      "norm": "cl5_add_0007",
+      "variants_top": [
+        {
+          "text": "CL5_ADD_0007",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_COS_0008",
+      "norm": "cl5_cos_0008",
+      "variants_top": [
+        {
+          "text": "CL5_COS_0008",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_COS_0009",
+      "norm": "cl5_cos_0009",
+      "variants_top": [
+        {
+          "text": "CL5_COS_0009",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_COS_0010",
+      "norm": "cl5_cos_0010",
+      "variants_top": [
+        {
+          "text": "CL5_COS_0010",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_COS_0011",
+      "norm": "cl5_cos_0011",
+      "variants_top": [
+        {
+          "text": "CL5_COS_0011",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_COS_0012",
+      "norm": "cl5_cos_0012",
+      "variants_top": [
+        {
+          "text": "CL5_COS_0012",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_COS_0013",
+      "norm": "cl5_cos_0013",
+      "variants_top": [
+        {
+          "text": "CL5_COS_0013",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_COS_0014",
+      "norm": "cl5_cos_0014",
+      "variants_top": [
+        {
+          "text": "CL5_COS_0014",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_DIV_0004",
+      "norm": "cl5_div_0004",
+      "variants_top": [
+        {
+          "text": "CL5_DIV_0004",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_DIV_0005",
+      "norm": "cl5_div_0005",
+      "variants_top": [
+        {
+          "text": "CL5_DIV_0005",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_DIV_0006",
+      "norm": "cl5_div_0006",
+      "variants_top": [
+        {
+          "text": "CL5_DIV_0006",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_DIV_0007",
+      "norm": "cl5_div_0007",
+      "variants_top": [
+        {
+          "text": "CL5_DIV_0007",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_DIV_0008",
+      "norm": "cl5_div_0008",
+      "variants_top": [
+        {
+          "text": "CL5_DIV_0008",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_DIV_0009",
+      "norm": "cl5_div_0009",
+      "variants_top": [
+        {
+          "text": "CL5_DIV_0009",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_DIV_0010",
+      "norm": "cl5_div_0010",
+      "variants_top": [
+        {
+          "text": "CL5_DIV_0010",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_MAT_MUL_0005",
+      "norm": "cl5_mat_mul_0005",
+      "variants_top": [
+        {
+          "text": "CL5_MAT_MUL_0005",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_MAT_MUL_0006",
+      "norm": "cl5_mat_mul_0006",
+      "variants_top": [
+        {
+          "text": "CL5_MAT_MUL_0006",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_MAT_MUL_0007",
+      "norm": "cl5_mat_mul_0007",
+      "variants_top": [
+        {
+          "text": "CL5_MAT_MUL_0007",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_MAT_MUL_0008",
+      "norm": "cl5_mat_mul_0008",
+      "variants_top": [
+        {
+          "text": "CL5_MAT_MUL_0008",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_MAT_MUL_0009",
+      "norm": "cl5_mat_mul_0009",
+      "variants_top": [
+        {
+          "text": "CL5_MAT_MUL_0009",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_MAT_MUL_0010",
+      "norm": "cl5_mat_mul_0010",
+      "variants_top": [
+        {
+          "text": "CL5_MAT_MUL_0010",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_MAT_MUL_0011",
+      "norm": "cl5_mat_mul_0011",
+      "variants_top": [
+        {
+          "text": "CL5_MAT_MUL_0011",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_MEAN_0009",
+      "norm": "cl5_mean_0009",
+      "variants_top": [
+        {
+          "text": "CL5_MEAN_0009",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_MEAN_0010",
+      "norm": "cl5_mean_0010",
+      "variants_top": [
+        {
+          "text": "CL5_MEAN_0010",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_MEAN_0011",
+      "norm": "cl5_mean_0011",
+      "variants_top": [
+        {
+          "text": "CL5_MEAN_0011",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_MEAN_0012",
+      "norm": "cl5_mean_0012",
+      "variants_top": [
+        {
+          "text": "CL5_MEAN_0012",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_MEAN_0013",
+      "norm": "cl5_mean_0013",
+      "variants_top": [
+        {
+          "text": "CL5_MEAN_0013",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_MEAN_0014",
+      "norm": "cl5_mean_0014",
+      "variants_top": [
+        {
+          "text": "CL5_MEAN_0014",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_MEAN_0015",
+      "norm": "cl5_mean_0015",
+      "variants_top": [
+        {
+          "text": "CL5_MEAN_0015",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_MUL_0003",
+      "norm": "cl5_mul_0003",
+      "variants_top": [
+        {
+          "text": "CL5_MUL_0003",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_MUL_0004",
+      "norm": "cl5_mul_0004",
+      "variants_top": [
+        {
+          "text": "CL5_MUL_0004",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_MUL_0005",
+      "norm": "cl5_mul_0005",
+      "variants_top": [
+        {
+          "text": "CL5_MUL_0005",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_MUL_0006",
+      "norm": "cl5_mul_0006",
+      "variants_top": [
+        {
+          "text": "CL5_MUL_0006",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_MUL_0007",
+      "norm": "cl5_mul_0007",
+      "variants_top": [
+        {
+          "text": "CL5_MUL_0007",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_MUL_0008",
+      "norm": "cl5_mul_0008",
+      "variants_top": [
+        {
+          "text": "CL5_MUL_0008",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_MUL_0009",
+      "norm": "cl5_mul_0009",
+      "variants_top": [
+        {
+          "text": "CL5_MUL_0009",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_RESERVED_B2_9000",
+      "norm": "cl5_reserved_b2_9000",
+      "variants_top": [
+        {
+          "text": "CL5_RESERVED_B2_9000",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_RESERVED_B2_9001",
+      "norm": "cl5_reserved_b2_9001",
+      "variants_top": [
+        {
+          "text": "CL5_RESERVED_B2_9001",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_RESERVED_B2_9002",
+      "norm": "cl5_reserved_b2_9002",
+      "variants_top": [
+        {
+          "text": "CL5_RESERVED_B2_9002",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_RESERVED_B2_9003",
+      "norm": "cl5_reserved_b2_9003",
+      "variants_top": [
+        {
+          "text": "CL5_RESERVED_B2_9003",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_RESERVED_B2_9004",
+      "norm": "cl5_reserved_b2_9004",
+      "variants_top": [
+        {
+          "text": "CL5_RESERVED_B2_9004",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_RESERVED_B2_9005",
+      "norm": "cl5_reserved_b2_9005",
+      "variants_top": [
+        {
+          "text": "CL5_RESERVED_B2_9005",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_RESERVED_B2_9006",
+      "norm": "cl5_reserved_b2_9006",
+      "variants_top": [
+        {
+          "text": "CL5_RESERVED_B2_9006",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_RESERVED_B2_9007",
+      "norm": "cl5_reserved_b2_9007",
+      "variants_top": [
+        {
+          "text": "CL5_RESERVED_B2_9007",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_RESERVED_B2_9008",
+      "norm": "cl5_reserved_b2_9008",
+      "variants_top": [
+        {
+          "text": "CL5_RESERVED_B2_9008",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_RESERVED_B2_9009",
+      "norm": "cl5_reserved_b2_9009",
+      "variants_top": [
+        {
+          "text": "CL5_RESERVED_B2_9009",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_RESERVED_B2_9010",
+      "norm": "cl5_reserved_b2_9010",
+      "variants_top": [
+        {
+          "text": "CL5_RESERVED_B2_9010",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_RESERVED_B2_9011",
+      "norm": "cl5_reserved_b2_9011",
+      "variants_top": [
+        {
+          "text": "CL5_RESERVED_B2_9011",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_SIN_0007",
+      "norm": "cl5_sin_0007",
+      "variants_top": [
+        {
+          "text": "CL5_SIN_0007",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_SIN_0008",
+      "norm": "cl5_sin_0008",
+      "variants_top": [
+        {
+          "text": "CL5_SIN_0008",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_SIN_0009",
+      "norm": "cl5_sin_0009",
+      "variants_top": [
+        {
+          "text": "CL5_SIN_0009",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_SIN_0010",
+      "norm": "cl5_sin_0010",
+      "variants_top": [
+        {
+          "text": "CL5_SIN_0010",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_SIN_0011",
+      "norm": "cl5_sin_0011",
+      "variants_top": [
+        {
+          "text": "CL5_SIN_0011",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_SIN_0012",
+      "norm": "cl5_sin_0012",
+      "variants_top": [
+        {
+          "text": "CL5_SIN_0012",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_SIN_0013",
+      "norm": "cl5_sin_0013",
+      "variants_top": [
+        {
+          "text": "CL5_SIN_0013",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_SUB_0002",
+      "norm": "cl5_sub_0002",
+      "variants_top": [
+        {
+          "text": "CL5_SUB_0002",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_SUB_0003",
+      "norm": "cl5_sub_0003",
+      "variants_top": [
+        {
+          "text": "CL5_SUB_0003",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_SUB_0004",
+      "norm": "cl5_sub_0004",
+      "variants_top": [
+        {
+          "text": "CL5_SUB_0004",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_SUB_0005",
+      "norm": "cl5_sub_0005",
+      "variants_top": [
+        {
+          "text": "CL5_SUB_0005",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_SUB_0006",
+      "norm": "cl5_sub_0006",
+      "variants_top": [
+        {
+          "text": "CL5_SUB_0006",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_SUB_0007",
+      "norm": "cl5_sub_0007",
+      "variants_top": [
+        {
+          "text": "CL5_SUB_0007",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_SUB_0008",
+      "norm": "cl5_sub_0008",
+      "variants_top": [
+        {
+          "text": "CL5_SUB_0008",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_VAR_0010",
+      "norm": "cl5_var_0010",
+      "variants_top": [
+        {
+          "text": "CL5_VAR_0010",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_VAR_0011",
+      "norm": "cl5_var_0011",
+      "variants_top": [
+        {
+          "text": "CL5_VAR_0011",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_VAR_0012",
+      "norm": "cl5_var_0012",
+      "variants_top": [
+        {
+          "text": "CL5_VAR_0012",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_VAR_0013",
+      "norm": "cl5_var_0013",
+      "variants_top": [
+        {
+          "text": "CL5_VAR_0013",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_VAR_0014",
+      "norm": "cl5_var_0014",
+      "variants_top": [
+        {
+          "text": "CL5_VAR_0014",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_VAR_0015",
+      "norm": "cl5_var_0015",
+      "variants_top": [
+        {
+          "text": "CL5_VAR_0015",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_VEC_DOT_0006",
+      "norm": "cl5_vec_dot_0006",
+      "variants_top": [
+        {
+          "text": "CL5_VEC_DOT_0006",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_VEC_DOT_0007",
+      "norm": "cl5_vec_dot_0007",
+      "variants_top": [
+        {
+          "text": "CL5_VEC_DOT_0007",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_VEC_DOT_0008",
+      "norm": "cl5_vec_dot_0008",
+      "variants_top": [
+        {
+          "text": "CL5_VEC_DOT_0008",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_VEC_DOT_0009",
+      "norm": "cl5_vec_dot_0009",
+      "variants_top": [
+        {
+          "text": "CL5_VEC_DOT_0009",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_VEC_DOT_0010",
+      "norm": "cl5_vec_dot_0010",
+      "variants_top": [
+        {
+          "text": "CL5_VEC_DOT_0010",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_VEC_DOT_0011",
+      "norm": "cl5_vec_dot_0011",
+      "variants_top": [
+        {
+          "text": "CL5_VEC_DOT_0011",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_VEC_DOT_0012",
+      "norm": "cl5_vec_dot_0012",
+      "variants_top": [
+        {
+          "text": "CL5_VEC_DOT_0012",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "COS",
+      "norm": "cos",
+      "variants_top": [
+        {
+          "text": "COS",
+          "count": 7
+        }
+      ]
+    },
+    {
+      "text": "DIV",
+      "norm": "div",
+      "variants_top": [
+        {
+          "text": "DIV",
+          "count": 7
+        }
+      ]
+    },
+    {
+      "text": "MAT_MUL",
+      "norm": "mat_mul",
+      "variants_top": [
+        {
+          "text": "MAT_MUL",
+          "count": 7
+        }
+      ]
+    },
+    {
+      "text": "Math & Algebra",
+      "norm": "math & algebra",
+      "variants_top": [
+        {
+          "text": "Math & Algebra",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "MEAN",
+      "norm": "mean",
+      "variants_top": [
+        {
+          "text": "MEAN",
+          "count": 7
+        }
+      ]
+    },
+    {
+      "text": "MUL",
+      "norm": "mul",
+      "variants_top": [
+        {
+          "text": "MUL",
+          "count": 7
+        }
+      ]
+    },
+    {
+      "text": "r1",
+      "norm": "r1",
+      "variants_top": [
+        {
+          "text": "r1",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "RESERVED_B2",
+      "norm": "reserved_b2",
+      "variants_top": [
+        {
+          "text": "RESERVED_B2",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "text": "SIN",
+      "norm": "sin",
+      "variants_top": [
+        {
+          "text": "SIN",
+          "count": 7
+        }
+      ]
+    },
+    {
+      "text": "SUB",
+      "norm": "sub",
+      "variants_top": [
+        {
+          "text": "SUB",
+          "count": 7
+        }
+      ]
+    },
+    {
+      "text": "VAR",
+      "norm": "var",
+      "variants_top": [
+        {
+          "text": "VAR",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "text": "VEC_DOT",
+      "norm": "vec_dot",
+      "variants_top": [
+        {
+          "text": "VEC_DOT",
+          "count": 7
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1041 @@
+{
+  "library": "CoreLang5_Block07_interop_",
+  "generated_at": "2025-09-02 23:14:49",
+  "dedup_method": "unicode-NFKD + lowercase + single-space; canonical=most_frequent_original",
+  "stats": {
+    "before": 173,
+    "after": 103
+  },
+  "tokens": [
+    {
+      "text": "CL5/BLOCK",
+      "norm": "cl5/block",
+      "variants_top": [
+        {
+          "text": "CL5/BLOCK",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_CXX_BIND_0004",
+      "norm": "cl5_cxx_bind_0004",
+      "variants_top": [
+        {
+          "text": "CL5_CXX_BIND_0004",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_CXX_BIND_0005",
+      "norm": "cl5_cxx_bind_0005",
+      "variants_top": [
+        {
+          "text": "CL5_CXX_BIND_0005",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_CXX_BIND_0006",
+      "norm": "cl5_cxx_bind_0006",
+      "variants_top": [
+        {
+          "text": "CL5_CXX_BIND_0006",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_CXX_BIND_0007",
+      "norm": "cl5_cxx_bind_0007",
+      "variants_top": [
+        {
+          "text": "CL5_CXX_BIND_0007",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_CXX_BIND_0008",
+      "norm": "cl5_cxx_bind_0008",
+      "variants_top": [
+        {
+          "text": "CL5_CXX_BIND_0008",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_CXX_BIND_0009",
+      "norm": "cl5_cxx_bind_0009",
+      "variants_top": [
+        {
+          "text": "CL5_CXX_BIND_0009",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_CXX_BIND_0010",
+      "norm": "cl5_cxx_bind_0010",
+      "variants_top": [
+        {
+          "text": "CL5_CXX_BIND_0010",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_CXX_DELETE_0006",
+      "norm": "cl5_cxx_delete_0006",
+      "variants_top": [
+        {
+          "text": "CL5_CXX_DELETE_0006",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_CXX_DELETE_0007",
+      "norm": "cl5_cxx_delete_0007",
+      "variants_top": [
+        {
+          "text": "CL5_CXX_DELETE_0007",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_CXX_DELETE_0008",
+      "norm": "cl5_cxx_delete_0008",
+      "variants_top": [
+        {
+          "text": "CL5_CXX_DELETE_0008",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_CXX_DELETE_0009",
+      "norm": "cl5_cxx_delete_0009",
+      "variants_top": [
+        {
+          "text": "CL5_CXX_DELETE_0009",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_CXX_DELETE_0010",
+      "norm": "cl5_cxx_delete_0010",
+      "variants_top": [
+        {
+          "text": "CL5_CXX_DELETE_0010",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_CXX_DELETE_0011",
+      "norm": "cl5_cxx_delete_0011",
+      "variants_top": [
+        {
+          "text": "CL5_CXX_DELETE_0011",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_CXX_DELETE_0012",
+      "norm": "cl5_cxx_delete_0012",
+      "variants_top": [
+        {
+          "text": "CL5_CXX_DELETE_0012",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_CXX_NEW_0005",
+      "norm": "cl5_cxx_new_0005",
+      "variants_top": [
+        {
+          "text": "CL5_CXX_NEW_0005",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_CXX_NEW_0006",
+      "norm": "cl5_cxx_new_0006",
+      "variants_top": [
+        {
+          "text": "CL5_CXX_NEW_0006",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_CXX_NEW_0007",
+      "norm": "cl5_cxx_new_0007",
+      "variants_top": [
+        {
+          "text": "CL5_CXX_NEW_0007",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_CXX_NEW_0008",
+      "norm": "cl5_cxx_new_0008",
+      "variants_top": [
+        {
+          "text": "CL5_CXX_NEW_0008",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_CXX_NEW_0009",
+      "norm": "cl5_cxx_new_0009",
+      "variants_top": [
+        {
+          "text": "CL5_CXX_NEW_0009",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_CXX_NEW_0010",
+      "norm": "cl5_cxx_new_0010",
+      "variants_top": [
+        {
+          "text": "CL5_CXX_NEW_0010",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_CXX_NEW_0011",
+      "norm": "cl5_cxx_new_0011",
+      "variants_top": [
+        {
+          "text": "CL5_CXX_NEW_0011",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_FFI_CALL_0001",
+      "norm": "cl5_ffi_call_0001",
+      "variants_top": [
+        {
+          "text": "CL5_FFI_CALL_0001",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_FFI_CALL_0002",
+      "norm": "cl5_ffi_call_0002",
+      "variants_top": [
+        {
+          "text": "CL5_FFI_CALL_0002",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_FFI_CALL_0003",
+      "norm": "cl5_ffi_call_0003",
+      "variants_top": [
+        {
+          "text": "CL5_FFI_CALL_0003",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_FFI_CALL_0004",
+      "norm": "cl5_ffi_call_0004",
+      "variants_top": [
+        {
+          "text": "CL5_FFI_CALL_0004",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_FFI_CALL_0005",
+      "norm": "cl5_ffi_call_0005",
+      "variants_top": [
+        {
+          "text": "CL5_FFI_CALL_0005",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_FFI_CALL_0006",
+      "norm": "cl5_ffi_call_0006",
+      "variants_top": [
+        {
+          "text": "CL5_FFI_CALL_0006",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_FFI_CALL_0007",
+      "norm": "cl5_ffi_call_0007",
+      "variants_top": [
+        {
+          "text": "CL5_FFI_CALL_0007",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_FFI_CALL_PTR_0001",
+      "norm": "cl5_ffi_call_ptr_0001",
+      "variants_top": [
+        {
+          "text": "CL5_FFI_CALL_PTR_0001",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_FFI_FREE_0003",
+      "norm": "cl5_ffi_free_0003",
+      "variants_top": [
+        {
+          "text": "CL5_FFI_FREE_0003",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_FFI_FREE_0004",
+      "norm": "cl5_ffi_free_0004",
+      "variants_top": [
+        {
+          "text": "CL5_FFI_FREE_0004",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_FFI_FREE_0005",
+      "norm": "cl5_ffi_free_0005",
+      "variants_top": [
+        {
+          "text": "CL5_FFI_FREE_0005",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_FFI_FREE_0006",
+      "norm": "cl5_ffi_free_0006",
+      "variants_top": [
+        {
+          "text": "CL5_FFI_FREE_0006",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_FFI_FREE_0007",
+      "norm": "cl5_ffi_free_0007",
+      "variants_top": [
+        {
+          "text": "CL5_FFI_FREE_0007",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_FFI_FREE_0008",
+      "norm": "cl5_ffi_free_0008",
+      "variants_top": [
+        {
+          "text": "CL5_FFI_FREE_0008",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_FFI_FREE_0009",
+      "norm": "cl5_ffi_free_0009",
+      "variants_top": [
+        {
+          "text": "CL5_FFI_FREE_0009",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_FFI_PTR_0002",
+      "norm": "cl5_ffi_ptr_0002",
+      "variants_top": [
+        {
+          "text": "CL5_FFI_PTR_0002",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_FFI_PTR_0003",
+      "norm": "cl5_ffi_ptr_0003",
+      "variants_top": [
+        {
+          "text": "CL5_FFI_PTR_0003",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_FFI_PTR_0004",
+      "norm": "cl5_ffi_ptr_0004",
+      "variants_top": [
+        {
+          "text": "CL5_FFI_PTR_0004",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_FFI_PTR_0005",
+      "norm": "cl5_ffi_ptr_0005",
+      "variants_top": [
+        {
+          "text": "CL5_FFI_PTR_0005",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_FFI_PTR_0006",
+      "norm": "cl5_ffi_ptr_0006",
+      "variants_top": [
+        {
+          "text": "CL5_FFI_PTR_0006",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_FFI_PTR_0007",
+      "norm": "cl5_ffi_ptr_0007",
+      "variants_top": [
+        {
+          "text": "CL5_FFI_PTR_0007",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_FFI_PTR_0008",
+      "norm": "cl5_ffi_ptr_0008",
+      "variants_top": [
+        {
+          "text": "CL5_FFI_PTR_0008",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_FFI_STRUCT_0001",
+      "norm": "cl5_ffi_struct_0001",
+      "variants_top": [
+        {
+          "text": "CL5_FFI_STRUCT_0001",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_PKG_IMPORT_0010",
+      "norm": "cl5_pkg_import_0010",
+      "variants_top": [
+        {
+          "text": "CL5_PKG_IMPORT_0010",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_PKG_IMPORT_0011",
+      "norm": "cl5_pkg_import_0011",
+      "variants_top": [
+        {
+          "text": "CL5_PKG_IMPORT_0011",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_PKG_IMPORT_0012",
+      "norm": "cl5_pkg_import_0012",
+      "variants_top": [
+        {
+          "text": "CL5_PKG_IMPORT_0012",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_PKG_IMPORT_0013",
+      "norm": "cl5_pkg_import_0013",
+      "variants_top": [
+        {
+          "text": "CL5_PKG_IMPORT_0013",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_PKG_IMPORT_0014",
+      "norm": "cl5_pkg_import_0014",
+      "variants_top": [
+        {
+          "text": "CL5_PKG_IMPORT_0014",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_PKG_IMPORT_0015",
+      "norm": "cl5_pkg_import_0015",
+      "variants_top": [
+        {
+          "text": "CL5_PKG_IMPORT_0015",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_PY_CALL_0009",
+      "norm": "cl5_py_call_0009",
+      "variants_top": [
+        {
+          "text": "CL5_PY_CALL_0009",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_PY_CALL_0010",
+      "norm": "cl5_py_call_0010",
+      "variants_top": [
+        {
+          "text": "CL5_PY_CALL_0010",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_PY_CALL_0011",
+      "norm": "cl5_py_call_0011",
+      "variants_top": [
+        {
+          "text": "CL5_PY_CALL_0011",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_PY_CALL_0012",
+      "norm": "cl5_py_call_0012",
+      "variants_top": [
+        {
+          "text": "CL5_PY_CALL_0012",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_PY_CALL_0013",
+      "norm": "cl5_py_call_0013",
+      "variants_top": [
+        {
+          "text": "CL5_PY_CALL_0013",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_PY_CALL_0014",
+      "norm": "cl5_py_call_0014",
+      "variants_top": [
+        {
+          "text": "CL5_PY_CALL_0014",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_PY_CALL_0015",
+      "norm": "cl5_py_call_0015",
+      "variants_top": [
+        {
+          "text": "CL5_PY_CALL_0015",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_PY_EVAL_0001",
+      "norm": "cl5_py_eval_0001",
+      "variants_top": [
+        {
+          "text": "CL5_PY_EVAL_0001",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_RESERVED_B7_9000",
+      "norm": "cl5_reserved_b7_9000",
+      "variants_top": [
+        {
+          "text": "CL5_RESERVED_B7_9000",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_RESERVED_B7_9001",
+      "norm": "cl5_reserved_b7_9001",
+      "variants_top": [
+        {
+          "text": "CL5_RESERVED_B7_9001",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_RESERVED_B7_9002",
+      "norm": "cl5_reserved_b7_9002",
+      "variants_top": [
+        {
+          "text": "CL5_RESERVED_B7_9002",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_RESERVED_B7_9003",
+      "norm": "cl5_reserved_b7_9003",
+      "variants_top": [
+        {
+          "text": "CL5_RESERVED_B7_9003",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_RESERVED_B7_9004",
+      "norm": "cl5_reserved_b7_9004",
+      "variants_top": [
+        {
+          "text": "CL5_RESERVED_B7_9004",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_RESERVED_B7_9005",
+      "norm": "cl5_reserved_b7_9005",
+      "variants_top": [
+        {
+          "text": "CL5_RESERVED_B7_9005",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_RESERVED_B7_9006",
+      "norm": "cl5_reserved_b7_9006",
+      "variants_top": [
+        {
+          "text": "CL5_RESERVED_B7_9006",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_RESERVED_B7_9007",
+      "norm": "cl5_reserved_b7_9007",
+      "variants_top": [
+        {
+          "text": "CL5_RESERVED_B7_9007",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_RESERVED_B7_9008",
+      "norm": "cl5_reserved_b7_9008",
+      "variants_top": [
+        {
+          "text": "CL5_RESERVED_B7_9008",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_RESERVED_B7_9009",
+      "norm": "cl5_reserved_b7_9009",
+      "variants_top": [
+        {
+          "text": "CL5_RESERVED_B7_9009",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_RESERVED_B7_9010",
+      "norm": "cl5_reserved_b7_9010",
+      "variants_top": [
+        {
+          "text": "CL5_RESERVED_B7_9010",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_RESERVED_B7_9011",
+      "norm": "cl5_reserved_b7_9011",
+      "variants_top": [
+        {
+          "text": "CL5_RESERVED_B7_9011",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_WASM_CALL_0007",
+      "norm": "cl5_wasm_call_0007",
+      "variants_top": [
+        {
+          "text": "CL5_WASM_CALL_0007",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_WASM_CALL_0008",
+      "norm": "cl5_wasm_call_0008",
+      "variants_top": [
+        {
+          "text": "CL5_WASM_CALL_0008",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_WASM_CALL_0009",
+      "norm": "cl5_wasm_call_0009",
+      "variants_top": [
+        {
+          "text": "CL5_WASM_CALL_0009",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_WASM_CALL_0010",
+      "norm": "cl5_wasm_call_0010",
+      "variants_top": [
+        {
+          "text": "CL5_WASM_CALL_0010",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_WASM_CALL_0011",
+      "norm": "cl5_wasm_call_0011",
+      "variants_top": [
+        {
+          "text": "CL5_WASM_CALL_0011",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_WASM_CALL_0012",
+      "norm": "cl5_wasm_call_0012",
+      "variants_top": [
+        {
+          "text": "CL5_WASM_CALL_0012",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_WASM_CALL_0013",
+      "norm": "cl5_wasm_call_0013",
+      "variants_top": [
+        {
+          "text": "CL5_WASM_CALL_0013",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_WASM_INSTANCE_0001",
+      "norm": "cl5_wasm_instance_0001",
+      "variants_top": [
+        {
+          "text": "CL5_WASM_INSTANCE_0001",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_WASM_MEM_GROW_0008",
+      "norm": "cl5_wasm_mem_grow_0008",
+      "variants_top": [
+        {
+          "text": "CL5_WASM_MEM_GROW_0008",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_WASM_MEM_GROW_0009",
+      "norm": "cl5_wasm_mem_grow_0009",
+      "variants_top": [
+        {
+          "text": "CL5_WASM_MEM_GROW_0009",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_WASM_MEM_GROW_0010",
+      "norm": "cl5_wasm_mem_grow_0010",
+      "variants_top": [
+        {
+          "text": "CL5_WASM_MEM_GROW_0010",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_WASM_MEM_GROW_0011",
+      "norm": "cl5_wasm_mem_grow_0011",
+      "variants_top": [
+        {
+          "text": "CL5_WASM_MEM_GROW_0011",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_WASM_MEM_GROW_0012",
+      "norm": "cl5_wasm_mem_grow_0012",
+      "variants_top": [
+        {
+          "text": "CL5_WASM_MEM_GROW_0012",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_WASM_MEM_GROW_0013",
+      "norm": "cl5_wasm_mem_grow_0013",
+      "variants_top": [
+        {
+          "text": "CL5_WASM_MEM_GROW_0013",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_WASM_MEM_GROW_0014",
+      "norm": "cl5_wasm_mem_grow_0014",
+      "variants_top": [
+        {
+          "text": "CL5_WASM_MEM_GROW_0014",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CXX_BIND",
+      "norm": "cxx_bind",
+      "variants_top": [
+        {
+          "text": "CXX_BIND",
+          "count": 7
+        }
+      ]
+    },
+    {
+      "text": "CXX_DELETE",
+      "norm": "cxx_delete",
+      "variants_top": [
+        {
+          "text": "CXX_DELETE",
+          "count": 7
+        }
+      ]
+    },
+    {
+      "text": "CXX_NEW",
+      "norm": "cxx_new",
+      "variants_top": [
+        {
+          "text": "CXX_NEW",
+          "count": 7
+        }
+      ]
+    },
+    {
+      "text": "FFI_CALL",
+      "norm": "ffi_call",
+      "variants_top": [
+        {
+          "text": "FFI_CALL",
+          "count": 7
+        }
+      ]
+    },
+    {
+      "text": "FFI_CALL_PTR",
+      "norm": "ffi_call_ptr",
+      "variants_top": [
+        {
+          "text": "FFI_CALL_PTR",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "FFI_FREE",
+      "norm": "ffi_free",
+      "variants_top": [
+        {
+          "text": "FFI_FREE",
+          "count": 7
+        }
+      ]
+    },
+    {
+      "text": "FFI_PTR",
+      "norm": "ffi_ptr",
+      "variants_top": [
+        {
+          "text": "FFI_PTR",
+          "count": 7
+        }
+      ]
+    },
+    {
+      "text": "FFI_STRUCT",
+      "norm": "ffi_struct",
+      "variants_top": [
+        {
+          "text": "FFI_STRUCT",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "Interop & FFI",
+      "norm": "interop & ffi",
+      "variants_top": [
+        {
+          "text": "Interop & FFI",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "PKG_IMPORT",
+      "norm": "pkg_import",
+      "variants_top": [
+        {
+          "text": "PKG_IMPORT",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "text": "PY_CALL",
+      "norm": "py_call",
+      "variants_top": [
+        {
+          "text": "PY_CALL",
+          "count": 7
+        }
+      ]
+    },
+    {
+      "text": "PY_EVAL",
+      "norm": "py_eval",
+      "variants_top": [
+        {
+          "text": "PY_EVAL",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "r1",
+      "norm": "r1",
+      "variants_top": [
+        {
+          "text": "r1",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "RESERVED_B7",
+      "norm": "reserved_b7",
+      "variants_top": [
+        {
+          "text": "RESERVED_B7",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "text": "WASM_CALL",
+      "norm": "wasm_call",
+      "variants_top": [
+        {
+          "text": "WASM_CALL",
+          "count": 7
+        }
+      ]
+    },
+    {
+      "text": "WASM_INSTANCE",
+      "norm": "wasm_instance",
+      "variants_top": [
+        {
+          "text": "WASM_INSTANCE",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "WASM_MEM_GROW",
+      "norm": "wasm_mem_grow",
+      "variants_top": [
+        {
+          "text": "WASM_MEM_GROW",
+          "count": 7
+        }
+      ]
+    }
+  ]
+}

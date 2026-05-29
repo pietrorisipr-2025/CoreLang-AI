@@ -1,0 +1,4 @@
+name,total_bytes,total_frames,delivered,p50_ms,p95_ms,avg_ms,duration_ms
+Baseline,62380,185,174,576,1599,-20650758.99425287,120005
+Enhanced-v1 (dedup+comp),57564,185,49,133,311,-142173130.6122449,120005
+Enhanced-v2 (dedup+FEC+NACK),56509,185,360,531,1010,-1136471.4777777777,120005

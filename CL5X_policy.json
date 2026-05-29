@@ -1,0 +1,11 @@
+{
+  "ttl_summary_sec": 5.0,
+  "ttl_residual_sec": 7.0,
+  "d2_gain_threshold": 512,
+  "d2_min_texts": 8,
+  "d2_cooldown_sec": 2.0,
+  "blocks_enable": [
+    "B01-logic",
+    "B08-systems-net"
+  ]
+}

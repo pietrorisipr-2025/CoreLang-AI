@@ -1,0 +1,11 @@
+{
+  "file": "ckb_zstd_dict.bin",
+  "type": "zstd_trained_dictionary",
+  "size_bytes": 393216,
+  "dict_id": 704057133,
+  "sha256": "0ffce1d18956887724dee862ee0981e791657fd0e82ff8d6dfbac97f179a2764",
+  "trained_on": "CoreLang5 benchmark — 117000 casi, 11 blocchi tematici",
+  "source_dataset": "https://huggingface.co/datasets/pietrorisipr-2025/corelang5-benchmark",
+  "zstd_level_recommended": 19,
+  "note": "Dizionario semantico per CL6 stream-batch. Taglia 384KB scelta come ottimo dimensione/guadagno."
+}

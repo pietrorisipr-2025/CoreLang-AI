@@ -1,0 +1,5 @@
+scenario,mode,bytes,frames,time_s
+"RTT=50ms, 0.512Mbps",baseline,833573,801,33.04957812500023
+"RTT=50ms, 0.512Mbps",baseline+gzip,220452,801,23.469562499999995
+"RTT=50ms, 0.512Mbps",cl6-warm,526782,1602,28.25596875000001
+"RTT=50ms, 0.512Mbps",cl6-cold,526846,1604,28.28196875000001

@@ -1,0 +1,1101 @@
+{
+  "library": "CoreLang5_Block06_concurrency_",
+  "generated_at": "2025-09-02 23:14:49",
+  "dedup_method": "unicode-NFKD + lowercase + single-space; canonical=most_frequent_original",
+  "stats": {
+    "before": 179,
+    "after": 109
+  },
+  "tokens": [
+    {
+      "text": "ACTOR_SEND",
+      "norm": "actor_send",
+      "variants_top": [
+        {
+          "text": "ACTOR_SEND",
+          "count": 7
+        }
+      ]
+    },
+    {
+      "text": "CHAN_RECV",
+      "norm": "chan_recv",
+      "variants_top": [
+        {
+          "text": "CHAN_RECV",
+          "count": 7
+        }
+      ]
+    },
+    {
+      "text": "CHAN_SEND",
+      "norm": "chan_send",
+      "variants_top": [
+        {
+          "text": "CHAN_SEND",
+          "count": 7
+        }
+      ]
+    },
+    {
+      "text": "CL5/BLOCK",
+      "norm": "cl5/block",
+      "variants_top": [
+        {
+          "text": "CL5/BLOCK",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_ACTOR_SEND_0005",
+      "norm": "cl5_actor_send_0005",
+      "variants_top": [
+        {
+          "text": "CL5_ACTOR_SEND_0005",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_ACTOR_SEND_0006",
+      "norm": "cl5_actor_send_0006",
+      "variants_top": [
+        {
+          "text": "CL5_ACTOR_SEND_0006",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_ACTOR_SEND_0007",
+      "norm": "cl5_actor_send_0007",
+      "variants_top": [
+        {
+          "text": "CL5_ACTOR_SEND_0007",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_ACTOR_SEND_0008",
+      "norm": "cl5_actor_send_0008",
+      "variants_top": [
+        {
+          "text": "CL5_ACTOR_SEND_0008",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_ACTOR_SEND_0009",
+      "norm": "cl5_actor_send_0009",
+      "variants_top": [
+        {
+          "text": "CL5_ACTOR_SEND_0009",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_ACTOR_SEND_0010",
+      "norm": "cl5_actor_send_0010",
+      "variants_top": [
+        {
+          "text": "CL5_ACTOR_SEND_0010",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_ACTOR_SEND_0011",
+      "norm": "cl5_actor_send_0011",
+      "variants_top": [
+        {
+          "text": "CL5_ACTOR_SEND_0011",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_CHAN_RECV_0007",
+      "norm": "cl5_chan_recv_0007",
+      "variants_top": [
+        {
+          "text": "CL5_CHAN_RECV_0007",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_CHAN_RECV_0008",
+      "norm": "cl5_chan_recv_0008",
+      "variants_top": [
+        {
+          "text": "CL5_CHAN_RECV_0008",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_CHAN_RECV_0009",
+      "norm": "cl5_chan_recv_0009",
+      "variants_top": [
+        {
+          "text": "CL5_CHAN_RECV_0009",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_CHAN_RECV_0010",
+      "norm": "cl5_chan_recv_0010",
+      "variants_top": [
+        {
+          "text": "CL5_CHAN_RECV_0010",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_CHAN_RECV_0011",
+      "norm": "cl5_chan_recv_0011",
+      "variants_top": [
+        {
+          "text": "CL5_CHAN_RECV_0011",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_CHAN_RECV_0012",
+      "norm": "cl5_chan_recv_0012",
+      "variants_top": [
+        {
+          "text": "CL5_CHAN_RECV_0012",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_CHAN_RECV_0013",
+      "norm": "cl5_chan_recv_0013",
+      "variants_top": [
+        {
+          "text": "CL5_CHAN_RECV_0013",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_CHAN_SEND_0006",
+      "norm": "cl5_chan_send_0006",
+      "variants_top": [
+        {
+          "text": "CL5_CHAN_SEND_0006",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_CHAN_SEND_0007",
+      "norm": "cl5_chan_send_0007",
+      "variants_top": [
+        {
+          "text": "CL5_CHAN_SEND_0007",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_CHAN_SEND_0008",
+      "norm": "cl5_chan_send_0008",
+      "variants_top": [
+        {
+          "text": "CL5_CHAN_SEND_0008",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_CHAN_SEND_0009",
+      "norm": "cl5_chan_send_0009",
+      "variants_top": [
+        {
+          "text": "CL5_CHAN_SEND_0009",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_CHAN_SEND_0010",
+      "norm": "cl5_chan_send_0010",
+      "variants_top": [
+        {
+          "text": "CL5_CHAN_SEND_0010",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_CHAN_SEND_0011",
+      "norm": "cl5_chan_send_0011",
+      "variants_top": [
+        {
+          "text": "CL5_CHAN_SEND_0011",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_CHAN_SEND_0012",
+      "norm": "cl5_chan_send_0012",
+      "variants_top": [
+        {
+          "text": "CL5_CHAN_SEND_0012",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_FUTURE_AWAIT_0004",
+      "norm": "cl5_future_await_0004",
+      "variants_top": [
+        {
+          "text": "CL5_FUTURE_AWAIT_0004",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_FUTURE_AWAIT_0005",
+      "norm": "cl5_future_await_0005",
+      "variants_top": [
+        {
+          "text": "CL5_FUTURE_AWAIT_0005",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_FUTURE_AWAIT_0006",
+      "norm": "cl5_future_await_0006",
+      "variants_top": [
+        {
+          "text": "CL5_FUTURE_AWAIT_0006",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_FUTURE_AWAIT_0007",
+      "norm": "cl5_future_await_0007",
+      "variants_top": [
+        {
+          "text": "CL5_FUTURE_AWAIT_0007",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_FUTURE_AWAIT_0008",
+      "norm": "cl5_future_await_0008",
+      "variants_top": [
+        {
+          "text": "CL5_FUTURE_AWAIT_0008",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_FUTURE_AWAIT_0009",
+      "norm": "cl5_future_await_0009",
+      "variants_top": [
+        {
+          "text": "CL5_FUTURE_AWAIT_0009",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_FUTURE_AWAIT_0010",
+      "norm": "cl5_future_await_0010",
+      "variants_top": [
+        {
+          "text": "CL5_FUTURE_AWAIT_0010",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_MUTEX_LOCK_0008",
+      "norm": "cl5_mutex_lock_0008",
+      "variants_top": [
+        {
+          "text": "CL5_MUTEX_LOCK_0008",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_MUTEX_LOCK_0009",
+      "norm": "cl5_mutex_lock_0009",
+      "variants_top": [
+        {
+          "text": "CL5_MUTEX_LOCK_0009",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_MUTEX_LOCK_0010",
+      "norm": "cl5_mutex_lock_0010",
+      "variants_top": [
+        {
+          "text": "CL5_MUTEX_LOCK_0010",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_MUTEX_LOCK_0011",
+      "norm": "cl5_mutex_lock_0011",
+      "variants_top": [
+        {
+          "text": "CL5_MUTEX_LOCK_0011",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_MUTEX_LOCK_0012",
+      "norm": "cl5_mutex_lock_0012",
+      "variants_top": [
+        {
+          "text": "CL5_MUTEX_LOCK_0012",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_MUTEX_LOCK_0013",
+      "norm": "cl5_mutex_lock_0013",
+      "variants_top": [
+        {
+          "text": "CL5_MUTEX_LOCK_0013",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_MUTEX_LOCK_0014",
+      "norm": "cl5_mutex_lock_0014",
+      "variants_top": [
+        {
+          "text": "CL5_MUTEX_LOCK_0014",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_MUTEX_UNLOCK_0009",
+      "norm": "cl5_mutex_unlock_0009",
+      "variants_top": [
+        {
+          "text": "CL5_MUTEX_UNLOCK_0009",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_MUTEX_UNLOCK_0010",
+      "norm": "cl5_mutex_unlock_0010",
+      "variants_top": [
+        {
+          "text": "CL5_MUTEX_UNLOCK_0010",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_MUTEX_UNLOCK_0011",
+      "norm": "cl5_mutex_unlock_0011",
+      "variants_top": [
+        {
+          "text": "CL5_MUTEX_UNLOCK_0011",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_MUTEX_UNLOCK_0012",
+      "norm": "cl5_mutex_unlock_0012",
+      "variants_top": [
+        {
+          "text": "CL5_MUTEX_UNLOCK_0012",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_MUTEX_UNLOCK_0013",
+      "norm": "cl5_mutex_unlock_0013",
+      "variants_top": [
+        {
+          "text": "CL5_MUTEX_UNLOCK_0013",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_MUTEX_UNLOCK_0014",
+      "norm": "cl5_mutex_unlock_0014",
+      "variants_top": [
+        {
+          "text": "CL5_MUTEX_UNLOCK_0014",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_MUTEX_UNLOCK_0015",
+      "norm": "cl5_mutex_unlock_0015",
+      "variants_top": [
+        {
+          "text": "CL5_MUTEX_UNLOCK_0015",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_RESERVED_B6_9000",
+      "norm": "cl5_reserved_b6_9000",
+      "variants_top": [
+        {
+          "text": "CL5_RESERVED_B6_9000",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_RESERVED_B6_9001",
+      "norm": "cl5_reserved_b6_9001",
+      "variants_top": [
+        {
+          "text": "CL5_RESERVED_B6_9001",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_RESERVED_B6_9002",
+      "norm": "cl5_reserved_b6_9002",
+      "variants_top": [
+        {
+          "text": "CL5_RESERVED_B6_9002",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_RESERVED_B6_9003",
+      "norm": "cl5_reserved_b6_9003",
+      "variants_top": [
+        {
+          "text": "CL5_RESERVED_B6_9003",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_RESERVED_B6_9004",
+      "norm": "cl5_reserved_b6_9004",
+      "variants_top": [
+        {
+          "text": "CL5_RESERVED_B6_9004",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_RESERVED_B6_9005",
+      "norm": "cl5_reserved_b6_9005",
+      "variants_top": [
+        {
+          "text": "CL5_RESERVED_B6_9005",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_RESERVED_B6_9006",
+      "norm": "cl5_reserved_b6_9006",
+      "variants_top": [
+        {
+          "text": "CL5_RESERVED_B6_9006",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_RESERVED_B6_9007",
+      "norm": "cl5_reserved_b6_9007",
+      "variants_top": [
+        {
+          "text": "CL5_RESERVED_B6_9007",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_RESERVED_B6_9008",
+      "norm": "cl5_reserved_b6_9008",
+      "variants_top": [
+        {
+          "text": "CL5_RESERVED_B6_9008",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_RESERVED_B6_9009",
+      "norm": "cl5_reserved_b6_9009",
+      "variants_top": [
+        {
+          "text": "CL5_RESERVED_B6_9009",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_RESERVED_B6_9010",
+      "norm": "cl5_reserved_b6_9010",
+      "variants_top": [
+        {
+          "text": "CL5_RESERVED_B6_9010",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_RESERVED_B6_9011",
+      "norm": "cl5_reserved_b6_9011",
+      "variants_top": [
+        {
+          "text": "CL5_RESERVED_B6_9011",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_RWLOCK_RDLOCK_0001",
+      "norm": "cl5_rwlock_rdlock_0001",
+      "variants_top": [
+        {
+          "text": "CL5_RWLOCK_RDLOCK_0001",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_RWLOCK_UNLOCK_0001",
+      "norm": "cl5_rwlock_unlock_0001",
+      "variants_top": [
+        {
+          "text": "CL5_RWLOCK_UNLOCK_0001",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_RWLOCK_WRLOCK_0001",
+      "norm": "cl5_rwlock_wrlock_0001",
+      "variants_top": [
+        {
+          "text": "CL5_RWLOCK_WRLOCK_0001",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_SCHED_YIELD_0010",
+      "norm": "cl5_sched_yield_0010",
+      "variants_top": [
+        {
+          "text": "CL5_SCHED_YIELD_0010",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_SCHED_YIELD_0011",
+      "norm": "cl5_sched_yield_0011",
+      "variants_top": [
+        {
+          "text": "CL5_SCHED_YIELD_0011",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_SCHED_YIELD_0012",
+      "norm": "cl5_sched_yield_0012",
+      "variants_top": [
+        {
+          "text": "CL5_SCHED_YIELD_0012",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_SCHED_YIELD_0013",
+      "norm": "cl5_sched_yield_0013",
+      "variants_top": [
+        {
+          "text": "CL5_SCHED_YIELD_0013",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_SCHED_YIELD_0014",
+      "norm": "cl5_sched_yield_0014",
+      "variants_top": [
+        {
+          "text": "CL5_SCHED_YIELD_0014",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_SCHED_YIELD_0015",
+      "norm": "cl5_sched_yield_0015",
+      "variants_top": [
+        {
+          "text": "CL5_SCHED_YIELD_0015",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_SEM_INIT_0001",
+      "norm": "cl5_sem_init_0001",
+      "variants_top": [
+        {
+          "text": "CL5_SEM_INIT_0001",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_SEM_POST_0001",
+      "norm": "cl5_sem_post_0001",
+      "variants_top": [
+        {
+          "text": "CL5_SEM_POST_0001",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_SEM_WAIT_0001",
+      "norm": "cl5_sem_wait_0001",
+      "variants_top": [
+        {
+          "text": "CL5_SEM_WAIT_0001",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_TASK_CANCEL_0003",
+      "norm": "cl5_task_cancel_0003",
+      "variants_top": [
+        {
+          "text": "CL5_TASK_CANCEL_0003",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_TASK_CANCEL_0004",
+      "norm": "cl5_task_cancel_0004",
+      "variants_top": [
+        {
+          "text": "CL5_TASK_CANCEL_0004",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_TASK_CANCEL_0005",
+      "norm": "cl5_task_cancel_0005",
+      "variants_top": [
+        {
+          "text": "CL5_TASK_CANCEL_0005",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_TASK_CANCEL_0006",
+      "norm": "cl5_task_cancel_0006",
+      "variants_top": [
+        {
+          "text": "CL5_TASK_CANCEL_0006",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_TASK_CANCEL_0007",
+      "norm": "cl5_task_cancel_0007",
+      "variants_top": [
+        {
+          "text": "CL5_TASK_CANCEL_0007",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_TASK_CANCEL_0008",
+      "norm": "cl5_task_cancel_0008",
+      "variants_top": [
+        {
+          "text": "CL5_TASK_CANCEL_0008",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_TASK_CANCEL_0009",
+      "norm": "cl5_task_cancel_0009",
+      "variants_top": [
+        {
+          "text": "CL5_TASK_CANCEL_0009",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_TASK_SELECT_0001",
+      "norm": "cl5_task_select_0001",
+      "variants_top": [
+        {
+          "text": "CL5_TASK_SELECT_0001",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_TASK_SLEEP_0002",
+      "norm": "cl5_task_sleep_0002",
+      "variants_top": [
+        {
+          "text": "CL5_TASK_SLEEP_0002",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_TASK_SLEEP_0003",
+      "norm": "cl5_task_sleep_0003",
+      "variants_top": [
+        {
+          "text": "CL5_TASK_SLEEP_0003",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_TASK_SLEEP_0004",
+      "norm": "cl5_task_sleep_0004",
+      "variants_top": [
+        {
+          "text": "CL5_TASK_SLEEP_0004",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_TASK_SLEEP_0005",
+      "norm": "cl5_task_sleep_0005",
+      "variants_top": [
+        {
+          "text": "CL5_TASK_SLEEP_0005",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_TASK_SLEEP_0006",
+      "norm": "cl5_task_sleep_0006",
+      "variants_top": [
+        {
+          "text": "CL5_TASK_SLEEP_0006",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_TASK_SLEEP_0007",
+      "norm": "cl5_task_sleep_0007",
+      "variants_top": [
+        {
+          "text": "CL5_TASK_SLEEP_0007",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_TASK_SLEEP_0008",
+      "norm": "cl5_task_sleep_0008",
+      "variants_top": [
+        {
+          "text": "CL5_TASK_SLEEP_0008",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_TASK_SPAWN_0001",
+      "norm": "cl5_task_spawn_0001",
+      "variants_top": [
+        {
+          "text": "CL5_TASK_SPAWN_0001",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_TASK_SPAWN_0002",
+      "norm": "cl5_task_spawn_0002",
+      "variants_top": [
+        {
+          "text": "CL5_TASK_SPAWN_0002",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_TASK_SPAWN_0003",
+      "norm": "cl5_task_spawn_0003",
+      "variants_top": [
+        {
+          "text": "CL5_TASK_SPAWN_0003",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_TASK_SPAWN_0004",
+      "norm": "cl5_task_spawn_0004",
+      "variants_top": [
+        {
+          "text": "CL5_TASK_SPAWN_0004",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_TASK_SPAWN_0005",
+      "norm": "cl5_task_spawn_0005",
+      "variants_top": [
+        {
+          "text": "CL5_TASK_SPAWN_0005",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_TASK_SPAWN_0006",
+      "norm": "cl5_task_spawn_0006",
+      "variants_top": [
+        {
+          "text": "CL5_TASK_SPAWN_0006",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_TASK_SPAWN_0007",
+      "norm": "cl5_task_spawn_0007",
+      "variants_top": [
+        {
+          "text": "CL5_TASK_SPAWN_0007",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "Concurrency & Async",
+      "norm": "concurrency & async",
+      "variants_top": [
+        {
+          "text": "Concurrency & Async",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "FUTURE_AWAIT",
+      "norm": "future_await",
+      "variants_top": [
+        {
+          "text": "FUTURE_AWAIT",
+          "count": 7
+        }
+      ]
+    },
+    {
+      "text": "MUTEX_LOCK",
+      "norm": "mutex_lock",
+      "variants_top": [
+        {
+          "text": "MUTEX_LOCK",
+          "count": 7
+        }
+      ]
+    },
+    {
+      "text": "MUTEX_UNLOCK",
+      "norm": "mutex_unlock",
+      "variants_top": [
+        {
+          "text": "MUTEX_UNLOCK",
+          "count": 7
+        }
+      ]
+    },
+    {
+      "text": "r1",
+      "norm": "r1",
+      "variants_top": [
+        {
+          "text": "r1",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "RESERVED_B6",
+      "norm": "reserved_b6",
+      "variants_top": [
+        {
+          "text": "RESERVED_B6",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "text": "RWLOCK_RDLOCK",
+      "norm": "rwlock_rdlock",
+      "variants_top": [
+        {
+          "text": "RWLOCK_RDLOCK",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "RWLOCK_UNLOCK",
+      "norm": "rwlock_unlock",
+      "variants_top": [
+        {
+          "text": "RWLOCK_UNLOCK",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "RWLOCK_WRLOCK",
+      "norm": "rwlock_wrlock",
+      "variants_top": [
+        {
+          "text": "RWLOCK_WRLOCK",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "SCHED_YIELD",
+      "norm": "sched_yield",
+      "variants_top": [
+        {
+          "text": "SCHED_YIELD",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "text": "SEM_INIT",
+      "norm": "sem_init",
+      "variants_top": [
+        {
+          "text": "SEM_INIT",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "SEM_POST",
+      "norm": "sem_post",
+      "variants_top": [
+        {
+          "text": "SEM_POST",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "SEM_WAIT",
+      "norm": "sem_wait",
+      "variants_top": [
+        {
+          "text": "SEM_WAIT",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "TASK_CANCEL",
+      "norm": "task_cancel",
+      "variants_top": [
+        {
+          "text": "TASK_CANCEL",
+          "count": 7
+        }
+      ]
+    },
+    {
+      "text": "TASK_SELECT",
+      "norm": "task_select",
+      "variants_top": [
+        {
+          "text": "TASK_SELECT",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "TASK_SLEEP",
+      "norm": "task_sleep",
+      "variants_top": [
+        {
+          "text": "TASK_SLEEP",
+          "count": 7
+        }
+      ]
+    },
+    {
+      "text": "TASK_SPAWN",
+      "norm": "task_spawn",
+      "variants_top": [
+        {
+          "text": "TASK_SPAWN",
+          "count": 7
+        }
+      ]
+    }
+  ]
+}

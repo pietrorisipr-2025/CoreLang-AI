@@ -1,0 +1,1101 @@
+{
+  "library": "CoreLang5_Block09_optimization_",
+  "generated_at": "2025-09-02 23:14:49",
+  "dedup_method": "unicode-NFKD + lowercase + single-space; canonical=most_frequent_original",
+  "stats": {
+    "before": 179,
+    "after": 109
+  },
+  "tokens": [
+    {
+      "text": "CL5/BLOCK",
+      "norm": "cl5/block",
+      "variants_top": [
+        {
+          "text": "CL5/BLOCK",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_LAYOUT_PACK_0007",
+      "norm": "cl5_layout_pack_0007",
+      "variants_top": [
+        {
+          "text": "CL5_LAYOUT_PACK_0007",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_LAYOUT_PACK_0008",
+      "norm": "cl5_layout_pack_0008",
+      "variants_top": [
+        {
+          "text": "CL5_LAYOUT_PACK_0008",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_LAYOUT_PACK_0009",
+      "norm": "cl5_layout_pack_0009",
+      "variants_top": [
+        {
+          "text": "CL5_LAYOUT_PACK_0009",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_LAYOUT_PACK_0010",
+      "norm": "cl5_layout_pack_0010",
+      "variants_top": [
+        {
+          "text": "CL5_LAYOUT_PACK_0010",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_LAYOUT_PACK_0011",
+      "norm": "cl5_layout_pack_0011",
+      "variants_top": [
+        {
+          "text": "CL5_LAYOUT_PACK_0011",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_LAYOUT_PACK_0012",
+      "norm": "cl5_layout_pack_0012",
+      "variants_top": [
+        {
+          "text": "CL5_LAYOUT_PACK_0012",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_LAYOUT_PACK_0013",
+      "norm": "cl5_layout_pack_0013",
+      "variants_top": [
+        {
+          "text": "CL5_LAYOUT_PACK_0013",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_LOG_ERROR_0001",
+      "norm": "cl5_log_error_0001",
+      "variants_top": [
+        {
+          "text": "CL5_LOG_ERROR_0001",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_LOG_INFO_0001",
+      "norm": "cl5_log_info_0001",
+      "variants_top": [
+        {
+          "text": "CL5_LOG_INFO_0001",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_LOG_WARN_0001",
+      "norm": "cl5_log_warn_0001",
+      "variants_top": [
+        {
+          "text": "CL5_LOG_WARN_0001",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_METRIC_COUNTER_ADD_0001",
+      "norm": "cl5_metric_counter_add_0001",
+      "variants_top": [
+        {
+          "text": "CL5_METRIC_COUNTER_ADD_0001",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_METRIC_GAUGE_SET_0001",
+      "norm": "cl5_metric_gauge_set_0001",
+      "variants_top": [
+        {
+          "text": "CL5_METRIC_GAUGE_SET_0001",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_OPT_FUSE_0003",
+      "norm": "cl5_opt_fuse_0003",
+      "variants_top": [
+        {
+          "text": "CL5_OPT_FUSE_0003",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_OPT_FUSE_0004",
+      "norm": "cl5_opt_fuse_0004",
+      "variants_top": [
+        {
+          "text": "CL5_OPT_FUSE_0004",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_OPT_FUSE_0005",
+      "norm": "cl5_opt_fuse_0005",
+      "variants_top": [
+        {
+          "text": "CL5_OPT_FUSE_0005",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_OPT_FUSE_0006",
+      "norm": "cl5_opt_fuse_0006",
+      "variants_top": [
+        {
+          "text": "CL5_OPT_FUSE_0006",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_OPT_FUSE_0007",
+      "norm": "cl5_opt_fuse_0007",
+      "variants_top": [
+        {
+          "text": "CL5_OPT_FUSE_0007",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_OPT_FUSE_0008",
+      "norm": "cl5_opt_fuse_0008",
+      "variants_top": [
+        {
+          "text": "CL5_OPT_FUSE_0008",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_OPT_FUSE_0009",
+      "norm": "cl5_opt_fuse_0009",
+      "variants_top": [
+        {
+          "text": "CL5_OPT_FUSE_0009",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_OPT_INLINE_0001",
+      "norm": "cl5_opt_inline_0001",
+      "variants_top": [
+        {
+          "text": "CL5_OPT_INLINE_0001",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_OPT_INLINE_0002",
+      "norm": "cl5_opt_inline_0002",
+      "variants_top": [
+        {
+          "text": "CL5_OPT_INLINE_0002",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_OPT_INLINE_0003",
+      "norm": "cl5_opt_inline_0003",
+      "variants_top": [
+        {
+          "text": "CL5_OPT_INLINE_0003",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_OPT_INLINE_0004",
+      "norm": "cl5_opt_inline_0004",
+      "variants_top": [
+        {
+          "text": "CL5_OPT_INLINE_0004",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_OPT_INLINE_0005",
+      "norm": "cl5_opt_inline_0005",
+      "variants_top": [
+        {
+          "text": "CL5_OPT_INLINE_0005",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_OPT_INLINE_0006",
+      "norm": "cl5_opt_inline_0006",
+      "variants_top": [
+        {
+          "text": "CL5_OPT_INLINE_0006",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_OPT_INLINE_0007",
+      "norm": "cl5_opt_inline_0007",
+      "variants_top": [
+        {
+          "text": "CL5_OPT_INLINE_0007",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_OPT_UNROLL_0002",
+      "norm": "cl5_opt_unroll_0002",
+      "variants_top": [
+        {
+          "text": "CL5_OPT_UNROLL_0002",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_OPT_UNROLL_0003",
+      "norm": "cl5_opt_unroll_0003",
+      "variants_top": [
+        {
+          "text": "CL5_OPT_UNROLL_0003",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_OPT_UNROLL_0004",
+      "norm": "cl5_opt_unroll_0004",
+      "variants_top": [
+        {
+          "text": "CL5_OPT_UNROLL_0004",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_OPT_UNROLL_0005",
+      "norm": "cl5_opt_unroll_0005",
+      "variants_top": [
+        {
+          "text": "CL5_OPT_UNROLL_0005",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_OPT_UNROLL_0006",
+      "norm": "cl5_opt_unroll_0006",
+      "variants_top": [
+        {
+          "text": "CL5_OPT_UNROLL_0006",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_OPT_UNROLL_0007",
+      "norm": "cl5_opt_unroll_0007",
+      "variants_top": [
+        {
+          "text": "CL5_OPT_UNROLL_0007",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_OPT_UNROLL_0008",
+      "norm": "cl5_opt_unroll_0008",
+      "variants_top": [
+        {
+          "text": "CL5_OPT_UNROLL_0008",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_PROFILE_BEGIN_0008",
+      "norm": "cl5_profile_begin_0008",
+      "variants_top": [
+        {
+          "text": "CL5_PROFILE_BEGIN_0008",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_PROFILE_BEGIN_0009",
+      "norm": "cl5_profile_begin_0009",
+      "variants_top": [
+        {
+          "text": "CL5_PROFILE_BEGIN_0009",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_PROFILE_BEGIN_0010",
+      "norm": "cl5_profile_begin_0010",
+      "variants_top": [
+        {
+          "text": "CL5_PROFILE_BEGIN_0010",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_PROFILE_BEGIN_0011",
+      "norm": "cl5_profile_begin_0011",
+      "variants_top": [
+        {
+          "text": "CL5_PROFILE_BEGIN_0011",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_PROFILE_BEGIN_0012",
+      "norm": "cl5_profile_begin_0012",
+      "variants_top": [
+        {
+          "text": "CL5_PROFILE_BEGIN_0012",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_PROFILE_BEGIN_0013",
+      "norm": "cl5_profile_begin_0013",
+      "variants_top": [
+        {
+          "text": "CL5_PROFILE_BEGIN_0013",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_PROFILE_BEGIN_0014",
+      "norm": "cl5_profile_begin_0014",
+      "variants_top": [
+        {
+          "text": "CL5_PROFILE_BEGIN_0014",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_PROFILE_END_0009",
+      "norm": "cl5_profile_end_0009",
+      "variants_top": [
+        {
+          "text": "CL5_PROFILE_END_0009",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_PROFILE_END_0010",
+      "norm": "cl5_profile_end_0010",
+      "variants_top": [
+        {
+          "text": "CL5_PROFILE_END_0010",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_PROFILE_END_0011",
+      "norm": "cl5_profile_end_0011",
+      "variants_top": [
+        {
+          "text": "CL5_PROFILE_END_0011",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_PROFILE_END_0012",
+      "norm": "cl5_profile_end_0012",
+      "variants_top": [
+        {
+          "text": "CL5_PROFILE_END_0012",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_PROFILE_END_0013",
+      "norm": "cl5_profile_end_0013",
+      "variants_top": [
+        {
+          "text": "CL5_PROFILE_END_0013",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_PROFILE_END_0014",
+      "norm": "cl5_profile_end_0014",
+      "variants_top": [
+        {
+          "text": "CL5_PROFILE_END_0014",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_PROFILE_END_0015",
+      "norm": "cl5_profile_end_0015",
+      "variants_top": [
+        {
+          "text": "CL5_PROFILE_END_0015",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_PROFILE_MARK_0010",
+      "norm": "cl5_profile_mark_0010",
+      "variants_top": [
+        {
+          "text": "CL5_PROFILE_MARK_0010",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_PROFILE_MARK_0011",
+      "norm": "cl5_profile_mark_0011",
+      "variants_top": [
+        {
+          "text": "CL5_PROFILE_MARK_0011",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_PROFILE_MARK_0012",
+      "norm": "cl5_profile_mark_0012",
+      "variants_top": [
+        {
+          "text": "CL5_PROFILE_MARK_0012",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_PROFILE_MARK_0013",
+      "norm": "cl5_profile_mark_0013",
+      "variants_top": [
+        {
+          "text": "CL5_PROFILE_MARK_0013",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_PROFILE_MARK_0014",
+      "norm": "cl5_profile_mark_0014",
+      "variants_top": [
+        {
+          "text": "CL5_PROFILE_MARK_0014",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_PROFILE_MARK_0015",
+      "norm": "cl5_profile_mark_0015",
+      "variants_top": [
+        {
+          "text": "CL5_PROFILE_MARK_0015",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_RESERVED_B9_9000",
+      "norm": "cl5_reserved_b9_9000",
+      "variants_top": [
+        {
+          "text": "CL5_RESERVED_B9_9000",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_RESERVED_B9_9001",
+      "norm": "cl5_reserved_b9_9001",
+      "variants_top": [
+        {
+          "text": "CL5_RESERVED_B9_9001",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_RESERVED_B9_9002",
+      "norm": "cl5_reserved_b9_9002",
+      "variants_top": [
+        {
+          "text": "CL5_RESERVED_B9_9002",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_RESERVED_B9_9003",
+      "norm": "cl5_reserved_b9_9003",
+      "variants_top": [
+        {
+          "text": "CL5_RESERVED_B9_9003",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_RESERVED_B9_9004",
+      "norm": "cl5_reserved_b9_9004",
+      "variants_top": [
+        {
+          "text": "CL5_RESERVED_B9_9004",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_RESERVED_B9_9005",
+      "norm": "cl5_reserved_b9_9005",
+      "variants_top": [
+        {
+          "text": "CL5_RESERVED_B9_9005",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_RESERVED_B9_9006",
+      "norm": "cl5_reserved_b9_9006",
+      "variants_top": [
+        {
+          "text": "CL5_RESERVED_B9_9006",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_RESERVED_B9_9007",
+      "norm": "cl5_reserved_b9_9007",
+      "variants_top": [
+        {
+          "text": "CL5_RESERVED_B9_9007",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_RESERVED_B9_9008",
+      "norm": "cl5_reserved_b9_9008",
+      "variants_top": [
+        {
+          "text": "CL5_RESERVED_B9_9008",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_RESERVED_B9_9009",
+      "norm": "cl5_reserved_b9_9009",
+      "variants_top": [
+        {
+          "text": "CL5_RESERVED_B9_9009",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_RESERVED_B9_9010",
+      "norm": "cl5_reserved_b9_9010",
+      "variants_top": [
+        {
+          "text": "CL5_RESERVED_B9_9010",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_RESERVED_B9_9011",
+      "norm": "cl5_reserved_b9_9011",
+      "variants_top": [
+        {
+          "text": "CL5_RESERVED_B9_9011",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_TRACE_BEGIN_SPAN_0001",
+      "norm": "cl5_trace_begin_span_0001",
+      "variants_top": [
+        {
+          "text": "CL5_TRACE_BEGIN_SPAN_0001",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_TRACE_END_SPAN_0001",
+      "norm": "cl5_trace_end_span_0001",
+      "variants_top": [
+        {
+          "text": "CL5_TRACE_END_SPAN_0001",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_VEC_ENABLE_0004",
+      "norm": "cl5_vec_enable_0004",
+      "variants_top": [
+        {
+          "text": "CL5_VEC_ENABLE_0004",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_VEC_ENABLE_0005",
+      "norm": "cl5_vec_enable_0005",
+      "variants_top": [
+        {
+          "text": "CL5_VEC_ENABLE_0005",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_VEC_ENABLE_0006",
+      "norm": "cl5_vec_enable_0006",
+      "variants_top": [
+        {
+          "text": "CL5_VEC_ENABLE_0006",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_VEC_ENABLE_0007",
+      "norm": "cl5_vec_enable_0007",
+      "variants_top": [
+        {
+          "text": "CL5_VEC_ENABLE_0007",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_VEC_ENABLE_0008",
+      "norm": "cl5_vec_enable_0008",
+      "variants_top": [
+        {
+          "text": "CL5_VEC_ENABLE_0008",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_VEC_ENABLE_0009",
+      "norm": "cl5_vec_enable_0009",
+      "variants_top": [
+        {
+          "text": "CL5_VEC_ENABLE_0009",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_VEC_ENABLE_0010",
+      "norm": "cl5_vec_enable_0010",
+      "variants_top": [
+        {
+          "text": "CL5_VEC_ENABLE_0010",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_VEC_LOAD_0005",
+      "norm": "cl5_vec_load_0005",
+      "variants_top": [
+        {
+          "text": "CL5_VEC_LOAD_0005",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_VEC_LOAD_0006",
+      "norm": "cl5_vec_load_0006",
+      "variants_top": [
+        {
+          "text": "CL5_VEC_LOAD_0006",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_VEC_LOAD_0007",
+      "norm": "cl5_vec_load_0007",
+      "variants_top": [
+        {
+          "text": "CL5_VEC_LOAD_0007",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_VEC_LOAD_0008",
+      "norm": "cl5_vec_load_0008",
+      "variants_top": [
+        {
+          "text": "CL5_VEC_LOAD_0008",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_VEC_LOAD_0009",
+      "norm": "cl5_vec_load_0009",
+      "variants_top": [
+        {
+          "text": "CL5_VEC_LOAD_0009",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_VEC_LOAD_0010",
+      "norm": "cl5_vec_load_0010",
+      "variants_top": [
+        {
+          "text": "CL5_VEC_LOAD_0010",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_VEC_LOAD_0011",
+      "norm": "cl5_vec_load_0011",
+      "variants_top": [
+        {
+          "text": "CL5_VEC_LOAD_0011",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_VEC_STORE_0006",
+      "norm": "cl5_vec_store_0006",
+      "variants_top": [
+        {
+          "text": "CL5_VEC_STORE_0006",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_VEC_STORE_0007",
+      "norm": "cl5_vec_store_0007",
+      "variants_top": [
+        {
+          "text": "CL5_VEC_STORE_0007",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_VEC_STORE_0008",
+      "norm": "cl5_vec_store_0008",
+      "variants_top": [
+        {
+          "text": "CL5_VEC_STORE_0008",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_VEC_STORE_0009",
+      "norm": "cl5_vec_store_0009",
+      "variants_top": [
+        {
+          "text": "CL5_VEC_STORE_0009",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_VEC_STORE_0010",
+      "norm": "cl5_vec_store_0010",
+      "variants_top": [
+        {
+          "text": "CL5_VEC_STORE_0010",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_VEC_STORE_0011",
+      "norm": "cl5_vec_store_0011",
+      "variants_top": [
+        {
+          "text": "CL5_VEC_STORE_0011",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_VEC_STORE_0012",
+      "norm": "cl5_vec_store_0012",
+      "variants_top": [
+        {
+          "text": "CL5_VEC_STORE_0012",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "LAYOUT_PACK",
+      "norm": "layout_pack",
+      "variants_top": [
+        {
+          "text": "LAYOUT_PACK",
+          "count": 7
+        }
+      ]
+    },
+    {
+      "text": "LOG_ERROR",
+      "norm": "log_error",
+      "variants_top": [
+        {
+          "text": "LOG_ERROR",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "LOG_INFO",
+      "norm": "log_info",
+      "variants_top": [
+        {
+          "text": "LOG_INFO",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "LOG_WARN",
+      "norm": "log_warn",
+      "variants_top": [
+        {
+          "text": "LOG_WARN",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "METRIC_COUNTER_ADD",
+      "norm": "metric_counter_add",
+      "variants_top": [
+        {
+          "text": "METRIC_COUNTER_ADD",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "METRIC_GAUGE_SET",
+      "norm": "metric_gauge_set",
+      "variants_top": [
+        {
+          "text": "METRIC_GAUGE_SET",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "OPT_FUSE",
+      "norm": "opt_fuse",
+      "variants_top": [
+        {
+          "text": "OPT_FUSE",
+          "count": 7
+        }
+      ]
+    },
+    {
+      "text": "OPT_INLINE",
+      "norm": "opt_inline",
+      "variants_top": [
+        {
+          "text": "OPT_INLINE",
+          "count": 7
+        }
+      ]
+    },
+    {
+      "text": "OPT_UNROLL",
+      "norm": "opt_unroll",
+      "variants_top": [
+        {
+          "text": "OPT_UNROLL",
+          "count": 7
+        }
+      ]
+    },
+    {
+      "text": "Optimization & Profiling",
+      "norm": "optimization & profiling",
+      "variants_top": [
+        {
+          "text": "Optimization & Profiling",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "PROFILE_BEGIN",
+      "norm": "profile_begin",
+      "variants_top": [
+        {
+          "text": "PROFILE_BEGIN",
+          "count": 7
+        }
+      ]
+    },
+    {
+      "text": "PROFILE_END",
+      "norm": "profile_end",
+      "variants_top": [
+        {
+          "text": "PROFILE_END",
+          "count": 7
+        }
+      ]
+    },
+    {
+      "text": "PROFILE_MARK",
+      "norm": "profile_mark",
+      "variants_top": [
+        {
+          "text": "PROFILE_MARK",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "text": "r1",
+      "norm": "r1",
+      "variants_top": [
+        {
+          "text": "r1",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "RESERVED_B9",
+      "norm": "reserved_b9",
+      "variants_top": [
+        {
+          "text": "RESERVED_B9",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "text": "TRACE_BEGIN_SPAN",
+      "norm": "trace_begin_span",
+      "variants_top": [
+        {
+          "text": "TRACE_BEGIN_SPAN",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "TRACE_END_SPAN",
+      "norm": "trace_end_span",
+      "variants_top": [
+        {
+          "text": "TRACE_END_SPAN",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "VEC_ENABLE",
+      "norm": "vec_enable",
+      "variants_top": [
+        {
+          "text": "VEC_ENABLE",
+          "count": 7
+        }
+      ]
+    },
+    {
+      "text": "VEC_LOAD",
+      "norm": "vec_load",
+      "variants_top": [
+        {
+          "text": "VEC_LOAD",
+          "count": 7
+        }
+      ]
+    },
+    {
+      "text": "VEC_STORE",
+      "norm": "vec_store",
+      "variants_top": [
+        {
+          "text": "VEC_STORE",
+          "count": 7
+        }
+      ]
+    }
+  ]
+}

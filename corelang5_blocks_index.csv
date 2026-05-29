@@ -1,0 +1,15 @@
+block,files,text_files,size_bytes
+CoreLang5_Block10_Domain_Adapters (4),2,1,7596095
+CoreLang5_Block11_Crypto_Interop (2),3,2,8288249
+CoreLang5_Block1_Logic_and_ControlFlow (7),2,1,7557117
+CoreLang5_Block2_Math_and_Algebra_subpack_1_lt1MB,8,0,1000010
+CoreLang5_Block2_Math_and_Algebra_subpack_2_lt1MB,2,0,203271
+CoreLang5_Block3_Data_Structures_subpack_1_lt1MB,9,0,975661
+CoreLang5_Block3_Data_Structures_subpack_2_lt1MB,3,0,298584
+CoreLang5_Block4_Algorithms_subpack_1_lt1MB,11,0,1037598
+CoreLang5_Block4_Algorithms_subpack_2_lt1MB,4,0,393259
+CoreLang5_Block5_IO_And_Serialization (8),2,1,7523831
+CoreLang5_Block6_Concurrency_And_Async (5),2,1,8222592
+CoreLang5_Block7_Interop_And_FFI (4),2,1,7740476
+CoreLang5_Block8_Systems_And_Networking (6),2,1,7627158
+CoreLang5_Block9_Optimization_And_Profiling (6),2,1,7872406

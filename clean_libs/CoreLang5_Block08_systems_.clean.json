@@ -1,0 +1,1241 @@
+{
+  "library": "CoreLang5_Block08_systems_",
+  "generated_at": "2025-09-02 23:14:49",
+  "dedup_method": "unicode-NFKD + lowercase + single-space; canonical=most_frequent_original",
+  "stats": {
+    "before": 193,
+    "after": 123
+  },
+  "tokens": [
+    {
+      "text": "CBREAK_CLOSE",
+      "norm": "cbreak_close",
+      "variants_top": [
+        {
+          "text": "CBREAK_CLOSE",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "text": "CBREAK_OPEN",
+      "norm": "cbreak_open",
+      "variants_top": [
+        {
+          "text": "CBREAK_OPEN",
+          "count": 7
+        }
+      ]
+    },
+    {
+      "text": "CL5/BLOCK",
+      "norm": "cl5/block",
+      "variants_top": [
+        {
+          "text": "CL5/BLOCK",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_CBREAK_CLOSE_0010",
+      "norm": "cl5_cbreak_close_0010",
+      "variants_top": [
+        {
+          "text": "CL5_CBREAK_CLOSE_0010",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_CBREAK_CLOSE_0011",
+      "norm": "cl5_cbreak_close_0011",
+      "variants_top": [
+        {
+          "text": "CL5_CBREAK_CLOSE_0011",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_CBREAK_CLOSE_0012",
+      "norm": "cl5_cbreak_close_0012",
+      "variants_top": [
+        {
+          "text": "CL5_CBREAK_CLOSE_0012",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_CBREAK_CLOSE_0013",
+      "norm": "cl5_cbreak_close_0013",
+      "variants_top": [
+        {
+          "text": "CL5_CBREAK_CLOSE_0013",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_CBREAK_CLOSE_0014",
+      "norm": "cl5_cbreak_close_0014",
+      "variants_top": [
+        {
+          "text": "CL5_CBREAK_CLOSE_0014",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_CBREAK_CLOSE_0015",
+      "norm": "cl5_cbreak_close_0015",
+      "variants_top": [
+        {
+          "text": "CL5_CBREAK_CLOSE_0015",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_CBREAK_OPEN_0009",
+      "norm": "cl5_cbreak_open_0009",
+      "variants_top": [
+        {
+          "text": "CL5_CBREAK_OPEN_0009",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_CBREAK_OPEN_0010",
+      "norm": "cl5_cbreak_open_0010",
+      "variants_top": [
+        {
+          "text": "CL5_CBREAK_OPEN_0010",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_CBREAK_OPEN_0011",
+      "norm": "cl5_cbreak_open_0011",
+      "variants_top": [
+        {
+          "text": "CL5_CBREAK_OPEN_0011",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_CBREAK_OPEN_0012",
+      "norm": "cl5_cbreak_open_0012",
+      "variants_top": [
+        {
+          "text": "CL5_CBREAK_OPEN_0012",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_CBREAK_OPEN_0013",
+      "norm": "cl5_cbreak_open_0013",
+      "variants_top": [
+        {
+          "text": "CL5_CBREAK_OPEN_0013",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_CBREAK_OPEN_0014",
+      "norm": "cl5_cbreak_open_0014",
+      "variants_top": [
+        {
+          "text": "CL5_CBREAK_OPEN_0014",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_CBREAK_OPEN_0015",
+      "norm": "cl5_cbreak_open_0015",
+      "variants_top": [
+        {
+          "text": "CL5_CBREAK_OPEN_0015",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_DNS_RESOLVE_0001",
+      "norm": "cl5_dns_resolve_0001",
+      "variants_top": [
+        {
+          "text": "CL5_DNS_RESOLVE_0001",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_HTTP_DELETE_0001",
+      "norm": "cl5_http_delete_0001",
+      "variants_top": [
+        {
+          "text": "CL5_HTTP_DELETE_0001",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_HTTP_GET_0004",
+      "norm": "cl5_http_get_0004",
+      "variants_top": [
+        {
+          "text": "CL5_HTTP_GET_0004",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_HTTP_GET_0005",
+      "norm": "cl5_http_get_0005",
+      "variants_top": [
+        {
+          "text": "CL5_HTTP_GET_0005",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_HTTP_GET_0006",
+      "norm": "cl5_http_get_0006",
+      "variants_top": [
+        {
+          "text": "CL5_HTTP_GET_0006",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_HTTP_GET_0007",
+      "norm": "cl5_http_get_0007",
+      "variants_top": [
+        {
+          "text": "CL5_HTTP_GET_0007",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_HTTP_GET_0008",
+      "norm": "cl5_http_get_0008",
+      "variants_top": [
+        {
+          "text": "CL5_HTTP_GET_0008",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_HTTP_GET_0009",
+      "norm": "cl5_http_get_0009",
+      "variants_top": [
+        {
+          "text": "CL5_HTTP_GET_0009",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_HTTP_GET_0010",
+      "norm": "cl5_http_get_0010",
+      "variants_top": [
+        {
+          "text": "CL5_HTTP_GET_0010",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_HTTP_HEAD_0001",
+      "norm": "cl5_http_head_0001",
+      "variants_top": [
+        {
+          "text": "CL5_HTTP_HEAD_0001",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_HTTP_OPTIONS_0001",
+      "norm": "cl5_http_options_0001",
+      "variants_top": [
+        {
+          "text": "CL5_HTTP_OPTIONS_0001",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_HTTP_PATCH_0001",
+      "norm": "cl5_http_patch_0001",
+      "variants_top": [
+        {
+          "text": "CL5_HTTP_PATCH_0001",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_HTTP_POST_0005",
+      "norm": "cl5_http_post_0005",
+      "variants_top": [
+        {
+          "text": "CL5_HTTP_POST_0005",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_HTTP_POST_0006",
+      "norm": "cl5_http_post_0006",
+      "variants_top": [
+        {
+          "text": "CL5_HTTP_POST_0006",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_HTTP_POST_0007",
+      "norm": "cl5_http_post_0007",
+      "variants_top": [
+        {
+          "text": "CL5_HTTP_POST_0007",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_HTTP_POST_0008",
+      "norm": "cl5_http_post_0008",
+      "variants_top": [
+        {
+          "text": "CL5_HTTP_POST_0008",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_HTTP_POST_0009",
+      "norm": "cl5_http_post_0009",
+      "variants_top": [
+        {
+          "text": "CL5_HTTP_POST_0009",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_HTTP_POST_0010",
+      "norm": "cl5_http_post_0010",
+      "variants_top": [
+        {
+          "text": "CL5_HTTP_POST_0010",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_HTTP_POST_0011",
+      "norm": "cl5_http_post_0011",
+      "variants_top": [
+        {
+          "text": "CL5_HTTP_POST_0011",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_HTTP_PUT_0001",
+      "norm": "cl5_http_put_0001",
+      "variants_top": [
+        {
+          "text": "CL5_HTTP_PUT_0001",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_MQ_ACK_0001",
+      "norm": "cl5_mq_ack_0001",
+      "variants_top": [
+        {
+          "text": "CL5_MQ_ACK_0001",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_MQ_NACK_0001",
+      "norm": "cl5_mq_nack_0001",
+      "variants_top": [
+        {
+          "text": "CL5_MQ_NACK_0001",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_MQ_POLL_0001",
+      "norm": "cl5_mq_poll_0001",
+      "variants_top": [
+        {
+          "text": "CL5_MQ_POLL_0001",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_MQ_PUBLISH_0007",
+      "norm": "cl5_mq_publish_0007",
+      "variants_top": [
+        {
+          "text": "CL5_MQ_PUBLISH_0007",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_MQ_PUBLISH_0008",
+      "norm": "cl5_mq_publish_0008",
+      "variants_top": [
+        {
+          "text": "CL5_MQ_PUBLISH_0008",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_MQ_PUBLISH_0009",
+      "norm": "cl5_mq_publish_0009",
+      "variants_top": [
+        {
+          "text": "CL5_MQ_PUBLISH_0009",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_MQ_PUBLISH_0010",
+      "norm": "cl5_mq_publish_0010",
+      "variants_top": [
+        {
+          "text": "CL5_MQ_PUBLISH_0010",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_MQ_PUBLISH_0011",
+      "norm": "cl5_mq_publish_0011",
+      "variants_top": [
+        {
+          "text": "CL5_MQ_PUBLISH_0011",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_MQ_PUBLISH_0012",
+      "norm": "cl5_mq_publish_0012",
+      "variants_top": [
+        {
+          "text": "CL5_MQ_PUBLISH_0012",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_MQ_PUBLISH_0013",
+      "norm": "cl5_mq_publish_0013",
+      "variants_top": [
+        {
+          "text": "CL5_MQ_PUBLISH_0013",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_MQ_SUBSCRIBE_0001",
+      "norm": "cl5_mq_subscribe_0001",
+      "variants_top": [
+        {
+          "text": "CL5_MQ_SUBSCRIBE_0001",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_NET_CONNECT_0001",
+      "norm": "cl5_net_connect_0001",
+      "variants_top": [
+        {
+          "text": "CL5_NET_CONNECT_0001",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_NET_CONNECT_0002",
+      "norm": "cl5_net_connect_0002",
+      "variants_top": [
+        {
+          "text": "CL5_NET_CONNECT_0002",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_NET_CONNECT_0003",
+      "norm": "cl5_net_connect_0003",
+      "variants_top": [
+        {
+          "text": "CL5_NET_CONNECT_0003",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_NET_CONNECT_0004",
+      "norm": "cl5_net_connect_0004",
+      "variants_top": [
+        {
+          "text": "CL5_NET_CONNECT_0004",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_NET_CONNECT_0005",
+      "norm": "cl5_net_connect_0005",
+      "variants_top": [
+        {
+          "text": "CL5_NET_CONNECT_0005",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_NET_CONNECT_0006",
+      "norm": "cl5_net_connect_0006",
+      "variants_top": [
+        {
+          "text": "CL5_NET_CONNECT_0006",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_NET_CONNECT_0007",
+      "norm": "cl5_net_connect_0007",
+      "variants_top": [
+        {
+          "text": "CL5_NET_CONNECT_0007",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_NET_RECV_0003",
+      "norm": "cl5_net_recv_0003",
+      "variants_top": [
+        {
+          "text": "CL5_NET_RECV_0003",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_NET_RECV_0004",
+      "norm": "cl5_net_recv_0004",
+      "variants_top": [
+        {
+          "text": "CL5_NET_RECV_0004",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_NET_RECV_0005",
+      "norm": "cl5_net_recv_0005",
+      "variants_top": [
+        {
+          "text": "CL5_NET_RECV_0005",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_NET_RECV_0006",
+      "norm": "cl5_net_recv_0006",
+      "variants_top": [
+        {
+          "text": "CL5_NET_RECV_0006",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_NET_RECV_0007",
+      "norm": "cl5_net_recv_0007",
+      "variants_top": [
+        {
+          "text": "CL5_NET_RECV_0007",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_NET_RECV_0008",
+      "norm": "cl5_net_recv_0008",
+      "variants_top": [
+        {
+          "text": "CL5_NET_RECV_0008",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_NET_RECV_0009",
+      "norm": "cl5_net_recv_0009",
+      "variants_top": [
+        {
+          "text": "CL5_NET_RECV_0009",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_NET_SEND_0002",
+      "norm": "cl5_net_send_0002",
+      "variants_top": [
+        {
+          "text": "CL5_NET_SEND_0002",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_NET_SEND_0003",
+      "norm": "cl5_net_send_0003",
+      "variants_top": [
+        {
+          "text": "CL5_NET_SEND_0003",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_NET_SEND_0004",
+      "norm": "cl5_net_send_0004",
+      "variants_top": [
+        {
+          "text": "CL5_NET_SEND_0004",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_NET_SEND_0005",
+      "norm": "cl5_net_send_0005",
+      "variants_top": [
+        {
+          "text": "CL5_NET_SEND_0005",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_NET_SEND_0006",
+      "norm": "cl5_net_send_0006",
+      "variants_top": [
+        {
+          "text": "CL5_NET_SEND_0006",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_NET_SEND_0007",
+      "norm": "cl5_net_send_0007",
+      "variants_top": [
+        {
+          "text": "CL5_NET_SEND_0007",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_NET_SEND_0008",
+      "norm": "cl5_net_send_0008",
+      "variants_top": [
+        {
+          "text": "CL5_NET_SEND_0008",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_RESERVED_B8_9000",
+      "norm": "cl5_reserved_b8_9000",
+      "variants_top": [
+        {
+          "text": "CL5_RESERVED_B8_9000",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_RESERVED_B8_9001",
+      "norm": "cl5_reserved_b8_9001",
+      "variants_top": [
+        {
+          "text": "CL5_RESERVED_B8_9001",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_RESERVED_B8_9002",
+      "norm": "cl5_reserved_b8_9002",
+      "variants_top": [
+        {
+          "text": "CL5_RESERVED_B8_9002",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_RESERVED_B8_9003",
+      "norm": "cl5_reserved_b8_9003",
+      "variants_top": [
+        {
+          "text": "CL5_RESERVED_B8_9003",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_RESERVED_B8_9004",
+      "norm": "cl5_reserved_b8_9004",
+      "variants_top": [
+        {
+          "text": "CL5_RESERVED_B8_9004",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_RESERVED_B8_9005",
+      "norm": "cl5_reserved_b8_9005",
+      "variants_top": [
+        {
+          "text": "CL5_RESERVED_B8_9005",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_RESERVED_B8_9006",
+      "norm": "cl5_reserved_b8_9006",
+      "variants_top": [
+        {
+          "text": "CL5_RESERVED_B8_9006",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_RESERVED_B8_9007",
+      "norm": "cl5_reserved_b8_9007",
+      "variants_top": [
+        {
+          "text": "CL5_RESERVED_B8_9007",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_RESERVED_B8_9008",
+      "norm": "cl5_reserved_b8_9008",
+      "variants_top": [
+        {
+          "text": "CL5_RESERVED_B8_9008",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_RESERVED_B8_9009",
+      "norm": "cl5_reserved_b8_9009",
+      "variants_top": [
+        {
+          "text": "CL5_RESERVED_B8_9009",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_RESERVED_B8_9010",
+      "norm": "cl5_reserved_b8_9010",
+      "variants_top": [
+        {
+          "text": "CL5_RESERVED_B8_9010",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_RESERVED_B8_9011",
+      "norm": "cl5_reserved_b8_9011",
+      "variants_top": [
+        {
+          "text": "CL5_RESERVED_B8_9011",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_RETRY__0008",
+      "norm": "cl5_retry__0008",
+      "variants_top": [
+        {
+          "text": "CL5_RETRY__0008",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_RETRY__0009",
+      "norm": "cl5_retry__0009",
+      "variants_top": [
+        {
+          "text": "CL5_RETRY__0009",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_RETRY__0010",
+      "norm": "cl5_retry__0010",
+      "variants_top": [
+        {
+          "text": "CL5_RETRY__0010",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_RETRY__0011",
+      "norm": "cl5_retry__0011",
+      "variants_top": [
+        {
+          "text": "CL5_RETRY__0011",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_RETRY__0012",
+      "norm": "cl5_retry__0012",
+      "variants_top": [
+        {
+          "text": "CL5_RETRY__0012",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_RETRY__0013",
+      "norm": "cl5_retry__0013",
+      "variants_top": [
+        {
+          "text": "CL5_RETRY__0013",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_RETRY__0014",
+      "norm": "cl5_retry__0014",
+      "variants_top": [
+        {
+          "text": "CL5_RETRY__0014",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_RPC_CALL_0006",
+      "norm": "cl5_rpc_call_0006",
+      "variants_top": [
+        {
+          "text": "CL5_RPC_CALL_0006",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_RPC_CALL_0007",
+      "norm": "cl5_rpc_call_0007",
+      "variants_top": [
+        {
+          "text": "CL5_RPC_CALL_0007",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_RPC_CALL_0008",
+      "norm": "cl5_rpc_call_0008",
+      "variants_top": [
+        {
+          "text": "CL5_RPC_CALL_0008",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_RPC_CALL_0009",
+      "norm": "cl5_rpc_call_0009",
+      "variants_top": [
+        {
+          "text": "CL5_RPC_CALL_0009",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_RPC_CALL_0010",
+      "norm": "cl5_rpc_call_0010",
+      "variants_top": [
+        {
+          "text": "CL5_RPC_CALL_0010",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_RPC_CALL_0011",
+      "norm": "cl5_rpc_call_0011",
+      "variants_top": [
+        {
+          "text": "CL5_RPC_CALL_0011",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_RPC_CALL_0012",
+      "norm": "cl5_rpc_call_0012",
+      "variants_top": [
+        {
+          "text": "CL5_RPC_CALL_0012",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_TLS_HANDSHAKE_0001",
+      "norm": "cl5_tls_handshake_0001",
+      "variants_top": [
+        {
+          "text": "CL5_TLS_HANDSHAKE_0001",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_WEBSOCKET_OPEN_0001",
+      "norm": "cl5_websocket_open_0001",
+      "variants_top": [
+        {
+          "text": "CL5_WEBSOCKET_OPEN_0001",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_WEBSOCKET_RECV_0001",
+      "norm": "cl5_websocket_recv_0001",
+      "variants_top": [
+        {
+          "text": "CL5_WEBSOCKET_RECV_0001",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_WEBSOCKET_SEND_0001",
+      "norm": "cl5_websocket_send_0001",
+      "variants_top": [
+        {
+          "text": "CL5_WEBSOCKET_SEND_0001",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "DNS_RESOLVE",
+      "norm": "dns_resolve",
+      "variants_top": [
+        {
+          "text": "DNS_RESOLVE",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "HTTP_DELETE",
+      "norm": "http_delete",
+      "variants_top": [
+        {
+          "text": "HTTP_DELETE",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "HTTP_GET",
+      "norm": "http_get",
+      "variants_top": [
+        {
+          "text": "HTTP_GET",
+          "count": 7
+        }
+      ]
+    },
+    {
+      "text": "HTTP_HEAD",
+      "norm": "http_head",
+      "variants_top": [
+        {
+          "text": "HTTP_HEAD",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "HTTP_OPTIONS",
+      "norm": "http_options",
+      "variants_top": [
+        {
+          "text": "HTTP_OPTIONS",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "HTTP_PATCH",
+      "norm": "http_patch",
+      "variants_top": [
+        {
+          "text": "HTTP_PATCH",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "HTTP_POST",
+      "norm": "http_post",
+      "variants_top": [
+        {
+          "text": "HTTP_POST",
+          "count": 7
+        }
+      ]
+    },
+    {
+      "text": "HTTP_PUT",
+      "norm": "http_put",
+      "variants_top": [
+        {
+          "text": "HTTP_PUT",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "MQ_ACK",
+      "norm": "mq_ack",
+      "variants_top": [
+        {
+          "text": "MQ_ACK",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "MQ_NACK",
+      "norm": "mq_nack",
+      "variants_top": [
+        {
+          "text": "MQ_NACK",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "MQ_POLL",
+      "norm": "mq_poll",
+      "variants_top": [
+        {
+          "text": "MQ_POLL",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "MQ_PUBLISH",
+      "norm": "mq_publish",
+      "variants_top": [
+        {
+          "text": "MQ_PUBLISH",
+          "count": 7
+        }
+      ]
+    },
+    {
+      "text": "MQ_SUBSCRIBE",
+      "norm": "mq_subscribe",
+      "variants_top": [
+        {
+          "text": "MQ_SUBSCRIBE",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "NET_CONNECT",
+      "norm": "net_connect",
+      "variants_top": [
+        {
+          "text": "NET_CONNECT",
+          "count": 7
+        }
+      ]
+    },
+    {
+      "text": "NET_RECV",
+      "norm": "net_recv",
+      "variants_top": [
+        {
+          "text": "NET_RECV",
+          "count": 7
+        }
+      ]
+    },
+    {
+      "text": "NET_SEND",
+      "norm": "net_send",
+      "variants_top": [
+        {
+          "text": "NET_SEND",
+          "count": 7
+        }
+      ]
+    },
+    {
+      "text": "r1",
+      "norm": "r1",
+      "variants_top": [
+        {
+          "text": "r1",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "RESERVED_B8",
+      "norm": "reserved_b8",
+      "variants_top": [
+        {
+          "text": "RESERVED_B8",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "text": "RETRY_",
+      "norm": "retry_",
+      "variants_top": [
+        {
+          "text": "RETRY_",
+          "count": 7
+        }
+      ]
+    },
+    {
+      "text": "RPC_CALL",
+      "norm": "rpc_call",
+      "variants_top": [
+        {
+          "text": "RPC_CALL",
+          "count": 7
+        }
+      ]
+    },
+    {
+      "text": "Systems & Networking",
+      "norm": "systems & networking",
+      "variants_top": [
+        {
+          "text": "Systems & Networking",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "TLS_HANDSHAKE",
+      "norm": "tls_handshake",
+      "variants_top": [
+        {
+          "text": "TLS_HANDSHAKE",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "WEBSOCKET_OPEN",
+      "norm": "websocket_open",
+      "variants_top": [
+        {
+          "text": "WEBSOCKET_OPEN",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "WEBSOCKET_RECV",
+      "norm": "websocket_recv",
+      "variants_top": [
+        {
+          "text": "WEBSOCKET_RECV",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "WEBSOCKET_SEND",
+      "norm": "websocket_send",
+      "variants_top": [
+        {
+          "text": "WEBSOCKET_SEND",
+          "count": 1
+        }
+      ]
+    }
+  ]
+}

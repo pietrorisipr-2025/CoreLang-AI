@@ -1,0 +1,4 @@
+name,total_bytes,total_frames,delivered,p50_ms,p95_ms,avg_ms,duration_ms
+Baseline (dedup only),57349,185,139,581,2011,791.7194244604317,120005
+Comp (dedup+comp),58404,185,40,201,283,176.275,120005
+FEC+SACK (dedup+fec),57349,185,139,581,2011,791.7194244604317,120005

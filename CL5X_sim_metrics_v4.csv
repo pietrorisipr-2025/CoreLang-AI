@@ -1,0 +1,3 @@
+name,total_bytes,total_frames,delivered,p50_ms,p95_ms,avg_ms,duration_ms
+Adaptive FEC — clean link,67457,201,79,248,331,212.91139240506328,120002
+Adaptive FEC — noisy link,67457,201,82,260,349,226.6951219512195,120001

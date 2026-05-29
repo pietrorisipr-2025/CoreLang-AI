@@ -1,0 +1,961 @@
+{
+  "library": "CoreLang5_Block01_logic_",
+  "generated_at": "2025-09-02 23:14:49",
+  "dedup_method": "unicode-NFKD + lowercase + single-space; canonical=most_frequent_original",
+  "stats": {
+    "before": 165,
+    "after": 95
+  },
+  "tokens": [
+    {
+      "text": "AND",
+      "norm": "and",
+      "variants_top": [
+        {
+          "text": "AND",
+          "count": 7
+        }
+      ]
+    },
+    {
+      "text": "CASE",
+      "norm": "case",
+      "variants_top": [
+        {
+          "text": "CASE",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "text": "CL5/BLOCK",
+      "norm": "cl5/block",
+      "variants_top": [
+        {
+          "text": "CL5/BLOCK",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_AND_0002",
+      "norm": "cl5_and_0002",
+      "variants_top": [
+        {
+          "text": "CL5_AND_0002",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_AND_0003",
+      "norm": "cl5_and_0003",
+      "variants_top": [
+        {
+          "text": "CL5_AND_0003",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_AND_0004",
+      "norm": "cl5_and_0004",
+      "variants_top": [
+        {
+          "text": "CL5_AND_0004",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_AND_0005",
+      "norm": "cl5_and_0005",
+      "variants_top": [
+        {
+          "text": "CL5_AND_0005",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_AND_0006",
+      "norm": "cl5_and_0006",
+      "variants_top": [
+        {
+          "text": "CL5_AND_0006",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_AND_0007",
+      "norm": "cl5_and_0007",
+      "variants_top": [
+        {
+          "text": "CL5_AND_0007",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_AND_0008",
+      "norm": "cl5_and_0008",
+      "variants_top": [
+        {
+          "text": "CL5_AND_0008",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_CASE_0010",
+      "norm": "cl5_case_0010",
+      "variants_top": [
+        {
+          "text": "CL5_CASE_0010",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_CASE_0011",
+      "norm": "cl5_case_0011",
+      "variants_top": [
+        {
+          "text": "CL5_CASE_0011",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_CASE_0012",
+      "norm": "cl5_case_0012",
+      "variants_top": [
+        {
+          "text": "CL5_CASE_0012",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_CASE_0013",
+      "norm": "cl5_case_0013",
+      "variants_top": [
+        {
+          "text": "CL5_CASE_0013",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_CASE_0014",
+      "norm": "cl5_case_0014",
+      "variants_top": [
+        {
+          "text": "CL5_CASE_0014",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_CASE_0015",
+      "norm": "cl5_case_0015",
+      "variants_top": [
+        {
+          "text": "CL5_CASE_0015",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_FOR_EACH_0006",
+      "norm": "cl5_for_each_0006",
+      "variants_top": [
+        {
+          "text": "CL5_FOR_EACH_0006",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_FOR_EACH_0007",
+      "norm": "cl5_for_each_0007",
+      "variants_top": [
+        {
+          "text": "CL5_FOR_EACH_0007",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_FOR_EACH_0008",
+      "norm": "cl5_for_each_0008",
+      "variants_top": [
+        {
+          "text": "CL5_FOR_EACH_0008",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_FOR_EACH_0009",
+      "norm": "cl5_for_each_0009",
+      "variants_top": [
+        {
+          "text": "CL5_FOR_EACH_0009",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_FOR_EACH_0010",
+      "norm": "cl5_for_each_0010",
+      "variants_top": [
+        {
+          "text": "CL5_FOR_EACH_0010",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_FOR_EACH_0011",
+      "norm": "cl5_for_each_0011",
+      "variants_top": [
+        {
+          "text": "CL5_FOR_EACH_0011",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_FOR_EACH_0012",
+      "norm": "cl5_for_each_0012",
+      "variants_top": [
+        {
+          "text": "CL5_FOR_EACH_0012",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_IF__0001",
+      "norm": "cl5_if__0001",
+      "variants_top": [
+        {
+          "text": "CL5_IF__0001",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_IF__0002",
+      "norm": "cl5_if__0002",
+      "variants_top": [
+        {
+          "text": "CL5_IF__0002",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_IF__0003",
+      "norm": "cl5_if__0003",
+      "variants_top": [
+        {
+          "text": "CL5_IF__0003",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_IF__0004",
+      "norm": "cl5_if__0004",
+      "variants_top": [
+        {
+          "text": "CL5_IF__0004",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_IF__0005",
+      "norm": "cl5_if__0005",
+      "variants_top": [
+        {
+          "text": "CL5_IF__0005",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_IF__0006",
+      "norm": "cl5_if__0006",
+      "variants_top": [
+        {
+          "text": "CL5_IF__0006",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_IF__0007",
+      "norm": "cl5_if__0007",
+      "variants_top": [
+        {
+          "text": "CL5_IF__0007",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_MATCH__0005",
+      "norm": "cl5_match__0005",
+      "variants_top": [
+        {
+          "text": "CL5_MATCH__0005",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_MATCH__0006",
+      "norm": "cl5_match__0006",
+      "variants_top": [
+        {
+          "text": "CL5_MATCH__0006",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_MATCH__0007",
+      "norm": "cl5_match__0007",
+      "variants_top": [
+        {
+          "text": "CL5_MATCH__0007",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_MATCH__0008",
+      "norm": "cl5_match__0008",
+      "variants_top": [
+        {
+          "text": "CL5_MATCH__0008",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_MATCH__0009",
+      "norm": "cl5_match__0009",
+      "variants_top": [
+        {
+          "text": "CL5_MATCH__0009",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_MATCH__0010",
+      "norm": "cl5_match__0010",
+      "variants_top": [
+        {
+          "text": "CL5_MATCH__0010",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_MATCH__0011",
+      "norm": "cl5_match__0011",
+      "variants_top": [
+        {
+          "text": "CL5_MATCH__0011",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_NOT_0004",
+      "norm": "cl5_not_0004",
+      "variants_top": [
+        {
+          "text": "CL5_NOT_0004",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_NOT_0005",
+      "norm": "cl5_not_0005",
+      "variants_top": [
+        {
+          "text": "CL5_NOT_0005",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_NOT_0006",
+      "norm": "cl5_not_0006",
+      "variants_top": [
+        {
+          "text": "CL5_NOT_0006",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_NOT_0007",
+      "norm": "cl5_not_0007",
+      "variants_top": [
+        {
+          "text": "CL5_NOT_0007",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_NOT_0008",
+      "norm": "cl5_not_0008",
+      "variants_top": [
+        {
+          "text": "CL5_NOT_0008",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_NOT_0009",
+      "norm": "cl5_not_0009",
+      "variants_top": [
+        {
+          "text": "CL5_NOT_0009",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_NOT_0010",
+      "norm": "cl5_not_0010",
+      "variants_top": [
+        {
+          "text": "CL5_NOT_0010",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_OR_0003",
+      "norm": "cl5_or_0003",
+      "variants_top": [
+        {
+          "text": "CL5_OR_0003",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_OR_0004",
+      "norm": "cl5_or_0004",
+      "variants_top": [
+        {
+          "text": "CL5_OR_0004",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_OR_0005",
+      "norm": "cl5_or_0005",
+      "variants_top": [
+        {
+          "text": "CL5_OR_0005",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_OR_0006",
+      "norm": "cl5_or_0006",
+      "variants_top": [
+        {
+          "text": "CL5_OR_0006",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_OR_0007",
+      "norm": "cl5_or_0007",
+      "variants_top": [
+        {
+          "text": "CL5_OR_0007",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_OR_0008",
+      "norm": "cl5_or_0008",
+      "variants_top": [
+        {
+          "text": "CL5_OR_0008",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_OR_0009",
+      "norm": "cl5_or_0009",
+      "variants_top": [
+        {
+          "text": "CL5_OR_0009",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_RESERVED_B1_9000",
+      "norm": "cl5_reserved_b1_9000",
+      "variants_top": [
+        {
+          "text": "CL5_RESERVED_B1_9000",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_RESERVED_B1_9001",
+      "norm": "cl5_reserved_b1_9001",
+      "variants_top": [
+        {
+          "text": "CL5_RESERVED_B1_9001",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_RESERVED_B1_9002",
+      "norm": "cl5_reserved_b1_9002",
+      "variants_top": [
+        {
+          "text": "CL5_RESERVED_B1_9002",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_RESERVED_B1_9003",
+      "norm": "cl5_reserved_b1_9003",
+      "variants_top": [
+        {
+          "text": "CL5_RESERVED_B1_9003",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_RESERVED_B1_9004",
+      "norm": "cl5_reserved_b1_9004",
+      "variants_top": [
+        {
+          "text": "CL5_RESERVED_B1_9004",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_RESERVED_B1_9005",
+      "norm": "cl5_reserved_b1_9005",
+      "variants_top": [
+        {
+          "text": "CL5_RESERVED_B1_9005",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_RESERVED_B1_9006",
+      "norm": "cl5_reserved_b1_9006",
+      "variants_top": [
+        {
+          "text": "CL5_RESERVED_B1_9006",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_RESERVED_B1_9007",
+      "norm": "cl5_reserved_b1_9007",
+      "variants_top": [
+        {
+          "text": "CL5_RESERVED_B1_9007",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_RESERVED_B1_9008",
+      "norm": "cl5_reserved_b1_9008",
+      "variants_top": [
+        {
+          "text": "CL5_RESERVED_B1_9008",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_RESERVED_B1_9009",
+      "norm": "cl5_reserved_b1_9009",
+      "variants_top": [
+        {
+          "text": "CL5_RESERVED_B1_9009",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_RESERVED_B1_9010",
+      "norm": "cl5_reserved_b1_9010",
+      "variants_top": [
+        {
+          "text": "CL5_RESERVED_B1_9010",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_RESERVED_B1_9011",
+      "norm": "cl5_reserved_b1_9011",
+      "variants_top": [
+        {
+          "text": "CL5_RESERVED_B1_9011",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_RETURN_0008",
+      "norm": "cl5_return_0008",
+      "variants_top": [
+        {
+          "text": "CL5_RETURN_0008",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_RETURN_0009",
+      "norm": "cl5_return_0009",
+      "variants_top": [
+        {
+          "text": "CL5_RETURN_0009",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_RETURN_0010",
+      "norm": "cl5_return_0010",
+      "variants_top": [
+        {
+          "text": "CL5_RETURN_0010",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_RETURN_0011",
+      "norm": "cl5_return_0011",
+      "variants_top": [
+        {
+          "text": "CL5_RETURN_0011",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_RETURN_0012",
+      "norm": "cl5_return_0012",
+      "variants_top": [
+        {
+          "text": "CL5_RETURN_0012",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_RETURN_0013",
+      "norm": "cl5_return_0013",
+      "variants_top": [
+        {
+          "text": "CL5_RETURN_0013",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_RETURN_0014",
+      "norm": "cl5_return_0014",
+      "variants_top": [
+        {
+          "text": "CL5_RETURN_0014",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_SWITCH_0009",
+      "norm": "cl5_switch_0009",
+      "variants_top": [
+        {
+          "text": "CL5_SWITCH_0009",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_SWITCH_0010",
+      "norm": "cl5_switch_0010",
+      "variants_top": [
+        {
+          "text": "CL5_SWITCH_0010",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_SWITCH_0011",
+      "norm": "cl5_switch_0011",
+      "variants_top": [
+        {
+          "text": "CL5_SWITCH_0011",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_SWITCH_0012",
+      "norm": "cl5_switch_0012",
+      "variants_top": [
+        {
+          "text": "CL5_SWITCH_0012",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_SWITCH_0013",
+      "norm": "cl5_switch_0013",
+      "variants_top": [
+        {
+          "text": "CL5_SWITCH_0013",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_SWITCH_0014",
+      "norm": "cl5_switch_0014",
+      "variants_top": [
+        {
+          "text": "CL5_SWITCH_0014",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_SWITCH_0015",
+      "norm": "cl5_switch_0015",
+      "variants_top": [
+        {
+          "text": "CL5_SWITCH_0015",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_WHILE_0007",
+      "norm": "cl5_while_0007",
+      "variants_top": [
+        {
+          "text": "CL5_WHILE_0007",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_WHILE_0008",
+      "norm": "cl5_while_0008",
+      "variants_top": [
+        {
+          "text": "CL5_WHILE_0008",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_WHILE_0009",
+      "norm": "cl5_while_0009",
+      "variants_top": [
+        {
+          "text": "CL5_WHILE_0009",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_WHILE_0010",
+      "norm": "cl5_while_0010",
+      "variants_top": [
+        {
+          "text": "CL5_WHILE_0010",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_WHILE_0011",
+      "norm": "cl5_while_0011",
+      "variants_top": [
+        {
+          "text": "CL5_WHILE_0011",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_WHILE_0012",
+      "norm": "cl5_while_0012",
+      "variants_top": [
+        {
+          "text": "CL5_WHILE_0012",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "CL5_WHILE_0013",
+      "norm": "cl5_while_0013",
+      "variants_top": [
+        {
+          "text": "CL5_WHILE_0013",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "FOR_EACH",
+      "norm": "for_each",
+      "variants_top": [
+        {
+          "text": "FOR_EACH",
+          "count": 7
+        }
+      ]
+    },
+    {
+      "text": "IF_",
+      "norm": "if_",
+      "variants_top": [
+        {
+          "text": "IF_",
+          "count": 7
+        }
+      ]
+    },
+    {
+      "text": "Logic & Control",
+      "norm": "logic & control",
+      "variants_top": [
+        {
+          "text": "Logic & Control",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "MATCH_",
+      "norm": "match_",
+      "variants_top": [
+        {
+          "text": "MATCH_",
+          "count": 7
+        }
+      ]
+    },
+    {
+      "text": "NOT",
+      "norm": "not",
+      "variants_top": [
+        {
+          "text": "NOT",
+          "count": 7
+        }
+      ]
+    },
+    {
+      "text": "OR",
+      "norm": "or",
+      "variants_top": [
+        {
+          "text": "OR",
+          "count": 7
+        }
+      ]
+    },
+    {
+      "text": "r1",
+      "norm": "r1",
+      "variants_top": [
+        {
+          "text": "r1",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "RESERVED_B1",
+      "norm": "reserved_b1",
+      "variants_top": [
+        {
+          "text": "RESERVED_B1",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "text": "RETURN",
+      "norm": "return",
+      "variants_top": [
+        {
+          "text": "RETURN",
+          "count": 7
+        }
+      ]
+    },
+    {
+      "text": "SWITCH",
+      "norm": "switch",
+      "variants_top": [
+        {
+          "text": "SWITCH",
+          "count": 7
+        }
+      ]
+    },
+    {
+      "text": "WHILE",
+      "norm": "while",
+      "variants_top": [
+        {
+          "text": "WHILE",
+          "count": 7
+        }
+      ]
+    }
+  ]
+}
