@@ -1,0 +1,1174 @@
+{
+  "instances": [
+    {
+      "id": "5996c5a2e554f5a08fe204cf",
+      "template_key": "safety.guardrail_set_{}",
+      "params": [
+        1
+      ],
+      "title": "safety.guardrail_set(1)"
+    },
+    {
+      "id": "5996c5a2e554f5a08fe204cf",
+      "template_key": "safety.guardrail_set_{}",
+      "params": [
+        1
+      ],
+      "title": "safety.guardrail_set(1)"
+    },
+    {
+      "id": "5996c5a2e554f5a08fe204cf",
+      "template_key": "safety.guardrail_set_{}",
+      "params": [
+        1
+      ],
+      "title": "safety.guardrail_set(1)"
+    },
+    {
+      "id": "5996c5a2e554f5a08fe204cf",
+      "template_key": "safety.guardrail_set_{}",
+      "params": [
+        1
+      ],
+      "title": "safety.guardrail_set(1)"
+    },
+    {
+      "id": "5996c5a2e554f5a08fe204cf",
+      "template_key": "safety.guardrail_set_{}",
+      "params": [
+        1
+      ],
+      "title": "safety.guardrail_set(1)"
+    },
+    {
+      "id": "5996c5a2e554f5a08fe204cf",
+      "template_key": "safety.guardrail_set_{}",
+      "params": [
+        1
+      ],
+      "title": "safety.guardrail_set(1)"
+    },
+    {
+      "id": "5996c5a2e554f5a08fe204cf",
+      "template_key": "safety.guardrail_set_{}",
+      "params": [
+        1
+      ],
+      "title": "safety.guardrail_set(1)"
+    },
+    {
+      "id": "5996c5a2e554f5a08fe204cf",
+      "template_key": "safety.guardrail_set_{}",
+      "params": [
+        1
+      ],
+      "title": "safety.guardrail_set(1)"
+    },
+    {
+      "id": "5996c5a2e554f5a08fe204cf",
+      "template_key": "safety.guardrail_set_{}",
+      "params": [
+        1
+      ],
+      "title": "safety.guardrail_set(1)"
+    },
+    {
+      "id": "5996c5a2e554f5a08fe204cf",
+      "template_key": "safety.guardrail_set_{}",
+      "params": [
+        1
+      ],
+      "title": "safety.guardrail_set(1)"
+    },
+    {
+      "id": "5996c5a2e554f5a08fe204cf",
+      "template_key": "safety.guardrail_set_{}",
+      "params": [
+        1
+      ],
+      "title": "safety.guardrail_set(1)"
+    },
+    {
+      "id": "5996c5a2e554f5a08fe204cf",
+      "template_key": "safety.guardrail_set_{}",
+      "params": [
+        1
+      ],
+      "title": "safety.guardrail_set(1)"
+    },
+    {
+      "id": "5996c5a2e554f5a08fe204cf",
+      "template_key": "safety.guardrail_set_{}",
+      "params": [
+        1
+      ],
+      "title": "safety.guardrail_set(1)"
+    },
+    {
+      "id": "5996c5a2e554f5a08fe204cf",
+      "template_key": "safety.guardrail_set_{}",
+      "params": [
+        1
+      ],
+      "title": "safety.guardrail_set(1)"
+    },
+    {
+      "id": "3eea11a038463e2c8713c0f2",
+      "template_key": "safety.violation_report_{}",
+      "params": [
+        1
+      ],
+      "title": "safety.violation_report(1)"
+    },
+    {
+      "id": "3eea11a038463e2c8713c0f2",
+      "template_key": "safety.violation_report_{}",
+      "params": [
+        1
+      ],
+      "title": "safety.violation_report(1)"
+    },
+    {
+      "id": "3eea11a038463e2c8713c0f2",
+      "template_key": "safety.violation_report_{}",
+      "params": [
+        1
+      ],
+      "title": "safety.violation_report(1)"
+    },
+    {
+      "id": "3eea11a038463e2c8713c0f2",
+      "template_key": "safety.violation_report_{}",
+      "params": [
+        1
+      ],
+      "title": "safety.violation_report(1)"
+    },
+    {
+      "id": "3eea11a038463e2c8713c0f2",
+      "template_key": "safety.violation_report_{}",
+      "params": [
+        1
+      ],
+      "title": "safety.violation_report(1)"
+    },
+    {
+      "id": "3eea11a038463e2c8713c0f2",
+      "template_key": "safety.violation_report_{}",
+      "params": [
+        1
+      ],
+      "title": "safety.violation_report(1)"
+    },
+    {
+      "id": "3eea11a038463e2c8713c0f2",
+      "template_key": "safety.violation_report_{}",
+      "params": [
+        1
+      ],
+      "title": "safety.violation_report(1)"
+    },
+    {
+      "id": "3eea11a038463e2c8713c0f2",
+      "template_key": "safety.violation_report_{}",
+      "params": [
+        1
+      ],
+      "title": "safety.violation_report(1)"
+    },
+    {
+      "id": "3eea11a038463e2c8713c0f2",
+      "template_key": "safety.violation_report_{}",
+      "params": [
+        1
+      ],
+      "title": "safety.violation_report(1)"
+    },
+    {
+      "id": "3eea11a038463e2c8713c0f2",
+      "template_key": "safety.violation_report_{}",
+      "params": [
+        1
+      ],
+      "title": "safety.violation_report(1)"
+    },
+    {
+      "id": "3eea11a038463e2c8713c0f2",
+      "template_key": "safety.violation_report_{}",
+      "params": [
+        1
+      ],
+      "title": "safety.violation_report(1)"
+    },
+    {
+      "id": "3eea11a038463e2c8713c0f2",
+      "template_key": "safety.violation_report_{}",
+      "params": [
+        1
+      ],
+      "title": "safety.violation_report(1)"
+    },
+    {
+      "id": "3eea11a038463e2c8713c0f2",
+      "template_key": "safety.violation_report_{}",
+      "params": [
+        1
+      ],
+      "title": "safety.violation_report(1)"
+    },
+    {
+      "id": "3eea11a038463e2c8713c0f2",
+      "template_key": "safety.violation_report_{}",
+      "params": [
+        1
+      ],
+      "title": "safety.violation_report(1)"
+    },
+    {
+      "id": "64397b1a156c6df1b80e0692",
+      "template_key": "safety.rate_limit_{}",
+      "params": [
+        1
+      ],
+      "title": "safety.rate_limit(1)"
+    },
+    {
+      "id": "64397b1a156c6df1b80e0692",
+      "template_key": "safety.rate_limit_{}",
+      "params": [
+        1
+      ],
+      "title": "safety.rate_limit(1)"
+    },
+    {
+      "id": "64397b1a156c6df1b80e0692",
+      "template_key": "safety.rate_limit_{}",
+      "params": [
+        1
+      ],
+      "title": "safety.rate_limit(1)"
+    },
+    {
+      "id": "64397b1a156c6df1b80e0692",
+      "template_key": "safety.rate_limit_{}",
+      "params": [
+        1
+      ],
+      "title": "safety.rate_limit(1)"
+    },
+    {
+      "id": "64397b1a156c6df1b80e0692",
+      "template_key": "safety.rate_limit_{}",
+      "params": [
+        1
+      ],
+      "title": "safety.rate_limit(1)"
+    },
+    {
+      "id": "64397b1a156c6df1b80e0692",
+      "template_key": "safety.rate_limit_{}",
+      "params": [
+        1
+      ],
+      "title": "safety.rate_limit(1)"
+    },
+    {
+      "id": "64397b1a156c6df1b80e0692",
+      "template_key": "safety.rate_limit_{}",
+      "params": [
+        1
+      ],
+      "title": "safety.rate_limit(1)"
+    },
+    {
+      "id": "64397b1a156c6df1b80e0692",
+      "template_key": "safety.rate_limit_{}",
+      "params": [
+        1
+      ],
+      "title": "safety.rate_limit(1)"
+    },
+    {
+      "id": "64397b1a156c6df1b80e0692",
+      "template_key": "safety.rate_limit_{}",
+      "params": [
+        1
+      ],
+      "title": "safety.rate_limit(1)"
+    },
+    {
+      "id": "64397b1a156c6df1b80e0692",
+      "template_key": "safety.rate_limit_{}",
+      "params": [
+        1
+      ],
+      "title": "safety.rate_limit(1)"
+    },
+    {
+      "id": "64397b1a156c6df1b80e0692",
+      "template_key": "safety.rate_limit_{}",
+      "params": [
+        1
+      ],
+      "title": "safety.rate_limit(1)"
+    },
+    {
+      "id": "64397b1a156c6df1b80e0692",
+      "template_key": "safety.rate_limit_{}",
+      "params": [
+        1
+      ],
+      "title": "safety.rate_limit(1)"
+    },
+    {
+      "id": "64397b1a156c6df1b80e0692",
+      "template_key": "safety.rate_limit_{}",
+      "params": [
+        1
+      ],
+      "title": "safety.rate_limit(1)"
+    },
+    {
+      "id": "64397b1a156c6df1b80e0692",
+      "template_key": "safety.rate_limit_{}",
+      "params": [
+        1
+      ],
+      "title": "safety.rate_limit(1)"
+    },
+    {
+      "id": "98781696d4e0cc19dc259f2f",
+      "template_key": "safety.sandbox_{}",
+      "params": [
+        1
+      ],
+      "title": "safety.sandbox(1)"
+    },
+    {
+      "id": "98781696d4e0cc19dc259f2f",
+      "template_key": "safety.sandbox_{}",
+      "params": [
+        1
+      ],
+      "title": "safety.sandbox(1)"
+    },
+    {
+      "id": "98781696d4e0cc19dc259f2f",
+      "template_key": "safety.sandbox_{}",
+      "params": [
+        1
+      ],
+      "title": "safety.sandbox(1)"
+    },
+    {
+      "id": "98781696d4e0cc19dc259f2f",
+      "template_key": "safety.sandbox_{}",
+      "params": [
+        1
+      ],
+      "title": "safety.sandbox(1)"
+    },
+    {
+      "id": "98781696d4e0cc19dc259f2f",
+      "template_key": "safety.sandbox_{}",
+      "params": [
+        1
+      ],
+      "title": "safety.sandbox(1)"
+    },
+    {
+      "id": "98781696d4e0cc19dc259f2f",
+      "template_key": "safety.sandbox_{}",
+      "params": [
+        1
+      ],
+      "title": "safety.sandbox(1)"
+    },
+    {
+      "id": "98781696d4e0cc19dc259f2f",
+      "template_key": "safety.sandbox_{}",
+      "params": [
+        1
+      ],
+      "title": "safety.sandbox(1)"
+    },
+    {
+      "id": "98781696d4e0cc19dc259f2f",
+      "template_key": "safety.sandbox_{}",
+      "params": [
+        1
+      ],
+      "title": "safety.sandbox(1)"
+    },
+    {
+      "id": "98781696d4e0cc19dc259f2f",
+      "template_key": "safety.sandbox_{}",
+      "params": [
+        1
+      ],
+      "title": "safety.sandbox(1)"
+    },
+    {
+      "id": "98781696d4e0cc19dc259f2f",
+      "template_key": "safety.sandbox_{}",
+      "params": [
+        1
+      ],
+      "title": "safety.sandbox(1)"
+    },
+    {
+      "id": "98781696d4e0cc19dc259f2f",
+      "template_key": "safety.sandbox_{}",
+      "params": [
+        1
+      ],
+      "title": "safety.sandbox(1)"
+    },
+    {
+      "id": "98781696d4e0cc19dc259f2f",
+      "template_key": "safety.sandbox_{}",
+      "params": [
+        1
+      ],
+      "title": "safety.sandbox(1)"
+    },
+    {
+      "id": "98781696d4e0cc19dc259f2f",
+      "template_key": "safety.sandbox_{}",
+      "params": [
+        1
+      ],
+      "title": "safety.sandbox(1)"
+    },
+    {
+      "id": "98781696d4e0cc19dc259f2f",
+      "template_key": "safety.sandbox_{}",
+      "params": [
+        1
+      ],
+      "title": "safety.sandbox(1)"
+    },
+    {
+      "id": "79a021537ea847ebaebc4952",
+      "template_key": "safety.quarantine_{}",
+      "params": [
+        1
+      ],
+      "title": "safety.quarantine(1)"
+    },
+    {
+      "id": "79a021537ea847ebaebc4952",
+      "template_key": "safety.quarantine_{}",
+      "params": [
+        1
+      ],
+      "title": "safety.quarantine(1)"
+    },
+    {
+      "id": "79a021537ea847ebaebc4952",
+      "template_key": "safety.quarantine_{}",
+      "params": [
+        1
+      ],
+      "title": "safety.quarantine(1)"
+    },
+    {
+      "id": "79a021537ea847ebaebc4952",
+      "template_key": "safety.quarantine_{}",
+      "params": [
+        1
+      ],
+      "title": "safety.quarantine(1)"
+    },
+    {
+      "id": "79a021537ea847ebaebc4952",
+      "template_key": "safety.quarantine_{}",
+      "params": [
+        1
+      ],
+      "title": "safety.quarantine(1)"
+    },
+    {
+      "id": "79a021537ea847ebaebc4952",
+      "template_key": "safety.quarantine_{}",
+      "params": [
+        1
+      ],
+      "title": "safety.quarantine(1)"
+    },
+    {
+      "id": "79a021537ea847ebaebc4952",
+      "template_key": "safety.quarantine_{}",
+      "params": [
+        1
+      ],
+      "title": "safety.quarantine(1)"
+    },
+    {
+      "id": "79a021537ea847ebaebc4952",
+      "template_key": "safety.quarantine_{}",
+      "params": [
+        1
+      ],
+      "title": "safety.quarantine(1)"
+    },
+    {
+      "id": "79a021537ea847ebaebc4952",
+      "template_key": "safety.quarantine_{}",
+      "params": [
+        1
+      ],
+      "title": "safety.quarantine(1)"
+    },
+    {
+      "id": "79a021537ea847ebaebc4952",
+      "template_key": "safety.quarantine_{}",
+      "params": [
+        1
+      ],
+      "title": "safety.quarantine(1)"
+    },
+    {
+      "id": "79a021537ea847ebaebc4952",
+      "template_key": "safety.quarantine_{}",
+      "params": [
+        1
+      ],
+      "title": "safety.quarantine(1)"
+    },
+    {
+      "id": "79a021537ea847ebaebc4952",
+      "template_key": "safety.quarantine_{}",
+      "params": [
+        1
+      ],
+      "title": "safety.quarantine(1)"
+    },
+    {
+      "id": "79a021537ea847ebaebc4952",
+      "template_key": "safety.quarantine_{}",
+      "params": [
+        1
+      ],
+      "title": "safety.quarantine(1)"
+    },
+    {
+      "id": "79a021537ea847ebaebc4952",
+      "template_key": "safety.quarantine_{}",
+      "params": [
+        1
+      ],
+      "title": "safety.quarantine(1)"
+    },
+    {
+      "id": "6fe942bf386cc2d2f17474c9",
+      "template_key": "policy.load_{}",
+      "params": [
+        1
+      ],
+      "title": "policy.load(1)"
+    },
+    {
+      "id": "6fe942bf386cc2d2f17474c9",
+      "template_key": "policy.load_{}",
+      "params": [
+        1
+      ],
+      "title": "policy.load(1)"
+    },
+    {
+      "id": "6fe942bf386cc2d2f17474c9",
+      "template_key": "policy.load_{}",
+      "params": [
+        1
+      ],
+      "title": "policy.load(1)"
+    },
+    {
+      "id": "6fe942bf386cc2d2f17474c9",
+      "template_key": "policy.load_{}",
+      "params": [
+        1
+      ],
+      "title": "policy.load(1)"
+    },
+    {
+      "id": "6fe942bf386cc2d2f17474c9",
+      "template_key": "policy.load_{}",
+      "params": [
+        1
+      ],
+      "title": "policy.load(1)"
+    },
+    {
+      "id": "6fe942bf386cc2d2f17474c9",
+      "template_key": "policy.load_{}",
+      "params": [
+        1
+      ],
+      "title": "policy.load(1)"
+    },
+    {
+      "id": "6fe942bf386cc2d2f17474c9",
+      "template_key": "policy.load_{}",
+      "params": [
+        1
+      ],
+      "title": "policy.load(1)"
+    },
+    {
+      "id": "6fe942bf386cc2d2f17474c9",
+      "template_key": "policy.load_{}",
+      "params": [
+        1
+      ],
+      "title": "policy.load(1)"
+    },
+    {
+      "id": "6fe942bf386cc2d2f17474c9",
+      "template_key": "policy.load_{}",
+      "params": [
+        1
+      ],
+      "title": "policy.load(1)"
+    },
+    {
+      "id": "6fe942bf386cc2d2f17474c9",
+      "template_key": "policy.load_{}",
+      "params": [
+        1
+      ],
+      "title": "policy.load(1)"
+    },
+    {
+      "id": "6fe942bf386cc2d2f17474c9",
+      "template_key": "policy.load_{}",
+      "params": [
+        1
+      ],
+      "title": "policy.load(1)"
+    },
+    {
+      "id": "6fe942bf386cc2d2f17474c9",
+      "template_key": "policy.load_{}",
+      "params": [
+        1
+      ],
+      "title": "policy.load(1)"
+    },
+    {
+      "id": "6fe942bf386cc2d2f17474c9",
+      "template_key": "policy.load_{}",
+      "params": [
+        1
+      ],
+      "title": "policy.load(1)"
+    },
+    {
+      "id": "6fe942bf386cc2d2f17474c9",
+      "template_key": "policy.load_{}",
+      "params": [
+        1
+      ],
+      "title": "policy.load(1)"
+    },
+    {
+      "id": "901e782f979f464ae0296da7",
+      "template_key": "policy.enable_{}",
+      "params": [
+        1
+      ],
+      "title": "policy.enable(1)"
+    },
+    {
+      "id": "901e782f979f464ae0296da7",
+      "template_key": "policy.enable_{}",
+      "params": [
+        1
+      ],
+      "title": "policy.enable(1)"
+    },
+    {
+      "id": "901e782f979f464ae0296da7",
+      "template_key": "policy.enable_{}",
+      "params": [
+        1
+      ],
+      "title": "policy.enable(1)"
+    },
+    {
+      "id": "901e782f979f464ae0296da7",
+      "template_key": "policy.enable_{}",
+      "params": [
+        1
+      ],
+      "title": "policy.enable(1)"
+    },
+    {
+      "id": "901e782f979f464ae0296da7",
+      "template_key": "policy.enable_{}",
+      "params": [
+        1
+      ],
+      "title": "policy.enable(1)"
+    },
+    {
+      "id": "901e782f979f464ae0296da7",
+      "template_key": "policy.enable_{}",
+      "params": [
+        1
+      ],
+      "title": "policy.enable(1)"
+    },
+    {
+      "id": "901e782f979f464ae0296da7",
+      "template_key": "policy.enable_{}",
+      "params": [
+        1
+      ],
+      "title": "policy.enable(1)"
+    },
+    {
+      "id": "901e782f979f464ae0296da7",
+      "template_key": "policy.enable_{}",
+      "params": [
+        1
+      ],
+      "title": "policy.enable(1)"
+    },
+    {
+      "id": "901e782f979f464ae0296da7",
+      "template_key": "policy.enable_{}",
+      "params": [
+        1
+      ],
+      "title": "policy.enable(1)"
+    },
+    {
+      "id": "901e782f979f464ae0296da7",
+      "template_key": "policy.enable_{}",
+      "params": [
+        1
+      ],
+      "title": "policy.enable(1)"
+    },
+    {
+      "id": "901e782f979f464ae0296da7",
+      "template_key": "policy.enable_{}",
+      "params": [
+        1
+      ],
+      "title": "policy.enable(1)"
+    },
+    {
+      "id": "901e782f979f464ae0296da7",
+      "template_key": "policy.enable_{}",
+      "params": [
+        1
+      ],
+      "title": "policy.enable(1)"
+    },
+    {
+      "id": "901e782f979f464ae0296da7",
+      "template_key": "policy.enable_{}",
+      "params": [
+        1
+      ],
+      "title": "policy.enable(1)"
+    },
+    {
+      "id": "901e782f979f464ae0296da7",
+      "template_key": "policy.enable_{}",
+      "params": [
+        1
+      ],
+      "title": "policy.enable(1)"
+    },
+    {
+      "id": "e8656451f5f140b0c9c152ee",
+      "template_key": "policy.disable_{}",
+      "params": [
+        1
+      ],
+      "title": "policy.disable(1)"
+    },
+    {
+      "id": "e8656451f5f140b0c9c152ee",
+      "template_key": "policy.disable_{}",
+      "params": [
+        1
+      ],
+      "title": "policy.disable(1)"
+    },
+    {
+      "id": "e8656451f5f140b0c9c152ee",
+      "template_key": "policy.disable_{}",
+      "params": [
+        1
+      ],
+      "title": "policy.disable(1)"
+    },
+    {
+      "id": "e8656451f5f140b0c9c152ee",
+      "template_key": "policy.disable_{}",
+      "params": [
+        1
+      ],
+      "title": "policy.disable(1)"
+    },
+    {
+      "id": "e8656451f5f140b0c9c152ee",
+      "template_key": "policy.disable_{}",
+      "params": [
+        1
+      ],
+      "title": "policy.disable(1)"
+    },
+    {
+      "id": "e8656451f5f140b0c9c152ee",
+      "template_key": "policy.disable_{}",
+      "params": [
+        1
+      ],
+      "title": "policy.disable(1)"
+    },
+    {
+      "id": "e8656451f5f140b0c9c152ee",
+      "template_key": "policy.disable_{}",
+      "params": [
+        1
+      ],
+      "title": "policy.disable(1)"
+    },
+    {
+      "id": "e8656451f5f140b0c9c152ee",
+      "template_key": "policy.disable_{}",
+      "params": [
+        1
+      ],
+      "title": "policy.disable(1)"
+    },
+    {
+      "id": "e8656451f5f140b0c9c152ee",
+      "template_key": "policy.disable_{}",
+      "params": [
+        1
+      ],
+      "title": "policy.disable(1)"
+    },
+    {
+      "id": "e8656451f5f140b0c9c152ee",
+      "template_key": "policy.disable_{}",
+      "params": [
+        1
+      ],
+      "title": "policy.disable(1)"
+    },
+    {
+      "id": "e8656451f5f140b0c9c152ee",
+      "template_key": "policy.disable_{}",
+      "params": [
+        1
+      ],
+      "title": "policy.disable(1)"
+    },
+    {
+      "id": "e8656451f5f140b0c9c152ee",
+      "template_key": "policy.disable_{}",
+      "params": [
+        1
+      ],
+      "title": "policy.disable(1)"
+    },
+    {
+      "id": "e8656451f5f140b0c9c152ee",
+      "template_key": "policy.disable_{}",
+      "params": [
+        1
+      ],
+      "title": "policy.disable(1)"
+    },
+    {
+      "id": "e8656451f5f140b0c9c152ee",
+      "template_key": "policy.disable_{}",
+      "params": [
+        1
+      ],
+      "title": "policy.disable(1)"
+    },
+    {
+      "id": "804a6bc3baff3cd06074b819",
+      "template_key": "policy.query_{}",
+      "params": [
+        1
+      ],
+      "title": "policy.query(1)"
+    },
+    {
+      "id": "804a6bc3baff3cd06074b819",
+      "template_key": "policy.query_{}",
+      "params": [
+        1
+      ],
+      "title": "policy.query(1)"
+    },
+    {
+      "id": "804a6bc3baff3cd06074b819",
+      "template_key": "policy.query_{}",
+      "params": [
+        1
+      ],
+      "title": "policy.query(1)"
+    },
+    {
+      "id": "804a6bc3baff3cd06074b819",
+      "template_key": "policy.query_{}",
+      "params": [
+        1
+      ],
+      "title": "policy.query(1)"
+    },
+    {
+      "id": "804a6bc3baff3cd06074b819",
+      "template_key": "policy.query_{}",
+      "params": [
+        1
+      ],
+      "title": "policy.query(1)"
+    },
+    {
+      "id": "804a6bc3baff3cd06074b819",
+      "template_key": "policy.query_{}",
+      "params": [
+        1
+      ],
+      "title": "policy.query(1)"
+    },
+    {
+      "id": "804a6bc3baff3cd06074b819",
+      "template_key": "policy.query_{}",
+      "params": [
+        1
+      ],
+      "title": "policy.query(1)"
+    },
+    {
+      "id": "804a6bc3baff3cd06074b819",
+      "template_key": "policy.query_{}",
+      "params": [
+        1
+      ],
+      "title": "policy.query(1)"
+    },
+    {
+      "id": "804a6bc3baff3cd06074b819",
+      "template_key": "policy.query_{}",
+      "params": [
+        1
+      ],
+      "title": "policy.query(1)"
+    },
+    {
+      "id": "804a6bc3baff3cd06074b819",
+      "template_key": "policy.query_{}",
+      "params": [
+        1
+      ],
+      "title": "policy.query(1)"
+    },
+    {
+      "id": "804a6bc3baff3cd06074b819",
+      "template_key": "policy.query_{}",
+      "params": [
+        1
+      ],
+      "title": "policy.query(1)"
+    },
+    {
+      "id": "804a6bc3baff3cd06074b819",
+      "template_key": "policy.query_{}",
+      "params": [
+        1
+      ],
+      "title": "policy.query(1)"
+    },
+    {
+      "id": "804a6bc3baff3cd06074b819",
+      "template_key": "policy.query_{}",
+      "params": [
+        1
+      ],
+      "title": "policy.query(1)"
+    },
+    {
+      "id": "804a6bc3baff3cd06074b819",
+      "template_key": "policy.query_{}",
+      "params": [
+        1
+      ],
+      "title": "policy.query(1)"
+    },
+    {
+      "id": "55fd44245e00b5efaa1567ba",
+      "template_key": "policy.decision_{}",
+      "params": [
+        1
+      ],
+      "title": "policy.decision(1)"
+    },
+    {
+      "id": "55fd44245e00b5efaa1567ba",
+      "template_key": "policy.decision_{}",
+      "params": [
+        1
+      ],
+      "title": "policy.decision(1)"
+    },
+    {
+      "id": "55fd44245e00b5efaa1567ba",
+      "template_key": "policy.decision_{}",
+      "params": [
+        1
+      ],
+      "title": "policy.decision(1)"
+    },
+    {
+      "id": "55fd44245e00b5efaa1567ba",
+      "template_key": "policy.decision_{}",
+      "params": [
+        1
+      ],
+      "title": "policy.decision(1)"
+    },
+    {
+      "id": "55fd44245e00b5efaa1567ba",
+      "template_key": "policy.decision_{}",
+      "params": [
+        1
+      ],
+      "title": "policy.decision(1)"
+    },
+    {
+      "id": "55fd44245e00b5efaa1567ba",
+      "template_key": "policy.decision_{}",
+      "params": [
+        1
+      ],
+      "title": "policy.decision(1)"
+    },
+    {
+      "id": "55fd44245e00b5efaa1567ba",
+      "template_key": "policy.decision_{}",
+      "params": [
+        1
+      ],
+      "title": "policy.decision(1)"
+    },
+    {
+      "id": "55fd44245e00b5efaa1567ba",
+      "template_key": "policy.decision_{}",
+      "params": [
+        1
+      ],
+      "title": "policy.decision(1)"
+    },
+    {
+      "id": "55fd44245e00b5efaa1567ba",
+      "template_key": "policy.decision_{}",
+      "params": [
+        1
+      ],
+      "title": "policy.decision(1)"
+    },
+    {
+      "id": "55fd44245e00b5efaa1567ba",
+      "template_key": "policy.decision_{}",
+      "params": [
+        1
+      ],
+      "title": "policy.decision(1)"
+    },
+    {
+      "id": "55fd44245e00b5efaa1567ba",
+      "template_key": "policy.decision_{}",
+      "params": [
+        1
+      ],
+      "title": "policy.decision(1)"
+    },
+    {
+      "id": "55fd44245e00b5efaa1567ba",
+      "template_key": "policy.decision_{}",
+      "params": [
+        1
+      ],
+      "title": "policy.decision(1)"
+    },
+    {
+      "id": "55fd44245e00b5efaa1567ba",
+      "template_key": "policy.decision_{}",
+      "params": [
+        1
+      ],
+      "title": "policy.decision(1)"
+    },
+    {
+      "id": "55fd44245e00b5efaa1567ba",
+      "template_key": "policy.decision_{}",
+      "params": [
+        1
+      ],
+      "title": "policy.decision(1)"
+    },
+    {
+      "id": "policy.pack_load_0",
+      "template_key": "policy.pack_load_{}_{}",
+      "params": [
+        1,
+        1
+      ],
+      "title": "policy.pack_load(1,1)"
+    },
+    {
+      "id": "policy.pack_load_1",
+      "template_key": "policy.pack_load_{}_{}",
+      "params": [
+        1,
+        1
+      ],
+      "title": "policy.pack_load(1,1)"
+    },
+    {
+      "id": "safety.audit_mic_0",
+      "template_key": "safety.audit_mic_{}",
+      "params": [
+        1
+      ],
+      "title": "safety.audit_mic(1)"
+    },
+    {
+      "id": "safety.audit_mic_1",
+      "template_key": "safety.audit_mic_{}",
+      "params": [
+        1
+      ],
+      "title": "safety.audit_mic(1)"
+    },
+    {
+      "id": "safety.sandbox_level_0",
+      "template_key": "safety.sandbox_level_{}",
+      "params": [
+        1
+      ],
+      "title": "safety.sandbox_level(1)"
+    },
+    {
+      "id": "safety.sandbox_level_1",
+      "template_key": "safety.sandbox_level_{}",
+      "params": [
+        1
+      ],
+      "title": "safety.sandbox_level(1)"
+    }
+  ]
+}

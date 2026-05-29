@@ -1,0 +1,448 @@
+{
+  "block": "D3_Block13",
+  "version": "6.30R1",
+  "templates": [
+    {
+      "template_key": "cas.put_{}",
+      "canonical": "cas.put",
+      "placeholders": [
+        "p1"
+      ],
+      "freq": 1,
+      "category": "store",
+      "op": "put",
+      "types": [
+        "any"
+      ]
+    },
+    {
+      "template_key": "cas.get_{}",
+      "canonical": "cas.get",
+      "placeholders": [
+        "p1"
+      ],
+      "freq": 1,
+      "category": "store",
+      "op": "get",
+      "types": [
+        "any"
+      ]
+    },
+    {
+      "template_key": "cas.pin_{}",
+      "canonical": "cas.pin",
+      "placeholders": [
+        "p1"
+      ],
+      "freq": 1,
+      "category": "cache",
+      "op": "pin",
+      "types": [
+        "any"
+      ]
+    },
+    {
+      "template_key": "cas.unpin_{}",
+      "canonical": "cas.unpin",
+      "placeholders": [
+        "p1"
+      ],
+      "freq": 1,
+      "category": "cache",
+      "op": "unpin",
+      "types": [
+        "any"
+      ]
+    },
+    {
+      "template_key": "cas.prefetch_{}",
+      "canonical": "cas.prefetch",
+      "placeholders": [
+        "p1"
+      ],
+      "freq": 1,
+      "category": "cache",
+      "op": "prefetch",
+      "types": [
+        "any"
+      ]
+    },
+    {
+      "template_key": "cas.list_{}",
+      "canonical": "cas.list",
+      "placeholders": [
+        "p1"
+      ],
+      "freq": 1,
+      "category": "store",
+      "op": "list",
+      "types": [
+        "any"
+      ]
+    },
+    {
+      "template_key": "cas.stat_{}",
+      "canonical": "cas.stat",
+      "placeholders": [
+        "p1"
+      ],
+      "freq": 1,
+      "category": "store",
+      "op": "stat",
+      "types": [
+        "any"
+      ]
+    },
+    {
+      "template_key": "cas.evict_{}",
+      "canonical": "cas.evict",
+      "placeholders": [
+        "p1"
+      ],
+      "freq": 1,
+      "category": "cache",
+      "op": "evict",
+      "types": [
+        "any"
+      ]
+    },
+    {
+      "template_key": "cas.gc_{}",
+      "canonical": "cas.gc",
+      "placeholders": [
+        "p1"
+      ],
+      "freq": 1,
+      "category": "gc",
+      "op": "collect",
+      "types": [
+        "any"
+      ]
+    },
+    {
+      "template_key": "cas.retry_{}",
+      "canonical": "cas.retry",
+      "placeholders": [
+        "p1"
+      ],
+      "freq": 1,
+      "category": "link",
+      "op": "retry",
+      "types": [
+        "any"
+      ]
+    },
+    {
+      "template_key": "cas.timeout_{}",
+      "canonical": "cas.timeout",
+      "placeholders": [
+        "p1"
+      ],
+      "freq": 1,
+      "category": "link",
+      "op": "timeout",
+      "types": [
+        "any"
+      ]
+    },
+    {
+      "template_key": "cas.quota_{}",
+      "canonical": "cas.quota",
+      "placeholders": [
+        "p1"
+      ],
+      "freq": 1,
+      "category": "quota",
+      "op": "set",
+      "types": [
+        "any"
+      ]
+    },
+    {
+      "template_key": "cas.lru_set_{}",
+      "canonical": "cas.lru_set",
+      "placeholders": [
+        "p1"
+      ],
+      "freq": 1,
+      "category": "cache",
+      "op": "capacity",
+      "types": [
+        "any"
+      ]
+    },
+    {
+      "template_key": "cas.cache_mode_{}",
+      "canonical": "cas.cache_mode",
+      "placeholders": [
+        "p1"
+      ],
+      "freq": 1,
+      "category": "cache",
+      "op": "mode",
+      "types": [
+        "any"
+      ]
+    },
+    {
+      "template_key": "cas.verify_{}",
+      "canonical": "cas.verify",
+      "placeholders": [
+        "p1"
+      ],
+      "freq": 1,
+      "category": "integrity",
+      "op": "verify",
+      "types": [
+        "any"
+      ]
+    },
+    {
+      "template_key": "cas.namespace_{}",
+      "canonical": "cas.namespace",
+      "placeholders": [
+        "p1"
+      ],
+      "freq": 1,
+      "category": "store",
+      "op": "ns",
+      "types": [
+        "any"
+      ]
+    },
+    {
+      "template_key": "cas.export_{}",
+      "canonical": "cas.export",
+      "placeholders": [
+        "p1"
+      ],
+      "freq": 1,
+      "category": "interop",
+      "op": "export",
+      "types": [
+        "any"
+      ]
+    },
+    {
+      "template_key": "cas.import_{}",
+      "canonical": "cas.import",
+      "placeholders": [
+        "p1"
+      ],
+      "freq": 1,
+      "category": "interop",
+      "op": "import",
+      "types": [
+        "any"
+      ]
+    },
+    {
+      "template_key": "cas.encrypt_{}",
+      "canonical": "cas.encrypt",
+      "placeholders": [
+        "p1"
+      ],
+      "freq": 1,
+      "category": "security",
+      "op": "encrypt",
+      "types": [
+        "any"
+      ]
+    },
+    {
+      "template_key": "cas.decrypt_{}",
+      "canonical": "cas.decrypt",
+      "placeholders": [
+        "p1"
+      ],
+      "freq": 1,
+      "category": "security",
+      "op": "decrypt",
+      "types": [
+        "any"
+      ]
+    },
+    {
+      "template_key": "cas.access_{}",
+      "canonical": "cas.access",
+      "placeholders": [
+        "p1"
+      ],
+      "freq": 1,
+      "category": "security",
+      "op": "access",
+      "types": [
+        "any"
+      ]
+    },
+    {
+      "template_key": "cas.audit_{}",
+      "canonical": "cas.audit",
+      "placeholders": [
+        "p1"
+      ],
+      "freq": 1,
+      "category": "security",
+      "op": "audit",
+      "types": [
+        "any"
+      ]
+    },
+    {
+      "template_key": "cas.stats_emit_{}",
+      "canonical": "cas.stats_emit",
+      "placeholders": [
+        "p1"
+      ],
+      "freq": 1,
+      "category": "metrics",
+      "op": "emit",
+      "types": [
+        "any"
+      ]
+    },
+    {
+      "template_key": "ref.hash_{}",
+      "canonical": "ref.hash",
+      "placeholders": [
+        "p1"
+      ],
+      "freq": 1,
+      "category": "ref",
+      "op": "hash",
+      "types": [
+        "any"
+      ]
+    },
+    {
+      "template_key": "ref.inline_{}",
+      "canonical": "ref.inline",
+      "placeholders": [
+        "p1"
+      ],
+      "freq": 1,
+      "category": "ref",
+      "op": "inline",
+      "types": [
+        "any"
+      ]
+    },
+    {
+      "template_key": "ref.pack_{}",
+      "canonical": "ref.pack",
+      "placeholders": [
+        "p1"
+      ],
+      "freq": 1,
+      "category": "ref",
+      "op": "pack",
+      "types": [
+        "any"
+      ]
+    },
+    {
+      "template_key": "ref.unpack_{}",
+      "canonical": "ref.unpack",
+      "placeholders": [
+        "p1"
+      ],
+      "freq": 1,
+      "category": "ref",
+      "op": "unpack",
+      "types": [
+        "any"
+      ]
+    },
+    {
+      "template_key": "ref.batch_put_{}",
+      "canonical": "ref.batch_put",
+      "placeholders": [
+        "p1"
+      ],
+      "freq": 1,
+      "category": "ref",
+      "op": "put",
+      "types": [
+        "any"
+      ]
+    },
+    {
+      "template_key": "ref.batch_get_{}",
+      "canonical": "ref.batch_get",
+      "placeholders": [
+        "p1"
+      ],
+      "freq": 1,
+      "category": "ref",
+      "op": "get",
+      "types": [
+        "any"
+      ]
+    },
+    {
+      "template_key": "ref.merge_{}",
+      "canonical": "ref.merge",
+      "placeholders": [
+        "p1"
+      ],
+      "freq": 1,
+      "category": "ref",
+      "op": "merge",
+      "types": [
+        "any"
+      ]
+    },
+    {
+      "template_key": "ref.split_{}",
+      "canonical": "ref.split",
+      "placeholders": [
+        "p1"
+      ],
+      "freq": 1,
+      "category": "ref",
+      "op": "split",
+      "types": [
+        "any"
+      ]
+    },
+    {
+      "template_key": "ref.remap_{}",
+      "canonical": "ref.remap",
+      "placeholders": [
+        "p1"
+      ],
+      "freq": 1,
+      "category": "ref",
+      "op": "remap",
+      "types": [
+        "any"
+      ]
+    },
+    {
+      "template_key": "casr.request_{}",
+      "canonical": "casr.request",
+      "placeholders": [
+        "p1"
+      ],
+      "freq": 1,
+      "category": "casr",
+      "op": "request",
+      "types": [
+        "any"
+      ]
+    },
+    {
+      "template_key": "casr.response_{}",
+      "canonical": "casr.response",
+      "placeholders": [
+        "p1"
+      ],
+      "freq": 1,
+      "category": "casr",
+      "op": "response",
+      "types": [
+        "any"
+      ]
+    }
+  ]
+}

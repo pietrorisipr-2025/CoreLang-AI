@@ -1,0 +1,1118 @@
+{
+  "instances": [
+    {
+      "id": "07a5f28ba46e0d2be89a91b5",
+      "template_key": "id.peer_announce_{}_{}",
+      "params": [
+        1,
+        1
+      ],
+      "title": "id.peer_announce(1,1)"
+    },
+    {
+      "id": "07a5f28ba46e0d2be89a91b5",
+      "template_key": "id.peer_announce_{}_{}",
+      "params": [
+        1,
+        1
+      ],
+      "title": "id.peer_announce(1,1)"
+    },
+    {
+      "id": "07a5f28ba46e0d2be89a91b5",
+      "template_key": "id.peer_announce_{}_{}",
+      "params": [
+        1,
+        1
+      ],
+      "title": "id.peer_announce(1,1)"
+    },
+    {
+      "id": "07a5f28ba46e0d2be89a91b5",
+      "template_key": "id.peer_announce_{}_{}",
+      "params": [
+        1,
+        1
+      ],
+      "title": "id.peer_announce(1,1)"
+    },
+    {
+      "id": "07a5f28ba46e0d2be89a91b5",
+      "template_key": "id.peer_announce_{}_{}",
+      "params": [
+        1,
+        1
+      ],
+      "title": "id.peer_announce(1,1)"
+    },
+    {
+      "id": "07a5f28ba46e0d2be89a91b5",
+      "template_key": "id.peer_announce_{}_{}",
+      "params": [
+        1,
+        1
+      ],
+      "title": "id.peer_announce(1,1)"
+    },
+    {
+      "id": "07a5f28ba46e0d2be89a91b5",
+      "template_key": "id.peer_announce_{}_{}",
+      "params": [
+        1,
+        1
+      ],
+      "title": "id.peer_announce(1,1)"
+    },
+    {
+      "id": "07a5f28ba46e0d2be89a91b5",
+      "template_key": "id.peer_announce_{}_{}",
+      "params": [
+        1,
+        1
+      ],
+      "title": "id.peer_announce(1,1)"
+    },
+    {
+      "id": "07a5f28ba46e0d2be89a91b5",
+      "template_key": "id.peer_announce_{}_{}",
+      "params": [
+        1,
+        1
+      ],
+      "title": "id.peer_announce(1,1)"
+    },
+    {
+      "id": "07a5f28ba46e0d2be89a91b5",
+      "template_key": "id.peer_announce_{}_{}",
+      "params": [
+        1,
+        1
+      ],
+      "title": "id.peer_announce(1,1)"
+    },
+    {
+      "id": "fc8fa4d52097303fcdaddf48",
+      "template_key": "id.key_fingerprint_{}",
+      "params": [
+        1
+      ],
+      "title": "id.key_fingerprint(1)"
+    },
+    {
+      "id": "fc8fa4d52097303fcdaddf48",
+      "template_key": "id.key_fingerprint_{}",
+      "params": [
+        1
+      ],
+      "title": "id.key_fingerprint(1)"
+    },
+    {
+      "id": "fc8fa4d52097303fcdaddf48",
+      "template_key": "id.key_fingerprint_{}",
+      "params": [
+        1
+      ],
+      "title": "id.key_fingerprint(1)"
+    },
+    {
+      "id": "fc8fa4d52097303fcdaddf48",
+      "template_key": "id.key_fingerprint_{}",
+      "params": [
+        1
+      ],
+      "title": "id.key_fingerprint(1)"
+    },
+    {
+      "id": "fc8fa4d52097303fcdaddf48",
+      "template_key": "id.key_fingerprint_{}",
+      "params": [
+        1
+      ],
+      "title": "id.key_fingerprint(1)"
+    },
+    {
+      "id": "fc8fa4d52097303fcdaddf48",
+      "template_key": "id.key_fingerprint_{}",
+      "params": [
+        1
+      ],
+      "title": "id.key_fingerprint(1)"
+    },
+    {
+      "id": "fc8fa4d52097303fcdaddf48",
+      "template_key": "id.key_fingerprint_{}",
+      "params": [
+        1
+      ],
+      "title": "id.key_fingerprint(1)"
+    },
+    {
+      "id": "fc8fa4d52097303fcdaddf48",
+      "template_key": "id.key_fingerprint_{}",
+      "params": [
+        1
+      ],
+      "title": "id.key_fingerprint(1)"
+    },
+    {
+      "id": "fc8fa4d52097303fcdaddf48",
+      "template_key": "id.key_fingerprint_{}",
+      "params": [
+        1
+      ],
+      "title": "id.key_fingerprint(1)"
+    },
+    {
+      "id": "fc8fa4d52097303fcdaddf48",
+      "template_key": "id.key_fingerprint_{}",
+      "params": [
+        1
+      ],
+      "title": "id.key_fingerprint(1)"
+    },
+    {
+      "id": "c5776ff9c8b077296a1d646c",
+      "template_key": "id.key_rotate_{}",
+      "params": [
+        1
+      ],
+      "title": "id.key_rotate(1)"
+    },
+    {
+      "id": "c5776ff9c8b077296a1d646c",
+      "template_key": "id.key_rotate_{}",
+      "params": [
+        1
+      ],
+      "title": "id.key_rotate(1)"
+    },
+    {
+      "id": "c5776ff9c8b077296a1d646c",
+      "template_key": "id.key_rotate_{}",
+      "params": [
+        1
+      ],
+      "title": "id.key_rotate(1)"
+    },
+    {
+      "id": "c5776ff9c8b077296a1d646c",
+      "template_key": "id.key_rotate_{}",
+      "params": [
+        1
+      ],
+      "title": "id.key_rotate(1)"
+    },
+    {
+      "id": "c5776ff9c8b077296a1d646c",
+      "template_key": "id.key_rotate_{}",
+      "params": [
+        1
+      ],
+      "title": "id.key_rotate(1)"
+    },
+    {
+      "id": "c5776ff9c8b077296a1d646c",
+      "template_key": "id.key_rotate_{}",
+      "params": [
+        1
+      ],
+      "title": "id.key_rotate(1)"
+    },
+    {
+      "id": "c5776ff9c8b077296a1d646c",
+      "template_key": "id.key_rotate_{}",
+      "params": [
+        1
+      ],
+      "title": "id.key_rotate(1)"
+    },
+    {
+      "id": "c5776ff9c8b077296a1d646c",
+      "template_key": "id.key_rotate_{}",
+      "params": [
+        1
+      ],
+      "title": "id.key_rotate(1)"
+    },
+    {
+      "id": "c5776ff9c8b077296a1d646c",
+      "template_key": "id.key_rotate_{}",
+      "params": [
+        1
+      ],
+      "title": "id.key_rotate(1)"
+    },
+    {
+      "id": "c5776ff9c8b077296a1d646c",
+      "template_key": "id.key_rotate_{}",
+      "params": [
+        1
+      ],
+      "title": "id.key_rotate(1)"
+    },
+    {
+      "id": "e2d4f3548c45b3c315389d5b",
+      "template_key": "id.session_ticket_{}",
+      "params": [
+        1
+      ],
+      "title": "id.session_ticket(1)"
+    },
+    {
+      "id": "e2d4f3548c45b3c315389d5b",
+      "template_key": "id.session_ticket_{}",
+      "params": [
+        1
+      ],
+      "title": "id.session_ticket(1)"
+    },
+    {
+      "id": "e2d4f3548c45b3c315389d5b",
+      "template_key": "id.session_ticket_{}",
+      "params": [
+        1
+      ],
+      "title": "id.session_ticket(1)"
+    },
+    {
+      "id": "e2d4f3548c45b3c315389d5b",
+      "template_key": "id.session_ticket_{}",
+      "params": [
+        1
+      ],
+      "title": "id.session_ticket(1)"
+    },
+    {
+      "id": "e2d4f3548c45b3c315389d5b",
+      "template_key": "id.session_ticket_{}",
+      "params": [
+        1
+      ],
+      "title": "id.session_ticket(1)"
+    },
+    {
+      "id": "e2d4f3548c45b3c315389d5b",
+      "template_key": "id.session_ticket_{}",
+      "params": [
+        1
+      ],
+      "title": "id.session_ticket(1)"
+    },
+    {
+      "id": "e2d4f3548c45b3c315389d5b",
+      "template_key": "id.session_ticket_{}",
+      "params": [
+        1
+      ],
+      "title": "id.session_ticket(1)"
+    },
+    {
+      "id": "e2d4f3548c45b3c315389d5b",
+      "template_key": "id.session_ticket_{}",
+      "params": [
+        1
+      ],
+      "title": "id.session_ticket(1)"
+    },
+    {
+      "id": "e2d4f3548c45b3c315389d5b",
+      "template_key": "id.session_ticket_{}",
+      "params": [
+        1
+      ],
+      "title": "id.session_ticket(1)"
+    },
+    {
+      "id": "e2d4f3548c45b3c315389d5b",
+      "template_key": "id.session_ticket_{}",
+      "params": [
+        1
+      ],
+      "title": "id.session_ticket(1)"
+    },
+    {
+      "id": "bb654b54e24a77d429bda14b",
+      "template_key": "auth.challenge_{}",
+      "params": [
+        1
+      ],
+      "title": "auth.challenge(1)"
+    },
+    {
+      "id": "bb654b54e24a77d429bda14b",
+      "template_key": "auth.challenge_{}",
+      "params": [
+        1
+      ],
+      "title": "auth.challenge(1)"
+    },
+    {
+      "id": "bb654b54e24a77d429bda14b",
+      "template_key": "auth.challenge_{}",
+      "params": [
+        1
+      ],
+      "title": "auth.challenge(1)"
+    },
+    {
+      "id": "bb654b54e24a77d429bda14b",
+      "template_key": "auth.challenge_{}",
+      "params": [
+        1
+      ],
+      "title": "auth.challenge(1)"
+    },
+    {
+      "id": "bb654b54e24a77d429bda14b",
+      "template_key": "auth.challenge_{}",
+      "params": [
+        1
+      ],
+      "title": "auth.challenge(1)"
+    },
+    {
+      "id": "bb654b54e24a77d429bda14b",
+      "template_key": "auth.challenge_{}",
+      "params": [
+        1
+      ],
+      "title": "auth.challenge(1)"
+    },
+    {
+      "id": "bb654b54e24a77d429bda14b",
+      "template_key": "auth.challenge_{}",
+      "params": [
+        1
+      ],
+      "title": "auth.challenge(1)"
+    },
+    {
+      "id": "bb654b54e24a77d429bda14b",
+      "template_key": "auth.challenge_{}",
+      "params": [
+        1
+      ],
+      "title": "auth.challenge(1)"
+    },
+    {
+      "id": "bb654b54e24a77d429bda14b",
+      "template_key": "auth.challenge_{}",
+      "params": [
+        1
+      ],
+      "title": "auth.challenge(1)"
+    },
+    {
+      "id": "bb654b54e24a77d429bda14b",
+      "template_key": "auth.challenge_{}",
+      "params": [
+        1
+      ],
+      "title": "auth.challenge(1)"
+    },
+    {
+      "id": "64fbb7cbc9ef99823eccf084",
+      "template_key": "auth.response_{}",
+      "params": [
+        1
+      ],
+      "title": "auth.response(1)"
+    },
+    {
+      "id": "64fbb7cbc9ef99823eccf084",
+      "template_key": "auth.response_{}",
+      "params": [
+        1
+      ],
+      "title": "auth.response(1)"
+    },
+    {
+      "id": "64fbb7cbc9ef99823eccf084",
+      "template_key": "auth.response_{}",
+      "params": [
+        1
+      ],
+      "title": "auth.response(1)"
+    },
+    {
+      "id": "64fbb7cbc9ef99823eccf084",
+      "template_key": "auth.response_{}",
+      "params": [
+        1
+      ],
+      "title": "auth.response(1)"
+    },
+    {
+      "id": "64fbb7cbc9ef99823eccf084",
+      "template_key": "auth.response_{}",
+      "params": [
+        1
+      ],
+      "title": "auth.response(1)"
+    },
+    {
+      "id": "64fbb7cbc9ef99823eccf084",
+      "template_key": "auth.response_{}",
+      "params": [
+        1
+      ],
+      "title": "auth.response(1)"
+    },
+    {
+      "id": "64fbb7cbc9ef99823eccf084",
+      "template_key": "auth.response_{}",
+      "params": [
+        1
+      ],
+      "title": "auth.response(1)"
+    },
+    {
+      "id": "64fbb7cbc9ef99823eccf084",
+      "template_key": "auth.response_{}",
+      "params": [
+        1
+      ],
+      "title": "auth.response(1)"
+    },
+    {
+      "id": "64fbb7cbc9ef99823eccf084",
+      "template_key": "auth.response_{}",
+      "params": [
+        1
+      ],
+      "title": "auth.response(1)"
+    },
+    {
+      "id": "64fbb7cbc9ef99823eccf084",
+      "template_key": "auth.response_{}",
+      "params": [
+        1
+      ],
+      "title": "auth.response(1)"
+    },
+    {
+      "id": "e450e7de3609dbeec2db3546",
+      "template_key": "auth.verify_{}",
+      "params": [
+        1
+      ],
+      "title": "auth.verify(1)"
+    },
+    {
+      "id": "e450e7de3609dbeec2db3546",
+      "template_key": "auth.verify_{}",
+      "params": [
+        1
+      ],
+      "title": "auth.verify(1)"
+    },
+    {
+      "id": "e450e7de3609dbeec2db3546",
+      "template_key": "auth.verify_{}",
+      "params": [
+        1
+      ],
+      "title": "auth.verify(1)"
+    },
+    {
+      "id": "e450e7de3609dbeec2db3546",
+      "template_key": "auth.verify_{}",
+      "params": [
+        1
+      ],
+      "title": "auth.verify(1)"
+    },
+    {
+      "id": "e450e7de3609dbeec2db3546",
+      "template_key": "auth.verify_{}",
+      "params": [
+        1
+      ],
+      "title": "auth.verify(1)"
+    },
+    {
+      "id": "e450e7de3609dbeec2db3546",
+      "template_key": "auth.verify_{}",
+      "params": [
+        1
+      ],
+      "title": "auth.verify(1)"
+    },
+    {
+      "id": "e450e7de3609dbeec2db3546",
+      "template_key": "auth.verify_{}",
+      "params": [
+        1
+      ],
+      "title": "auth.verify(1)"
+    },
+    {
+      "id": "e450e7de3609dbeec2db3546",
+      "template_key": "auth.verify_{}",
+      "params": [
+        1
+      ],
+      "title": "auth.verify(1)"
+    },
+    {
+      "id": "e450e7de3609dbeec2db3546",
+      "template_key": "auth.verify_{}",
+      "params": [
+        1
+      ],
+      "title": "auth.verify(1)"
+    },
+    {
+      "id": "e450e7de3609dbeec2db3546",
+      "template_key": "auth.verify_{}",
+      "params": [
+        1
+      ],
+      "title": "auth.verify(1)"
+    },
+    {
+      "id": "d47559000202d5915053c8fc",
+      "template_key": "auth.pop_{}",
+      "params": [
+        1
+      ],
+      "title": "auth.pop(1)"
+    },
+    {
+      "id": "d47559000202d5915053c8fc",
+      "template_key": "auth.pop_{}",
+      "params": [
+        1
+      ],
+      "title": "auth.pop(1)"
+    },
+    {
+      "id": "d47559000202d5915053c8fc",
+      "template_key": "auth.pop_{}",
+      "params": [
+        1
+      ],
+      "title": "auth.pop(1)"
+    },
+    {
+      "id": "d47559000202d5915053c8fc",
+      "template_key": "auth.pop_{}",
+      "params": [
+        1
+      ],
+      "title": "auth.pop(1)"
+    },
+    {
+      "id": "d47559000202d5915053c8fc",
+      "template_key": "auth.pop_{}",
+      "params": [
+        1
+      ],
+      "title": "auth.pop(1)"
+    },
+    {
+      "id": "d47559000202d5915053c8fc",
+      "template_key": "auth.pop_{}",
+      "params": [
+        1
+      ],
+      "title": "auth.pop(1)"
+    },
+    {
+      "id": "d47559000202d5915053c8fc",
+      "template_key": "auth.pop_{}",
+      "params": [
+        1
+      ],
+      "title": "auth.pop(1)"
+    },
+    {
+      "id": "d47559000202d5915053c8fc",
+      "template_key": "auth.pop_{}",
+      "params": [
+        1
+      ],
+      "title": "auth.pop(1)"
+    },
+    {
+      "id": "d47559000202d5915053c8fc",
+      "template_key": "auth.pop_{}",
+      "params": [
+        1
+      ],
+      "title": "auth.pop(1)"
+    },
+    {
+      "id": "d47559000202d5915053c8fc",
+      "template_key": "auth.pop_{}",
+      "params": [
+        1
+      ],
+      "title": "auth.pop(1)"
+    },
+    {
+      "id": "c63442f5b9fce62ea2778a09",
+      "template_key": "trust.score_{}",
+      "params": [
+        1
+      ],
+      "title": "trust.score(1)"
+    },
+    {
+      "id": "c63442f5b9fce62ea2778a09",
+      "template_key": "trust.score_{}",
+      "params": [
+        1
+      ],
+      "title": "trust.score(1)"
+    },
+    {
+      "id": "c63442f5b9fce62ea2778a09",
+      "template_key": "trust.score_{}",
+      "params": [
+        1
+      ],
+      "title": "trust.score(1)"
+    },
+    {
+      "id": "c63442f5b9fce62ea2778a09",
+      "template_key": "trust.score_{}",
+      "params": [
+        1
+      ],
+      "title": "trust.score(1)"
+    },
+    {
+      "id": "c63442f5b9fce62ea2778a09",
+      "template_key": "trust.score_{}",
+      "params": [
+        1
+      ],
+      "title": "trust.score(1)"
+    },
+    {
+      "id": "c63442f5b9fce62ea2778a09",
+      "template_key": "trust.score_{}",
+      "params": [
+        1
+      ],
+      "title": "trust.score(1)"
+    },
+    {
+      "id": "c63442f5b9fce62ea2778a09",
+      "template_key": "trust.score_{}",
+      "params": [
+        1
+      ],
+      "title": "trust.score(1)"
+    },
+    {
+      "id": "c63442f5b9fce62ea2778a09",
+      "template_key": "trust.score_{}",
+      "params": [
+        1
+      ],
+      "title": "trust.score(1)"
+    },
+    {
+      "id": "c63442f5b9fce62ea2778a09",
+      "template_key": "trust.score_{}",
+      "params": [
+        1
+      ],
+      "title": "trust.score(1)"
+    },
+    {
+      "id": "c63442f5b9fce62ea2778a09",
+      "template_key": "trust.score_{}",
+      "params": [
+        1
+      ],
+      "title": "trust.score(1)"
+    },
+    {
+      "id": "f7d1a7e0bd5986851e47576f",
+      "template_key": "trust.report_{}",
+      "params": [
+        1
+      ],
+      "title": "trust.report(1)"
+    },
+    {
+      "id": "f7d1a7e0bd5986851e47576f",
+      "template_key": "trust.report_{}",
+      "params": [
+        1
+      ],
+      "title": "trust.report(1)"
+    },
+    {
+      "id": "f7d1a7e0bd5986851e47576f",
+      "template_key": "trust.report_{}",
+      "params": [
+        1
+      ],
+      "title": "trust.report(1)"
+    },
+    {
+      "id": "f7d1a7e0bd5986851e47576f",
+      "template_key": "trust.report_{}",
+      "params": [
+        1
+      ],
+      "title": "trust.report(1)"
+    },
+    {
+      "id": "f7d1a7e0bd5986851e47576f",
+      "template_key": "trust.report_{}",
+      "params": [
+        1
+      ],
+      "title": "trust.report(1)"
+    },
+    {
+      "id": "f7d1a7e0bd5986851e47576f",
+      "template_key": "trust.report_{}",
+      "params": [
+        1
+      ],
+      "title": "trust.report(1)"
+    },
+    {
+      "id": "f7d1a7e0bd5986851e47576f",
+      "template_key": "trust.report_{}",
+      "params": [
+        1
+      ],
+      "title": "trust.report(1)"
+    },
+    {
+      "id": "f7d1a7e0bd5986851e47576f",
+      "template_key": "trust.report_{}",
+      "params": [
+        1
+      ],
+      "title": "trust.report(1)"
+    },
+    {
+      "id": "f7d1a7e0bd5986851e47576f",
+      "template_key": "trust.report_{}",
+      "params": [
+        1
+      ],
+      "title": "trust.report(1)"
+    },
+    {
+      "id": "f7d1a7e0bd5986851e47576f",
+      "template_key": "trust.report_{}",
+      "params": [
+        1
+      ],
+      "title": "trust.report(1)"
+    },
+    {
+      "id": "0d0363e90e0b1c6edca105da",
+      "template_key": "trust.policy_require_{}",
+      "params": [
+        1
+      ],
+      "title": "trust.policy_require(1)"
+    },
+    {
+      "id": "0d0363e90e0b1c6edca105da",
+      "template_key": "trust.policy_require_{}",
+      "params": [
+        1
+      ],
+      "title": "trust.policy_require(1)"
+    },
+    {
+      "id": "0d0363e90e0b1c6edca105da",
+      "template_key": "trust.policy_require_{}",
+      "params": [
+        1
+      ],
+      "title": "trust.policy_require(1)"
+    },
+    {
+      "id": "0d0363e90e0b1c6edca105da",
+      "template_key": "trust.policy_require_{}",
+      "params": [
+        1
+      ],
+      "title": "trust.policy_require(1)"
+    },
+    {
+      "id": "0d0363e90e0b1c6edca105da",
+      "template_key": "trust.policy_require_{}",
+      "params": [
+        1
+      ],
+      "title": "trust.policy_require(1)"
+    },
+    {
+      "id": "0d0363e90e0b1c6edca105da",
+      "template_key": "trust.policy_require_{}",
+      "params": [
+        1
+      ],
+      "title": "trust.policy_require(1)"
+    },
+    {
+      "id": "0d0363e90e0b1c6edca105da",
+      "template_key": "trust.policy_require_{}",
+      "params": [
+        1
+      ],
+      "title": "trust.policy_require(1)"
+    },
+    {
+      "id": "0d0363e90e0b1c6edca105da",
+      "template_key": "trust.policy_require_{}",
+      "params": [
+        1
+      ],
+      "title": "trust.policy_require(1)"
+    },
+    {
+      "id": "0d0363e90e0b1c6edca105da",
+      "template_key": "trust.policy_require_{}",
+      "params": [
+        1
+      ],
+      "title": "trust.policy_require(1)"
+    },
+    {
+      "id": "0d0363e90e0b1c6edca105da",
+      "template_key": "trust.policy_require_{}",
+      "params": [
+        1
+      ],
+      "title": "trust.policy_require(1)"
+    },
+    {
+      "id": "73622c885efe627157a0cbcd",
+      "template_key": "trust.revoke_{}",
+      "params": [
+        1
+      ],
+      "title": "trust.revoke(1)"
+    },
+    {
+      "id": "73622c885efe627157a0cbcd",
+      "template_key": "trust.revoke_{}",
+      "params": [
+        1
+      ],
+      "title": "trust.revoke(1)"
+    },
+    {
+      "id": "73622c885efe627157a0cbcd",
+      "template_key": "trust.revoke_{}",
+      "params": [
+        1
+      ],
+      "title": "trust.revoke(1)"
+    },
+    {
+      "id": "73622c885efe627157a0cbcd",
+      "template_key": "trust.revoke_{}",
+      "params": [
+        1
+      ],
+      "title": "trust.revoke(1)"
+    },
+    {
+      "id": "73622c885efe627157a0cbcd",
+      "template_key": "trust.revoke_{}",
+      "params": [
+        1
+      ],
+      "title": "trust.revoke(1)"
+    },
+    {
+      "id": "73622c885efe627157a0cbcd",
+      "template_key": "trust.revoke_{}",
+      "params": [
+        1
+      ],
+      "title": "trust.revoke(1)"
+    },
+    {
+      "id": "73622c885efe627157a0cbcd",
+      "template_key": "trust.revoke_{}",
+      "params": [
+        1
+      ],
+      "title": "trust.revoke(1)"
+    },
+    {
+      "id": "73622c885efe627157a0cbcd",
+      "template_key": "trust.revoke_{}",
+      "params": [
+        1
+      ],
+      "title": "trust.revoke(1)"
+    },
+    {
+      "id": "73622c885efe627157a0cbcd",
+      "template_key": "trust.revoke_{}",
+      "params": [
+        1
+      ],
+      "title": "trust.revoke(1)"
+    },
+    {
+      "id": "73622c885efe627157a0cbcd",
+      "template_key": "trust.revoke_{}",
+      "params": [
+        1
+      ],
+      "title": "trust.revoke(1)"
+    },
+    {
+      "id": "2fcd536e5ae3ce802ca7170f",
+      "template_key": "id.capability_bind_{}",
+      "params": [
+        1
+      ],
+      "title": "id.capability_bind(1)"
+    },
+    {
+      "id": "2fcd536e5ae3ce802ca7170f",
+      "template_key": "id.capability_bind_{}",
+      "params": [
+        1
+      ],
+      "title": "id.capability_bind(1)"
+    },
+    {
+      "id": "2fcd536e5ae3ce802ca7170f",
+      "template_key": "id.capability_bind_{}",
+      "params": [
+        1
+      ],
+      "title": "id.capability_bind(1)"
+    },
+    {
+      "id": "2fcd536e5ae3ce802ca7170f",
+      "template_key": "id.capability_bind_{}",
+      "params": [
+        1
+      ],
+      "title": "id.capability_bind(1)"
+    },
+    {
+      "id": "2fcd536e5ae3ce802ca7170f",
+      "template_key": "id.capability_bind_{}",
+      "params": [
+        1
+      ],
+      "title": "id.capability_bind(1)"
+    },
+    {
+      "id": "2fcd536e5ae3ce802ca7170f",
+      "template_key": "id.capability_bind_{}",
+      "params": [
+        1
+      ],
+      "title": "id.capability_bind(1)"
+    },
+    {
+      "id": "2fcd536e5ae3ce802ca7170f",
+      "template_key": "id.capability_bind_{}",
+      "params": [
+        1
+      ],
+      "title": "id.capability_bind(1)"
+    },
+    {
+      "id": "2fcd536e5ae3ce802ca7170f",
+      "template_key": "id.capability_bind_{}",
+      "params": [
+        1
+      ],
+      "title": "id.capability_bind(1)"
+    },
+    {
+      "id": "2fcd536e5ae3ce802ca7170f",
+      "template_key": "id.capability_bind_{}",
+      "params": [
+        1
+      ],
+      "title": "id.capability_bind(1)"
+    },
+    {
+      "id": "2fcd536e5ae3ce802ca7170f",
+      "template_key": "id.capability_bind_{}",
+      "params": [
+        1
+      ],
+      "title": "id.capability_bind(1)"
+    },
+    {
+      "id": "id.session_ticket_0rtt_0",
+      "template_key": "id.session_ticket_0rtt_{}",
+      "params": [
+        1
+      ],
+      "title": "id.session_ticket_0rtt(1)"
+    },
+    {
+      "id": "id.session_ticket_0rtt_1",
+      "template_key": "id.session_ticket_0rtt_{}",
+      "params": [
+        1
+      ],
+      "title": "id.session_ticket_0rtt(1)"
+    },
+    {
+      "id": "auth.transcript_mic_0",
+      "template_key": "auth.transcript_mic_{}",
+      "params": [
+        1
+      ],
+      "title": "auth.transcript_mic(1)"
+    },
+    {
+      "id": "auth.transcript_mic_1",
+      "template_key": "auth.transcript_mic_{}",
+      "params": [
+        1
+      ],
+      "title": "auth.transcript_mic(1)"
+    },
+    {
+      "id": "id.key_rotate_grace_0",
+      "template_key": "id.key_rotate_grace_{}",
+      "params": [
+        1
+      ],
+      "title": "id.key_rotate_grace(1)"
+    },
+    {
+      "id": "id.key_rotate_grace_1",
+      "template_key": "id.key_rotate_grace_{}",
+      "params": [
+        1
+      ],
+      "title": "id.key_rotate_grace(1)"
+    },
+    {
+      "id": "trust.score_components_0",
+      "template_key": "trust.score_components_{}",
+      "params": [
+        1
+      ],
+      "title": "trust.score_components(1)"
+    },
+    {
+      "id": "trust.score_components_1",
+      "template_key": "trust.score_components_{}",
+      "params": [
+        1
+      ],
+      "title": "trust.score_components(1)"
+    }
+  ]
+}

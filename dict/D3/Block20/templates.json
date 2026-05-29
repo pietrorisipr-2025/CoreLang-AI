@@ -1,0 +1,203 @@
+{
+  "block": "D3_Block20",
+  "version": "6.30R1",
+  "templates": [
+    {
+      "template_key": "capa.offer_{}",
+      "canonical": "capa.offer",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "capa",
+      "op": "offer"
+    },
+    {
+      "template_key": "capa.require_{}",
+      "canonical": "capa.require",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "capa",
+      "op": "require"
+    },
+    {
+      "template_key": "capa.enable_{}",
+      "canonical": "capa.enable",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "capa",
+      "op": "enable"
+    },
+    {
+      "template_key": "capa.disable_{}",
+      "canonical": "capa.disable",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "capa",
+      "op": "disable"
+    },
+    {
+      "template_key": "capa.neg_result_{}",
+      "canonical": "capa.neg_result",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "capa",
+      "op": "result"
+    },
+    {
+      "template_key": "capa.query_{}",
+      "canonical": "capa.query",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "capa",
+      "op": "query"
+    },
+    {
+      "template_key": "capa.profile_{}",
+      "canonical": "capa.profile",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "capa",
+      "op": "profile"
+    },
+    {
+      "template_key": "capa.codec_pref_{}",
+      "canonical": "capa.codec_pref",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "capa",
+      "op": "set"
+    },
+    {
+      "template_key": "capa.mic_required_{}",
+      "canonical": "capa.mic_required",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "capa",
+      "op": "set"
+    },
+    {
+      "template_key": "capa.fec_required_{}",
+      "canonical": "capa.fec_required",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "capa",
+      "op": "set"
+    },
+    {
+      "template_key": "capa.pref_{}_{}",
+      "canonical": "capa.pref",
+      "placeholders": [
+        "p1",
+        "p2"
+      ],
+      "types": [
+        "any",
+        "any"
+      ],
+      "freq": 1,
+      "category": "capa",
+      "op": "set"
+    },
+    {
+      "template_key": "capa.deps_{}",
+      "canonical": "capa.deps",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "capa",
+      "op": "set"
+    },
+    {
+      "template_key": "capa.conflict_{}",
+      "canonical": "capa.conflict",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "capa",
+      "op": "report"
+    },
+    {
+      "template_key": "capa.snapshot_{}",
+      "canonical": "capa.snapshot",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "capa",
+      "op": "snapshot"
+    },
+    {
+      "template_key": "capa.restore_{}",
+      "canonical": "capa.restore",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "capa",
+      "op": "restore"
+    }
+  ]
+}

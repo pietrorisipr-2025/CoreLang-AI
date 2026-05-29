@@ -1,0 +1,982 @@
+{
+  "instances": [
+    {
+      "id": "ded4e1db505d1725a308f4e5",
+      "template_key": "ops.session_start_{}",
+      "params": [
+        1
+      ],
+      "title": "ops.session_start"
+    },
+    {
+      "id": "ded4e1db505d1725a308f4e5",
+      "template_key": "ops.session_start_{}",
+      "params": [
+        1
+      ],
+      "title": "ops.session_start"
+    },
+    {
+      "id": "ded4e1db505d1725a308f4e5",
+      "template_key": "ops.session_start_{}",
+      "params": [
+        1
+      ],
+      "title": "ops.session_start"
+    },
+    {
+      "id": "ded4e1db505d1725a308f4e5",
+      "template_key": "ops.session_start_{}",
+      "params": [
+        1
+      ],
+      "title": "ops.session_start"
+    },
+    {
+      "id": "ded4e1db505d1725a308f4e5",
+      "template_key": "ops.session_start_{}",
+      "params": [
+        1
+      ],
+      "title": "ops.session_start"
+    },
+    {
+      "id": "ded4e1db505d1725a308f4e5",
+      "template_key": "ops.session_start_{}",
+      "params": [
+        1
+      ],
+      "title": "ops.session_start"
+    },
+    {
+      "id": "24b1080f449b17047332cc4c",
+      "template_key": "ops.session_close_{}",
+      "params": [
+        1
+      ],
+      "title": "ops.session_close"
+    },
+    {
+      "id": "24b1080f449b17047332cc4c",
+      "template_key": "ops.session_close_{}",
+      "params": [
+        1
+      ],
+      "title": "ops.session_close"
+    },
+    {
+      "id": "24b1080f449b17047332cc4c",
+      "template_key": "ops.session_close_{}",
+      "params": [
+        1
+      ],
+      "title": "ops.session_close"
+    },
+    {
+      "id": "24b1080f449b17047332cc4c",
+      "template_key": "ops.session_close_{}",
+      "params": [
+        1
+      ],
+      "title": "ops.session_close"
+    },
+    {
+      "id": "24b1080f449b17047332cc4c",
+      "template_key": "ops.session_close_{}",
+      "params": [
+        1
+      ],
+      "title": "ops.session_close"
+    },
+    {
+      "id": "24b1080f449b17047332cc4c",
+      "template_key": "ops.session_close_{}",
+      "params": [
+        1
+      ],
+      "title": "ops.session_close"
+    },
+    {
+      "id": "a8fd6451eaa8140b748cdb1a",
+      "template_key": "ops.plan_{}",
+      "params": [
+        1
+      ],
+      "title": "ops.plan"
+    },
+    {
+      "id": "a8fd6451eaa8140b748cdb1a",
+      "template_key": "ops.plan_{}",
+      "params": [
+        1
+      ],
+      "title": "ops.plan"
+    },
+    {
+      "id": "a8fd6451eaa8140b748cdb1a",
+      "template_key": "ops.plan_{}",
+      "params": [
+        1
+      ],
+      "title": "ops.plan"
+    },
+    {
+      "id": "a8fd6451eaa8140b748cdb1a",
+      "template_key": "ops.plan_{}",
+      "params": [
+        1
+      ],
+      "title": "ops.plan"
+    },
+    {
+      "id": "a8fd6451eaa8140b748cdb1a",
+      "template_key": "ops.plan_{}",
+      "params": [
+        1
+      ],
+      "title": "ops.plan"
+    },
+    {
+      "id": "a8fd6451eaa8140b748cdb1a",
+      "template_key": "ops.plan_{}",
+      "params": [
+        1
+      ],
+      "title": "ops.plan"
+    },
+    {
+      "id": "753395336af50dcb382d856f",
+      "template_key": "ops.step_{}",
+      "params": [
+        1
+      ],
+      "title": "ops.step"
+    },
+    {
+      "id": "753395336af50dcb382d856f",
+      "template_key": "ops.step_{}",
+      "params": [
+        1
+      ],
+      "title": "ops.step"
+    },
+    {
+      "id": "753395336af50dcb382d856f",
+      "template_key": "ops.step_{}",
+      "params": [
+        1
+      ],
+      "title": "ops.step"
+    },
+    {
+      "id": "753395336af50dcb382d856f",
+      "template_key": "ops.step_{}",
+      "params": [
+        1
+      ],
+      "title": "ops.step"
+    },
+    {
+      "id": "753395336af50dcb382d856f",
+      "template_key": "ops.step_{}",
+      "params": [
+        1
+      ],
+      "title": "ops.step"
+    },
+    {
+      "id": "753395336af50dcb382d856f",
+      "template_key": "ops.step_{}",
+      "params": [
+        1
+      ],
+      "title": "ops.step"
+    },
+    {
+      "id": "1a1d370f6a32c5162bdea081",
+      "template_key": "ops.ack_semantic_{}",
+      "params": [
+        1
+      ],
+      "title": "ops.ack_semantic"
+    },
+    {
+      "id": "1a1d370f6a32c5162bdea081",
+      "template_key": "ops.ack_semantic_{}",
+      "params": [
+        1
+      ],
+      "title": "ops.ack_semantic"
+    },
+    {
+      "id": "1a1d370f6a32c5162bdea081",
+      "template_key": "ops.ack_semantic_{}",
+      "params": [
+        1
+      ],
+      "title": "ops.ack_semantic"
+    },
+    {
+      "id": "1a1d370f6a32c5162bdea081",
+      "template_key": "ops.ack_semantic_{}",
+      "params": [
+        1
+      ],
+      "title": "ops.ack_semantic"
+    },
+    {
+      "id": "1a1d370f6a32c5162bdea081",
+      "template_key": "ops.ack_semantic_{}",
+      "params": [
+        1
+      ],
+      "title": "ops.ack_semantic"
+    },
+    {
+      "id": "1a1d370f6a32c5162bdea081",
+      "template_key": "ops.ack_semantic_{}",
+      "params": [
+        1
+      ],
+      "title": "ops.ack_semantic"
+    },
+    {
+      "id": "e23016d8f0a29c8a515c0c8c",
+      "template_key": "ops.tool_invoke_{}_{}",
+      "params": [
+        1,
+        1
+      ],
+      "title": "ops.tool_invoke"
+    },
+    {
+      "id": "e23016d8f0a29c8a515c0c8c",
+      "template_key": "ops.tool_invoke_{}_{}",
+      "params": [
+        1,
+        1
+      ],
+      "title": "ops.tool_invoke"
+    },
+    {
+      "id": "e23016d8f0a29c8a515c0c8c",
+      "template_key": "ops.tool_invoke_{}_{}",
+      "params": [
+        1,
+        1
+      ],
+      "title": "ops.tool_invoke"
+    },
+    {
+      "id": "e23016d8f0a29c8a515c0c8c",
+      "template_key": "ops.tool_invoke_{}_{}",
+      "params": [
+        1,
+        1
+      ],
+      "title": "ops.tool_invoke"
+    },
+    {
+      "id": "e23016d8f0a29c8a515c0c8c",
+      "template_key": "ops.tool_invoke_{}_{}",
+      "params": [
+        1,
+        1
+      ],
+      "title": "ops.tool_invoke"
+    },
+    {
+      "id": "e23016d8f0a29c8a515c0c8c",
+      "template_key": "ops.tool_invoke_{}_{}",
+      "params": [
+        1,
+        1
+      ],
+      "title": "ops.tool_invoke"
+    },
+    {
+      "id": "9317f1aee7ea1e2511716034",
+      "template_key": "ops.tool_result_{}",
+      "params": [
+        1
+      ],
+      "title": "ops.tool_result"
+    },
+    {
+      "id": "9317f1aee7ea1e2511716034",
+      "template_key": "ops.tool_result_{}",
+      "params": [
+        1
+      ],
+      "title": "ops.tool_result"
+    },
+    {
+      "id": "9317f1aee7ea1e2511716034",
+      "template_key": "ops.tool_result_{}",
+      "params": [
+        1
+      ],
+      "title": "ops.tool_result"
+    },
+    {
+      "id": "9317f1aee7ea1e2511716034",
+      "template_key": "ops.tool_result_{}",
+      "params": [
+        1
+      ],
+      "title": "ops.tool_result"
+    },
+    {
+      "id": "9317f1aee7ea1e2511716034",
+      "template_key": "ops.tool_result_{}",
+      "params": [
+        1
+      ],
+      "title": "ops.tool_result"
+    },
+    {
+      "id": "9317f1aee7ea1e2511716034",
+      "template_key": "ops.tool_result_{}",
+      "params": [
+        1
+      ],
+      "title": "ops.tool_result"
+    },
+    {
+      "id": "d15f0a2046d5be12acd62d19",
+      "template_key": "ops.content_put_{}",
+      "params": [
+        1
+      ],
+      "title": "ops.content_put"
+    },
+    {
+      "id": "d15f0a2046d5be12acd62d19",
+      "template_key": "ops.content_put_{}",
+      "params": [
+        1
+      ],
+      "title": "ops.content_put"
+    },
+    {
+      "id": "d15f0a2046d5be12acd62d19",
+      "template_key": "ops.content_put_{}",
+      "params": [
+        1
+      ],
+      "title": "ops.content_put"
+    },
+    {
+      "id": "d15f0a2046d5be12acd62d19",
+      "template_key": "ops.content_put_{}",
+      "params": [
+        1
+      ],
+      "title": "ops.content_put"
+    },
+    {
+      "id": "d15f0a2046d5be12acd62d19",
+      "template_key": "ops.content_put_{}",
+      "params": [
+        1
+      ],
+      "title": "ops.content_put"
+    },
+    {
+      "id": "d15f0a2046d5be12acd62d19",
+      "template_key": "ops.content_put_{}",
+      "params": [
+        1
+      ],
+      "title": "ops.content_put"
+    },
+    {
+      "id": "44645b7b8a34d10a67b84c00",
+      "template_key": "ops.content_get_{}",
+      "params": [
+        1
+      ],
+      "title": "ops.content_get"
+    },
+    {
+      "id": "44645b7b8a34d10a67b84c00",
+      "template_key": "ops.content_get_{}",
+      "params": [
+        1
+      ],
+      "title": "ops.content_get"
+    },
+    {
+      "id": "44645b7b8a34d10a67b84c00",
+      "template_key": "ops.content_get_{}",
+      "params": [
+        1
+      ],
+      "title": "ops.content_get"
+    },
+    {
+      "id": "44645b7b8a34d10a67b84c00",
+      "template_key": "ops.content_get_{}",
+      "params": [
+        1
+      ],
+      "title": "ops.content_get"
+    },
+    {
+      "id": "44645b7b8a34d10a67b84c00",
+      "template_key": "ops.content_get_{}",
+      "params": [
+        1
+      ],
+      "title": "ops.content_get"
+    },
+    {
+      "id": "44645b7b8a34d10a67b84c00",
+      "template_key": "ops.content_get_{}",
+      "params": [
+        1
+      ],
+      "title": "ops.content_get"
+    },
+    {
+      "id": "82e481aab911f034435eb93c",
+      "template_key": "ops.rollback_{}",
+      "params": [
+        1
+      ],
+      "title": "ops.rollback"
+    },
+    {
+      "id": "82e481aab911f034435eb93c",
+      "template_key": "ops.rollback_{}",
+      "params": [
+        1
+      ],
+      "title": "ops.rollback"
+    },
+    {
+      "id": "82e481aab911f034435eb93c",
+      "template_key": "ops.rollback_{}",
+      "params": [
+        1
+      ],
+      "title": "ops.rollback"
+    },
+    {
+      "id": "82e481aab911f034435eb93c",
+      "template_key": "ops.rollback_{}",
+      "params": [
+        1
+      ],
+      "title": "ops.rollback"
+    },
+    {
+      "id": "82e481aab911f034435eb93c",
+      "template_key": "ops.rollback_{}",
+      "params": [
+        1
+      ],
+      "title": "ops.rollback"
+    },
+    {
+      "id": "82e481aab911f034435eb93c",
+      "template_key": "ops.rollback_{}",
+      "params": [
+        1
+      ],
+      "title": "ops.rollback"
+    },
+    {
+      "id": "de3cfbff058606b9e8ad949a",
+      "template_key": "ops.rate_limit_{}",
+      "params": [
+        1
+      ],
+      "title": "ops.rate_limit"
+    },
+    {
+      "id": "de3cfbff058606b9e8ad949a",
+      "template_key": "ops.rate_limit_{}",
+      "params": [
+        1
+      ],
+      "title": "ops.rate_limit"
+    },
+    {
+      "id": "de3cfbff058606b9e8ad949a",
+      "template_key": "ops.rate_limit_{}",
+      "params": [
+        1
+      ],
+      "title": "ops.rate_limit"
+    },
+    {
+      "id": "de3cfbff058606b9e8ad949a",
+      "template_key": "ops.rate_limit_{}",
+      "params": [
+        1
+      ],
+      "title": "ops.rate_limit"
+    },
+    {
+      "id": "de3cfbff058606b9e8ad949a",
+      "template_key": "ops.rate_limit_{}",
+      "params": [
+        1
+      ],
+      "title": "ops.rate_limit"
+    },
+    {
+      "id": "de3cfbff058606b9e8ad949a",
+      "template_key": "ops.rate_limit_{}",
+      "params": [
+        1
+      ],
+      "title": "ops.rate_limit"
+    },
+    {
+      "id": "2d5b9b698492cc0cacd65f8e",
+      "template_key": "ops.trace_link_{}",
+      "params": [
+        1
+      ],
+      "title": "ops.trace_link"
+    },
+    {
+      "id": "2d5b9b698492cc0cacd65f8e",
+      "template_key": "ops.trace_link_{}",
+      "params": [
+        1
+      ],
+      "title": "ops.trace_link"
+    },
+    {
+      "id": "2d5b9b698492cc0cacd65f8e",
+      "template_key": "ops.trace_link_{}",
+      "params": [
+        1
+      ],
+      "title": "ops.trace_link"
+    },
+    {
+      "id": "2d5b9b698492cc0cacd65f8e",
+      "template_key": "ops.trace_link_{}",
+      "params": [
+        1
+      ],
+      "title": "ops.trace_link"
+    },
+    {
+      "id": "2d5b9b698492cc0cacd65f8e",
+      "template_key": "ops.trace_link_{}",
+      "params": [
+        1
+      ],
+      "title": "ops.trace_link"
+    },
+    {
+      "id": "2d5b9b698492cc0cacd65f8e",
+      "template_key": "ops.trace_link_{}",
+      "params": [
+        1
+      ],
+      "title": "ops.trace_link"
+    },
+    {
+      "id": "c84da55e938e4643f3dc6ee0",
+      "template_key": "ops.escrow_open_{}",
+      "params": [
+        1
+      ],
+      "title": "ops.escrow_open"
+    },
+    {
+      "id": "c84da55e938e4643f3dc6ee0",
+      "template_key": "ops.escrow_open_{}",
+      "params": [
+        1
+      ],
+      "title": "ops.escrow_open"
+    },
+    {
+      "id": "c84da55e938e4643f3dc6ee0",
+      "template_key": "ops.escrow_open_{}",
+      "params": [
+        1
+      ],
+      "title": "ops.escrow_open"
+    },
+    {
+      "id": "c84da55e938e4643f3dc6ee0",
+      "template_key": "ops.escrow_open_{}",
+      "params": [
+        1
+      ],
+      "title": "ops.escrow_open"
+    },
+    {
+      "id": "c84da55e938e4643f3dc6ee0",
+      "template_key": "ops.escrow_open_{}",
+      "params": [
+        1
+      ],
+      "title": "ops.escrow_open"
+    },
+    {
+      "id": "c84da55e938e4643f3dc6ee0",
+      "template_key": "ops.escrow_open_{}",
+      "params": [
+        1
+      ],
+      "title": "ops.escrow_open"
+    },
+    {
+      "id": "fc18072d647cede4c2bd1e21",
+      "template_key": "ops.escrow_close_{}",
+      "params": [
+        1
+      ],
+      "title": "ops.escrow_close"
+    },
+    {
+      "id": "fc18072d647cede4c2bd1e21",
+      "template_key": "ops.escrow_close_{}",
+      "params": [
+        1
+      ],
+      "title": "ops.escrow_close"
+    },
+    {
+      "id": "fc18072d647cede4c2bd1e21",
+      "template_key": "ops.escrow_close_{}",
+      "params": [
+        1
+      ],
+      "title": "ops.escrow_close"
+    },
+    {
+      "id": "fc18072d647cede4c2bd1e21",
+      "template_key": "ops.escrow_close_{}",
+      "params": [
+        1
+      ],
+      "title": "ops.escrow_close"
+    },
+    {
+      "id": "fc18072d647cede4c2bd1e21",
+      "template_key": "ops.escrow_close_{}",
+      "params": [
+        1
+      ],
+      "title": "ops.escrow_close"
+    },
+    {
+      "id": "fc18072d647cede4c2bd1e21",
+      "template_key": "ops.escrow_close_{}",
+      "params": [
+        1
+      ],
+      "title": "ops.escrow_close"
+    },
+    {
+      "id": "4ed1ca3a01b69b322bb09bd5",
+      "template_key": "ops.resource_request_{}_{}",
+      "params": [
+        1,
+        1
+      ],
+      "title": "ops.resource_request"
+    },
+    {
+      "id": "4ed1ca3a01b69b322bb09bd5",
+      "template_key": "ops.resource_request_{}_{}",
+      "params": [
+        1,
+        1
+      ],
+      "title": "ops.resource_request"
+    },
+    {
+      "id": "4ed1ca3a01b69b322bb09bd5",
+      "template_key": "ops.resource_request_{}_{}",
+      "params": [
+        1,
+        1
+      ],
+      "title": "ops.resource_request"
+    },
+    {
+      "id": "4ed1ca3a01b69b322bb09bd5",
+      "template_key": "ops.resource_request_{}_{}",
+      "params": [
+        1,
+        1
+      ],
+      "title": "ops.resource_request"
+    },
+    {
+      "id": "4ed1ca3a01b69b322bb09bd5",
+      "template_key": "ops.resource_request_{}_{}",
+      "params": [
+        1,
+        1
+      ],
+      "title": "ops.resource_request"
+    },
+    {
+      "id": "4ed1ca3a01b69b322bb09bd5",
+      "template_key": "ops.resource_request_{}_{}",
+      "params": [
+        1,
+        1
+      ],
+      "title": "ops.resource_request"
+    },
+    {
+      "id": "eade7527ac9ec350eb8df4c2",
+      "template_key": "ops.resource_grant_{}_{}",
+      "params": [
+        1,
+        1
+      ],
+      "title": "ops.resource_grant"
+    },
+    {
+      "id": "eade7527ac9ec350eb8df4c2",
+      "template_key": "ops.resource_grant_{}_{}",
+      "params": [
+        1,
+        1
+      ],
+      "title": "ops.resource_grant"
+    },
+    {
+      "id": "eade7527ac9ec350eb8df4c2",
+      "template_key": "ops.resource_grant_{}_{}",
+      "params": [
+        1,
+        1
+      ],
+      "title": "ops.resource_grant"
+    },
+    {
+      "id": "eade7527ac9ec350eb8df4c2",
+      "template_key": "ops.resource_grant_{}_{}",
+      "params": [
+        1,
+        1
+      ],
+      "title": "ops.resource_grant"
+    },
+    {
+      "id": "eade7527ac9ec350eb8df4c2",
+      "template_key": "ops.resource_grant_{}_{}",
+      "params": [
+        1,
+        1
+      ],
+      "title": "ops.resource_grant"
+    },
+    {
+      "id": "eade7527ac9ec350eb8df4c2",
+      "template_key": "ops.resource_grant_{}_{}",
+      "params": [
+        1,
+        1
+      ],
+      "title": "ops.resource_grant"
+    },
+    {
+      "id": "e92f87be48bfc62462b22949",
+      "template_key": "ops.resource_revoke_{}",
+      "params": [
+        1
+      ],
+      "title": "ops.resource_revoke"
+    },
+    {
+      "id": "e92f87be48bfc62462b22949",
+      "template_key": "ops.resource_revoke_{}",
+      "params": [
+        1
+      ],
+      "title": "ops.resource_revoke"
+    },
+    {
+      "id": "e92f87be48bfc62462b22949",
+      "template_key": "ops.resource_revoke_{}",
+      "params": [
+        1
+      ],
+      "title": "ops.resource_revoke"
+    },
+    {
+      "id": "e92f87be48bfc62462b22949",
+      "template_key": "ops.resource_revoke_{}",
+      "params": [
+        1
+      ],
+      "title": "ops.resource_revoke"
+    },
+    {
+      "id": "e92f87be48bfc62462b22949",
+      "template_key": "ops.resource_revoke_{}",
+      "params": [
+        1
+      ],
+      "title": "ops.resource_revoke"
+    },
+    {
+      "id": "e92f87be48bfc62462b22949",
+      "template_key": "ops.resource_revoke_{}",
+      "params": [
+        1
+      ],
+      "title": "ops.resource_revoke"
+    },
+    {
+      "id": "d89ea2801358cdfe251110da",
+      "template_key": "ops.guardrail_{}",
+      "params": [
+        1
+      ],
+      "title": "ops.guardrail"
+    },
+    {
+      "id": "d89ea2801358cdfe251110da",
+      "template_key": "ops.guardrail_{}",
+      "params": [
+        1
+      ],
+      "title": "ops.guardrail"
+    },
+    {
+      "id": "d89ea2801358cdfe251110da",
+      "template_key": "ops.guardrail_{}",
+      "params": [
+        1
+      ],
+      "title": "ops.guardrail"
+    },
+    {
+      "id": "d89ea2801358cdfe251110da",
+      "template_key": "ops.guardrail_{}",
+      "params": [
+        1
+      ],
+      "title": "ops.guardrail"
+    },
+    {
+      "id": "d89ea2801358cdfe251110da",
+      "template_key": "ops.guardrail_{}",
+      "params": [
+        1
+      ],
+      "title": "ops.guardrail"
+    },
+    {
+      "id": "d89ea2801358cdfe251110da",
+      "template_key": "ops.guardrail_{}",
+      "params": [
+        1
+      ],
+      "title": "ops.guardrail"
+    },
+    {
+      "id": "0f4f7188f97c3681ea4b665b",
+      "template_key": "ops.capa_neg_{}",
+      "params": [
+        1
+      ],
+      "title": "ops.capa_neg"
+    },
+    {
+      "id": "0f4f7188f97c3681ea4b665b",
+      "template_key": "ops.capa_neg_{}",
+      "params": [
+        1
+      ],
+      "title": "ops.capa_neg"
+    },
+    {
+      "id": "0f4f7188f97c3681ea4b665b",
+      "template_key": "ops.capa_neg_{}",
+      "params": [
+        1
+      ],
+      "title": "ops.capa_neg"
+    },
+    {
+      "id": "0f4f7188f97c3681ea4b665b",
+      "template_key": "ops.capa_neg_{}",
+      "params": [
+        1
+      ],
+      "title": "ops.capa_neg"
+    },
+    {
+      "id": "0f4f7188f97c3681ea4b665b",
+      "template_key": "ops.capa_neg_{}",
+      "params": [
+        1
+      ],
+      "title": "ops.capa_neg"
+    },
+    {
+      "id": "0f4f7188f97c3681ea4b665b",
+      "template_key": "ops.capa_neg_{}",
+      "params": [
+        1
+      ],
+      "title": "ops.capa_neg"
+    },
+    {
+      "id": "706d2bd964e291db2015f771",
+      "template_key": "ops.handoff_{}",
+      "params": [
+        1
+      ],
+      "title": "ops.handoff"
+    },
+    {
+      "id": "706d2bd964e291db2015f771",
+      "template_key": "ops.handoff_{}",
+      "params": [
+        1
+      ],
+      "title": "ops.handoff"
+    },
+    {
+      "id": "706d2bd964e291db2015f771",
+      "template_key": "ops.handoff_{}",
+      "params": [
+        1
+      ],
+      "title": "ops.handoff"
+    },
+    {
+      "id": "706d2bd964e291db2015f771",
+      "template_key": "ops.handoff_{}",
+      "params": [
+        1
+      ],
+      "title": "ops.handoff"
+    },
+    {
+      "id": "706d2bd964e291db2015f771",
+      "template_key": "ops.handoff_{}",
+      "params": [
+        1
+      ],
+      "title": "ops.handoff"
+    },
+    {
+      "id": "706d2bd964e291db2015f771",
+      "template_key": "ops.handoff_{}",
+      "params": [
+        1
+      ],
+      "title": "ops.handoff"
+    }
+  ]
+}

@@ -1,0 +1,494 @@
+{
+  "block": "D3_Block12",
+  "version": "6.30R1",
+  "templates": [
+    {
+      "template_key": "tens.qprofile_define_{}_{}_{}",
+      "canonical": "tens.qprofile_define",
+      "placeholders": [
+        "p1",
+        "p2",
+        "p3"
+      ],
+      "freq": 1,
+      "category": "qprofile",
+      "op": "define",
+      "types": [
+        "any",
+        "any",
+        "any"
+      ]
+    },
+    {
+      "template_key": "tens.qprofile_autotune_{}_{}",
+      "canonical": "tens.qprofile_autotune",
+      "placeholders": [
+        "p1",
+        "p2"
+      ],
+      "freq": 1,
+      "category": "qprofile",
+      "op": "autotune",
+      "types": [
+        "any",
+        "any"
+      ]
+    },
+    {
+      "template_key": "tens.qprofile_rotate_{}",
+      "canonical": "tens.qprofile_rotate",
+      "placeholders": [
+        "p1"
+      ],
+      "freq": 1,
+      "category": "qprofile",
+      "op": "rotate",
+      "types": [
+        "any"
+      ]
+    },
+    {
+      "template_key": "tens.qprofile_gc_{}",
+      "canonical": "tens.qprofile_gc",
+      "placeholders": [
+        "p1"
+      ],
+      "freq": 1,
+      "category": "qprofile",
+      "op": "gc",
+      "types": [
+        "any"
+      ]
+    },
+    {
+      "template_key": "tens.quantize_{}",
+      "canonical": "tens.quantize",
+      "placeholders": [
+        "p1"
+      ],
+      "freq": 1,
+      "category": "quant",
+      "op": "encode",
+      "types": [
+        "any"
+      ]
+    },
+    {
+      "template_key": "tens.dequantize_{}",
+      "canonical": "tens.dequantize",
+      "placeholders": [
+        "p1"
+      ],
+      "freq": 1,
+      "category": "quant",
+      "op": "decode",
+      "types": [
+        "any"
+      ]
+    },
+    {
+      "template_key": "tens.pack_tensor_{}_{}",
+      "canonical": "tens.pack_tensor",
+      "placeholders": [
+        "p1",
+        "p2"
+      ],
+      "freq": 1,
+      "category": "pack",
+      "op": "pack",
+      "types": [
+        "any",
+        "any"
+      ]
+    },
+    {
+      "template_key": "tens.unpack_tensor_{}",
+      "canonical": "tens.unpack_tensor",
+      "placeholders": [
+        "p1"
+      ],
+      "freq": 1,
+      "category": "pack",
+      "op": "unpack",
+      "types": [
+        "any"
+      ]
+    },
+    {
+      "template_key": "tens.chunk_{}_{}",
+      "canonical": "tens.chunk",
+      "placeholders": [
+        "p1",
+        "p2"
+      ],
+      "freq": 1,
+      "category": "layout",
+      "op": "chunk",
+      "types": [
+        "any",
+        "any"
+      ]
+    },
+    {
+      "template_key": "tens.delta_block_{}",
+      "canonical": "tens.delta_block",
+      "placeholders": [
+        "p1"
+      ],
+      "freq": 1,
+      "category": "delta",
+      "op": "encode",
+      "types": [
+        "any"
+      ]
+    },
+    {
+      "template_key": "tens.pq_encode_{}_{}",
+      "canonical": "tens.pq_encode",
+      "placeholders": [
+        "p1",
+        "p2"
+      ],
+      "freq": 1,
+      "category": "vector_quant",
+      "op": "encode",
+      "types": [
+        "any",
+        "any"
+      ]
+    },
+    {
+      "template_key": "tens.pq_decode_{}",
+      "canonical": "tens.pq_decode",
+      "placeholders": [
+        "p1"
+      ],
+      "freq": 1,
+      "category": "vector_quant",
+      "op": "decode",
+      "types": [
+        "any"
+      ]
+    },
+    {
+      "template_key": "tens.rvq_encode_{}_{}",
+      "canonical": "tens.rvq_encode",
+      "placeholders": [
+        "p1",
+        "p2"
+      ],
+      "freq": 1,
+      "category": "vector_quant",
+      "op": "encode",
+      "types": [
+        "any",
+        "any"
+      ]
+    },
+    {
+      "template_key": "tens.rvq_decode_{}",
+      "canonical": "tens.rvq_decode",
+      "placeholders": [
+        "p1"
+      ],
+      "freq": 1,
+      "category": "vector_quant",
+      "op": "decode",
+      "types": [
+        "any"
+      ]
+    },
+    {
+      "template_key": "tens.clip_{}_{}",
+      "canonical": "tens.clip",
+      "placeholders": [
+        "p1",
+        "p2"
+      ],
+      "freq": 1,
+      "category": "arith",
+      "op": "clip",
+      "types": [
+        "any",
+        "any"
+      ]
+    },
+    {
+      "template_key": "tens.scale_shift_{}_{}",
+      "canonical": "tens.scale_shift",
+      "placeholders": [
+        "p1",
+        "p2"
+      ],
+      "freq": 1,
+      "category": "arith",
+      "op": "affine",
+      "types": [
+        "any",
+        "any"
+      ]
+    },
+    {
+      "template_key": "tens.sparsify_{}",
+      "canonical": "tens.sparsify",
+      "placeholders": [
+        "p1"
+      ],
+      "freq": 1,
+      "category": "sparsity",
+      "op": "encode",
+      "types": [
+        "any"
+      ]
+    },
+    {
+      "template_key": "tens.desparsify_{}",
+      "canonical": "tens.desparsify",
+      "placeholders": [
+        "p1"
+      ],
+      "freq": 1,
+      "category": "sparsity",
+      "op": "decode",
+      "types": [
+        "any"
+      ]
+    },
+    {
+      "template_key": "tens.cast_{}",
+      "canonical": "tens.cast",
+      "placeholders": [
+        "p1"
+      ],
+      "freq": 1,
+      "category": "dtype",
+      "op": "cast",
+      "types": [
+        "any"
+      ]
+    },
+    {
+      "template_key": "tens.compress_{}",
+      "canonical": "tens.compress",
+      "placeholders": [
+        "p1"
+      ],
+      "freq": 1,
+      "category": "codec",
+      "op": "compress",
+      "types": [
+        "any"
+      ]
+    },
+    {
+      "template_key": "tens.decompress_{}",
+      "canonical": "tens.decompress",
+      "placeholders": [
+        "p1"
+      ],
+      "freq": 1,
+      "category": "codec",
+      "op": "decompress",
+      "types": [
+        "any"
+      ]
+    },
+    {
+      "template_key": "tens.transpose_{}",
+      "canonical": "tens.transpose",
+      "placeholders": [
+        "p1"
+      ],
+      "freq": 1,
+      "category": "layout",
+      "op": "permute",
+      "types": [
+        "any"
+      ]
+    },
+    {
+      "template_key": "tens.reshape_{}",
+      "canonical": "tens.reshape",
+      "placeholders": [
+        "p1"
+      ],
+      "freq": 1,
+      "category": "layout",
+      "op": "reshape",
+      "types": [
+        "any"
+      ]
+    },
+    {
+      "template_key": "tens.broadcast_{}",
+      "canonical": "tens.broadcast",
+      "placeholders": [
+        "p1"
+      ],
+      "freq": 1,
+      "category": "layout",
+      "op": "broadcast",
+      "types": [
+        "any"
+      ]
+    },
+    {
+      "template_key": "tens.matmul_tile_{}",
+      "canonical": "tens.matmul_tile",
+      "placeholders": [
+        "p1"
+      ],
+      "freq": 1,
+      "category": "compute",
+      "op": "matmul",
+      "types": [
+        "any"
+      ]
+    },
+    {
+      "template_key": "tens.matmul_block_{}",
+      "canonical": "tens.matmul_block",
+      "placeholders": [
+        "p1"
+      ],
+      "freq": 1,
+      "category": "compute",
+      "op": "matmul",
+      "types": [
+        "any"
+      ]
+    },
+    {
+      "template_key": "tens.attn_pack_{}",
+      "canonical": "tens.attn_pack",
+      "placeholders": [
+        "p1"
+      ],
+      "freq": 1,
+      "category": "attn",
+      "op": "pack",
+      "types": [
+        "any"
+      ]
+    },
+    {
+      "template_key": "tens.attn_delta_{}",
+      "canonical": "tens.attn_delta",
+      "placeholders": [
+        "p1"
+      ],
+      "freq": 1,
+      "category": "attn",
+      "op": "delta",
+      "types": [
+        "any"
+      ]
+    },
+    {
+      "template_key": "tens.embed_ref_{}",
+      "canonical": "tens.embed_ref",
+      "placeholders": [
+        "p1"
+      ],
+      "freq": 1,
+      "category": "ref",
+      "op": "embed",
+      "types": [
+        "any"
+      ]
+    },
+    {
+      "template_key": "tens.gather_{}",
+      "canonical": "tens.gather",
+      "placeholders": [
+        "p1"
+      ],
+      "freq": 1,
+      "category": "index",
+      "op": "gather",
+      "types": [
+        "any"
+      ]
+    },
+    {
+      "template_key": "tens.scatter_{}",
+      "canonical": "tens.scatter",
+      "placeholders": [
+        "p1"
+      ],
+      "freq": 1,
+      "category": "index",
+      "op": "scatter",
+      "types": [
+        "any"
+      ]
+    },
+    {
+      "template_key": "tens.reduce_{}_{}",
+      "canonical": "tens.reduce",
+      "placeholders": [
+        "p1",
+        "p2"
+      ],
+      "freq": 1,
+      "category": "reduce",
+      "op": "reduce",
+      "types": [
+        "any",
+        "any"
+      ]
+    },
+    {
+      "template_key": "tens.quant_error_{}",
+      "canonical": "tens.quant_error",
+      "placeholders": [
+        "p1"
+      ],
+      "freq": 1,
+      "category": "quant",
+      "op": "metric",
+      "types": [
+        "any"
+      ]
+    },
+    {
+      "template_key": "tens.calibrate_{}",
+      "canonical": "tens.calibrate",
+      "placeholders": [
+        "p1"
+      ],
+      "freq": 1,
+      "category": "quant",
+      "op": "calibrate",
+      "types": [
+        "any"
+      ]
+    },
+    {
+      "template_key": "tens.vectorize_{}",
+      "canonical": "tens.vectorize",
+      "placeholders": [
+        "p1"
+      ],
+      "freq": 1,
+      "category": "compute",
+      "op": "vectorize",
+      "types": [
+        "any"
+      ]
+    },
+    {
+      "template_key": "tens.reorder_{}",
+      "canonical": "tens.reorder",
+      "placeholders": [
+        "p1"
+      ],
+      "freq": 1,
+      "category": "layout",
+      "op": "reorder",
+      "types": [
+        "any"
+      ]
+    }
+  ]
+}

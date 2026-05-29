@@ -1,0 +1,177 @@
+{
+  "block": "D3_Block18",
+  "version": "6.30R1",
+  "templates": [
+    {
+      "template_key": "tstream.delta_tokens_{}_{}",
+      "canonical": "tstream.delta_tokens",
+      "placeholders": [
+        "p1",
+        "p2"
+      ],
+      "types": [
+        "any",
+        "any"
+      ],
+      "freq": 1,
+      "category": "tstream",
+      "op": "delta"
+    },
+    {
+      "template_key": "tstream.micro_update_{}",
+      "canonical": "tstream.micro_update",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "tstream",
+      "op": "delta"
+    },
+    {
+      "template_key": "tstream.window_{}",
+      "canonical": "tstream.window",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "tstream",
+      "op": "set"
+    },
+    {
+      "template_key": "tstream.entropy_{}",
+      "canonical": "tstream.entropy",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "tstream",
+      "op": "set"
+    },
+    {
+      "template_key": "tstream.flush_{}",
+      "canonical": "tstream.flush",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "tstream",
+      "op": "flush"
+    },
+    {
+      "template_key": "tstream.commit_{}",
+      "canonical": "tstream.commit",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "tstream",
+      "op": "commit"
+    },
+    {
+      "template_key": "tstream.rollback_{}",
+      "canonical": "tstream.rollback",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "tstream",
+      "op": "rollback"
+    },
+    {
+      "template_key": "tstream.pack_{}",
+      "canonical": "tstream.pack",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "tstream",
+      "op": "pack"
+    },
+    {
+      "template_key": "tstream.tid_{}",
+      "canonical": "tstream.tid",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "tstream",
+      "op": "set"
+    },
+    {
+      "template_key": "tstream.abort_{}",
+      "canonical": "tstream.abort",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "tstream",
+      "op": "abort"
+    },
+    {
+      "template_key": "tstream.merge_{}",
+      "canonical": "tstream.merge",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "tstream",
+      "op": "merge"
+    },
+    {
+      "template_key": "tstream.split_{}",
+      "canonical": "tstream.split",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "tstream",
+      "op": "split"
+    },
+    {
+      "template_key": "tstream.delta_entropy_{}",
+      "canonical": "tstream.delta_entropy",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "tstream",
+      "op": "set"
+    }
+  ]
+}

@@ -1,0 +1,739 @@
+{
+  "instances": [
+    {
+      "id": "1ea9fdd8a888d220a7d0f24c",
+      "template_key": "err.new_{}_{}",
+      "params": [
+        1,
+        1
+      ],
+      "title": "err.new"
+    },
+    {
+      "id": "1ea9fdd8a888d220a7d0f24c",
+      "template_key": "err.new_{}_{}",
+      "params": [
+        1,
+        1
+      ],
+      "title": "err.new"
+    },
+    {
+      "id": "1ea9fdd8a888d220a7d0f24c",
+      "template_key": "err.new_{}_{}",
+      "params": [
+        1,
+        1
+      ],
+      "title": "err.new"
+    },
+    {
+      "id": "1ea9fdd8a888d220a7d0f24c",
+      "template_key": "err.new_{}_{}",
+      "params": [
+        1,
+        1
+      ],
+      "title": "err.new"
+    },
+    {
+      "id": "1ea9fdd8a888d220a7d0f24c",
+      "template_key": "err.new_{}_{}",
+      "params": [
+        1,
+        1
+      ],
+      "title": "err.new"
+    },
+    {
+      "id": "26e63f1f5b9685352b4446a9",
+      "template_key": "err.wrap_{}",
+      "params": [
+        1
+      ],
+      "title": "err.wrap"
+    },
+    {
+      "id": "26e63f1f5b9685352b4446a9",
+      "template_key": "err.wrap_{}",
+      "params": [
+        1
+      ],
+      "title": "err.wrap"
+    },
+    {
+      "id": "26e63f1f5b9685352b4446a9",
+      "template_key": "err.wrap_{}",
+      "params": [
+        1
+      ],
+      "title": "err.wrap"
+    },
+    {
+      "id": "26e63f1f5b9685352b4446a9",
+      "template_key": "err.wrap_{}",
+      "params": [
+        1
+      ],
+      "title": "err.wrap"
+    },
+    {
+      "id": "26e63f1f5b9685352b4446a9",
+      "template_key": "err.wrap_{}",
+      "params": [
+        1
+      ],
+      "title": "err.wrap"
+    },
+    {
+      "id": "f932d283997799b2cca6cde7",
+      "template_key": "err.with_kv_{}_{}",
+      "params": [
+        1,
+        1
+      ],
+      "title": "err.with_kv"
+    },
+    {
+      "id": "f932d283997799b2cca6cde7",
+      "template_key": "err.with_kv_{}_{}",
+      "params": [
+        1,
+        1
+      ],
+      "title": "err.with_kv"
+    },
+    {
+      "id": "f932d283997799b2cca6cde7",
+      "template_key": "err.with_kv_{}_{}",
+      "params": [
+        1,
+        1
+      ],
+      "title": "err.with_kv"
+    },
+    {
+      "id": "f932d283997799b2cca6cde7",
+      "template_key": "err.with_kv_{}_{}",
+      "params": [
+        1,
+        1
+      ],
+      "title": "err.with_kv"
+    },
+    {
+      "id": "f932d283997799b2cca6cde7",
+      "template_key": "err.with_kv_{}_{}",
+      "params": [
+        1,
+        1
+      ],
+      "title": "err.with_kv"
+    },
+    {
+      "id": "b62792d60dca21acda497cff",
+      "template_key": "err.classify_{}",
+      "params": [
+        1
+      ],
+      "title": "err.classify"
+    },
+    {
+      "id": "b62792d60dca21acda497cff",
+      "template_key": "err.classify_{}",
+      "params": [
+        1
+      ],
+      "title": "err.classify"
+    },
+    {
+      "id": "b62792d60dca21acda497cff",
+      "template_key": "err.classify_{}",
+      "params": [
+        1
+      ],
+      "title": "err.classify"
+    },
+    {
+      "id": "b62792d60dca21acda497cff",
+      "template_key": "err.classify_{}",
+      "params": [
+        1
+      ],
+      "title": "err.classify"
+    },
+    {
+      "id": "b62792d60dca21acda497cff",
+      "template_key": "err.classify_{}",
+      "params": [
+        1
+      ],
+      "title": "err.classify"
+    },
+    {
+      "id": "070555878b1e88016cdb4ccf",
+      "template_key": "err.retryable_{}",
+      "params": [
+        1
+      ],
+      "title": "err.retryable"
+    },
+    {
+      "id": "070555878b1e88016cdb4ccf",
+      "template_key": "err.retryable_{}",
+      "params": [
+        1
+      ],
+      "title": "err.retryable"
+    },
+    {
+      "id": "070555878b1e88016cdb4ccf",
+      "template_key": "err.retryable_{}",
+      "params": [
+        1
+      ],
+      "title": "err.retryable"
+    },
+    {
+      "id": "070555878b1e88016cdb4ccf",
+      "template_key": "err.retryable_{}",
+      "params": [
+        1
+      ],
+      "title": "err.retryable"
+    },
+    {
+      "id": "070555878b1e88016cdb4ccf",
+      "template_key": "err.retryable_{}",
+      "params": [
+        1
+      ],
+      "title": "err.retryable"
+    },
+    {
+      "id": "d3bbd5581fdc5f137da23036",
+      "template_key": "err.caused_by_{}",
+      "params": [
+        1
+      ],
+      "title": "err.caused_by"
+    },
+    {
+      "id": "d3bbd5581fdc5f137da23036",
+      "template_key": "err.caused_by_{}",
+      "params": [
+        1
+      ],
+      "title": "err.caused_by"
+    },
+    {
+      "id": "d3bbd5581fdc5f137da23036",
+      "template_key": "err.caused_by_{}",
+      "params": [
+        1
+      ],
+      "title": "err.caused_by"
+    },
+    {
+      "id": "d3bbd5581fdc5f137da23036",
+      "template_key": "err.caused_by_{}",
+      "params": [
+        1
+      ],
+      "title": "err.caused_by"
+    },
+    {
+      "id": "d3bbd5581fdc5f137da23036",
+      "template_key": "err.caused_by_{}",
+      "params": [
+        1
+      ],
+      "title": "err.caused_by"
+    },
+    {
+      "id": "779e928e2cdffa0d5a895737",
+      "template_key": "diag.span_start_{}",
+      "params": [
+        1
+      ],
+      "title": "diag.span_start"
+    },
+    {
+      "id": "779e928e2cdffa0d5a895737",
+      "template_key": "diag.span_start_{}",
+      "params": [
+        1
+      ],
+      "title": "diag.span_start"
+    },
+    {
+      "id": "779e928e2cdffa0d5a895737",
+      "template_key": "diag.span_start_{}",
+      "params": [
+        1
+      ],
+      "title": "diag.span_start"
+    },
+    {
+      "id": "779e928e2cdffa0d5a895737",
+      "template_key": "diag.span_start_{}",
+      "params": [
+        1
+      ],
+      "title": "diag.span_start"
+    },
+    {
+      "id": "779e928e2cdffa0d5a895737",
+      "template_key": "diag.span_start_{}",
+      "params": [
+        1
+      ],
+      "title": "diag.span_start"
+    },
+    {
+      "id": "0e50c2f03f494dc9b06ef061",
+      "template_key": "diag.span_end_{}",
+      "params": [
+        1
+      ],
+      "title": "diag.span_end"
+    },
+    {
+      "id": "0e50c2f03f494dc9b06ef061",
+      "template_key": "diag.span_end_{}",
+      "params": [
+        1
+      ],
+      "title": "diag.span_end"
+    },
+    {
+      "id": "0e50c2f03f494dc9b06ef061",
+      "template_key": "diag.span_end_{}",
+      "params": [
+        1
+      ],
+      "title": "diag.span_end"
+    },
+    {
+      "id": "0e50c2f03f494dc9b06ef061",
+      "template_key": "diag.span_end_{}",
+      "params": [
+        1
+      ],
+      "title": "diag.span_end"
+    },
+    {
+      "id": "0e50c2f03f494dc9b06ef061",
+      "template_key": "diag.span_end_{}",
+      "params": [
+        1
+      ],
+      "title": "diag.span_end"
+    },
+    {
+      "id": "30bbd9b9bd63f6dd6688a324",
+      "template_key": "diag.event_{}",
+      "params": [
+        1
+      ],
+      "title": "diag.event"
+    },
+    {
+      "id": "30bbd9b9bd63f6dd6688a324",
+      "template_key": "diag.event_{}",
+      "params": [
+        1
+      ],
+      "title": "diag.event"
+    },
+    {
+      "id": "30bbd9b9bd63f6dd6688a324",
+      "template_key": "diag.event_{}",
+      "params": [
+        1
+      ],
+      "title": "diag.event"
+    },
+    {
+      "id": "30bbd9b9bd63f6dd6688a324",
+      "template_key": "diag.event_{}",
+      "params": [
+        1
+      ],
+      "title": "diag.event"
+    },
+    {
+      "id": "30bbd9b9bd63f6dd6688a324",
+      "template_key": "diag.event_{}",
+      "params": [
+        1
+      ],
+      "title": "diag.event"
+    },
+    {
+      "id": "7b9000b2e74ff0092806402a",
+      "template_key": "diag.kv_{}_{}",
+      "params": [
+        1,
+        1
+      ],
+      "title": "diag.kv"
+    },
+    {
+      "id": "7b9000b2e74ff0092806402a",
+      "template_key": "diag.kv_{}_{}",
+      "params": [
+        1,
+        1
+      ],
+      "title": "diag.kv"
+    },
+    {
+      "id": "7b9000b2e74ff0092806402a",
+      "template_key": "diag.kv_{}_{}",
+      "params": [
+        1,
+        1
+      ],
+      "title": "diag.kv"
+    },
+    {
+      "id": "7b9000b2e74ff0092806402a",
+      "template_key": "diag.kv_{}_{}",
+      "params": [
+        1,
+        1
+      ],
+      "title": "diag.kv"
+    },
+    {
+      "id": "7b9000b2e74ff0092806402a",
+      "template_key": "diag.kv_{}_{}",
+      "params": [
+        1,
+        1
+      ],
+      "title": "diag.kv"
+    },
+    {
+      "id": "f2c3f856aead917e217e4186",
+      "template_key": "diag.emit_metric_{}",
+      "params": [
+        1
+      ],
+      "title": "diag.emit_metric"
+    },
+    {
+      "id": "f2c3f856aead917e217e4186",
+      "template_key": "diag.emit_metric_{}",
+      "params": [
+        1
+      ],
+      "title": "diag.emit_metric"
+    },
+    {
+      "id": "f2c3f856aead917e217e4186",
+      "template_key": "diag.emit_metric_{}",
+      "params": [
+        1
+      ],
+      "title": "diag.emit_metric"
+    },
+    {
+      "id": "f2c3f856aead917e217e4186",
+      "template_key": "diag.emit_metric_{}",
+      "params": [
+        1
+      ],
+      "title": "diag.emit_metric"
+    },
+    {
+      "id": "f2c3f856aead917e217e4186",
+      "template_key": "diag.emit_metric_{}",
+      "params": [
+        1
+      ],
+      "title": "diag.emit_metric"
+    },
+    {
+      "id": "9ab647663be68994e599510d",
+      "template_key": "diag.emit_hist_{}",
+      "params": [
+        1
+      ],
+      "title": "diag.emit_hist"
+    },
+    {
+      "id": "9ab647663be68994e599510d",
+      "template_key": "diag.emit_hist_{}",
+      "params": [
+        1
+      ],
+      "title": "diag.emit_hist"
+    },
+    {
+      "id": "9ab647663be68994e599510d",
+      "template_key": "diag.emit_hist_{}",
+      "params": [
+        1
+      ],
+      "title": "diag.emit_hist"
+    },
+    {
+      "id": "9ab647663be68994e599510d",
+      "template_key": "diag.emit_hist_{}",
+      "params": [
+        1
+      ],
+      "title": "diag.emit_hist"
+    },
+    {
+      "id": "9ab647663be68994e599510d",
+      "template_key": "diag.emit_hist_{}",
+      "params": [
+        1
+      ],
+      "title": "diag.emit_hist"
+    },
+    {
+      "id": "56b788ec16de5d45202ec064",
+      "template_key": "diag.rate_limit_{}",
+      "params": [
+        1
+      ],
+      "title": "diag.rate_limit"
+    },
+    {
+      "id": "56b788ec16de5d45202ec064",
+      "template_key": "diag.rate_limit_{}",
+      "params": [
+        1
+      ],
+      "title": "diag.rate_limit"
+    },
+    {
+      "id": "56b788ec16de5d45202ec064",
+      "template_key": "diag.rate_limit_{}",
+      "params": [
+        1
+      ],
+      "title": "diag.rate_limit"
+    },
+    {
+      "id": "56b788ec16de5d45202ec064",
+      "template_key": "diag.rate_limit_{}",
+      "params": [
+        1
+      ],
+      "title": "diag.rate_limit"
+    },
+    {
+      "id": "56b788ec16de5d45202ec064",
+      "template_key": "diag.rate_limit_{}",
+      "params": [
+        1
+      ],
+      "title": "diag.rate_limit"
+    },
+    {
+      "id": "8af8d37f71489706f4cbb8ef",
+      "template_key": "diag.sample_{}",
+      "params": [
+        1
+      ],
+      "title": "diag.sample"
+    },
+    {
+      "id": "8af8d37f71489706f4cbb8ef",
+      "template_key": "diag.sample_{}",
+      "params": [
+        1
+      ],
+      "title": "diag.sample"
+    },
+    {
+      "id": "8af8d37f71489706f4cbb8ef",
+      "template_key": "diag.sample_{}",
+      "params": [
+        1
+      ],
+      "title": "diag.sample"
+    },
+    {
+      "id": "8af8d37f71489706f4cbb8ef",
+      "template_key": "diag.sample_{}",
+      "params": [
+        1
+      ],
+      "title": "diag.sample"
+    },
+    {
+      "id": "8af8d37f71489706f4cbb8ef",
+      "template_key": "diag.sample_{}",
+      "params": [
+        1
+      ],
+      "title": "diag.sample"
+    },
+    {
+      "id": "3333b32008900d51fb855f60",
+      "template_key": "diag.trace_id_{}",
+      "params": [
+        1
+      ],
+      "title": "diag.trace_id"
+    },
+    {
+      "id": "3333b32008900d51fb855f60",
+      "template_key": "diag.trace_id_{}",
+      "params": [
+        1
+      ],
+      "title": "diag.trace_id"
+    },
+    {
+      "id": "3333b32008900d51fb855f60",
+      "template_key": "diag.trace_id_{}",
+      "params": [
+        1
+      ],
+      "title": "diag.trace_id"
+    },
+    {
+      "id": "3333b32008900d51fb855f60",
+      "template_key": "diag.trace_id_{}",
+      "params": [
+        1
+      ],
+      "title": "diag.trace_id"
+    },
+    {
+      "id": "3333b32008900d51fb855f60",
+      "template_key": "diag.trace_id_{}",
+      "params": [
+        1
+      ],
+      "title": "diag.trace_id"
+    },
+    {
+      "id": "b65b1d05b31512441fa62bfb",
+      "template_key": "diag.span_link_{}",
+      "params": [
+        1
+      ],
+      "title": "diag.span_link"
+    },
+    {
+      "id": "b65b1d05b31512441fa62bfb",
+      "template_key": "diag.span_link_{}",
+      "params": [
+        1
+      ],
+      "title": "diag.span_link"
+    },
+    {
+      "id": "b65b1d05b31512441fa62bfb",
+      "template_key": "diag.span_link_{}",
+      "params": [
+        1
+      ],
+      "title": "diag.span_link"
+    },
+    {
+      "id": "b65b1d05b31512441fa62bfb",
+      "template_key": "diag.span_link_{}",
+      "params": [
+        1
+      ],
+      "title": "diag.span_link"
+    },
+    {
+      "id": "b65b1d05b31512441fa62bfb",
+      "template_key": "diag.span_link_{}",
+      "params": [
+        1
+      ],
+      "title": "diag.span_link"
+    },
+    {
+      "id": "402e612b681fbee5cd781ba6",
+      "template_key": "diag.log_{}",
+      "params": [
+        1
+      ],
+      "title": "diag.log"
+    },
+    {
+      "id": "402e612b681fbee5cd781ba6",
+      "template_key": "diag.log_{}",
+      "params": [
+        1
+      ],
+      "title": "diag.log"
+    },
+    {
+      "id": "402e612b681fbee5cd781ba6",
+      "template_key": "diag.log_{}",
+      "params": [
+        1
+      ],
+      "title": "diag.log"
+    },
+    {
+      "id": "402e612b681fbee5cd781ba6",
+      "template_key": "diag.log_{}",
+      "params": [
+        1
+      ],
+      "title": "diag.log"
+    },
+    {
+      "id": "402e612b681fbee5cd781ba6",
+      "template_key": "diag.log_{}",
+      "params": [
+        1
+      ],
+      "title": "diag.log"
+    },
+    {
+      "id": "d9fe820a0cd8d1a02c7700f9",
+      "template_key": "diag.flush_{}",
+      "params": [
+        1
+      ],
+      "title": "diag.flush"
+    },
+    {
+      "id": "d9fe820a0cd8d1a02c7700f9",
+      "template_key": "diag.flush_{}",
+      "params": [
+        1
+      ],
+      "title": "diag.flush"
+    },
+    {
+      "id": "d9fe820a0cd8d1a02c7700f9",
+      "template_key": "diag.flush_{}",
+      "params": [
+        1
+      ],
+      "title": "diag.flush"
+    },
+    {
+      "id": "d9fe820a0cd8d1a02c7700f9",
+      "template_key": "diag.flush_{}",
+      "params": [
+        1
+      ],
+      "title": "diag.flush"
+    },
+    {
+      "id": "d9fe820a0cd8d1a02c7700f9",
+      "template_key": "diag.flush_{}",
+      "params": [
+        1
+      ],
+      "title": "diag.flush"
+    }
+  ]
+}

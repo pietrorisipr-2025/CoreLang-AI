@@ -1,0 +1,218 @@
+{
+  "block": "D3_Block19",
+  "version": "6.30R1",
+  "templates": [
+    {
+      "template_key": "dict.train_{}_{}",
+      "canonical": "dict.train",
+      "placeholders": [
+        "p1",
+        "p2"
+      ],
+      "types": [
+        "any",
+        "any"
+      ],
+      "freq": 1,
+      "category": "dict",
+      "op": "train"
+    },
+    {
+      "template_key": "dict.score_{}",
+      "canonical": "dict.score",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "dict",
+      "op": "score"
+    },
+    {
+      "template_key": "dict.apply_{}",
+      "canonical": "dict.apply",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "dict",
+      "op": "apply"
+    },
+    {
+      "template_key": "dict.announce_{}",
+      "canonical": "dict.announce",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "dict",
+      "op": "announce"
+    },
+    {
+      "template_key": "dict.rotate_{}",
+      "canonical": "dict.rotate",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "dict",
+      "op": "rotate"
+    },
+    {
+      "template_key": "dict.revoke_{}",
+      "canonical": "dict.revoke",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "dict",
+      "op": "revoke"
+    },
+    {
+      "template_key": "dict.pin_{}",
+      "canonical": "dict.pin",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "dict",
+      "op": "pin"
+    },
+    {
+      "template_key": "dict.unpin_{}",
+      "canonical": "dict.unpin",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "dict",
+      "op": "unpin"
+    },
+    {
+      "template_key": "dict.export_{}",
+      "canonical": "dict.export",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "dict",
+      "op": "export"
+    },
+    {
+      "template_key": "dict.import_{}",
+      "canonical": "dict.import",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "dict",
+      "op": "import"
+    },
+    {
+      "template_key": "dict.merkle_{}",
+      "canonical": "dict.merkle",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "dict",
+      "op": "hash"
+    },
+    {
+      "template_key": "dict.delta_{}_{}",
+      "canonical": "dict.delta",
+      "placeholders": [
+        "p1",
+        "p2"
+      ],
+      "types": [
+        "any",
+        "any"
+      ],
+      "freq": 1,
+      "category": "dict",
+      "op": "delta"
+    },
+    {
+      "template_key": "dict.patch_apply_{}",
+      "canonical": "dict.patch_apply",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "dict",
+      "op": "patch"
+    },
+    {
+      "template_key": "dict.sign_{}",
+      "canonical": "dict.sign",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "dict",
+      "op": "sign"
+    },
+    {
+      "template_key": "dict.verify_{}",
+      "canonical": "dict.verify",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "dict",
+      "op": "verify"
+    },
+    {
+      "template_key": "dict.ttl_{}",
+      "canonical": "dict.ttl",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "dict",
+      "op": "set"
+    }
+  ]
+}

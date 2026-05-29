@@ -1,0 +1,246 @@
+{
+  "block": "D3_Block14",
+  "version": "6.30R1",
+  "templates": [
+    {
+      "template_key": "err.new_{}_{}",
+      "canonical": "err.new",
+      "placeholders": [
+        "p1",
+        "p2"
+      ],
+      "freq": 1,
+      "category": "error",
+      "op": "new",
+      "types": [
+        "any",
+        "any"
+      ]
+    },
+    {
+      "template_key": "err.wrap_{}",
+      "canonical": "err.wrap",
+      "placeholders": [
+        "p1"
+      ],
+      "freq": 1,
+      "category": "error",
+      "op": "wrap",
+      "types": [
+        "any"
+      ]
+    },
+    {
+      "template_key": "err.with_kv_{}_{}",
+      "canonical": "err.with_kv",
+      "placeholders": [
+        "p1",
+        "p2"
+      ],
+      "freq": 1,
+      "category": "error",
+      "op": "annotate",
+      "types": [
+        "any",
+        "any"
+      ]
+    },
+    {
+      "template_key": "err.classify_{}",
+      "canonical": "err.classify",
+      "placeholders": [
+        "p1"
+      ],
+      "freq": 1,
+      "category": "error",
+      "op": "classify",
+      "types": [
+        "any"
+      ]
+    },
+    {
+      "template_key": "err.retryable_{}",
+      "canonical": "err.retryable",
+      "placeholders": [
+        "p1"
+      ],
+      "freq": 1,
+      "category": "error",
+      "op": "flag",
+      "types": [
+        "any"
+      ]
+    },
+    {
+      "template_key": "err.caused_by_{}",
+      "canonical": "err.caused_by",
+      "placeholders": [
+        "p1"
+      ],
+      "freq": 1,
+      "category": "error",
+      "op": "chain",
+      "types": [
+        "any"
+      ]
+    },
+    {
+      "template_key": "diag.span_start_{}",
+      "canonical": "diag.span_start",
+      "placeholders": [
+        "p1"
+      ],
+      "freq": 1,
+      "category": "diag",
+      "op": "start",
+      "types": [
+        "any"
+      ]
+    },
+    {
+      "template_key": "diag.span_end_{}",
+      "canonical": "diag.span_end",
+      "placeholders": [
+        "p1"
+      ],
+      "freq": 1,
+      "category": "diag",
+      "op": "end",
+      "types": [
+        "any"
+      ]
+    },
+    {
+      "template_key": "diag.event_{}",
+      "canonical": "diag.event",
+      "placeholders": [
+        "p1"
+      ],
+      "freq": 1,
+      "category": "diag",
+      "op": "event",
+      "types": [
+        "any"
+      ]
+    },
+    {
+      "template_key": "diag.kv_{}_{}",
+      "canonical": "diag.kv",
+      "placeholders": [
+        "p1",
+        "p2"
+      ],
+      "freq": 1,
+      "category": "diag",
+      "op": "kv",
+      "types": [
+        "any",
+        "any"
+      ]
+    },
+    {
+      "template_key": "diag.emit_metric_{}",
+      "canonical": "diag.emit_metric",
+      "placeholders": [
+        "p1"
+      ],
+      "freq": 1,
+      "category": "metrics",
+      "op": "emit",
+      "types": [
+        "any"
+      ]
+    },
+    {
+      "template_key": "diag.emit_hist_{}",
+      "canonical": "diag.emit_hist",
+      "placeholders": [
+        "p1"
+      ],
+      "freq": 1,
+      "category": "metrics",
+      "op": "emit",
+      "types": [
+        "any"
+      ]
+    },
+    {
+      "template_key": "diag.rate_limit_{}",
+      "canonical": "diag.rate_limit",
+      "placeholders": [
+        "p1"
+      ],
+      "freq": 1,
+      "category": "metrics",
+      "op": "limit",
+      "types": [
+        "any"
+      ]
+    },
+    {
+      "template_key": "diag.sample_{}",
+      "canonical": "diag.sample",
+      "placeholders": [
+        "p1"
+      ],
+      "freq": 1,
+      "category": "metrics",
+      "op": "sample",
+      "types": [
+        "any"
+      ]
+    },
+    {
+      "template_key": "diag.trace_id_{}",
+      "canonical": "diag.trace_id",
+      "placeholders": [
+        "p1"
+      ],
+      "freq": 1,
+      "category": "trace",
+      "op": "set",
+      "types": [
+        "any"
+      ]
+    },
+    {
+      "template_key": "diag.span_link_{}",
+      "canonical": "diag.span_link",
+      "placeholders": [
+        "p1"
+      ],
+      "freq": 1,
+      "category": "trace",
+      "op": "link",
+      "types": [
+        "any"
+      ]
+    },
+    {
+      "template_key": "diag.log_{}",
+      "canonical": "diag.log",
+      "placeholders": [
+        "p1"
+      ],
+      "freq": 1,
+      "category": "log",
+      "op": "emit",
+      "types": [
+        "any"
+      ]
+    },
+    {
+      "template_key": "diag.flush_{}",
+      "canonical": "diag.flush",
+      "placeholders": [
+        "p1"
+      ],
+      "freq": 1,
+      "category": "log",
+      "op": "flush",
+      "types": [
+        "any"
+      ]
+    }
+  ]
+}

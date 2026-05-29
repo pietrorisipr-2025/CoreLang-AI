@@ -1,0 +1,214 @@
+{
+  "block": "D3_Block23",
+  "version": "6.30R1",
+  "templates": [
+    {
+      "template_key": "ctx.begin_{}",
+      "canonical": "ctx.begin",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "context",
+      "op": "begin"
+    },
+    {
+      "template_key": "ctx.end_{}",
+      "canonical": "ctx.end",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "context",
+      "op": "end"
+    },
+    {
+      "template_key": "ctx.link_{}",
+      "canonical": "ctx.link",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "context",
+      "op": "link"
+    },
+    {
+      "template_key": "ctx.ttl_{}",
+      "canonical": "ctx.ttl",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "context",
+      "op": "set"
+    },
+    {
+      "template_key": "ctx.batch_begin_{}",
+      "canonical": "ctx.batch_begin",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "batch",
+      "op": "begin"
+    },
+    {
+      "template_key": "ctx.batch_end_{}",
+      "canonical": "ctx.batch_end",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "batch",
+      "op": "end"
+    },
+    {
+      "template_key": "ctx.ordering_{}",
+      "canonical": "ctx.ordering",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "context",
+      "op": "set"
+    },
+    {
+      "template_key": "ctx.priority_{}",
+      "canonical": "ctx.priority",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "context",
+      "op": "set"
+    },
+    {
+      "template_key": "ctx.attach_ref_{}",
+      "canonical": "ctx.attach_ref",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "context",
+      "op": "attach"
+    },
+    {
+      "template_key": "ctx.thread_id_{}",
+      "canonical": "ctx.thread_id",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "context",
+      "op": "set"
+    },
+    {
+      "template_key": "ctx.turn_id_{}",
+      "canonical": "ctx.turn_id",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "context",
+      "op": "set"
+    },
+    {
+      "template_key": "ctx.topic_{}",
+      "canonical": "ctx.topic",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "context",
+      "op": "set"
+    },
+    {
+      "template_key": "ctx.get_{}",
+      "canonical": "ctx.get",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "context",
+      "op": "get"
+    },
+    {
+      "template_key": "ctx.trace_bind_{}",
+      "canonical": "ctx.trace_bind",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "context",
+      "op": "bind"
+    },
+    {
+      "template_key": "ctx.batch_limit_{}",
+      "canonical": "ctx.batch_limit",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "batch",
+      "op": "set"
+    },
+    {
+      "template_key": "ctx.ordering_strict_{}",
+      "canonical": "ctx.ordering_strict",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "context",
+      "op": "set"
+    }
+  ]
+}

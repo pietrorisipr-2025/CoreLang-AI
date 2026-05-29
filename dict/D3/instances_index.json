@@ -1,0 +1,45 @@
+{
+  "count": 10000,
+  "shards": [
+    {
+      "file": "dict/D3/instances/part_0000.json",
+      "count": 1000
+    },
+    {
+      "file": "dict/D3/instances/part_0001.json",
+      "count": 1000
+    },
+    {
+      "file": "dict/D3/instances/part_0002.json",
+      "count": 1000
+    },
+    {
+      "file": "dict/D3/instances/part_0003.json",
+      "count": 1000
+    },
+    {
+      "file": "dict/D3/instances/part_0004.json",
+      "count": 1000
+    },
+    {
+      "file": "dict/D3/instances/part_0005.json",
+      "count": 1000
+    },
+    {
+      "file": "dict/D3/instances/part_0006.json",
+      "count": 1000
+    },
+    {
+      "file": "dict/D3/instances/part_0007.json",
+      "count": 1000
+    },
+    {
+      "file": "dict/D3/instances/part_0008.json",
+      "count": 1000
+    },
+    {
+      "file": "dict/D3/instances/part_0009.json",
+      "count": 1000
+    }
+  ]
+}

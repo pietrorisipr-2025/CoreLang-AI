@@ -1,0 +1,272 @@
+{
+  "block": "D3_Block15",
+  "version": "6.30R1",
+  "templates": [
+    {
+      "template_key": "ops.session_start_{}",
+      "canonical": "ops.session_start",
+      "placeholders": [
+        "p1"
+      ],
+      "freq": 1,
+      "category": "session",
+      "op": "start",
+      "types": [
+        "any"
+      ]
+    },
+    {
+      "template_key": "ops.session_close_{}",
+      "canonical": "ops.session_close",
+      "placeholders": [
+        "p1"
+      ],
+      "freq": 1,
+      "category": "session",
+      "op": "close",
+      "types": [
+        "any"
+      ]
+    },
+    {
+      "template_key": "ops.plan_{}",
+      "canonical": "ops.plan",
+      "placeholders": [
+        "p1"
+      ],
+      "freq": 1,
+      "category": "plan",
+      "op": "new",
+      "types": [
+        "any"
+      ]
+    },
+    {
+      "template_key": "ops.step_{}",
+      "canonical": "ops.step",
+      "placeholders": [
+        "p1"
+      ],
+      "freq": 1,
+      "category": "plan",
+      "op": "step",
+      "types": [
+        "any"
+      ]
+    },
+    {
+      "template_key": "ops.ack_semantic_{}",
+      "canonical": "ops.ack_semantic",
+      "placeholders": [
+        "p1"
+      ],
+      "freq": 1,
+      "category": "ack",
+      "op": "ack",
+      "types": [
+        "any"
+      ]
+    },
+    {
+      "template_key": "ops.tool_invoke_{}_{}",
+      "canonical": "ops.tool_invoke",
+      "placeholders": [
+        "p1",
+        "p2"
+      ],
+      "freq": 1,
+      "category": "tool",
+      "op": "invoke",
+      "types": [
+        "any",
+        "any"
+      ]
+    },
+    {
+      "template_key": "ops.tool_result_{}",
+      "canonical": "ops.tool_result",
+      "placeholders": [
+        "p1"
+      ],
+      "freq": 1,
+      "category": "tool",
+      "op": "result",
+      "types": [
+        "any"
+      ]
+    },
+    {
+      "template_key": "ops.content_put_{}",
+      "canonical": "ops.content_put",
+      "placeholders": [
+        "p1"
+      ],
+      "freq": 1,
+      "category": "content",
+      "op": "put",
+      "types": [
+        "any"
+      ]
+    },
+    {
+      "template_key": "ops.content_get_{}",
+      "canonical": "ops.content_get",
+      "placeholders": [
+        "p1"
+      ],
+      "freq": 1,
+      "category": "content",
+      "op": "get",
+      "types": [
+        "any"
+      ]
+    },
+    {
+      "template_key": "ops.rollback_{}",
+      "canonical": "ops.rollback",
+      "placeholders": [
+        "p1"
+      ],
+      "freq": 1,
+      "category": "control",
+      "op": "rollback",
+      "types": [
+        "any"
+      ]
+    },
+    {
+      "template_key": "ops.rate_limit_{}",
+      "canonical": "ops.rate_limit",
+      "placeholders": [
+        "p1"
+      ],
+      "freq": 1,
+      "category": "control",
+      "op": "rate",
+      "types": [
+        "any"
+      ]
+    },
+    {
+      "template_key": "ops.trace_link_{}",
+      "canonical": "ops.trace_link",
+      "placeholders": [
+        "p1"
+      ],
+      "freq": 1,
+      "category": "trace",
+      "op": "link",
+      "types": [
+        "any"
+      ]
+    },
+    {
+      "template_key": "ops.escrow_open_{}",
+      "canonical": "ops.escrow_open",
+      "placeholders": [
+        "p1"
+      ],
+      "freq": 1,
+      "category": "resource",
+      "op": "open",
+      "types": [
+        "any"
+      ]
+    },
+    {
+      "template_key": "ops.escrow_close_{}",
+      "canonical": "ops.escrow_close",
+      "placeholders": [
+        "p1"
+      ],
+      "freq": 1,
+      "category": "resource",
+      "op": "close",
+      "types": [
+        "any"
+      ]
+    },
+    {
+      "template_key": "ops.resource_request_{}_{}",
+      "canonical": "ops.resource_request",
+      "placeholders": [
+        "p1",
+        "p2"
+      ],
+      "freq": 1,
+      "category": "resource",
+      "op": "request",
+      "types": [
+        "any",
+        "any"
+      ]
+    },
+    {
+      "template_key": "ops.resource_grant_{}_{}",
+      "canonical": "ops.resource_grant",
+      "placeholders": [
+        "p1",
+        "p2"
+      ],
+      "freq": 1,
+      "category": "resource",
+      "op": "grant",
+      "types": [
+        "any",
+        "any"
+      ]
+    },
+    {
+      "template_key": "ops.resource_revoke_{}",
+      "canonical": "ops.resource_revoke",
+      "placeholders": [
+        "p1"
+      ],
+      "freq": 1,
+      "category": "resource",
+      "op": "revoke",
+      "types": [
+        "any"
+      ]
+    },
+    {
+      "template_key": "ops.guardrail_{}",
+      "canonical": "ops.guardrail",
+      "placeholders": [
+        "p1"
+      ],
+      "freq": 1,
+      "category": "policy",
+      "op": "apply",
+      "types": [
+        "any"
+      ]
+    },
+    {
+      "template_key": "ops.capa_neg_{}",
+      "canonical": "ops.capa_neg",
+      "placeholders": [
+        "p1"
+      ],
+      "freq": 1,
+      "category": "link",
+      "op": "negotiate",
+      "types": [
+        "any"
+      ]
+    },
+    {
+      "template_key": "ops.handoff_{}",
+      "canonical": "ops.handoff",
+      "placeholders": [
+        "p1"
+      ],
+      "freq": 1,
+      "category": "session",
+      "op": "handoff",
+      "types": [
+        "any"
+      ]
+    }
+  ]
+}

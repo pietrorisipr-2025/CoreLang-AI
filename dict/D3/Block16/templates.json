@@ -1,0 +1,218 @@
+{
+  "block": "D3_Block16",
+  "version": "6.30R1",
+  "templates": [
+    {
+      "template_key": "cc.token_bucket_{}_{}",
+      "canonical": "cc.token_bucket",
+      "placeholders": [
+        "p1",
+        "p2"
+      ],
+      "types": [
+        "any",
+        "any"
+      ],
+      "freq": 1,
+      "category": "pacing",
+      "op": "set"
+    },
+    {
+      "template_key": "cc.latency_target_{}",
+      "canonical": "cc.latency_target",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "pacing",
+      "op": "set"
+    },
+    {
+      "template_key": "cc.rate_cap_{}",
+      "canonical": "cc.rate_cap",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "pacing",
+      "op": "set"
+    },
+    {
+      "template_key": "cc.rtt_estimate_{}",
+      "canonical": "cc.rtt_estimate",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "estimation",
+      "op": "update"
+    },
+    {
+      "template_key": "cc.path_mtu_{}",
+      "canonical": "cc.path_mtu",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "estimation",
+      "op": "update"
+    },
+    {
+      "template_key": "cc.slow_start_{}",
+      "canonical": "cc.slow_start",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "control",
+      "op": "enable"
+    },
+    {
+      "template_key": "cc.backoff_{}",
+      "canonical": "cc.backoff",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "control",
+      "op": "set"
+    },
+    {
+      "template_key": "cc.aimd_{}_{}",
+      "canonical": "cc.aimd",
+      "placeholders": [
+        "p1",
+        "p2"
+      ],
+      "types": [
+        "any",
+        "any"
+      ],
+      "freq": 1,
+      "category": "control",
+      "op": "set"
+    },
+    {
+      "template_key": "cc.prioritize_{}",
+      "canonical": "cc.prioritize",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "qos",
+      "op": "set"
+    },
+    {
+      "template_key": "cc.pacing_enable_{}",
+      "canonical": "cc.pacing_enable",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "pacing",
+      "op": "enable"
+    },
+    {
+      "template_key": "cc.ecn_enable_{}",
+      "canonical": "cc.ecn_enable",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "pacing",
+      "op": "enable"
+    },
+    {
+      "template_key": "cc.rto_{}",
+      "canonical": "cc.rto",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "control",
+      "op": "set"
+    },
+    {
+      "template_key": "cc.cwnd_set_{}",
+      "canonical": "cc.cwnd_set",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "control",
+      "op": "set"
+    },
+    {
+      "template_key": "cc.prio_map_{}",
+      "canonical": "cc.prio_map",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "qos",
+      "op": "set"
+    },
+    {
+      "template_key": "cc.bbr_gain_{}",
+      "canonical": "cc.bbr_gain",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "control",
+      "op": "set"
+    },
+    {
+      "template_key": "cc.gso_{}",
+      "canonical": "cc.gso",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "pacing",
+      "op": "set"
+    }
+  ]
+}

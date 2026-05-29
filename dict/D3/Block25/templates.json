@@ -1,0 +1,201 @@
+{
+  "block": "D3_Block25",
+  "version": "6.30R1",
+  "templates": [
+    {
+      "template_key": "rag.index_put_{}",
+      "canonical": "rag.index_put",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "index",
+      "op": "put"
+    },
+    {
+      "template_key": "rag.index_get_{}",
+      "canonical": "rag.index_get",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "index",
+      "op": "get"
+    },
+    {
+      "template_key": "rag.chunk_{}",
+      "canonical": "rag.chunk",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "index",
+      "op": "chunk"
+    },
+    {
+      "template_key": "rag.embed_ref_{}",
+      "canonical": "rag.embed_ref",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "embed",
+      "op": "ref"
+    },
+    {
+      "template_key": "rag.search_{}",
+      "canonical": "rag.search",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "search",
+      "op": "search"
+    },
+    {
+      "template_key": "rag.hybrid_{}",
+      "canonical": "rag.hybrid",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "search",
+      "op": "mix"
+    },
+    {
+      "template_key": "rag.ground_{}",
+      "canonical": "rag.ground",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "ground",
+      "op": "apply"
+    },
+    {
+      "template_key": "rag.fuse_{}",
+      "canonical": "rag.fuse",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "fuse",
+      "op": "apply"
+    },
+    {
+      "template_key": "rag.compress_{}",
+      "canonical": "rag.compress",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "index",
+      "op": "compress"
+    },
+    {
+      "template_key": "rag.cache_{}",
+      "canonical": "rag.cache",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "cache",
+      "op": "set"
+    },
+    {
+      "template_key": "rag.invalidate_{}",
+      "canonical": "rag.invalidate",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "index",
+      "op": "invalidate"
+    },
+    {
+      "template_key": "rag.index_schema_{}",
+      "canonical": "rag.index_schema",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "index",
+      "op": "schema"
+    },
+    {
+      "template_key": "rag.embed_schema_{}",
+      "canonical": "rag.embed_schema",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "embed",
+      "op": "schema"
+    },
+    {
+      "template_key": "rag.search_policy_{}",
+      "canonical": "rag.search_policy",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "search",
+      "op": "policy"
+    },
+    {
+      "template_key": "rag.invalidate_signed_{}",
+      "canonical": "rag.invalidate_signed",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "index",
+      "op": "invalidate"
+    }
+  ]
+}

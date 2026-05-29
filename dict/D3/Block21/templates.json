@@ -1,0 +1,229 @@
+{
+  "block": "D3_Block21",
+  "version": "6.30R1",
+  "templates": [
+    {
+      "template_key": "id.peer_announce_{}_{}",
+      "canonical": "id.peer_announce",
+      "placeholders": [
+        "p1",
+        "p2"
+      ],
+      "types": [
+        "any",
+        "any"
+      ],
+      "freq": 1,
+      "category": "identity",
+      "op": "announce"
+    },
+    {
+      "template_key": "id.key_fingerprint_{}",
+      "canonical": "id.key_fingerprint",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "identity",
+      "op": "get"
+    },
+    {
+      "template_key": "id.key_rotate_{}",
+      "canonical": "id.key_rotate",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "identity",
+      "op": "rotate"
+    },
+    {
+      "template_key": "id.session_ticket_{}",
+      "canonical": "id.session_ticket",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "identity",
+      "op": "issue"
+    },
+    {
+      "template_key": "auth.challenge_{}",
+      "canonical": "auth.challenge",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "auth",
+      "op": "challenge"
+    },
+    {
+      "template_key": "auth.response_{}",
+      "canonical": "auth.response",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "auth",
+      "op": "respond"
+    },
+    {
+      "template_key": "auth.verify_{}",
+      "canonical": "auth.verify",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "auth",
+      "op": "verify"
+    },
+    {
+      "template_key": "auth.pop_{}",
+      "canonical": "auth.pop",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "auth",
+      "op": "prove"
+    },
+    {
+      "template_key": "trust.score_{}",
+      "canonical": "trust.score",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "trust",
+      "op": "score"
+    },
+    {
+      "template_key": "trust.report_{}",
+      "canonical": "trust.report",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "trust",
+      "op": "report"
+    },
+    {
+      "template_key": "trust.policy_require_{}",
+      "canonical": "trust.policy_require",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "trust",
+      "op": "require"
+    },
+    {
+      "template_key": "trust.revoke_{}",
+      "canonical": "trust.revoke",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "trust",
+      "op": "revoke"
+    },
+    {
+      "template_key": "id.capability_bind_{}",
+      "canonical": "id.capability_bind",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "identity",
+      "op": "bind"
+    },
+    {
+      "template_key": "id.session_ticket_0rtt_{}",
+      "canonical": "id.session_ticket_0rtt",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "identity",
+      "op": "issue"
+    },
+    {
+      "template_key": "auth.transcript_mic_{}",
+      "canonical": "auth.transcript_mic",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "auth",
+      "op": "bind"
+    },
+    {
+      "template_key": "id.key_rotate_grace_{}",
+      "canonical": "id.key_rotate_grace",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "identity",
+      "op": "set"
+    },
+    {
+      "template_key": "trust.score_components_{}",
+      "canonical": "trust.score_components",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "trust",
+      "op": "config"
+    }
+  ]
+}

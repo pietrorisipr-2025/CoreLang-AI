@@ -1,0 +1,177 @@
+{
+  "block": "D3_Block24",
+  "version": "6.30R1",
+  "templates": [
+    {
+      "template_key": "safety.guardrail_set_{}",
+      "canonical": "safety.guardrail_set",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "safety",
+      "op": "set"
+    },
+    {
+      "template_key": "safety.violation_report_{}",
+      "canonical": "safety.violation_report",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "safety",
+      "op": "report"
+    },
+    {
+      "template_key": "safety.rate_limit_{}",
+      "canonical": "safety.rate_limit",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "safety",
+      "op": "limit"
+    },
+    {
+      "template_key": "safety.sandbox_{}",
+      "canonical": "safety.sandbox",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "safety",
+      "op": "mode"
+    },
+    {
+      "template_key": "safety.quarantine_{}",
+      "canonical": "safety.quarantine",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "safety",
+      "op": "isolate"
+    },
+    {
+      "template_key": "policy.load_{}",
+      "canonical": "policy.load",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "policy",
+      "op": "load"
+    },
+    {
+      "template_key": "policy.enable_{}",
+      "canonical": "policy.enable",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "policy",
+      "op": "enable"
+    },
+    {
+      "template_key": "policy.disable_{}",
+      "canonical": "policy.disable",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "policy",
+      "op": "disable"
+    },
+    {
+      "template_key": "policy.query_{}",
+      "canonical": "policy.query",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "policy",
+      "op": "query"
+    },
+    {
+      "template_key": "policy.decision_{}",
+      "canonical": "policy.decision",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "policy",
+      "op": "decide"
+    },
+    {
+      "template_key": "policy.pack_load_{}_{}",
+      "canonical": "policy.pack_load",
+      "placeholders": [
+        "p1",
+        "p2"
+      ],
+      "types": [
+        "any",
+        "any"
+      ],
+      "freq": 1,
+      "category": "policy",
+      "op": "load"
+    },
+    {
+      "template_key": "safety.audit_mic_{}",
+      "canonical": "safety.audit_mic",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "safety",
+      "op": "set"
+    },
+    {
+      "template_key": "safety.sandbox_level_{}",
+      "canonical": "safety.sandbox_level",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "safety",
+      "op": "set"
+    }
+  ]
+}

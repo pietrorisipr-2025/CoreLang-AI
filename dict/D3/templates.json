@@ -1,0 +1,481 @@
+{
+  "block": "D3_Block11",
+  "version": "6.30R1",
+  "templates": [
+    {
+      "template_key": "CL{n}_ROUND_PRICE_TICK_P{n}_T{n}_{n}",
+      "canonical": "crypto.cl{}_round_price_tick_p{}_t{}_{}",
+      "placeholders": [
+        "p1",
+        "p2",
+        "p3",
+        "p4"
+      ],
+      "freq": 334,
+      "category": "crypto",
+      "op": "op"
+    },
+    {
+      "template_key": "CL{n}_UNITS_ERC{n}_SCALE_UNITS{n}_D{n}_{n}",
+      "canonical": "crypto.cl{}_units_erc{}_scale_units{}_d{}_{}",
+      "placeholders": [
+        "p1",
+        "p2",
+        "p3",
+        "p4",
+        "p5"
+      ],
+      "freq": 334,
+      "category": "crypto",
+      "op": "op"
+    },
+    {
+      "template_key": "CL{n}_UNITS_ETH_GWEI_TO_WEI_GWEI{n}_{n}",
+      "canonical": "crypto.cl{}_units_eth_gwei_to_wei_gwei{}_{}",
+      "placeholders": [
+        "p1",
+        "p2",
+        "p3"
+      ],
+      "freq": 334,
+      "category": "crypto",
+      "op": "op"
+    },
+    {
+      "template_key": "CL{n}_UNITS_MICROXRP_TO_DROPS_MICRO{n}_{n}",
+      "canonical": "crypto.cl{}_units_microxrp_to_drops_micro{}_{}",
+      "placeholders": [
+        "p1",
+        "p2",
+        "p3"
+      ],
+      "freq": 334,
+      "category": "crypto",
+      "op": "op"
+    },
+    {
+      "template_key": "CL{n}_UNITS_MILLISATS_TO_SATS_MSAT{n}_{n}",
+      "canonical": "crypto.cl{}_units_millisats_to_sats_msat{}_{}",
+      "placeholders": [
+        "p1",
+        "p2",
+        "p3"
+      ],
+      "freq": 334,
+      "category": "crypto",
+      "op": "op"
+    },
+    {
+      "template_key": "CL{n}_UNITS_SOL_MICRO_TO_LAMPORTS_MICRO{n}_{n}",
+      "canonical": "crypto.cl{}_units_sol_micro_to_lamports_micro{}_{}",
+      "placeholders": [
+        "p1",
+        "p2",
+        "p3"
+      ],
+      "freq": 334,
+      "category": "crypto",
+      "op": "op"
+    },
+    {
+      "template_key": "CL{n}_ADDR_BTC_BASE{n}CHECK_VALID_V{n}_{n}",
+      "canonical": "crypto.cl{}_addr_btc_base{}check_valid_v{}_{}",
+      "placeholders": [
+        "p1",
+        "p2",
+        "p3",
+        "p4"
+      ],
+      "freq": 333,
+      "category": "crypto",
+      "op": "op"
+    },
+    {
+      "template_key": "CL{n}_ADDR_SOL_BASE{n}_LEN{n}_{n}",
+      "canonical": "crypto.cl{}_addr_sol_base{}_len{}_{}",
+      "placeholders": [
+        "p1",
+        "p2",
+        "p3",
+        "p4"
+      ],
+      "freq": 333,
+      "category": "crypto",
+      "op": "op"
+    },
+    {
+      "template_key": "CL{n}_AUTH_NONCE_WINDOW_SERVER{n}_CLIENT{n}_SKEW{n}_{n}",
+      "canonical": "crypto.cl{}_auth_nonce_window_server{}_client{}_skew{}_{}",
+      "placeholders": [
+        "p1",
+        "p2",
+        "p3",
+        "p4",
+        "p5"
+      ],
+      "freq": 333,
+      "category": "random_material",
+      "op": "op"
+    },
+    {
+      "template_key": "CL{n}_FEE_BASE_BPS_QTY{n}_BPS{n}_{n}",
+      "canonical": "crypto.cl{}_fee_base_bps_qty{}_bps{}_{}",
+      "placeholders": [
+        "p1",
+        "p2",
+        "p3",
+        "p4"
+      ],
+      "freq": 333,
+      "category": "crypto",
+      "op": "op"
+    },
+    {
+      "template_key": "CL{n}_PAGING_OFFSET_N{n}_P{n}_K{n}_{n}",
+      "canonical": "crypto.cl{}_paging_offset_n{}_p{}_k{}_{}",
+      "placeholders": [
+        "p1",
+        "p2",
+        "p3",
+        "p4",
+        "p5"
+      ],
+      "freq": 333,
+      "category": "crypto",
+      "op": "op"
+    },
+    {
+      "template_key": "CL{n}_RATELIMIT_TOKEN_BUCKET_CAP{n}_RATE{n}_REQ{n}_{n}",
+      "canonical": "crypto.cl{}_ratelimit_token_bucket_cap{}_rate{}_req{}_{}",
+      "placeholders": [
+        "p1",
+        "p2",
+        "p3",
+        "p4",
+        "p5"
+      ],
+      "freq": 333,
+      "category": "crypto",
+      "op": "op"
+    },
+    {
+      "template_key": "CL{n}_ROUND_QTY_LOT_Q{n}_L{n}_{n}",
+      "canonical": "crypto.cl{}_round_qty_lot_q{}_l{}_{}",
+      "placeholders": [
+        "p1",
+        "p2",
+        "p3",
+        "p4"
+      ],
+      "freq": 333,
+      "category": "crypto",
+      "op": "op"
+    },
+    {
+      "template_key": "CL{n}_SIGN_HMAC_HEX_LEN_HMAC_SHA{n}_{n}",
+      "canonical": "crypto.cl{}_sign_hmac_hex_len_hmac_sha{}_{}",
+      "placeholders": [
+        "p1",
+        "p2",
+        "p3"
+      ],
+      "freq": 333,
+      "category": "hash",
+      "op": "sign"
+    },
+    {
+      "template_key": "CL{n}_SYMBOL_CATEGORY_SOL_EUR_{n}",
+      "canonical": "crypto.cl{}_symbol_category_sol_eur_{}",
+      "placeholders": [
+        "eur"
+      ],
+      "freq": 333,
+      "category": "crypto",
+      "op": "op"
+    },
+    {
+      "template_key": "CL{n}_WS_HEARTBEAT_INTERVAL{n}_ELAPSED{n}_{n}",
+      "canonical": "crypto.cl{}_ws_heartbeat_interval{}_elapsed{}_{}",
+      "placeholders": [
+        "p1",
+        "p2",
+        "p3",
+        "p4"
+      ],
+      "freq": 333,
+      "category": "crypto",
+      "op": "op"
+    },
+    {
+      "template_key": "CL{n}_EIP{n}_STRING_TO_SIGN_LEN_BYTES_{n}",
+      "canonical": "crypto.cl{}_eip{}_string_to_sign_len_bytes_{}",
+      "placeholders": [
+        "bytes"
+      ],
+      "freq": 286,
+      "category": "crypto",
+      "op": "sign"
+    },
+    {
+      "template_key": "CL{n}_PRECISION_CLAMP_NANO_TO_DECIMALS_{n}",
+      "canonical": "crypto.cl{}_precision_clamp_nano_to_decimals_{}",
+      "placeholders": [
+        "decimals"
+      ],
+      "freq": 286,
+      "category": "crypto",
+      "op": "decrypt"
+    },
+    {
+      "template_key": "CL{n}_TIME_BUCKET_FLOOR_MS_{n}",
+      "canonical": "crypto.cl{}_time_bucket_floor_ms_{}",
+      "placeholders": [
+        "ms"
+      ],
+      "freq": 286,
+      "category": "crypto",
+      "op": "op"
+    },
+    {
+      "template_key": "CL{n}_WS_BACKOFF_FULL_JITTER_ATTEMPTS_{n}",
+      "canonical": "crypto.cl{}_ws_backoff_full_jitter_attempts_{}",
+      "placeholders": [
+        "attempts"
+      ],
+      "freq": 286,
+      "category": "crypto",
+      "op": "op"
+    },
+    {
+      "template_key": "CL{n}_XRP_DESTINATION_TAG_{n}BIT_VALID_{n}",
+      "canonical": "crypto.cl{}_xrp_destination_tag_{}bit_valid_{}",
+      "placeholders": [
+        "tag",
+        "valid"
+      ],
+      "freq": 286,
+      "category": "random_material",
+      "op": "op"
+    },
+    {
+      "template_key": "CL{n}_EVM_CHAIN_ID_CATEGORY_{n}",
+      "canonical": "crypto.cl{}_evm_chain_id_category_{}",
+      "placeholders": [
+        "category"
+      ],
+      "freq": 285,
+      "category": "crypto",
+      "op": "op"
+    },
+    {
+      "template_key": "CL{n}_HTTP_IDEMPOTENCY_WINDOW_CHECK_{n}",
+      "canonical": "crypto.cl{}_http_idempotency_window_check_{}",
+      "placeholders": [
+        "check"
+      ],
+      "freq": 285,
+      "category": "crypto",
+      "op": "encrypt"
+    },
+    {
+      "template_key": "CL{n}_BTC_BECH{n}_CLASS_{n}",
+      "canonical": "crypto.cl{}_btc_bech{}_class_{}",
+      "placeholders": [
+        "class"
+      ],
+      "freq": 223,
+      "category": "crypto",
+      "op": "op"
+    },
+    {
+      "template_key": "CL{n}_ETH_EIP{n}_CHECKSUM_VALID_{n}",
+      "canonical": "crypto.cl{}_eth_eip{}_checksum_valid_{}",
+      "placeholders": [
+        "valid"
+      ],
+      "freq": 223,
+      "category": "crypto",
+      "op": "op"
+    },
+    {
+      "template_key": "CL{n}_CANDLE_BUCKET_FLOOR_{n}",
+      "canonical": "crypto.cl{}_candle_bucket_floor_{}",
+      "placeholders": [
+        "floor"
+      ],
+      "freq": 222,
+      "category": "crypto",
+      "op": "op"
+    },
+    {
+      "template_key": "CL{n}_EIP{n}_TOTAL_FEE_{n}",
+      "canonical": "crypto.cl{}_eip{}_total_fee_{}",
+      "placeholders": [
+        "fee"
+      ],
+      "freq": 222,
+      "category": "crypto",
+      "op": "op"
+    },
+    {
+      "template_key": "CL{n}_ORDERBOOK_CHECKSUM_CRC{n}_{n}",
+      "canonical": "crypto.cl{}_orderbook_checksum_crc{}_{}",
+      "placeholders": [
+        "p1",
+        "p2",
+        "p3"
+      ],
+      "freq": 222,
+      "category": "formats",
+      "op": "op"
+    },
+    {
+      "template_key": "CL{n}_RATELIMIT_SLIDING_WINDOW_{n}",
+      "canonical": "crypto.cl{}_ratelimit_sliding_window_{}",
+      "placeholders": [
+        "window"
+      ],
+      "freq": 222,
+      "category": "crypto",
+      "op": "op"
+    },
+    {
+      "template_key": "CL{n}_ROUND_CASCADE_PRICE_QTY_FEE_{n}",
+      "canonical": "crypto.cl{}_round_cascade_price_qty_fee_{}",
+      "placeholders": [
+        "fee"
+      ],
+      "freq": 222,
+      "category": "crypto",
+      "op": "op"
+    },
+    {
+      "template_key": "CL{n}_SOL_SIG_LEN{n}_BASE{n}_{n}",
+      "canonical": "crypto.cl{}_sol_sig_len{}_base{}_{}",
+      "placeholders": [
+        "p1",
+        "p2",
+        "p3",
+        "p4"
+      ],
+      "freq": 222,
+      "category": "crypto",
+      "op": "op"
+    },
+    {
+      "template_key": "CL{n}_SYMBOL_CANONICALIZE_{n}",
+      "canonical": "crypto.cl{}_symbol_canonicalize_{}",
+      "placeholders": [
+        "canonicalize"
+      ],
+      "freq": 222,
+      "category": "crypto",
+      "op": "op"
+    },
+    {
+      "template_key": "CL{n}_RPC_METHOD_CATEGORY_ETH_GETBLOCKBYNUMBER_{n}",
+      "canonical": "crypto.cl{}_rpc_method_category_eth_getblockbynumber_{}",
+      "placeholders": [
+        "getblockbynumber"
+      ],
+      "freq": 84,
+      "category": "crypto",
+      "op": "op"
+    },
+    {
+      "template_key": "CL{n}_RPC_METHOD_CATEGORY_GETBLOCKHASH_{n}",
+      "canonical": "crypto.cl{}_rpc_method_category_getblockhash_{}",
+      "placeholders": [
+        "getblockhash"
+      ],
+      "freq": 83,
+      "category": "crypto",
+      "op": "hash"
+    },
+    {
+      "template_key": "CL{n}_RPC_METHOD_CATEGORY_GETBLOCKHEIGHT_{n}",
+      "canonical": "crypto.cl{}_rpc_method_category_getblockheight_{}",
+      "placeholders": [
+        "getblockheight"
+      ],
+      "freq": 83,
+      "category": "crypto",
+      "op": "op"
+    },
+    {
+      "template_key": "CL{n}_RPC_METHOD_CATEGORY_LEDGER_{n}",
+      "canonical": "crypto.cl{}_rpc_method_category_ledger_{}",
+      "placeholders": [
+        "ledger"
+      ],
+      "freq": 83,
+      "category": "crypto",
+      "op": "op"
+    },
+    {
+      "template_key": "CL{n}_FINALITY_SAFE_BTC_CONF{n}_THR{n}_{n}",
+      "canonical": "crypto.cl{}_finality_safe_btc_conf{}_thr{}_{}",
+      "placeholders": [
+        "p1",
+        "p2",
+        "p3",
+        "p4"
+      ],
+      "freq": 67,
+      "category": "crypto",
+      "op": "op"
+    },
+    {
+      "template_key": "CL{n}_FINALITY_SAFE_IMX_CONF{n}_THR{n}_{n}",
+      "canonical": "crypto.cl{}_finality_safe_imx_conf{}_thr{}_{}",
+      "placeholders": [
+        "p1",
+        "p2",
+        "p3",
+        "p4"
+      ],
+      "freq": 67,
+      "category": "crypto",
+      "op": "op"
+    },
+    {
+      "template_key": "CL{n}_FINALITY_SAFE_SOL_CONF{n}_THR{n}_{n}",
+      "canonical": "crypto.cl{}_finality_safe_sol_conf{}_thr{}_{}",
+      "placeholders": [
+        "p1",
+        "p2",
+        "p3",
+        "p4"
+      ],
+      "freq": 67,
+      "category": "crypto",
+      "op": "op"
+    },
+    {
+      "template_key": "CL{n}_FINALITY_SAFE_ETH_CONF{n}_THR{n}_{n}",
+      "canonical": "crypto.cl{}_finality_safe_eth_conf{}_thr{}_{}",
+      "placeholders": [
+        "p1",
+        "p2",
+        "p3",
+        "p4"
+      ],
+      "freq": 66,
+      "category": "crypto",
+      "op": "op"
+    },
+    {
+      "template_key": "CL{n}_FINALITY_SAFE_XRP_CONF{n}_THR{n}_{n}",
+      "canonical": "crypto.cl{}_finality_safe_xrp_conf{}_thr{}_{}",
+      "placeholders": [
+        "p1",
+        "p2",
+        "p3",
+        "p4"
+      ],
+      "freq": 66,
+      "category": "crypto",
+      "op": "op"
+    }
+  ]
+}

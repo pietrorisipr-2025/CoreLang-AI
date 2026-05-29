@@ -1,0 +1,1124 @@
+{
+  "instances": [
+    {
+      "id": "2e8d3979bf14051ee3d2c338",
+      "template_key": "rag.index_put_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.index_put(1)"
+    },
+    {
+      "id": "2e8d3979bf14051ee3d2c338",
+      "template_key": "rag.index_put_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.index_put(1)"
+    },
+    {
+      "id": "2e8d3979bf14051ee3d2c338",
+      "template_key": "rag.index_put_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.index_put(1)"
+    },
+    {
+      "id": "2e8d3979bf14051ee3d2c338",
+      "template_key": "rag.index_put_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.index_put(1)"
+    },
+    {
+      "id": "2e8d3979bf14051ee3d2c338",
+      "template_key": "rag.index_put_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.index_put(1)"
+    },
+    {
+      "id": "2e8d3979bf14051ee3d2c338",
+      "template_key": "rag.index_put_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.index_put(1)"
+    },
+    {
+      "id": "2e8d3979bf14051ee3d2c338",
+      "template_key": "rag.index_put_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.index_put(1)"
+    },
+    {
+      "id": "2e8d3979bf14051ee3d2c338",
+      "template_key": "rag.index_put_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.index_put(1)"
+    },
+    {
+      "id": "2e8d3979bf14051ee3d2c338",
+      "template_key": "rag.index_put_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.index_put(1)"
+    },
+    {
+      "id": "2e8d3979bf14051ee3d2c338",
+      "template_key": "rag.index_put_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.index_put(1)"
+    },
+    {
+      "id": "2e8d3979bf14051ee3d2c338",
+      "template_key": "rag.index_put_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.index_put(1)"
+    },
+    {
+      "id": "2e8d3979bf14051ee3d2c338",
+      "template_key": "rag.index_put_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.index_put(1)"
+    },
+    {
+      "id": "5a0e46d63fea3af6cbb08ac4",
+      "template_key": "rag.index_get_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.index_get(1)"
+    },
+    {
+      "id": "5a0e46d63fea3af6cbb08ac4",
+      "template_key": "rag.index_get_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.index_get(1)"
+    },
+    {
+      "id": "5a0e46d63fea3af6cbb08ac4",
+      "template_key": "rag.index_get_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.index_get(1)"
+    },
+    {
+      "id": "5a0e46d63fea3af6cbb08ac4",
+      "template_key": "rag.index_get_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.index_get(1)"
+    },
+    {
+      "id": "5a0e46d63fea3af6cbb08ac4",
+      "template_key": "rag.index_get_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.index_get(1)"
+    },
+    {
+      "id": "5a0e46d63fea3af6cbb08ac4",
+      "template_key": "rag.index_get_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.index_get(1)"
+    },
+    {
+      "id": "5a0e46d63fea3af6cbb08ac4",
+      "template_key": "rag.index_get_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.index_get(1)"
+    },
+    {
+      "id": "5a0e46d63fea3af6cbb08ac4",
+      "template_key": "rag.index_get_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.index_get(1)"
+    },
+    {
+      "id": "5a0e46d63fea3af6cbb08ac4",
+      "template_key": "rag.index_get_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.index_get(1)"
+    },
+    {
+      "id": "5a0e46d63fea3af6cbb08ac4",
+      "template_key": "rag.index_get_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.index_get(1)"
+    },
+    {
+      "id": "5a0e46d63fea3af6cbb08ac4",
+      "template_key": "rag.index_get_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.index_get(1)"
+    },
+    {
+      "id": "5a0e46d63fea3af6cbb08ac4",
+      "template_key": "rag.index_get_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.index_get(1)"
+    },
+    {
+      "id": "698107443ccd7c3728c49351",
+      "template_key": "rag.chunk_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.chunk(1)"
+    },
+    {
+      "id": "698107443ccd7c3728c49351",
+      "template_key": "rag.chunk_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.chunk(1)"
+    },
+    {
+      "id": "698107443ccd7c3728c49351",
+      "template_key": "rag.chunk_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.chunk(1)"
+    },
+    {
+      "id": "698107443ccd7c3728c49351",
+      "template_key": "rag.chunk_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.chunk(1)"
+    },
+    {
+      "id": "698107443ccd7c3728c49351",
+      "template_key": "rag.chunk_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.chunk(1)"
+    },
+    {
+      "id": "698107443ccd7c3728c49351",
+      "template_key": "rag.chunk_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.chunk(1)"
+    },
+    {
+      "id": "698107443ccd7c3728c49351",
+      "template_key": "rag.chunk_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.chunk(1)"
+    },
+    {
+      "id": "698107443ccd7c3728c49351",
+      "template_key": "rag.chunk_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.chunk(1)"
+    },
+    {
+      "id": "698107443ccd7c3728c49351",
+      "template_key": "rag.chunk_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.chunk(1)"
+    },
+    {
+      "id": "698107443ccd7c3728c49351",
+      "template_key": "rag.chunk_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.chunk(1)"
+    },
+    {
+      "id": "698107443ccd7c3728c49351",
+      "template_key": "rag.chunk_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.chunk(1)"
+    },
+    {
+      "id": "698107443ccd7c3728c49351",
+      "template_key": "rag.chunk_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.chunk(1)"
+    },
+    {
+      "id": "b4eccbbfd4517dcf469058d6",
+      "template_key": "rag.embed_ref_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.embed_ref(1)"
+    },
+    {
+      "id": "b4eccbbfd4517dcf469058d6",
+      "template_key": "rag.embed_ref_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.embed_ref(1)"
+    },
+    {
+      "id": "b4eccbbfd4517dcf469058d6",
+      "template_key": "rag.embed_ref_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.embed_ref(1)"
+    },
+    {
+      "id": "b4eccbbfd4517dcf469058d6",
+      "template_key": "rag.embed_ref_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.embed_ref(1)"
+    },
+    {
+      "id": "b4eccbbfd4517dcf469058d6",
+      "template_key": "rag.embed_ref_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.embed_ref(1)"
+    },
+    {
+      "id": "b4eccbbfd4517dcf469058d6",
+      "template_key": "rag.embed_ref_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.embed_ref(1)"
+    },
+    {
+      "id": "b4eccbbfd4517dcf469058d6",
+      "template_key": "rag.embed_ref_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.embed_ref(1)"
+    },
+    {
+      "id": "b4eccbbfd4517dcf469058d6",
+      "template_key": "rag.embed_ref_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.embed_ref(1)"
+    },
+    {
+      "id": "b4eccbbfd4517dcf469058d6",
+      "template_key": "rag.embed_ref_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.embed_ref(1)"
+    },
+    {
+      "id": "b4eccbbfd4517dcf469058d6",
+      "template_key": "rag.embed_ref_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.embed_ref(1)"
+    },
+    {
+      "id": "b4eccbbfd4517dcf469058d6",
+      "template_key": "rag.embed_ref_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.embed_ref(1)"
+    },
+    {
+      "id": "b4eccbbfd4517dcf469058d6",
+      "template_key": "rag.embed_ref_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.embed_ref(1)"
+    },
+    {
+      "id": "6b737ab2ed13e32c554901a4",
+      "template_key": "rag.search_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.search(1)"
+    },
+    {
+      "id": "6b737ab2ed13e32c554901a4",
+      "template_key": "rag.search_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.search(1)"
+    },
+    {
+      "id": "6b737ab2ed13e32c554901a4",
+      "template_key": "rag.search_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.search(1)"
+    },
+    {
+      "id": "6b737ab2ed13e32c554901a4",
+      "template_key": "rag.search_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.search(1)"
+    },
+    {
+      "id": "6b737ab2ed13e32c554901a4",
+      "template_key": "rag.search_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.search(1)"
+    },
+    {
+      "id": "6b737ab2ed13e32c554901a4",
+      "template_key": "rag.search_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.search(1)"
+    },
+    {
+      "id": "6b737ab2ed13e32c554901a4",
+      "template_key": "rag.search_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.search(1)"
+    },
+    {
+      "id": "6b737ab2ed13e32c554901a4",
+      "template_key": "rag.search_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.search(1)"
+    },
+    {
+      "id": "6b737ab2ed13e32c554901a4",
+      "template_key": "rag.search_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.search(1)"
+    },
+    {
+      "id": "6b737ab2ed13e32c554901a4",
+      "template_key": "rag.search_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.search(1)"
+    },
+    {
+      "id": "6b737ab2ed13e32c554901a4",
+      "template_key": "rag.search_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.search(1)"
+    },
+    {
+      "id": "6b737ab2ed13e32c554901a4",
+      "template_key": "rag.search_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.search(1)"
+    },
+    {
+      "id": "9f403764b35895d486b7a6c9",
+      "template_key": "rag.hybrid_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.hybrid(1)"
+    },
+    {
+      "id": "9f403764b35895d486b7a6c9",
+      "template_key": "rag.hybrid_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.hybrid(1)"
+    },
+    {
+      "id": "9f403764b35895d486b7a6c9",
+      "template_key": "rag.hybrid_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.hybrid(1)"
+    },
+    {
+      "id": "9f403764b35895d486b7a6c9",
+      "template_key": "rag.hybrid_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.hybrid(1)"
+    },
+    {
+      "id": "9f403764b35895d486b7a6c9",
+      "template_key": "rag.hybrid_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.hybrid(1)"
+    },
+    {
+      "id": "9f403764b35895d486b7a6c9",
+      "template_key": "rag.hybrid_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.hybrid(1)"
+    },
+    {
+      "id": "9f403764b35895d486b7a6c9",
+      "template_key": "rag.hybrid_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.hybrid(1)"
+    },
+    {
+      "id": "9f403764b35895d486b7a6c9",
+      "template_key": "rag.hybrid_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.hybrid(1)"
+    },
+    {
+      "id": "9f403764b35895d486b7a6c9",
+      "template_key": "rag.hybrid_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.hybrid(1)"
+    },
+    {
+      "id": "9f403764b35895d486b7a6c9",
+      "template_key": "rag.hybrid_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.hybrid(1)"
+    },
+    {
+      "id": "9f403764b35895d486b7a6c9",
+      "template_key": "rag.hybrid_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.hybrid(1)"
+    },
+    {
+      "id": "9f403764b35895d486b7a6c9",
+      "template_key": "rag.hybrid_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.hybrid(1)"
+    },
+    {
+      "id": "8096f1c96e88b2ec5853445c",
+      "template_key": "rag.ground_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.ground(1)"
+    },
+    {
+      "id": "8096f1c96e88b2ec5853445c",
+      "template_key": "rag.ground_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.ground(1)"
+    },
+    {
+      "id": "8096f1c96e88b2ec5853445c",
+      "template_key": "rag.ground_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.ground(1)"
+    },
+    {
+      "id": "8096f1c96e88b2ec5853445c",
+      "template_key": "rag.ground_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.ground(1)"
+    },
+    {
+      "id": "8096f1c96e88b2ec5853445c",
+      "template_key": "rag.ground_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.ground(1)"
+    },
+    {
+      "id": "8096f1c96e88b2ec5853445c",
+      "template_key": "rag.ground_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.ground(1)"
+    },
+    {
+      "id": "8096f1c96e88b2ec5853445c",
+      "template_key": "rag.ground_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.ground(1)"
+    },
+    {
+      "id": "8096f1c96e88b2ec5853445c",
+      "template_key": "rag.ground_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.ground(1)"
+    },
+    {
+      "id": "8096f1c96e88b2ec5853445c",
+      "template_key": "rag.ground_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.ground(1)"
+    },
+    {
+      "id": "8096f1c96e88b2ec5853445c",
+      "template_key": "rag.ground_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.ground(1)"
+    },
+    {
+      "id": "8096f1c96e88b2ec5853445c",
+      "template_key": "rag.ground_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.ground(1)"
+    },
+    {
+      "id": "8096f1c96e88b2ec5853445c",
+      "template_key": "rag.ground_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.ground(1)"
+    },
+    {
+      "id": "e799b4f65943004c3217e6bb",
+      "template_key": "rag.fuse_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.fuse(1)"
+    },
+    {
+      "id": "e799b4f65943004c3217e6bb",
+      "template_key": "rag.fuse_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.fuse(1)"
+    },
+    {
+      "id": "e799b4f65943004c3217e6bb",
+      "template_key": "rag.fuse_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.fuse(1)"
+    },
+    {
+      "id": "e799b4f65943004c3217e6bb",
+      "template_key": "rag.fuse_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.fuse(1)"
+    },
+    {
+      "id": "e799b4f65943004c3217e6bb",
+      "template_key": "rag.fuse_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.fuse(1)"
+    },
+    {
+      "id": "e799b4f65943004c3217e6bb",
+      "template_key": "rag.fuse_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.fuse(1)"
+    },
+    {
+      "id": "e799b4f65943004c3217e6bb",
+      "template_key": "rag.fuse_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.fuse(1)"
+    },
+    {
+      "id": "e799b4f65943004c3217e6bb",
+      "template_key": "rag.fuse_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.fuse(1)"
+    },
+    {
+      "id": "e799b4f65943004c3217e6bb",
+      "template_key": "rag.fuse_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.fuse(1)"
+    },
+    {
+      "id": "e799b4f65943004c3217e6bb",
+      "template_key": "rag.fuse_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.fuse(1)"
+    },
+    {
+      "id": "e799b4f65943004c3217e6bb",
+      "template_key": "rag.fuse_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.fuse(1)"
+    },
+    {
+      "id": "e799b4f65943004c3217e6bb",
+      "template_key": "rag.fuse_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.fuse(1)"
+    },
+    {
+      "id": "0486c55b0fc3104899700f2b",
+      "template_key": "rag.compress_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.compress(1)"
+    },
+    {
+      "id": "0486c55b0fc3104899700f2b",
+      "template_key": "rag.compress_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.compress(1)"
+    },
+    {
+      "id": "0486c55b0fc3104899700f2b",
+      "template_key": "rag.compress_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.compress(1)"
+    },
+    {
+      "id": "0486c55b0fc3104899700f2b",
+      "template_key": "rag.compress_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.compress(1)"
+    },
+    {
+      "id": "0486c55b0fc3104899700f2b",
+      "template_key": "rag.compress_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.compress(1)"
+    },
+    {
+      "id": "0486c55b0fc3104899700f2b",
+      "template_key": "rag.compress_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.compress(1)"
+    },
+    {
+      "id": "0486c55b0fc3104899700f2b",
+      "template_key": "rag.compress_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.compress(1)"
+    },
+    {
+      "id": "0486c55b0fc3104899700f2b",
+      "template_key": "rag.compress_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.compress(1)"
+    },
+    {
+      "id": "0486c55b0fc3104899700f2b",
+      "template_key": "rag.compress_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.compress(1)"
+    },
+    {
+      "id": "0486c55b0fc3104899700f2b",
+      "template_key": "rag.compress_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.compress(1)"
+    },
+    {
+      "id": "0486c55b0fc3104899700f2b",
+      "template_key": "rag.compress_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.compress(1)"
+    },
+    {
+      "id": "0486c55b0fc3104899700f2b",
+      "template_key": "rag.compress_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.compress(1)"
+    },
+    {
+      "id": "d3b634b4c878246e69c88f84",
+      "template_key": "rag.cache_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.cache(1)"
+    },
+    {
+      "id": "d3b634b4c878246e69c88f84",
+      "template_key": "rag.cache_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.cache(1)"
+    },
+    {
+      "id": "d3b634b4c878246e69c88f84",
+      "template_key": "rag.cache_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.cache(1)"
+    },
+    {
+      "id": "d3b634b4c878246e69c88f84",
+      "template_key": "rag.cache_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.cache(1)"
+    },
+    {
+      "id": "d3b634b4c878246e69c88f84",
+      "template_key": "rag.cache_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.cache(1)"
+    },
+    {
+      "id": "d3b634b4c878246e69c88f84",
+      "template_key": "rag.cache_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.cache(1)"
+    },
+    {
+      "id": "d3b634b4c878246e69c88f84",
+      "template_key": "rag.cache_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.cache(1)"
+    },
+    {
+      "id": "d3b634b4c878246e69c88f84",
+      "template_key": "rag.cache_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.cache(1)"
+    },
+    {
+      "id": "d3b634b4c878246e69c88f84",
+      "template_key": "rag.cache_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.cache(1)"
+    },
+    {
+      "id": "d3b634b4c878246e69c88f84",
+      "template_key": "rag.cache_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.cache(1)"
+    },
+    {
+      "id": "d3b634b4c878246e69c88f84",
+      "template_key": "rag.cache_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.cache(1)"
+    },
+    {
+      "id": "d3b634b4c878246e69c88f84",
+      "template_key": "rag.cache_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.cache(1)"
+    },
+    {
+      "id": "c501344c6f4896f2d7635919",
+      "template_key": "rag.invalidate_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.invalidate(1)"
+    },
+    {
+      "id": "c501344c6f4896f2d7635919",
+      "template_key": "rag.invalidate_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.invalidate(1)"
+    },
+    {
+      "id": "c501344c6f4896f2d7635919",
+      "template_key": "rag.invalidate_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.invalidate(1)"
+    },
+    {
+      "id": "c501344c6f4896f2d7635919",
+      "template_key": "rag.invalidate_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.invalidate(1)"
+    },
+    {
+      "id": "c501344c6f4896f2d7635919",
+      "template_key": "rag.invalidate_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.invalidate(1)"
+    },
+    {
+      "id": "c501344c6f4896f2d7635919",
+      "template_key": "rag.invalidate_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.invalidate(1)"
+    },
+    {
+      "id": "c501344c6f4896f2d7635919",
+      "template_key": "rag.invalidate_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.invalidate(1)"
+    },
+    {
+      "id": "c501344c6f4896f2d7635919",
+      "template_key": "rag.invalidate_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.invalidate(1)"
+    },
+    {
+      "id": "c501344c6f4896f2d7635919",
+      "template_key": "rag.invalidate_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.invalidate(1)"
+    },
+    {
+      "id": "c501344c6f4896f2d7635919",
+      "template_key": "rag.invalidate_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.invalidate(1)"
+    },
+    {
+      "id": "c501344c6f4896f2d7635919",
+      "template_key": "rag.invalidate_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.invalidate(1)"
+    },
+    {
+      "id": "c501344c6f4896f2d7635919",
+      "template_key": "rag.invalidate_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.invalidate(1)"
+    },
+    {
+      "id": "rag.index_schema_0",
+      "template_key": "rag.index_schema_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.index_schema(1)"
+    },
+    {
+      "id": "rag.index_schema_1",
+      "template_key": "rag.index_schema_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.index_schema(1)"
+    },
+    {
+      "id": "rag.embed_schema_0",
+      "template_key": "rag.embed_schema_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.embed_schema(1)"
+    },
+    {
+      "id": "rag.embed_schema_1",
+      "template_key": "rag.embed_schema_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.embed_schema(1)"
+    },
+    {
+      "id": "rag.search_policy_0",
+      "template_key": "rag.search_policy_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.search_policy(1)"
+    },
+    {
+      "id": "rag.search_policy_1",
+      "template_key": "rag.search_policy_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.search_policy(1)"
+    },
+    {
+      "id": "rag.invalidate_signed_0",
+      "template_key": "rag.invalidate_signed_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.invalidate_signed(1)"
+    },
+    {
+      "id": "rag.invalidate_signed_1",
+      "template_key": "rag.invalidate_signed_{}",
+      "params": [
+        1
+      ],
+      "title": "rag.invalidate_signed(1)"
+    }
+  ]
+}

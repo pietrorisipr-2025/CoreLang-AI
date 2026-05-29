@@ -1,0 +1,935 @@
+{
+  "instances": [
+    {
+      "id": "c538229917fbbc258aa6fae7",
+      "template_key": "dict.train_{}_{}",
+      "params": [
+        1,
+        1
+      ],
+      "title": "dict.train"
+    },
+    {
+      "id": "c538229917fbbc258aa6fae7",
+      "template_key": "dict.train_{}_{}",
+      "params": [
+        1,
+        1
+      ],
+      "title": "dict.train"
+    },
+    {
+      "id": "c538229917fbbc258aa6fae7",
+      "template_key": "dict.train_{}_{}",
+      "params": [
+        1,
+        1
+      ],
+      "title": "dict.train"
+    },
+    {
+      "id": "c538229917fbbc258aa6fae7",
+      "template_key": "dict.train_{}_{}",
+      "params": [
+        1,
+        1
+      ],
+      "title": "dict.train"
+    },
+    {
+      "id": "c538229917fbbc258aa6fae7",
+      "template_key": "dict.train_{}_{}",
+      "params": [
+        1,
+        1
+      ],
+      "title": "dict.train"
+    },
+    {
+      "id": "c538229917fbbc258aa6fae7",
+      "template_key": "dict.train_{}_{}",
+      "params": [
+        1,
+        1
+      ],
+      "title": "dict.train"
+    },
+    {
+      "id": "c538229917fbbc258aa6fae7",
+      "template_key": "dict.train_{}_{}",
+      "params": [
+        1,
+        1
+      ],
+      "title": "dict.train"
+    },
+    {
+      "id": "c538229917fbbc258aa6fae7",
+      "template_key": "dict.train_{}_{}",
+      "params": [
+        1,
+        1
+      ],
+      "title": "dict.train"
+    },
+    {
+      "id": "c538229917fbbc258aa6fae7",
+      "template_key": "dict.train_{}_{}",
+      "params": [
+        1,
+        1
+      ],
+      "title": "dict.train"
+    },
+    {
+      "id": "c538229917fbbc258aa6fae7",
+      "template_key": "dict.train_{}_{}",
+      "params": [
+        1,
+        1
+      ],
+      "title": "dict.train"
+    },
+    {
+      "id": "6906bac8deae89355baecde5",
+      "template_key": "dict.score_{}",
+      "params": [
+        1
+      ],
+      "title": "dict.score"
+    },
+    {
+      "id": "6906bac8deae89355baecde5",
+      "template_key": "dict.score_{}",
+      "params": [
+        1
+      ],
+      "title": "dict.score"
+    },
+    {
+      "id": "6906bac8deae89355baecde5",
+      "template_key": "dict.score_{}",
+      "params": [
+        1
+      ],
+      "title": "dict.score"
+    },
+    {
+      "id": "6906bac8deae89355baecde5",
+      "template_key": "dict.score_{}",
+      "params": [
+        1
+      ],
+      "title": "dict.score"
+    },
+    {
+      "id": "6906bac8deae89355baecde5",
+      "template_key": "dict.score_{}",
+      "params": [
+        1
+      ],
+      "title": "dict.score"
+    },
+    {
+      "id": "6906bac8deae89355baecde5",
+      "template_key": "dict.score_{}",
+      "params": [
+        1
+      ],
+      "title": "dict.score"
+    },
+    {
+      "id": "6906bac8deae89355baecde5",
+      "template_key": "dict.score_{}",
+      "params": [
+        1
+      ],
+      "title": "dict.score"
+    },
+    {
+      "id": "6906bac8deae89355baecde5",
+      "template_key": "dict.score_{}",
+      "params": [
+        1
+      ],
+      "title": "dict.score"
+    },
+    {
+      "id": "6906bac8deae89355baecde5",
+      "template_key": "dict.score_{}",
+      "params": [
+        1
+      ],
+      "title": "dict.score"
+    },
+    {
+      "id": "6906bac8deae89355baecde5",
+      "template_key": "dict.score_{}",
+      "params": [
+        1
+      ],
+      "title": "dict.score"
+    },
+    {
+      "id": "b013484837259ecbdeec821e",
+      "template_key": "dict.apply_{}",
+      "params": [
+        1
+      ],
+      "title": "dict.apply"
+    },
+    {
+      "id": "b013484837259ecbdeec821e",
+      "template_key": "dict.apply_{}",
+      "params": [
+        1
+      ],
+      "title": "dict.apply"
+    },
+    {
+      "id": "b013484837259ecbdeec821e",
+      "template_key": "dict.apply_{}",
+      "params": [
+        1
+      ],
+      "title": "dict.apply"
+    },
+    {
+      "id": "b013484837259ecbdeec821e",
+      "template_key": "dict.apply_{}",
+      "params": [
+        1
+      ],
+      "title": "dict.apply"
+    },
+    {
+      "id": "b013484837259ecbdeec821e",
+      "template_key": "dict.apply_{}",
+      "params": [
+        1
+      ],
+      "title": "dict.apply"
+    },
+    {
+      "id": "b013484837259ecbdeec821e",
+      "template_key": "dict.apply_{}",
+      "params": [
+        1
+      ],
+      "title": "dict.apply"
+    },
+    {
+      "id": "b013484837259ecbdeec821e",
+      "template_key": "dict.apply_{}",
+      "params": [
+        1
+      ],
+      "title": "dict.apply"
+    },
+    {
+      "id": "b013484837259ecbdeec821e",
+      "template_key": "dict.apply_{}",
+      "params": [
+        1
+      ],
+      "title": "dict.apply"
+    },
+    {
+      "id": "b013484837259ecbdeec821e",
+      "template_key": "dict.apply_{}",
+      "params": [
+        1
+      ],
+      "title": "dict.apply"
+    },
+    {
+      "id": "b013484837259ecbdeec821e",
+      "template_key": "dict.apply_{}",
+      "params": [
+        1
+      ],
+      "title": "dict.apply"
+    },
+    {
+      "id": "6f07d6cedd7664e3bcabe254",
+      "template_key": "dict.announce_{}",
+      "params": [
+        1
+      ],
+      "title": "dict.announce"
+    },
+    {
+      "id": "6f07d6cedd7664e3bcabe254",
+      "template_key": "dict.announce_{}",
+      "params": [
+        1
+      ],
+      "title": "dict.announce"
+    },
+    {
+      "id": "6f07d6cedd7664e3bcabe254",
+      "template_key": "dict.announce_{}",
+      "params": [
+        1
+      ],
+      "title": "dict.announce"
+    },
+    {
+      "id": "6f07d6cedd7664e3bcabe254",
+      "template_key": "dict.announce_{}",
+      "params": [
+        1
+      ],
+      "title": "dict.announce"
+    },
+    {
+      "id": "6f07d6cedd7664e3bcabe254",
+      "template_key": "dict.announce_{}",
+      "params": [
+        1
+      ],
+      "title": "dict.announce"
+    },
+    {
+      "id": "6f07d6cedd7664e3bcabe254",
+      "template_key": "dict.announce_{}",
+      "params": [
+        1
+      ],
+      "title": "dict.announce"
+    },
+    {
+      "id": "6f07d6cedd7664e3bcabe254",
+      "template_key": "dict.announce_{}",
+      "params": [
+        1
+      ],
+      "title": "dict.announce"
+    },
+    {
+      "id": "6f07d6cedd7664e3bcabe254",
+      "template_key": "dict.announce_{}",
+      "params": [
+        1
+      ],
+      "title": "dict.announce"
+    },
+    {
+      "id": "6f07d6cedd7664e3bcabe254",
+      "template_key": "dict.announce_{}",
+      "params": [
+        1
+      ],
+      "title": "dict.announce"
+    },
+    {
+      "id": "6f07d6cedd7664e3bcabe254",
+      "template_key": "dict.announce_{}",
+      "params": [
+        1
+      ],
+      "title": "dict.announce"
+    },
+    {
+      "id": "9dc4353159df74c8a0c49876",
+      "template_key": "dict.rotate_{}",
+      "params": [
+        1
+      ],
+      "title": "dict.rotate"
+    },
+    {
+      "id": "9dc4353159df74c8a0c49876",
+      "template_key": "dict.rotate_{}",
+      "params": [
+        1
+      ],
+      "title": "dict.rotate"
+    },
+    {
+      "id": "9dc4353159df74c8a0c49876",
+      "template_key": "dict.rotate_{}",
+      "params": [
+        1
+      ],
+      "title": "dict.rotate"
+    },
+    {
+      "id": "9dc4353159df74c8a0c49876",
+      "template_key": "dict.rotate_{}",
+      "params": [
+        1
+      ],
+      "title": "dict.rotate"
+    },
+    {
+      "id": "9dc4353159df74c8a0c49876",
+      "template_key": "dict.rotate_{}",
+      "params": [
+        1
+      ],
+      "title": "dict.rotate"
+    },
+    {
+      "id": "9dc4353159df74c8a0c49876",
+      "template_key": "dict.rotate_{}",
+      "params": [
+        1
+      ],
+      "title": "dict.rotate"
+    },
+    {
+      "id": "9dc4353159df74c8a0c49876",
+      "template_key": "dict.rotate_{}",
+      "params": [
+        1
+      ],
+      "title": "dict.rotate"
+    },
+    {
+      "id": "9dc4353159df74c8a0c49876",
+      "template_key": "dict.rotate_{}",
+      "params": [
+        1
+      ],
+      "title": "dict.rotate"
+    },
+    {
+      "id": "9dc4353159df74c8a0c49876",
+      "template_key": "dict.rotate_{}",
+      "params": [
+        1
+      ],
+      "title": "dict.rotate"
+    },
+    {
+      "id": "9dc4353159df74c8a0c49876",
+      "template_key": "dict.rotate_{}",
+      "params": [
+        1
+      ],
+      "title": "dict.rotate"
+    },
+    {
+      "id": "10a812519553d2babba09a3d",
+      "template_key": "dict.revoke_{}",
+      "params": [
+        1
+      ],
+      "title": "dict.revoke"
+    },
+    {
+      "id": "10a812519553d2babba09a3d",
+      "template_key": "dict.revoke_{}",
+      "params": [
+        1
+      ],
+      "title": "dict.revoke"
+    },
+    {
+      "id": "10a812519553d2babba09a3d",
+      "template_key": "dict.revoke_{}",
+      "params": [
+        1
+      ],
+      "title": "dict.revoke"
+    },
+    {
+      "id": "10a812519553d2babba09a3d",
+      "template_key": "dict.revoke_{}",
+      "params": [
+        1
+      ],
+      "title": "dict.revoke"
+    },
+    {
+      "id": "10a812519553d2babba09a3d",
+      "template_key": "dict.revoke_{}",
+      "params": [
+        1
+      ],
+      "title": "dict.revoke"
+    },
+    {
+      "id": "10a812519553d2babba09a3d",
+      "template_key": "dict.revoke_{}",
+      "params": [
+        1
+      ],
+      "title": "dict.revoke"
+    },
+    {
+      "id": "10a812519553d2babba09a3d",
+      "template_key": "dict.revoke_{}",
+      "params": [
+        1
+      ],
+      "title": "dict.revoke"
+    },
+    {
+      "id": "10a812519553d2babba09a3d",
+      "template_key": "dict.revoke_{}",
+      "params": [
+        1
+      ],
+      "title": "dict.revoke"
+    },
+    {
+      "id": "10a812519553d2babba09a3d",
+      "template_key": "dict.revoke_{}",
+      "params": [
+        1
+      ],
+      "title": "dict.revoke"
+    },
+    {
+      "id": "10a812519553d2babba09a3d",
+      "template_key": "dict.revoke_{}",
+      "params": [
+        1
+      ],
+      "title": "dict.revoke"
+    },
+    {
+      "id": "31a804f05d3af6a90de137da",
+      "template_key": "dict.pin_{}",
+      "params": [
+        1
+      ],
+      "title": "dict.pin"
+    },
+    {
+      "id": "31a804f05d3af6a90de137da",
+      "template_key": "dict.pin_{}",
+      "params": [
+        1
+      ],
+      "title": "dict.pin"
+    },
+    {
+      "id": "31a804f05d3af6a90de137da",
+      "template_key": "dict.pin_{}",
+      "params": [
+        1
+      ],
+      "title": "dict.pin"
+    },
+    {
+      "id": "31a804f05d3af6a90de137da",
+      "template_key": "dict.pin_{}",
+      "params": [
+        1
+      ],
+      "title": "dict.pin"
+    },
+    {
+      "id": "31a804f05d3af6a90de137da",
+      "template_key": "dict.pin_{}",
+      "params": [
+        1
+      ],
+      "title": "dict.pin"
+    },
+    {
+      "id": "31a804f05d3af6a90de137da",
+      "template_key": "dict.pin_{}",
+      "params": [
+        1
+      ],
+      "title": "dict.pin"
+    },
+    {
+      "id": "31a804f05d3af6a90de137da",
+      "template_key": "dict.pin_{}",
+      "params": [
+        1
+      ],
+      "title": "dict.pin"
+    },
+    {
+      "id": "31a804f05d3af6a90de137da",
+      "template_key": "dict.pin_{}",
+      "params": [
+        1
+      ],
+      "title": "dict.pin"
+    },
+    {
+      "id": "31a804f05d3af6a90de137da",
+      "template_key": "dict.pin_{}",
+      "params": [
+        1
+      ],
+      "title": "dict.pin"
+    },
+    {
+      "id": "31a804f05d3af6a90de137da",
+      "template_key": "dict.pin_{}",
+      "params": [
+        1
+      ],
+      "title": "dict.pin"
+    },
+    {
+      "id": "94153dec3b479734de39fc45",
+      "template_key": "dict.unpin_{}",
+      "params": [
+        1
+      ],
+      "title": "dict.unpin"
+    },
+    {
+      "id": "94153dec3b479734de39fc45",
+      "template_key": "dict.unpin_{}",
+      "params": [
+        1
+      ],
+      "title": "dict.unpin"
+    },
+    {
+      "id": "94153dec3b479734de39fc45",
+      "template_key": "dict.unpin_{}",
+      "params": [
+        1
+      ],
+      "title": "dict.unpin"
+    },
+    {
+      "id": "94153dec3b479734de39fc45",
+      "template_key": "dict.unpin_{}",
+      "params": [
+        1
+      ],
+      "title": "dict.unpin"
+    },
+    {
+      "id": "94153dec3b479734de39fc45",
+      "template_key": "dict.unpin_{}",
+      "params": [
+        1
+      ],
+      "title": "dict.unpin"
+    },
+    {
+      "id": "94153dec3b479734de39fc45",
+      "template_key": "dict.unpin_{}",
+      "params": [
+        1
+      ],
+      "title": "dict.unpin"
+    },
+    {
+      "id": "94153dec3b479734de39fc45",
+      "template_key": "dict.unpin_{}",
+      "params": [
+        1
+      ],
+      "title": "dict.unpin"
+    },
+    {
+      "id": "94153dec3b479734de39fc45",
+      "template_key": "dict.unpin_{}",
+      "params": [
+        1
+      ],
+      "title": "dict.unpin"
+    },
+    {
+      "id": "94153dec3b479734de39fc45",
+      "template_key": "dict.unpin_{}",
+      "params": [
+        1
+      ],
+      "title": "dict.unpin"
+    },
+    {
+      "id": "94153dec3b479734de39fc45",
+      "template_key": "dict.unpin_{}",
+      "params": [
+        1
+      ],
+      "title": "dict.unpin"
+    },
+    {
+      "id": "c0002513030e98dca496a578",
+      "template_key": "dict.export_{}",
+      "params": [
+        1
+      ],
+      "title": "dict.export"
+    },
+    {
+      "id": "c0002513030e98dca496a578",
+      "template_key": "dict.export_{}",
+      "params": [
+        1
+      ],
+      "title": "dict.export"
+    },
+    {
+      "id": "c0002513030e98dca496a578",
+      "template_key": "dict.export_{}",
+      "params": [
+        1
+      ],
+      "title": "dict.export"
+    },
+    {
+      "id": "c0002513030e98dca496a578",
+      "template_key": "dict.export_{}",
+      "params": [
+        1
+      ],
+      "title": "dict.export"
+    },
+    {
+      "id": "c0002513030e98dca496a578",
+      "template_key": "dict.export_{}",
+      "params": [
+        1
+      ],
+      "title": "dict.export"
+    },
+    {
+      "id": "c0002513030e98dca496a578",
+      "template_key": "dict.export_{}",
+      "params": [
+        1
+      ],
+      "title": "dict.export"
+    },
+    {
+      "id": "c0002513030e98dca496a578",
+      "template_key": "dict.export_{}",
+      "params": [
+        1
+      ],
+      "title": "dict.export"
+    },
+    {
+      "id": "c0002513030e98dca496a578",
+      "template_key": "dict.export_{}",
+      "params": [
+        1
+      ],
+      "title": "dict.export"
+    },
+    {
+      "id": "c0002513030e98dca496a578",
+      "template_key": "dict.export_{}",
+      "params": [
+        1
+      ],
+      "title": "dict.export"
+    },
+    {
+      "id": "c0002513030e98dca496a578",
+      "template_key": "dict.export_{}",
+      "params": [
+        1
+      ],
+      "title": "dict.export"
+    },
+    {
+      "id": "12b1740aad450e0cfe5ccd7f",
+      "template_key": "dict.import_{}",
+      "params": [
+        1
+      ],
+      "title": "dict.import"
+    },
+    {
+      "id": "12b1740aad450e0cfe5ccd7f",
+      "template_key": "dict.import_{}",
+      "params": [
+        1
+      ],
+      "title": "dict.import"
+    },
+    {
+      "id": "12b1740aad450e0cfe5ccd7f",
+      "template_key": "dict.import_{}",
+      "params": [
+        1
+      ],
+      "title": "dict.import"
+    },
+    {
+      "id": "12b1740aad450e0cfe5ccd7f",
+      "template_key": "dict.import_{}",
+      "params": [
+        1
+      ],
+      "title": "dict.import"
+    },
+    {
+      "id": "12b1740aad450e0cfe5ccd7f",
+      "template_key": "dict.import_{}",
+      "params": [
+        1
+      ],
+      "title": "dict.import"
+    },
+    {
+      "id": "12b1740aad450e0cfe5ccd7f",
+      "template_key": "dict.import_{}",
+      "params": [
+        1
+      ],
+      "title": "dict.import"
+    },
+    {
+      "id": "12b1740aad450e0cfe5ccd7f",
+      "template_key": "dict.import_{}",
+      "params": [
+        1
+      ],
+      "title": "dict.import"
+    },
+    {
+      "id": "12b1740aad450e0cfe5ccd7f",
+      "template_key": "dict.import_{}",
+      "params": [
+        1
+      ],
+      "title": "dict.import"
+    },
+    {
+      "id": "12b1740aad450e0cfe5ccd7f",
+      "template_key": "dict.import_{}",
+      "params": [
+        1
+      ],
+      "title": "dict.import"
+    },
+    {
+      "id": "12b1740aad450e0cfe5ccd7f",
+      "template_key": "dict.import_{}",
+      "params": [
+        1
+      ],
+      "title": "dict.import"
+    },
+    {
+      "id": "7a125122437aa4eeddc6239d",
+      "template_key": "dict.merkle_{}",
+      "params": [
+        1
+      ],
+      "title": "dict.merkle"
+    },
+    {
+      "id": "7a125122437aa4eeddc6239d",
+      "template_key": "dict.merkle_{}",
+      "params": [
+        1
+      ],
+      "title": "dict.merkle"
+    },
+    {
+      "id": "7a125122437aa4eeddc6239d",
+      "template_key": "dict.merkle_{}",
+      "params": [
+        1
+      ],
+      "title": "dict.merkle"
+    },
+    {
+      "id": "7a125122437aa4eeddc6239d",
+      "template_key": "dict.merkle_{}",
+      "params": [
+        1
+      ],
+      "title": "dict.merkle"
+    },
+    {
+      "id": "7a125122437aa4eeddc6239d",
+      "template_key": "dict.merkle_{}",
+      "params": [
+        1
+      ],
+      "title": "dict.merkle"
+    },
+    {
+      "id": "7a125122437aa4eeddc6239d",
+      "template_key": "dict.merkle_{}",
+      "params": [
+        1
+      ],
+      "title": "dict.merkle"
+    },
+    {
+      "id": "7a125122437aa4eeddc6239d",
+      "template_key": "dict.merkle_{}",
+      "params": [
+        1
+      ],
+      "title": "dict.merkle"
+    },
+    {
+      "id": "7a125122437aa4eeddc6239d",
+      "template_key": "dict.merkle_{}",
+      "params": [
+        1
+      ],
+      "title": "dict.merkle"
+    },
+    {
+      "id": "7a125122437aa4eeddc6239d",
+      "template_key": "dict.merkle_{}",
+      "params": [
+        1
+      ],
+      "title": "dict.merkle"
+    },
+    {
+      "id": "7a125122437aa4eeddc6239d",
+      "template_key": "dict.merkle_{}",
+      "params": [
+        1
+      ],
+      "title": "dict.merkle"
+    },
+    {
+      "id": "a75f5c0ed0a7f864fb82cacc",
+      "template_key": "dict.delta_{}_{}",
+      "params": [
+        1,
+        1
+      ],
+      "title": "dict.delta(1,1)"
+    },
+    {
+      "id": "0d55b8293608983c5abc38fd",
+      "template_key": "dict.patch_apply_{}",
+      "params": [
+        1
+      ],
+      "title": "dict.patch_apply(1)"
+    },
+    {
+      "id": "60d5cf90671d975afe3418f8",
+      "template_key": "dict.sign_{}",
+      "params": [
+        1
+      ],
+      "title": "dict.sign(1)"
+    },
+    {
+      "id": "25abec2e554dd808260687ee",
+      "template_key": "dict.verify_{}",
+      "params": [
+        1
+      ],
+      "title": "dict.verify(1)"
+    },
+    {
+      "id": "5e68abed6c347f2f2cd316e0",
+      "template_key": "dict.ttl_{}",
+      "params": [
+        1
+      ],
+      "title": "dict.ttl(1)"
+    }
+  ]
+}

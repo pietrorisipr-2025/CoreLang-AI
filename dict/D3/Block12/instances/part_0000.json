@@ -1,0 +1,898 @@
+{
+  "instances": [
+    {
+      "id": "b386e074e47cc46fa77dfa86",
+      "template_key": "tens.qprofile_define_{}_{}_{}",
+      "params": [
+        1,
+        1,
+        1
+      ],
+      "title": "tens.qprofile_define"
+    },
+    {
+      "id": "b386e074e47cc46fa77dfa86",
+      "template_key": "tens.qprofile_define_{}_{}_{}",
+      "params": [
+        1,
+        1,
+        1
+      ],
+      "title": "tens.qprofile_define"
+    },
+    {
+      "id": "b386e074e47cc46fa77dfa86",
+      "template_key": "tens.qprofile_define_{}_{}_{}",
+      "params": [
+        1,
+        1,
+        1
+      ],
+      "title": "tens.qprofile_define"
+    },
+    {
+      "id": "a49c32ce82a710aa7ddda766",
+      "template_key": "tens.qprofile_autotune_{}_{}",
+      "params": [
+        1,
+        1
+      ],
+      "title": "tens.qprofile_autotune"
+    },
+    {
+      "id": "a49c32ce82a710aa7ddda766",
+      "template_key": "tens.qprofile_autotune_{}_{}",
+      "params": [
+        1,
+        1
+      ],
+      "title": "tens.qprofile_autotune"
+    },
+    {
+      "id": "a49c32ce82a710aa7ddda766",
+      "template_key": "tens.qprofile_autotune_{}_{}",
+      "params": [
+        1,
+        1
+      ],
+      "title": "tens.qprofile_autotune"
+    },
+    {
+      "id": "547ee3db39981c28abd1f325",
+      "template_key": "tens.qprofile_rotate_{}",
+      "params": [
+        1
+      ],
+      "title": "tens.qprofile_rotate"
+    },
+    {
+      "id": "547ee3db39981c28abd1f325",
+      "template_key": "tens.qprofile_rotate_{}",
+      "params": [
+        1
+      ],
+      "title": "tens.qprofile_rotate"
+    },
+    {
+      "id": "547ee3db39981c28abd1f325",
+      "template_key": "tens.qprofile_rotate_{}",
+      "params": [
+        1
+      ],
+      "title": "tens.qprofile_rotate"
+    },
+    {
+      "id": "4dc42b61b64f81c7c05fcea9",
+      "template_key": "tens.qprofile_gc_{}",
+      "params": [
+        1
+      ],
+      "title": "tens.qprofile_gc"
+    },
+    {
+      "id": "4dc42b61b64f81c7c05fcea9",
+      "template_key": "tens.qprofile_gc_{}",
+      "params": [
+        1
+      ],
+      "title": "tens.qprofile_gc"
+    },
+    {
+      "id": "4dc42b61b64f81c7c05fcea9",
+      "template_key": "tens.qprofile_gc_{}",
+      "params": [
+        1
+      ],
+      "title": "tens.qprofile_gc"
+    },
+    {
+      "id": "d5e866e2e0307a988fe14a57",
+      "template_key": "tens.quantize_{}",
+      "params": [
+        1
+      ],
+      "title": "tens.quantize"
+    },
+    {
+      "id": "d5e866e2e0307a988fe14a57",
+      "template_key": "tens.quantize_{}",
+      "params": [
+        1
+      ],
+      "title": "tens.quantize"
+    },
+    {
+      "id": "d5e866e2e0307a988fe14a57",
+      "template_key": "tens.quantize_{}",
+      "params": [
+        1
+      ],
+      "title": "tens.quantize"
+    },
+    {
+      "id": "089383e3461f5c00acabf927",
+      "template_key": "tens.dequantize_{}",
+      "params": [
+        1
+      ],
+      "title": "tens.dequantize"
+    },
+    {
+      "id": "089383e3461f5c00acabf927",
+      "template_key": "tens.dequantize_{}",
+      "params": [
+        1
+      ],
+      "title": "tens.dequantize"
+    },
+    {
+      "id": "089383e3461f5c00acabf927",
+      "template_key": "tens.dequantize_{}",
+      "params": [
+        1
+      ],
+      "title": "tens.dequantize"
+    },
+    {
+      "id": "b3898234c07df8ad4c70f6ce",
+      "template_key": "tens.pack_tensor_{}_{}",
+      "params": [
+        1,
+        1
+      ],
+      "title": "tens.pack_tensor"
+    },
+    {
+      "id": "b3898234c07df8ad4c70f6ce",
+      "template_key": "tens.pack_tensor_{}_{}",
+      "params": [
+        1,
+        1
+      ],
+      "title": "tens.pack_tensor"
+    },
+    {
+      "id": "b3898234c07df8ad4c70f6ce",
+      "template_key": "tens.pack_tensor_{}_{}",
+      "params": [
+        1,
+        1
+      ],
+      "title": "tens.pack_tensor"
+    },
+    {
+      "id": "cca6c900bc5a7998fbb2dd33",
+      "template_key": "tens.unpack_tensor_{}",
+      "params": [
+        1
+      ],
+      "title": "tens.unpack_tensor"
+    },
+    {
+      "id": "cca6c900bc5a7998fbb2dd33",
+      "template_key": "tens.unpack_tensor_{}",
+      "params": [
+        1
+      ],
+      "title": "tens.unpack_tensor"
+    },
+    {
+      "id": "cca6c900bc5a7998fbb2dd33",
+      "template_key": "tens.unpack_tensor_{}",
+      "params": [
+        1
+      ],
+      "title": "tens.unpack_tensor"
+    },
+    {
+      "id": "55e2961241095821104d3caf",
+      "template_key": "tens.chunk_{}_{}",
+      "params": [
+        1,
+        1
+      ],
+      "title": "tens.chunk"
+    },
+    {
+      "id": "55e2961241095821104d3caf",
+      "template_key": "tens.chunk_{}_{}",
+      "params": [
+        1,
+        1
+      ],
+      "title": "tens.chunk"
+    },
+    {
+      "id": "55e2961241095821104d3caf",
+      "template_key": "tens.chunk_{}_{}",
+      "params": [
+        1,
+        1
+      ],
+      "title": "tens.chunk"
+    },
+    {
+      "id": "e6fdfcaa1bca5668b1377fbf",
+      "template_key": "tens.delta_block_{}",
+      "params": [
+        1
+      ],
+      "title": "tens.delta_block"
+    },
+    {
+      "id": "e6fdfcaa1bca5668b1377fbf",
+      "template_key": "tens.delta_block_{}",
+      "params": [
+        1
+      ],
+      "title": "tens.delta_block"
+    },
+    {
+      "id": "e6fdfcaa1bca5668b1377fbf",
+      "template_key": "tens.delta_block_{}",
+      "params": [
+        1
+      ],
+      "title": "tens.delta_block"
+    },
+    {
+      "id": "bd7e95c08e3e4a2a22c810b7",
+      "template_key": "tens.pq_encode_{}_{}",
+      "params": [
+        1,
+        1
+      ],
+      "title": "tens.pq_encode"
+    },
+    {
+      "id": "bd7e95c08e3e4a2a22c810b7",
+      "template_key": "tens.pq_encode_{}_{}",
+      "params": [
+        1,
+        1
+      ],
+      "title": "tens.pq_encode"
+    },
+    {
+      "id": "bd7e95c08e3e4a2a22c810b7",
+      "template_key": "tens.pq_encode_{}_{}",
+      "params": [
+        1,
+        1
+      ],
+      "title": "tens.pq_encode"
+    },
+    {
+      "id": "e2a9a46827a76dc6055d81e7",
+      "template_key": "tens.pq_decode_{}",
+      "params": [
+        1
+      ],
+      "title": "tens.pq_decode"
+    },
+    {
+      "id": "e2a9a46827a76dc6055d81e7",
+      "template_key": "tens.pq_decode_{}",
+      "params": [
+        1
+      ],
+      "title": "tens.pq_decode"
+    },
+    {
+      "id": "e2a9a46827a76dc6055d81e7",
+      "template_key": "tens.pq_decode_{}",
+      "params": [
+        1
+      ],
+      "title": "tens.pq_decode"
+    },
+    {
+      "id": "56ab3d70b6e72e3546558a9f",
+      "template_key": "tens.rvq_encode_{}_{}",
+      "params": [
+        1,
+        1
+      ],
+      "title": "tens.rvq_encode"
+    },
+    {
+      "id": "56ab3d70b6e72e3546558a9f",
+      "template_key": "tens.rvq_encode_{}_{}",
+      "params": [
+        1,
+        1
+      ],
+      "title": "tens.rvq_encode"
+    },
+    {
+      "id": "56ab3d70b6e72e3546558a9f",
+      "template_key": "tens.rvq_encode_{}_{}",
+      "params": [
+        1,
+        1
+      ],
+      "title": "tens.rvq_encode"
+    },
+    {
+      "id": "0287ab2b21f4ca56b3c16f93",
+      "template_key": "tens.rvq_decode_{}",
+      "params": [
+        1
+      ],
+      "title": "tens.rvq_decode"
+    },
+    {
+      "id": "0287ab2b21f4ca56b3c16f93",
+      "template_key": "tens.rvq_decode_{}",
+      "params": [
+        1
+      ],
+      "title": "tens.rvq_decode"
+    },
+    {
+      "id": "0287ab2b21f4ca56b3c16f93",
+      "template_key": "tens.rvq_decode_{}",
+      "params": [
+        1
+      ],
+      "title": "tens.rvq_decode"
+    },
+    {
+      "id": "29d92f3a4246468818d30c7e",
+      "template_key": "tens.clip_{}_{}",
+      "params": [
+        1,
+        1
+      ],
+      "title": "tens.clip"
+    },
+    {
+      "id": "29d92f3a4246468818d30c7e",
+      "template_key": "tens.clip_{}_{}",
+      "params": [
+        1,
+        1
+      ],
+      "title": "tens.clip"
+    },
+    {
+      "id": "29d92f3a4246468818d30c7e",
+      "template_key": "tens.clip_{}_{}",
+      "params": [
+        1,
+        1
+      ],
+      "title": "tens.clip"
+    },
+    {
+      "id": "ae403eb56354a8cb26771e4f",
+      "template_key": "tens.scale_shift_{}_{}",
+      "params": [
+        1,
+        1
+      ],
+      "title": "tens.scale_shift"
+    },
+    {
+      "id": "ae403eb56354a8cb26771e4f",
+      "template_key": "tens.scale_shift_{}_{}",
+      "params": [
+        1,
+        1
+      ],
+      "title": "tens.scale_shift"
+    },
+    {
+      "id": "ae403eb56354a8cb26771e4f",
+      "template_key": "tens.scale_shift_{}_{}",
+      "params": [
+        1,
+        1
+      ],
+      "title": "tens.scale_shift"
+    },
+    {
+      "id": "1b9c23a85909a969a2c21b4b",
+      "template_key": "tens.sparsify_{}",
+      "params": [
+        1
+      ],
+      "title": "tens.sparsify"
+    },
+    {
+      "id": "1b9c23a85909a969a2c21b4b",
+      "template_key": "tens.sparsify_{}",
+      "params": [
+        1
+      ],
+      "title": "tens.sparsify"
+    },
+    {
+      "id": "1b9c23a85909a969a2c21b4b",
+      "template_key": "tens.sparsify_{}",
+      "params": [
+        1
+      ],
+      "title": "tens.sparsify"
+    },
+    {
+      "id": "102bbf2cf5e5cd208fe9fc91",
+      "template_key": "tens.desparsify_{}",
+      "params": [
+        1
+      ],
+      "title": "tens.desparsify"
+    },
+    {
+      "id": "102bbf2cf5e5cd208fe9fc91",
+      "template_key": "tens.desparsify_{}",
+      "params": [
+        1
+      ],
+      "title": "tens.desparsify"
+    },
+    {
+      "id": "102bbf2cf5e5cd208fe9fc91",
+      "template_key": "tens.desparsify_{}",
+      "params": [
+        1
+      ],
+      "title": "tens.desparsify"
+    },
+    {
+      "id": "990397dff426474172f2374f",
+      "template_key": "tens.cast_{}",
+      "params": [
+        1
+      ],
+      "title": "tens.cast"
+    },
+    {
+      "id": "990397dff426474172f2374f",
+      "template_key": "tens.cast_{}",
+      "params": [
+        1
+      ],
+      "title": "tens.cast"
+    },
+    {
+      "id": "990397dff426474172f2374f",
+      "template_key": "tens.cast_{}",
+      "params": [
+        1
+      ],
+      "title": "tens.cast"
+    },
+    {
+      "id": "738bb03989cad93e31737788",
+      "template_key": "tens.compress_{}",
+      "params": [
+        1
+      ],
+      "title": "tens.compress"
+    },
+    {
+      "id": "738bb03989cad93e31737788",
+      "template_key": "tens.compress_{}",
+      "params": [
+        1
+      ],
+      "title": "tens.compress"
+    },
+    {
+      "id": "738bb03989cad93e31737788",
+      "template_key": "tens.compress_{}",
+      "params": [
+        1
+      ],
+      "title": "tens.compress"
+    },
+    {
+      "id": "e92fc51143127437b69e5ac5",
+      "template_key": "tens.decompress_{}",
+      "params": [
+        1
+      ],
+      "title": "tens.decompress"
+    },
+    {
+      "id": "e92fc51143127437b69e5ac5",
+      "template_key": "tens.decompress_{}",
+      "params": [
+        1
+      ],
+      "title": "tens.decompress"
+    },
+    {
+      "id": "e92fc51143127437b69e5ac5",
+      "template_key": "tens.decompress_{}",
+      "params": [
+        1
+      ],
+      "title": "tens.decompress"
+    },
+    {
+      "id": "d520d929f9e2d5510e242631",
+      "template_key": "tens.transpose_{}",
+      "params": [
+        1
+      ],
+      "title": "tens.transpose"
+    },
+    {
+      "id": "d520d929f9e2d5510e242631",
+      "template_key": "tens.transpose_{}",
+      "params": [
+        1
+      ],
+      "title": "tens.transpose"
+    },
+    {
+      "id": "d520d929f9e2d5510e242631",
+      "template_key": "tens.transpose_{}",
+      "params": [
+        1
+      ],
+      "title": "tens.transpose"
+    },
+    {
+      "id": "0164f0f7679a2e55f1cceed5",
+      "template_key": "tens.reshape_{}",
+      "params": [
+        1
+      ],
+      "title": "tens.reshape"
+    },
+    {
+      "id": "0164f0f7679a2e55f1cceed5",
+      "template_key": "tens.reshape_{}",
+      "params": [
+        1
+      ],
+      "title": "tens.reshape"
+    },
+    {
+      "id": "0164f0f7679a2e55f1cceed5",
+      "template_key": "tens.reshape_{}",
+      "params": [
+        1
+      ],
+      "title": "tens.reshape"
+    },
+    {
+      "id": "9a40e75ca1b6f13cf0a6c5c4",
+      "template_key": "tens.broadcast_{}",
+      "params": [
+        1
+      ],
+      "title": "tens.broadcast"
+    },
+    {
+      "id": "9a40e75ca1b6f13cf0a6c5c4",
+      "template_key": "tens.broadcast_{}",
+      "params": [
+        1
+      ],
+      "title": "tens.broadcast"
+    },
+    {
+      "id": "9a40e75ca1b6f13cf0a6c5c4",
+      "template_key": "tens.broadcast_{}",
+      "params": [
+        1
+      ],
+      "title": "tens.broadcast"
+    },
+    {
+      "id": "4c09dabc2433070926ae7581",
+      "template_key": "tens.matmul_tile_{}",
+      "params": [
+        1
+      ],
+      "title": "tens.matmul_tile"
+    },
+    {
+      "id": "4c09dabc2433070926ae7581",
+      "template_key": "tens.matmul_tile_{}",
+      "params": [
+        1
+      ],
+      "title": "tens.matmul_tile"
+    },
+    {
+      "id": "4c09dabc2433070926ae7581",
+      "template_key": "tens.matmul_tile_{}",
+      "params": [
+        1
+      ],
+      "title": "tens.matmul_tile"
+    },
+    {
+      "id": "3f2f3ca79f34f1af5455e885",
+      "template_key": "tens.matmul_block_{}",
+      "params": [
+        1
+      ],
+      "title": "tens.matmul_block"
+    },
+    {
+      "id": "3f2f3ca79f34f1af5455e885",
+      "template_key": "tens.matmul_block_{}",
+      "params": [
+        1
+      ],
+      "title": "tens.matmul_block"
+    },
+    {
+      "id": "3f2f3ca79f34f1af5455e885",
+      "template_key": "tens.matmul_block_{}",
+      "params": [
+        1
+      ],
+      "title": "tens.matmul_block"
+    },
+    {
+      "id": "2427073c0c8e03e9ffa6e344",
+      "template_key": "tens.attn_pack_{}",
+      "params": [
+        1
+      ],
+      "title": "tens.attn_pack"
+    },
+    {
+      "id": "2427073c0c8e03e9ffa6e344",
+      "template_key": "tens.attn_pack_{}",
+      "params": [
+        1
+      ],
+      "title": "tens.attn_pack"
+    },
+    {
+      "id": "2427073c0c8e03e9ffa6e344",
+      "template_key": "tens.attn_pack_{}",
+      "params": [
+        1
+      ],
+      "title": "tens.attn_pack"
+    },
+    {
+      "id": "c32d839d264910319368d1fb",
+      "template_key": "tens.attn_delta_{}",
+      "params": [
+        1
+      ],
+      "title": "tens.attn_delta"
+    },
+    {
+      "id": "c32d839d264910319368d1fb",
+      "template_key": "tens.attn_delta_{}",
+      "params": [
+        1
+      ],
+      "title": "tens.attn_delta"
+    },
+    {
+      "id": "c32d839d264910319368d1fb",
+      "template_key": "tens.attn_delta_{}",
+      "params": [
+        1
+      ],
+      "title": "tens.attn_delta"
+    },
+    {
+      "id": "f7674cc2a31c4e5818634ee3",
+      "template_key": "tens.embed_ref_{}",
+      "params": [
+        1
+      ],
+      "title": "tens.embed_ref"
+    },
+    {
+      "id": "f7674cc2a31c4e5818634ee3",
+      "template_key": "tens.embed_ref_{}",
+      "params": [
+        1
+      ],
+      "title": "tens.embed_ref"
+    },
+    {
+      "id": "f7674cc2a31c4e5818634ee3",
+      "template_key": "tens.embed_ref_{}",
+      "params": [
+        1
+      ],
+      "title": "tens.embed_ref"
+    },
+    {
+      "id": "c032506a3a124295f82fcae5",
+      "template_key": "tens.gather_{}",
+      "params": [
+        1
+      ],
+      "title": "tens.gather"
+    },
+    {
+      "id": "c032506a3a124295f82fcae5",
+      "template_key": "tens.gather_{}",
+      "params": [
+        1
+      ],
+      "title": "tens.gather"
+    },
+    {
+      "id": "c032506a3a124295f82fcae5",
+      "template_key": "tens.gather_{}",
+      "params": [
+        1
+      ],
+      "title": "tens.gather"
+    },
+    {
+      "id": "a9c51cc5b4efea0bd686a4f4",
+      "template_key": "tens.scatter_{}",
+      "params": [
+        1
+      ],
+      "title": "tens.scatter"
+    },
+    {
+      "id": "a9c51cc5b4efea0bd686a4f4",
+      "template_key": "tens.scatter_{}",
+      "params": [
+        1
+      ],
+      "title": "tens.scatter"
+    },
+    {
+      "id": "a9c51cc5b4efea0bd686a4f4",
+      "template_key": "tens.scatter_{}",
+      "params": [
+        1
+      ],
+      "title": "tens.scatter"
+    },
+    {
+      "id": "a1b1059ff865867b5a457660",
+      "template_key": "tens.reduce_{}_{}",
+      "params": [
+        1,
+        1
+      ],
+      "title": "tens.reduce"
+    },
+    {
+      "id": "a1b1059ff865867b5a457660",
+      "template_key": "tens.reduce_{}_{}",
+      "params": [
+        1,
+        1
+      ],
+      "title": "tens.reduce"
+    },
+    {
+      "id": "a1b1059ff865867b5a457660",
+      "template_key": "tens.reduce_{}_{}",
+      "params": [
+        1,
+        1
+      ],
+      "title": "tens.reduce"
+    },
+    {
+      "id": "7c6b9cbdd8da7c52108b11b7",
+      "template_key": "tens.quant_error_{}",
+      "params": [
+        1
+      ],
+      "title": "tens.quant_error"
+    },
+    {
+      "id": "7c6b9cbdd8da7c52108b11b7",
+      "template_key": "tens.quant_error_{}",
+      "params": [
+        1
+      ],
+      "title": "tens.quant_error"
+    },
+    {
+      "id": "7c6b9cbdd8da7c52108b11b7",
+      "template_key": "tens.quant_error_{}",
+      "params": [
+        1
+      ],
+      "title": "tens.quant_error"
+    },
+    {
+      "id": "4b6756b3bbf14264d2366f43",
+      "template_key": "tens.calibrate_{}",
+      "params": [
+        1
+      ],
+      "title": "tens.calibrate"
+    },
+    {
+      "id": "4b6756b3bbf14264d2366f43",
+      "template_key": "tens.calibrate_{}",
+      "params": [
+        1
+      ],
+      "title": "tens.calibrate"
+    },
+    {
+      "id": "4b6756b3bbf14264d2366f43",
+      "template_key": "tens.calibrate_{}",
+      "params": [
+        1
+      ],
+      "title": "tens.calibrate"
+    },
+    {
+      "id": "17ef1677ec282ea4f47e415a",
+      "template_key": "tens.vectorize_{}",
+      "params": [
+        1
+      ],
+      "title": "tens.vectorize"
+    },
+    {
+      "id": "17ef1677ec282ea4f47e415a",
+      "template_key": "tens.vectorize_{}",
+      "params": [
+        1
+      ],
+      "title": "tens.vectorize"
+    },
+    {
+      "id": "17ef1677ec282ea4f47e415a",
+      "template_key": "tens.vectorize_{}",
+      "params": [
+        1
+      ],
+      "title": "tens.vectorize"
+    },
+    {
+      "id": "fd173683b28a16dcae47e2f6",
+      "template_key": "tens.reorder_{}",
+      "params": [
+        1
+      ],
+      "title": "tens.reorder"
+    },
+    {
+      "id": "fd173683b28a16dcae47e2f6",
+      "template_key": "tens.reorder_{}",
+      "params": [
+        1
+      ],
+      "title": "tens.reorder"
+    },
+    {
+      "id": "fd173683b28a16dcae47e2f6",
+      "template_key": "tens.reorder_{}",
+      "params": [
+        1
+      ],
+      "title": "tens.reorder"
+    }
+  ]
+}

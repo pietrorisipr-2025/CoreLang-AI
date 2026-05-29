@@ -1,0 +1,1019 @@
+{
+  "instances": [
+    {
+      "id": "d6e2b1211c2cc934f7f1bc3c",
+      "template_key": "tstream.delta_tokens_{}_{}",
+      "params": [
+        1,
+        1
+      ],
+      "title": "tstream.delta_tokens"
+    },
+    {
+      "id": "d6e2b1211c2cc934f7f1bc3c",
+      "template_key": "tstream.delta_tokens_{}_{}",
+      "params": [
+        1,
+        1
+      ],
+      "title": "tstream.delta_tokens"
+    },
+    {
+      "id": "d6e2b1211c2cc934f7f1bc3c",
+      "template_key": "tstream.delta_tokens_{}_{}",
+      "params": [
+        1,
+        1
+      ],
+      "title": "tstream.delta_tokens"
+    },
+    {
+      "id": "d6e2b1211c2cc934f7f1bc3c",
+      "template_key": "tstream.delta_tokens_{}_{}",
+      "params": [
+        1,
+        1
+      ],
+      "title": "tstream.delta_tokens"
+    },
+    {
+      "id": "d6e2b1211c2cc934f7f1bc3c",
+      "template_key": "tstream.delta_tokens_{}_{}",
+      "params": [
+        1,
+        1
+      ],
+      "title": "tstream.delta_tokens"
+    },
+    {
+      "id": "d6e2b1211c2cc934f7f1bc3c",
+      "template_key": "tstream.delta_tokens_{}_{}",
+      "params": [
+        1,
+        1
+      ],
+      "title": "tstream.delta_tokens"
+    },
+    {
+      "id": "d6e2b1211c2cc934f7f1bc3c",
+      "template_key": "tstream.delta_tokens_{}_{}",
+      "params": [
+        1,
+        1
+      ],
+      "title": "tstream.delta_tokens"
+    },
+    {
+      "id": "d6e2b1211c2cc934f7f1bc3c",
+      "template_key": "tstream.delta_tokens_{}_{}",
+      "params": [
+        1,
+        1
+      ],
+      "title": "tstream.delta_tokens"
+    },
+    {
+      "id": "d6e2b1211c2cc934f7f1bc3c",
+      "template_key": "tstream.delta_tokens_{}_{}",
+      "params": [
+        1,
+        1
+      ],
+      "title": "tstream.delta_tokens"
+    },
+    {
+      "id": "d6e2b1211c2cc934f7f1bc3c",
+      "template_key": "tstream.delta_tokens_{}_{}",
+      "params": [
+        1,
+        1
+      ],
+      "title": "tstream.delta_tokens"
+    },
+    {
+      "id": "d6e2b1211c2cc934f7f1bc3c",
+      "template_key": "tstream.delta_tokens_{}_{}",
+      "params": [
+        1,
+        1
+      ],
+      "title": "tstream.delta_tokens"
+    },
+    {
+      "id": "d6e2b1211c2cc934f7f1bc3c",
+      "template_key": "tstream.delta_tokens_{}_{}",
+      "params": [
+        1,
+        1
+      ],
+      "title": "tstream.delta_tokens"
+    },
+    {
+      "id": "d6e2b1211c2cc934f7f1bc3c",
+      "template_key": "tstream.delta_tokens_{}_{}",
+      "params": [
+        1,
+        1
+      ],
+      "title": "tstream.delta_tokens"
+    },
+    {
+      "id": "d6e2b1211c2cc934f7f1bc3c",
+      "template_key": "tstream.delta_tokens_{}_{}",
+      "params": [
+        1,
+        1
+      ],
+      "title": "tstream.delta_tokens"
+    },
+    {
+      "id": "d6e2b1211c2cc934f7f1bc3c",
+      "template_key": "tstream.delta_tokens_{}_{}",
+      "params": [
+        1,
+        1
+      ],
+      "title": "tstream.delta_tokens"
+    },
+    {
+      "id": "2ff078b9518e89735ce8b3b4",
+      "template_key": "tstream.micro_update_{}",
+      "params": [
+        1
+      ],
+      "title": "tstream.micro_update"
+    },
+    {
+      "id": "2ff078b9518e89735ce8b3b4",
+      "template_key": "tstream.micro_update_{}",
+      "params": [
+        1
+      ],
+      "title": "tstream.micro_update"
+    },
+    {
+      "id": "2ff078b9518e89735ce8b3b4",
+      "template_key": "tstream.micro_update_{}",
+      "params": [
+        1
+      ],
+      "title": "tstream.micro_update"
+    },
+    {
+      "id": "2ff078b9518e89735ce8b3b4",
+      "template_key": "tstream.micro_update_{}",
+      "params": [
+        1
+      ],
+      "title": "tstream.micro_update"
+    },
+    {
+      "id": "2ff078b9518e89735ce8b3b4",
+      "template_key": "tstream.micro_update_{}",
+      "params": [
+        1
+      ],
+      "title": "tstream.micro_update"
+    },
+    {
+      "id": "2ff078b9518e89735ce8b3b4",
+      "template_key": "tstream.micro_update_{}",
+      "params": [
+        1
+      ],
+      "title": "tstream.micro_update"
+    },
+    {
+      "id": "2ff078b9518e89735ce8b3b4",
+      "template_key": "tstream.micro_update_{}",
+      "params": [
+        1
+      ],
+      "title": "tstream.micro_update"
+    },
+    {
+      "id": "2ff078b9518e89735ce8b3b4",
+      "template_key": "tstream.micro_update_{}",
+      "params": [
+        1
+      ],
+      "title": "tstream.micro_update"
+    },
+    {
+      "id": "2ff078b9518e89735ce8b3b4",
+      "template_key": "tstream.micro_update_{}",
+      "params": [
+        1
+      ],
+      "title": "tstream.micro_update"
+    },
+    {
+      "id": "2ff078b9518e89735ce8b3b4",
+      "template_key": "tstream.micro_update_{}",
+      "params": [
+        1
+      ],
+      "title": "tstream.micro_update"
+    },
+    {
+      "id": "2ff078b9518e89735ce8b3b4",
+      "template_key": "tstream.micro_update_{}",
+      "params": [
+        1
+      ],
+      "title": "tstream.micro_update"
+    },
+    {
+      "id": "2ff078b9518e89735ce8b3b4",
+      "template_key": "tstream.micro_update_{}",
+      "params": [
+        1
+      ],
+      "title": "tstream.micro_update"
+    },
+    {
+      "id": "2ff078b9518e89735ce8b3b4",
+      "template_key": "tstream.micro_update_{}",
+      "params": [
+        1
+      ],
+      "title": "tstream.micro_update"
+    },
+    {
+      "id": "2ff078b9518e89735ce8b3b4",
+      "template_key": "tstream.micro_update_{}",
+      "params": [
+        1
+      ],
+      "title": "tstream.micro_update"
+    },
+    {
+      "id": "2ff078b9518e89735ce8b3b4",
+      "template_key": "tstream.micro_update_{}",
+      "params": [
+        1
+      ],
+      "title": "tstream.micro_update"
+    },
+    {
+      "id": "3c410446688d4e71cf5b68d3",
+      "template_key": "tstream.window_{}",
+      "params": [
+        1
+      ],
+      "title": "tstream.window"
+    },
+    {
+      "id": "3c410446688d4e71cf5b68d3",
+      "template_key": "tstream.window_{}",
+      "params": [
+        1
+      ],
+      "title": "tstream.window"
+    },
+    {
+      "id": "3c410446688d4e71cf5b68d3",
+      "template_key": "tstream.window_{}",
+      "params": [
+        1
+      ],
+      "title": "tstream.window"
+    },
+    {
+      "id": "3c410446688d4e71cf5b68d3",
+      "template_key": "tstream.window_{}",
+      "params": [
+        1
+      ],
+      "title": "tstream.window"
+    },
+    {
+      "id": "3c410446688d4e71cf5b68d3",
+      "template_key": "tstream.window_{}",
+      "params": [
+        1
+      ],
+      "title": "tstream.window"
+    },
+    {
+      "id": "3c410446688d4e71cf5b68d3",
+      "template_key": "tstream.window_{}",
+      "params": [
+        1
+      ],
+      "title": "tstream.window"
+    },
+    {
+      "id": "3c410446688d4e71cf5b68d3",
+      "template_key": "tstream.window_{}",
+      "params": [
+        1
+      ],
+      "title": "tstream.window"
+    },
+    {
+      "id": "3c410446688d4e71cf5b68d3",
+      "template_key": "tstream.window_{}",
+      "params": [
+        1
+      ],
+      "title": "tstream.window"
+    },
+    {
+      "id": "3c410446688d4e71cf5b68d3",
+      "template_key": "tstream.window_{}",
+      "params": [
+        1
+      ],
+      "title": "tstream.window"
+    },
+    {
+      "id": "3c410446688d4e71cf5b68d3",
+      "template_key": "tstream.window_{}",
+      "params": [
+        1
+      ],
+      "title": "tstream.window"
+    },
+    {
+      "id": "3c410446688d4e71cf5b68d3",
+      "template_key": "tstream.window_{}",
+      "params": [
+        1
+      ],
+      "title": "tstream.window"
+    },
+    {
+      "id": "3c410446688d4e71cf5b68d3",
+      "template_key": "tstream.window_{}",
+      "params": [
+        1
+      ],
+      "title": "tstream.window"
+    },
+    {
+      "id": "3c410446688d4e71cf5b68d3",
+      "template_key": "tstream.window_{}",
+      "params": [
+        1
+      ],
+      "title": "tstream.window"
+    },
+    {
+      "id": "3c410446688d4e71cf5b68d3",
+      "template_key": "tstream.window_{}",
+      "params": [
+        1
+      ],
+      "title": "tstream.window"
+    },
+    {
+      "id": "3c410446688d4e71cf5b68d3",
+      "template_key": "tstream.window_{}",
+      "params": [
+        1
+      ],
+      "title": "tstream.window"
+    },
+    {
+      "id": "833a5bb60f3d5fe80378b05a",
+      "template_key": "tstream.entropy_{}",
+      "params": [
+        1
+      ],
+      "title": "tstream.entropy"
+    },
+    {
+      "id": "833a5bb60f3d5fe80378b05a",
+      "template_key": "tstream.entropy_{}",
+      "params": [
+        1
+      ],
+      "title": "tstream.entropy"
+    },
+    {
+      "id": "833a5bb60f3d5fe80378b05a",
+      "template_key": "tstream.entropy_{}",
+      "params": [
+        1
+      ],
+      "title": "tstream.entropy"
+    },
+    {
+      "id": "833a5bb60f3d5fe80378b05a",
+      "template_key": "tstream.entropy_{}",
+      "params": [
+        1
+      ],
+      "title": "tstream.entropy"
+    },
+    {
+      "id": "833a5bb60f3d5fe80378b05a",
+      "template_key": "tstream.entropy_{}",
+      "params": [
+        1
+      ],
+      "title": "tstream.entropy"
+    },
+    {
+      "id": "833a5bb60f3d5fe80378b05a",
+      "template_key": "tstream.entropy_{}",
+      "params": [
+        1
+      ],
+      "title": "tstream.entropy"
+    },
+    {
+      "id": "833a5bb60f3d5fe80378b05a",
+      "template_key": "tstream.entropy_{}",
+      "params": [
+        1
+      ],
+      "title": "tstream.entropy"
+    },
+    {
+      "id": "833a5bb60f3d5fe80378b05a",
+      "template_key": "tstream.entropy_{}",
+      "params": [
+        1
+      ],
+      "title": "tstream.entropy"
+    },
+    {
+      "id": "833a5bb60f3d5fe80378b05a",
+      "template_key": "tstream.entropy_{}",
+      "params": [
+        1
+      ],
+      "title": "tstream.entropy"
+    },
+    {
+      "id": "833a5bb60f3d5fe80378b05a",
+      "template_key": "tstream.entropy_{}",
+      "params": [
+        1
+      ],
+      "title": "tstream.entropy"
+    },
+    {
+      "id": "833a5bb60f3d5fe80378b05a",
+      "template_key": "tstream.entropy_{}",
+      "params": [
+        1
+      ],
+      "title": "tstream.entropy"
+    },
+    {
+      "id": "833a5bb60f3d5fe80378b05a",
+      "template_key": "tstream.entropy_{}",
+      "params": [
+        1
+      ],
+      "title": "tstream.entropy"
+    },
+    {
+      "id": "833a5bb60f3d5fe80378b05a",
+      "template_key": "tstream.entropy_{}",
+      "params": [
+        1
+      ],
+      "title": "tstream.entropy"
+    },
+    {
+      "id": "833a5bb60f3d5fe80378b05a",
+      "template_key": "tstream.entropy_{}",
+      "params": [
+        1
+      ],
+      "title": "tstream.entropy"
+    },
+    {
+      "id": "833a5bb60f3d5fe80378b05a",
+      "template_key": "tstream.entropy_{}",
+      "params": [
+        1
+      ],
+      "title": "tstream.entropy"
+    },
+    {
+      "id": "2eff13cb8b4ee0bcd00f998a",
+      "template_key": "tstream.flush_{}",
+      "params": [
+        1
+      ],
+      "title": "tstream.flush"
+    },
+    {
+      "id": "2eff13cb8b4ee0bcd00f998a",
+      "template_key": "tstream.flush_{}",
+      "params": [
+        1
+      ],
+      "title": "tstream.flush"
+    },
+    {
+      "id": "2eff13cb8b4ee0bcd00f998a",
+      "template_key": "tstream.flush_{}",
+      "params": [
+        1
+      ],
+      "title": "tstream.flush"
+    },
+    {
+      "id": "2eff13cb8b4ee0bcd00f998a",
+      "template_key": "tstream.flush_{}",
+      "params": [
+        1
+      ],
+      "title": "tstream.flush"
+    },
+    {
+      "id": "2eff13cb8b4ee0bcd00f998a",
+      "template_key": "tstream.flush_{}",
+      "params": [
+        1
+      ],
+      "title": "tstream.flush"
+    },
+    {
+      "id": "2eff13cb8b4ee0bcd00f998a",
+      "template_key": "tstream.flush_{}",
+      "params": [
+        1
+      ],
+      "title": "tstream.flush"
+    },
+    {
+      "id": "2eff13cb8b4ee0bcd00f998a",
+      "template_key": "tstream.flush_{}",
+      "params": [
+        1
+      ],
+      "title": "tstream.flush"
+    },
+    {
+      "id": "2eff13cb8b4ee0bcd00f998a",
+      "template_key": "tstream.flush_{}",
+      "params": [
+        1
+      ],
+      "title": "tstream.flush"
+    },
+    {
+      "id": "2eff13cb8b4ee0bcd00f998a",
+      "template_key": "tstream.flush_{}",
+      "params": [
+        1
+      ],
+      "title": "tstream.flush"
+    },
+    {
+      "id": "2eff13cb8b4ee0bcd00f998a",
+      "template_key": "tstream.flush_{}",
+      "params": [
+        1
+      ],
+      "title": "tstream.flush"
+    },
+    {
+      "id": "2eff13cb8b4ee0bcd00f998a",
+      "template_key": "tstream.flush_{}",
+      "params": [
+        1
+      ],
+      "title": "tstream.flush"
+    },
+    {
+      "id": "2eff13cb8b4ee0bcd00f998a",
+      "template_key": "tstream.flush_{}",
+      "params": [
+        1
+      ],
+      "title": "tstream.flush"
+    },
+    {
+      "id": "2eff13cb8b4ee0bcd00f998a",
+      "template_key": "tstream.flush_{}",
+      "params": [
+        1
+      ],
+      "title": "tstream.flush"
+    },
+    {
+      "id": "2eff13cb8b4ee0bcd00f998a",
+      "template_key": "tstream.flush_{}",
+      "params": [
+        1
+      ],
+      "title": "tstream.flush"
+    },
+    {
+      "id": "2eff13cb8b4ee0bcd00f998a",
+      "template_key": "tstream.flush_{}",
+      "params": [
+        1
+      ],
+      "title": "tstream.flush"
+    },
+    {
+      "id": "630041e3398d4d8f2f932f10",
+      "template_key": "tstream.commit_{}",
+      "params": [
+        1
+      ],
+      "title": "tstream.commit"
+    },
+    {
+      "id": "630041e3398d4d8f2f932f10",
+      "template_key": "tstream.commit_{}",
+      "params": [
+        1
+      ],
+      "title": "tstream.commit"
+    },
+    {
+      "id": "630041e3398d4d8f2f932f10",
+      "template_key": "tstream.commit_{}",
+      "params": [
+        1
+      ],
+      "title": "tstream.commit"
+    },
+    {
+      "id": "630041e3398d4d8f2f932f10",
+      "template_key": "tstream.commit_{}",
+      "params": [
+        1
+      ],
+      "title": "tstream.commit"
+    },
+    {
+      "id": "630041e3398d4d8f2f932f10",
+      "template_key": "tstream.commit_{}",
+      "params": [
+        1
+      ],
+      "title": "tstream.commit"
+    },
+    {
+      "id": "630041e3398d4d8f2f932f10",
+      "template_key": "tstream.commit_{}",
+      "params": [
+        1
+      ],
+      "title": "tstream.commit"
+    },
+    {
+      "id": "630041e3398d4d8f2f932f10",
+      "template_key": "tstream.commit_{}",
+      "params": [
+        1
+      ],
+      "title": "tstream.commit"
+    },
+    {
+      "id": "630041e3398d4d8f2f932f10",
+      "template_key": "tstream.commit_{}",
+      "params": [
+        1
+      ],
+      "title": "tstream.commit"
+    },
+    {
+      "id": "630041e3398d4d8f2f932f10",
+      "template_key": "tstream.commit_{}",
+      "params": [
+        1
+      ],
+      "title": "tstream.commit"
+    },
+    {
+      "id": "630041e3398d4d8f2f932f10",
+      "template_key": "tstream.commit_{}",
+      "params": [
+        1
+      ],
+      "title": "tstream.commit"
+    },
+    {
+      "id": "630041e3398d4d8f2f932f10",
+      "template_key": "tstream.commit_{}",
+      "params": [
+        1
+      ],
+      "title": "tstream.commit"
+    },
+    {
+      "id": "630041e3398d4d8f2f932f10",
+      "template_key": "tstream.commit_{}",
+      "params": [
+        1
+      ],
+      "title": "tstream.commit"
+    },
+    {
+      "id": "630041e3398d4d8f2f932f10",
+      "template_key": "tstream.commit_{}",
+      "params": [
+        1
+      ],
+      "title": "tstream.commit"
+    },
+    {
+      "id": "630041e3398d4d8f2f932f10",
+      "template_key": "tstream.commit_{}",
+      "params": [
+        1
+      ],
+      "title": "tstream.commit"
+    },
+    {
+      "id": "630041e3398d4d8f2f932f10",
+      "template_key": "tstream.commit_{}",
+      "params": [
+        1
+      ],
+      "title": "tstream.commit"
+    },
+    {
+      "id": "e81e6e25a80ab990ec5372f2",
+      "template_key": "tstream.rollback_{}",
+      "params": [
+        1
+      ],
+      "title": "tstream.rollback"
+    },
+    {
+      "id": "e81e6e25a80ab990ec5372f2",
+      "template_key": "tstream.rollback_{}",
+      "params": [
+        1
+      ],
+      "title": "tstream.rollback"
+    },
+    {
+      "id": "e81e6e25a80ab990ec5372f2",
+      "template_key": "tstream.rollback_{}",
+      "params": [
+        1
+      ],
+      "title": "tstream.rollback"
+    },
+    {
+      "id": "e81e6e25a80ab990ec5372f2",
+      "template_key": "tstream.rollback_{}",
+      "params": [
+        1
+      ],
+      "title": "tstream.rollback"
+    },
+    {
+      "id": "e81e6e25a80ab990ec5372f2",
+      "template_key": "tstream.rollback_{}",
+      "params": [
+        1
+      ],
+      "title": "tstream.rollback"
+    },
+    {
+      "id": "e81e6e25a80ab990ec5372f2",
+      "template_key": "tstream.rollback_{}",
+      "params": [
+        1
+      ],
+      "title": "tstream.rollback"
+    },
+    {
+      "id": "e81e6e25a80ab990ec5372f2",
+      "template_key": "tstream.rollback_{}",
+      "params": [
+        1
+      ],
+      "title": "tstream.rollback"
+    },
+    {
+      "id": "e81e6e25a80ab990ec5372f2",
+      "template_key": "tstream.rollback_{}",
+      "params": [
+        1
+      ],
+      "title": "tstream.rollback"
+    },
+    {
+      "id": "e81e6e25a80ab990ec5372f2",
+      "template_key": "tstream.rollback_{}",
+      "params": [
+        1
+      ],
+      "title": "tstream.rollback"
+    },
+    {
+      "id": "e81e6e25a80ab990ec5372f2",
+      "template_key": "tstream.rollback_{}",
+      "params": [
+        1
+      ],
+      "title": "tstream.rollback"
+    },
+    {
+      "id": "e81e6e25a80ab990ec5372f2",
+      "template_key": "tstream.rollback_{}",
+      "params": [
+        1
+      ],
+      "title": "tstream.rollback"
+    },
+    {
+      "id": "e81e6e25a80ab990ec5372f2",
+      "template_key": "tstream.rollback_{}",
+      "params": [
+        1
+      ],
+      "title": "tstream.rollback"
+    },
+    {
+      "id": "e81e6e25a80ab990ec5372f2",
+      "template_key": "tstream.rollback_{}",
+      "params": [
+        1
+      ],
+      "title": "tstream.rollback"
+    },
+    {
+      "id": "e81e6e25a80ab990ec5372f2",
+      "template_key": "tstream.rollback_{}",
+      "params": [
+        1
+      ],
+      "title": "tstream.rollback"
+    },
+    {
+      "id": "e81e6e25a80ab990ec5372f2",
+      "template_key": "tstream.rollback_{}",
+      "params": [
+        1
+      ],
+      "title": "tstream.rollback"
+    },
+    {
+      "id": "b525e9382082cf44775d9d51",
+      "template_key": "tstream.pack_{}",
+      "params": [
+        1
+      ],
+      "title": "tstream.pack"
+    },
+    {
+      "id": "b525e9382082cf44775d9d51",
+      "template_key": "tstream.pack_{}",
+      "params": [
+        1
+      ],
+      "title": "tstream.pack"
+    },
+    {
+      "id": "b525e9382082cf44775d9d51",
+      "template_key": "tstream.pack_{}",
+      "params": [
+        1
+      ],
+      "title": "tstream.pack"
+    },
+    {
+      "id": "b525e9382082cf44775d9d51",
+      "template_key": "tstream.pack_{}",
+      "params": [
+        1
+      ],
+      "title": "tstream.pack"
+    },
+    {
+      "id": "b525e9382082cf44775d9d51",
+      "template_key": "tstream.pack_{}",
+      "params": [
+        1
+      ],
+      "title": "tstream.pack"
+    },
+    {
+      "id": "b525e9382082cf44775d9d51",
+      "template_key": "tstream.pack_{}",
+      "params": [
+        1
+      ],
+      "title": "tstream.pack"
+    },
+    {
+      "id": "b525e9382082cf44775d9d51",
+      "template_key": "tstream.pack_{}",
+      "params": [
+        1
+      ],
+      "title": "tstream.pack"
+    },
+    {
+      "id": "b525e9382082cf44775d9d51",
+      "template_key": "tstream.pack_{}",
+      "params": [
+        1
+      ],
+      "title": "tstream.pack"
+    },
+    {
+      "id": "b525e9382082cf44775d9d51",
+      "template_key": "tstream.pack_{}",
+      "params": [
+        1
+      ],
+      "title": "tstream.pack"
+    },
+    {
+      "id": "b525e9382082cf44775d9d51",
+      "template_key": "tstream.pack_{}",
+      "params": [
+        1
+      ],
+      "title": "tstream.pack"
+    },
+    {
+      "id": "b525e9382082cf44775d9d51",
+      "template_key": "tstream.pack_{}",
+      "params": [
+        1
+      ],
+      "title": "tstream.pack"
+    },
+    {
+      "id": "b525e9382082cf44775d9d51",
+      "template_key": "tstream.pack_{}",
+      "params": [
+        1
+      ],
+      "title": "tstream.pack"
+    },
+    {
+      "id": "b525e9382082cf44775d9d51",
+      "template_key": "tstream.pack_{}",
+      "params": [
+        1
+      ],
+      "title": "tstream.pack"
+    },
+    {
+      "id": "b525e9382082cf44775d9d51",
+      "template_key": "tstream.pack_{}",
+      "params": [
+        1
+      ],
+      "title": "tstream.pack"
+    },
+    {
+      "id": "b525e9382082cf44775d9d51",
+      "template_key": "tstream.pack_{}",
+      "params": [
+        1
+      ],
+      "title": "tstream.pack"
+    },
+    {
+      "id": "57d8e72fc5c5d5dd5f9e4518",
+      "template_key": "tstream.tid_{}",
+      "params": [
+        1
+      ],
+      "title": "tstream.tid(1)"
+    },
+    {
+      "id": "1da1096419f60c5a8da8a877",
+      "template_key": "tstream.abort_{}",
+      "params": [
+        1
+      ],
+      "title": "tstream.abort(1)"
+    },
+    {
+      "id": "55fe9e870f3e513c52ef2de7",
+      "template_key": "tstream.merge_{}",
+      "params": [
+        1
+      ],
+      "title": "tstream.merge(1)"
+    },
+    {
+      "id": "9ac7232ead98f977f7267185",
+      "template_key": "tstream.split_{}",
+      "params": [
+        1
+      ],
+      "title": "tstream.split(1)"
+    },
+    {
+      "id": "35f338da581ff7ea030bc6a0",
+      "template_key": "tstream.delta_entropy_{}",
+      "params": [
+        1
+      ],
+      "title": "tstream.delta_entropy(1)"
+    }
+  ]
+}

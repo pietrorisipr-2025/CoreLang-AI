@@ -1,0 +1,231 @@
+{
+  "block": "D3_Block22",
+  "version": "6.30R1",
+  "templates": [
+    {
+      "template_key": "session.start_{}",
+      "canonical": "session.start",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "session",
+      "op": "start"
+    },
+    {
+      "template_key": "session.end_{}",
+      "canonical": "session.end",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "session",
+      "op": "end"
+    },
+    {
+      "template_key": "session.resume_{}",
+      "canonical": "session.resume",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "session",
+      "op": "resume"
+    },
+    {
+      "template_key": "session.resume_token_{}",
+      "canonical": "session.resume_token",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "session",
+      "op": "issue"
+    },
+    {
+      "template_key": "peer.ping_{}",
+      "canonical": "peer.ping",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "peer",
+      "op": "ping"
+    },
+    {
+      "template_key": "peer.pong_{}",
+      "canonical": "peer.pong",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "peer",
+      "op": "pong"
+    },
+    {
+      "template_key": "peer.path_hint_{}",
+      "canonical": "peer.path_hint",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "peer",
+      "op": "hint"
+    },
+    {
+      "template_key": "disco.cache_put_{}_{}",
+      "canonical": "disco.cache_put",
+      "placeholders": [
+        "p1",
+        "p2"
+      ],
+      "types": [
+        "any",
+        "any"
+      ],
+      "freq": 1,
+      "category": "discovery",
+      "op": "put"
+    },
+    {
+      "template_key": "disco.cache_get_{}",
+      "canonical": "disco.cache_get",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "discovery",
+      "op": "get"
+    },
+    {
+      "template_key": "route.add_{}_{}",
+      "canonical": "route.add",
+      "placeholders": [
+        "p1",
+        "p2"
+      ],
+      "types": [
+        "any",
+        "any"
+      ],
+      "freq": 1,
+      "category": "routing",
+      "op": "add"
+    },
+    {
+      "template_key": "route.remove_{}",
+      "canonical": "route.remove",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "routing",
+      "op": "remove"
+    },
+    {
+      "template_key": "route.cost_get_{}",
+      "canonical": "route.cost_get",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "routing",
+      "op": "get"
+    },
+    {
+      "template_key": "route.relay_{}",
+      "canonical": "route.relay",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "routing",
+      "op": "relay"
+    },
+    {
+      "template_key": "session.resume_mic_{}",
+      "canonical": "session.resume_mic",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "session",
+      "op": "bind"
+    },
+    {
+      "template_key": "disco.cache_ttl_{}",
+      "canonical": "disco.cache_ttl",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "discovery",
+      "op": "set"
+    },
+    {
+      "template_key": "route.cost_metrics_{}",
+      "canonical": "route.cost_metrics",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "routing",
+      "op": "set"
+    },
+    {
+      "template_key": "route.relay_hint_{}",
+      "canonical": "route.relay_hint",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "routing",
+      "op": "hint"
+    }
+  ]
+}

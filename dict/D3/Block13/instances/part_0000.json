@@ -1,0 +1,820 @@
+{
+  "instances": [
+    {
+      "id": "5620a1570ca01ed31741cfd1",
+      "template_key": "cas.put_{}",
+      "params": [
+        1
+      ],
+      "title": "cas.put"
+    },
+    {
+      "id": "5620a1570ca01ed31741cfd1",
+      "template_key": "cas.put_{}",
+      "params": [
+        1
+      ],
+      "title": "cas.put"
+    },
+    {
+      "id": "5620a1570ca01ed31741cfd1",
+      "template_key": "cas.put_{}",
+      "params": [
+        1
+      ],
+      "title": "cas.put"
+    },
+    {
+      "id": "63f674ca0f46afd0ccc886f5",
+      "template_key": "cas.get_{}",
+      "params": [
+        1
+      ],
+      "title": "cas.get"
+    },
+    {
+      "id": "63f674ca0f46afd0ccc886f5",
+      "template_key": "cas.get_{}",
+      "params": [
+        1
+      ],
+      "title": "cas.get"
+    },
+    {
+      "id": "63f674ca0f46afd0ccc886f5",
+      "template_key": "cas.get_{}",
+      "params": [
+        1
+      ],
+      "title": "cas.get"
+    },
+    {
+      "id": "e3fa8ede30db20aa8fef1c74",
+      "template_key": "cas.pin_{}",
+      "params": [
+        1
+      ],
+      "title": "cas.pin"
+    },
+    {
+      "id": "e3fa8ede30db20aa8fef1c74",
+      "template_key": "cas.pin_{}",
+      "params": [
+        1
+      ],
+      "title": "cas.pin"
+    },
+    {
+      "id": "e3fa8ede30db20aa8fef1c74",
+      "template_key": "cas.pin_{}",
+      "params": [
+        1
+      ],
+      "title": "cas.pin"
+    },
+    {
+      "id": "2e8ed2c5949e6c4fbd62fa31",
+      "template_key": "cas.unpin_{}",
+      "params": [
+        1
+      ],
+      "title": "cas.unpin"
+    },
+    {
+      "id": "2e8ed2c5949e6c4fbd62fa31",
+      "template_key": "cas.unpin_{}",
+      "params": [
+        1
+      ],
+      "title": "cas.unpin"
+    },
+    {
+      "id": "2e8ed2c5949e6c4fbd62fa31",
+      "template_key": "cas.unpin_{}",
+      "params": [
+        1
+      ],
+      "title": "cas.unpin"
+    },
+    {
+      "id": "9d2c4e5e7284651b45837c2d",
+      "template_key": "cas.prefetch_{}",
+      "params": [
+        1
+      ],
+      "title": "cas.prefetch"
+    },
+    {
+      "id": "9d2c4e5e7284651b45837c2d",
+      "template_key": "cas.prefetch_{}",
+      "params": [
+        1
+      ],
+      "title": "cas.prefetch"
+    },
+    {
+      "id": "9d2c4e5e7284651b45837c2d",
+      "template_key": "cas.prefetch_{}",
+      "params": [
+        1
+      ],
+      "title": "cas.prefetch"
+    },
+    {
+      "id": "c4909203b0803e1a9b74acc3",
+      "template_key": "cas.list_{}",
+      "params": [
+        1
+      ],
+      "title": "cas.list"
+    },
+    {
+      "id": "c4909203b0803e1a9b74acc3",
+      "template_key": "cas.list_{}",
+      "params": [
+        1
+      ],
+      "title": "cas.list"
+    },
+    {
+      "id": "c4909203b0803e1a9b74acc3",
+      "template_key": "cas.list_{}",
+      "params": [
+        1
+      ],
+      "title": "cas.list"
+    },
+    {
+      "id": "8d54d27ddc2d5cceebbeae06",
+      "template_key": "cas.stat_{}",
+      "params": [
+        1
+      ],
+      "title": "cas.stat"
+    },
+    {
+      "id": "8d54d27ddc2d5cceebbeae06",
+      "template_key": "cas.stat_{}",
+      "params": [
+        1
+      ],
+      "title": "cas.stat"
+    },
+    {
+      "id": "8d54d27ddc2d5cceebbeae06",
+      "template_key": "cas.stat_{}",
+      "params": [
+        1
+      ],
+      "title": "cas.stat"
+    },
+    {
+      "id": "18fb9eeb49b01af3659ceecd",
+      "template_key": "cas.evict_{}",
+      "params": [
+        1
+      ],
+      "title": "cas.evict"
+    },
+    {
+      "id": "18fb9eeb49b01af3659ceecd",
+      "template_key": "cas.evict_{}",
+      "params": [
+        1
+      ],
+      "title": "cas.evict"
+    },
+    {
+      "id": "18fb9eeb49b01af3659ceecd",
+      "template_key": "cas.evict_{}",
+      "params": [
+        1
+      ],
+      "title": "cas.evict"
+    },
+    {
+      "id": "294c27ae86890ecf26eefcc4",
+      "template_key": "cas.gc_{}",
+      "params": [
+        1
+      ],
+      "title": "cas.gc"
+    },
+    {
+      "id": "294c27ae86890ecf26eefcc4",
+      "template_key": "cas.gc_{}",
+      "params": [
+        1
+      ],
+      "title": "cas.gc"
+    },
+    {
+      "id": "294c27ae86890ecf26eefcc4",
+      "template_key": "cas.gc_{}",
+      "params": [
+        1
+      ],
+      "title": "cas.gc"
+    },
+    {
+      "id": "e706aac4dfeebd09010c3f5d",
+      "template_key": "cas.retry_{}",
+      "params": [
+        1
+      ],
+      "title": "cas.retry"
+    },
+    {
+      "id": "e706aac4dfeebd09010c3f5d",
+      "template_key": "cas.retry_{}",
+      "params": [
+        1
+      ],
+      "title": "cas.retry"
+    },
+    {
+      "id": "e706aac4dfeebd09010c3f5d",
+      "template_key": "cas.retry_{}",
+      "params": [
+        1
+      ],
+      "title": "cas.retry"
+    },
+    {
+      "id": "07c71e0ac087a9fde99436cf",
+      "template_key": "cas.timeout_{}",
+      "params": [
+        1
+      ],
+      "title": "cas.timeout"
+    },
+    {
+      "id": "07c71e0ac087a9fde99436cf",
+      "template_key": "cas.timeout_{}",
+      "params": [
+        1
+      ],
+      "title": "cas.timeout"
+    },
+    {
+      "id": "07c71e0ac087a9fde99436cf",
+      "template_key": "cas.timeout_{}",
+      "params": [
+        1
+      ],
+      "title": "cas.timeout"
+    },
+    {
+      "id": "d634e4fc3f621858b8739452",
+      "template_key": "cas.quota_{}",
+      "params": [
+        1
+      ],
+      "title": "cas.quota"
+    },
+    {
+      "id": "d634e4fc3f621858b8739452",
+      "template_key": "cas.quota_{}",
+      "params": [
+        1
+      ],
+      "title": "cas.quota"
+    },
+    {
+      "id": "d634e4fc3f621858b8739452",
+      "template_key": "cas.quota_{}",
+      "params": [
+        1
+      ],
+      "title": "cas.quota"
+    },
+    {
+      "id": "6d9f83e17dcd63f9ce0ff7c0",
+      "template_key": "cas.lru_set_{}",
+      "params": [
+        1
+      ],
+      "title": "cas.lru_set"
+    },
+    {
+      "id": "6d9f83e17dcd63f9ce0ff7c0",
+      "template_key": "cas.lru_set_{}",
+      "params": [
+        1
+      ],
+      "title": "cas.lru_set"
+    },
+    {
+      "id": "6d9f83e17dcd63f9ce0ff7c0",
+      "template_key": "cas.lru_set_{}",
+      "params": [
+        1
+      ],
+      "title": "cas.lru_set"
+    },
+    {
+      "id": "4519c89ce9d713dcdc92e5f2",
+      "template_key": "cas.cache_mode_{}",
+      "params": [
+        1
+      ],
+      "title": "cas.cache_mode"
+    },
+    {
+      "id": "4519c89ce9d713dcdc92e5f2",
+      "template_key": "cas.cache_mode_{}",
+      "params": [
+        1
+      ],
+      "title": "cas.cache_mode"
+    },
+    {
+      "id": "4519c89ce9d713dcdc92e5f2",
+      "template_key": "cas.cache_mode_{}",
+      "params": [
+        1
+      ],
+      "title": "cas.cache_mode"
+    },
+    {
+      "id": "3c6f87e4c4fe64317aeabb99",
+      "template_key": "cas.verify_{}",
+      "params": [
+        1
+      ],
+      "title": "cas.verify"
+    },
+    {
+      "id": "3c6f87e4c4fe64317aeabb99",
+      "template_key": "cas.verify_{}",
+      "params": [
+        1
+      ],
+      "title": "cas.verify"
+    },
+    {
+      "id": "3c6f87e4c4fe64317aeabb99",
+      "template_key": "cas.verify_{}",
+      "params": [
+        1
+      ],
+      "title": "cas.verify"
+    },
+    {
+      "id": "9383131f96c86188ba7e6ad8",
+      "template_key": "cas.namespace_{}",
+      "params": [
+        1
+      ],
+      "title": "cas.namespace"
+    },
+    {
+      "id": "9383131f96c86188ba7e6ad8",
+      "template_key": "cas.namespace_{}",
+      "params": [
+        1
+      ],
+      "title": "cas.namespace"
+    },
+    {
+      "id": "9383131f96c86188ba7e6ad8",
+      "template_key": "cas.namespace_{}",
+      "params": [
+        1
+      ],
+      "title": "cas.namespace"
+    },
+    {
+      "id": "02e01dabaf326e6baa760f7d",
+      "template_key": "cas.export_{}",
+      "params": [
+        1
+      ],
+      "title": "cas.export"
+    },
+    {
+      "id": "02e01dabaf326e6baa760f7d",
+      "template_key": "cas.export_{}",
+      "params": [
+        1
+      ],
+      "title": "cas.export"
+    },
+    {
+      "id": "02e01dabaf326e6baa760f7d",
+      "template_key": "cas.export_{}",
+      "params": [
+        1
+      ],
+      "title": "cas.export"
+    },
+    {
+      "id": "eff6a057d085440af6074a13",
+      "template_key": "cas.import_{}",
+      "params": [
+        1
+      ],
+      "title": "cas.import"
+    },
+    {
+      "id": "eff6a057d085440af6074a13",
+      "template_key": "cas.import_{}",
+      "params": [
+        1
+      ],
+      "title": "cas.import"
+    },
+    {
+      "id": "eff6a057d085440af6074a13",
+      "template_key": "cas.import_{}",
+      "params": [
+        1
+      ],
+      "title": "cas.import"
+    },
+    {
+      "id": "37d30ed7afbbf02bffee54a9",
+      "template_key": "cas.encrypt_{}",
+      "params": [
+        1
+      ],
+      "title": "cas.encrypt"
+    },
+    {
+      "id": "37d30ed7afbbf02bffee54a9",
+      "template_key": "cas.encrypt_{}",
+      "params": [
+        1
+      ],
+      "title": "cas.encrypt"
+    },
+    {
+      "id": "37d30ed7afbbf02bffee54a9",
+      "template_key": "cas.encrypt_{}",
+      "params": [
+        1
+      ],
+      "title": "cas.encrypt"
+    },
+    {
+      "id": "c694f6e40f5f18259139f3e8",
+      "template_key": "cas.decrypt_{}",
+      "params": [
+        1
+      ],
+      "title": "cas.decrypt"
+    },
+    {
+      "id": "c694f6e40f5f18259139f3e8",
+      "template_key": "cas.decrypt_{}",
+      "params": [
+        1
+      ],
+      "title": "cas.decrypt"
+    },
+    {
+      "id": "c694f6e40f5f18259139f3e8",
+      "template_key": "cas.decrypt_{}",
+      "params": [
+        1
+      ],
+      "title": "cas.decrypt"
+    },
+    {
+      "id": "afafc1ea273ac3a41b595d76",
+      "template_key": "cas.access_{}",
+      "params": [
+        1
+      ],
+      "title": "cas.access"
+    },
+    {
+      "id": "afafc1ea273ac3a41b595d76",
+      "template_key": "cas.access_{}",
+      "params": [
+        1
+      ],
+      "title": "cas.access"
+    },
+    {
+      "id": "afafc1ea273ac3a41b595d76",
+      "template_key": "cas.access_{}",
+      "params": [
+        1
+      ],
+      "title": "cas.access"
+    },
+    {
+      "id": "3e6d8c2d635e4d307a318dc2",
+      "template_key": "cas.audit_{}",
+      "params": [
+        1
+      ],
+      "title": "cas.audit"
+    },
+    {
+      "id": "3e6d8c2d635e4d307a318dc2",
+      "template_key": "cas.audit_{}",
+      "params": [
+        1
+      ],
+      "title": "cas.audit"
+    },
+    {
+      "id": "3e6d8c2d635e4d307a318dc2",
+      "template_key": "cas.audit_{}",
+      "params": [
+        1
+      ],
+      "title": "cas.audit"
+    },
+    {
+      "id": "670d56d80491d572264ccb30",
+      "template_key": "cas.stats_emit_{}",
+      "params": [
+        1
+      ],
+      "title": "cas.stats_emit"
+    },
+    {
+      "id": "670d56d80491d572264ccb30",
+      "template_key": "cas.stats_emit_{}",
+      "params": [
+        1
+      ],
+      "title": "cas.stats_emit"
+    },
+    {
+      "id": "670d56d80491d572264ccb30",
+      "template_key": "cas.stats_emit_{}",
+      "params": [
+        1
+      ],
+      "title": "cas.stats_emit"
+    },
+    {
+      "id": "258ab42a52455f1ff9f9e06d",
+      "template_key": "ref.hash_{}",
+      "params": [
+        1
+      ],
+      "title": "ref.hash"
+    },
+    {
+      "id": "258ab42a52455f1ff9f9e06d",
+      "template_key": "ref.hash_{}",
+      "params": [
+        1
+      ],
+      "title": "ref.hash"
+    },
+    {
+      "id": "258ab42a52455f1ff9f9e06d",
+      "template_key": "ref.hash_{}",
+      "params": [
+        1
+      ],
+      "title": "ref.hash"
+    },
+    {
+      "id": "8f2dc9ae26f4549ac485569e",
+      "template_key": "ref.inline_{}",
+      "params": [
+        1
+      ],
+      "title": "ref.inline"
+    },
+    {
+      "id": "8f2dc9ae26f4549ac485569e",
+      "template_key": "ref.inline_{}",
+      "params": [
+        1
+      ],
+      "title": "ref.inline"
+    },
+    {
+      "id": "8f2dc9ae26f4549ac485569e",
+      "template_key": "ref.inline_{}",
+      "params": [
+        1
+      ],
+      "title": "ref.inline"
+    },
+    {
+      "id": "567bd0054d2bf13a25461a06",
+      "template_key": "ref.pack_{}",
+      "params": [
+        1
+      ],
+      "title": "ref.pack"
+    },
+    {
+      "id": "567bd0054d2bf13a25461a06",
+      "template_key": "ref.pack_{}",
+      "params": [
+        1
+      ],
+      "title": "ref.pack"
+    },
+    {
+      "id": "567bd0054d2bf13a25461a06",
+      "template_key": "ref.pack_{}",
+      "params": [
+        1
+      ],
+      "title": "ref.pack"
+    },
+    {
+      "id": "20ad1e166462550fae0cbbac",
+      "template_key": "ref.unpack_{}",
+      "params": [
+        1
+      ],
+      "title": "ref.unpack"
+    },
+    {
+      "id": "20ad1e166462550fae0cbbac",
+      "template_key": "ref.unpack_{}",
+      "params": [
+        1
+      ],
+      "title": "ref.unpack"
+    },
+    {
+      "id": "20ad1e166462550fae0cbbac",
+      "template_key": "ref.unpack_{}",
+      "params": [
+        1
+      ],
+      "title": "ref.unpack"
+    },
+    {
+      "id": "f1502cc5e2c91dd0fabde4e2",
+      "template_key": "ref.batch_put_{}",
+      "params": [
+        1
+      ],
+      "title": "ref.batch_put"
+    },
+    {
+      "id": "f1502cc5e2c91dd0fabde4e2",
+      "template_key": "ref.batch_put_{}",
+      "params": [
+        1
+      ],
+      "title": "ref.batch_put"
+    },
+    {
+      "id": "f1502cc5e2c91dd0fabde4e2",
+      "template_key": "ref.batch_put_{}",
+      "params": [
+        1
+      ],
+      "title": "ref.batch_put"
+    },
+    {
+      "id": "2ea801d790acc2a38c60ed37",
+      "template_key": "ref.batch_get_{}",
+      "params": [
+        1
+      ],
+      "title": "ref.batch_get"
+    },
+    {
+      "id": "2ea801d790acc2a38c60ed37",
+      "template_key": "ref.batch_get_{}",
+      "params": [
+        1
+      ],
+      "title": "ref.batch_get"
+    },
+    {
+      "id": "2ea801d790acc2a38c60ed37",
+      "template_key": "ref.batch_get_{}",
+      "params": [
+        1
+      ],
+      "title": "ref.batch_get"
+    },
+    {
+      "id": "669c7f3acd39c73b43f7b334",
+      "template_key": "ref.merge_{}",
+      "params": [
+        1
+      ],
+      "title": "ref.merge"
+    },
+    {
+      "id": "669c7f3acd39c73b43f7b334",
+      "template_key": "ref.merge_{}",
+      "params": [
+        1
+      ],
+      "title": "ref.merge"
+    },
+    {
+      "id": "669c7f3acd39c73b43f7b334",
+      "template_key": "ref.merge_{}",
+      "params": [
+        1
+      ],
+      "title": "ref.merge"
+    },
+    {
+      "id": "c3bacc7c294b9752fdfca1f0",
+      "template_key": "ref.split_{}",
+      "params": [
+        1
+      ],
+      "title": "ref.split"
+    },
+    {
+      "id": "c3bacc7c294b9752fdfca1f0",
+      "template_key": "ref.split_{}",
+      "params": [
+        1
+      ],
+      "title": "ref.split"
+    },
+    {
+      "id": "c3bacc7c294b9752fdfca1f0",
+      "template_key": "ref.split_{}",
+      "params": [
+        1
+      ],
+      "title": "ref.split"
+    },
+    {
+      "id": "599ddbefef9c0000ec76b0f9",
+      "template_key": "ref.remap_{}",
+      "params": [
+        1
+      ],
+      "title": "ref.remap"
+    },
+    {
+      "id": "599ddbefef9c0000ec76b0f9",
+      "template_key": "ref.remap_{}",
+      "params": [
+        1
+      ],
+      "title": "ref.remap"
+    },
+    {
+      "id": "599ddbefef9c0000ec76b0f9",
+      "template_key": "ref.remap_{}",
+      "params": [
+        1
+      ],
+      "title": "ref.remap"
+    },
+    {
+      "id": "dafa23c04b2b226da4ee81cb",
+      "template_key": "casr.request_{}",
+      "params": [
+        1
+      ],
+      "title": "casr.request"
+    },
+    {
+      "id": "dafa23c04b2b226da4ee81cb",
+      "template_key": "casr.request_{}",
+      "params": [
+        1
+      ],
+      "title": "casr.request"
+    },
+    {
+      "id": "dafa23c04b2b226da4ee81cb",
+      "template_key": "casr.request_{}",
+      "params": [
+        1
+      ],
+      "title": "casr.request"
+    },
+    {
+      "id": "b89636ecd8c1f4c7d09bf4d8",
+      "template_key": "casr.response_{}",
+      "params": [
+        1
+      ],
+      "title": "casr.response"
+    },
+    {
+      "id": "b89636ecd8c1f4c7d09bf4d8",
+      "template_key": "casr.response_{}",
+      "params": [
+        1
+      ],
+      "title": "casr.response"
+    },
+    {
+      "id": "b89636ecd8c1f4c7d09bf4d8",
+      "template_key": "casr.response_{}",
+      "params": [
+        1
+      ],
+      "title": "casr.response"
+    }
+  ]
+}

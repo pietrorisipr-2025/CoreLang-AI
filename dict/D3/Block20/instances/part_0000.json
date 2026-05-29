@@ -1,0 +1,1005 @@
+{
+  "instances": [
+    {
+      "id": "95ee489ed41abbe797a9a62a",
+      "template_key": "capa.offer_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.offer"
+    },
+    {
+      "id": "95ee489ed41abbe797a9a62a",
+      "template_key": "capa.offer_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.offer"
+    },
+    {
+      "id": "95ee489ed41abbe797a9a62a",
+      "template_key": "capa.offer_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.offer"
+    },
+    {
+      "id": "95ee489ed41abbe797a9a62a",
+      "template_key": "capa.offer_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.offer"
+    },
+    {
+      "id": "95ee489ed41abbe797a9a62a",
+      "template_key": "capa.offer_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.offer"
+    },
+    {
+      "id": "95ee489ed41abbe797a9a62a",
+      "template_key": "capa.offer_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.offer"
+    },
+    {
+      "id": "95ee489ed41abbe797a9a62a",
+      "template_key": "capa.offer_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.offer"
+    },
+    {
+      "id": "95ee489ed41abbe797a9a62a",
+      "template_key": "capa.offer_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.offer"
+    },
+    {
+      "id": "95ee489ed41abbe797a9a62a",
+      "template_key": "capa.offer_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.offer"
+    },
+    {
+      "id": "95ee489ed41abbe797a9a62a",
+      "template_key": "capa.offer_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.offer"
+    },
+    {
+      "id": "95ee489ed41abbe797a9a62a",
+      "template_key": "capa.offer_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.offer"
+    },
+    {
+      "id": "95ee489ed41abbe797a9a62a",
+      "template_key": "capa.offer_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.offer"
+    },
+    {
+      "id": "729f13f52fe7856baa42b480",
+      "template_key": "capa.require_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.require"
+    },
+    {
+      "id": "729f13f52fe7856baa42b480",
+      "template_key": "capa.require_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.require"
+    },
+    {
+      "id": "729f13f52fe7856baa42b480",
+      "template_key": "capa.require_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.require"
+    },
+    {
+      "id": "729f13f52fe7856baa42b480",
+      "template_key": "capa.require_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.require"
+    },
+    {
+      "id": "729f13f52fe7856baa42b480",
+      "template_key": "capa.require_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.require"
+    },
+    {
+      "id": "729f13f52fe7856baa42b480",
+      "template_key": "capa.require_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.require"
+    },
+    {
+      "id": "729f13f52fe7856baa42b480",
+      "template_key": "capa.require_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.require"
+    },
+    {
+      "id": "729f13f52fe7856baa42b480",
+      "template_key": "capa.require_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.require"
+    },
+    {
+      "id": "729f13f52fe7856baa42b480",
+      "template_key": "capa.require_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.require"
+    },
+    {
+      "id": "729f13f52fe7856baa42b480",
+      "template_key": "capa.require_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.require"
+    },
+    {
+      "id": "729f13f52fe7856baa42b480",
+      "template_key": "capa.require_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.require"
+    },
+    {
+      "id": "729f13f52fe7856baa42b480",
+      "template_key": "capa.require_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.require"
+    },
+    {
+      "id": "9f7b55b749cd3a9337375ac3",
+      "template_key": "capa.enable_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.enable"
+    },
+    {
+      "id": "9f7b55b749cd3a9337375ac3",
+      "template_key": "capa.enable_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.enable"
+    },
+    {
+      "id": "9f7b55b749cd3a9337375ac3",
+      "template_key": "capa.enable_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.enable"
+    },
+    {
+      "id": "9f7b55b749cd3a9337375ac3",
+      "template_key": "capa.enable_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.enable"
+    },
+    {
+      "id": "9f7b55b749cd3a9337375ac3",
+      "template_key": "capa.enable_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.enable"
+    },
+    {
+      "id": "9f7b55b749cd3a9337375ac3",
+      "template_key": "capa.enable_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.enable"
+    },
+    {
+      "id": "9f7b55b749cd3a9337375ac3",
+      "template_key": "capa.enable_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.enable"
+    },
+    {
+      "id": "9f7b55b749cd3a9337375ac3",
+      "template_key": "capa.enable_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.enable"
+    },
+    {
+      "id": "9f7b55b749cd3a9337375ac3",
+      "template_key": "capa.enable_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.enable"
+    },
+    {
+      "id": "9f7b55b749cd3a9337375ac3",
+      "template_key": "capa.enable_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.enable"
+    },
+    {
+      "id": "9f7b55b749cd3a9337375ac3",
+      "template_key": "capa.enable_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.enable"
+    },
+    {
+      "id": "9f7b55b749cd3a9337375ac3",
+      "template_key": "capa.enable_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.enable"
+    },
+    {
+      "id": "c6dfd548885770c023e6c262",
+      "template_key": "capa.disable_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.disable"
+    },
+    {
+      "id": "c6dfd548885770c023e6c262",
+      "template_key": "capa.disable_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.disable"
+    },
+    {
+      "id": "c6dfd548885770c023e6c262",
+      "template_key": "capa.disable_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.disable"
+    },
+    {
+      "id": "c6dfd548885770c023e6c262",
+      "template_key": "capa.disable_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.disable"
+    },
+    {
+      "id": "c6dfd548885770c023e6c262",
+      "template_key": "capa.disable_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.disable"
+    },
+    {
+      "id": "c6dfd548885770c023e6c262",
+      "template_key": "capa.disable_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.disable"
+    },
+    {
+      "id": "c6dfd548885770c023e6c262",
+      "template_key": "capa.disable_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.disable"
+    },
+    {
+      "id": "c6dfd548885770c023e6c262",
+      "template_key": "capa.disable_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.disable"
+    },
+    {
+      "id": "c6dfd548885770c023e6c262",
+      "template_key": "capa.disable_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.disable"
+    },
+    {
+      "id": "c6dfd548885770c023e6c262",
+      "template_key": "capa.disable_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.disable"
+    },
+    {
+      "id": "c6dfd548885770c023e6c262",
+      "template_key": "capa.disable_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.disable"
+    },
+    {
+      "id": "c6dfd548885770c023e6c262",
+      "template_key": "capa.disable_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.disable"
+    },
+    {
+      "id": "206c96712c918afa7a64d883",
+      "template_key": "capa.neg_result_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.neg_result"
+    },
+    {
+      "id": "206c96712c918afa7a64d883",
+      "template_key": "capa.neg_result_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.neg_result"
+    },
+    {
+      "id": "206c96712c918afa7a64d883",
+      "template_key": "capa.neg_result_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.neg_result"
+    },
+    {
+      "id": "206c96712c918afa7a64d883",
+      "template_key": "capa.neg_result_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.neg_result"
+    },
+    {
+      "id": "206c96712c918afa7a64d883",
+      "template_key": "capa.neg_result_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.neg_result"
+    },
+    {
+      "id": "206c96712c918afa7a64d883",
+      "template_key": "capa.neg_result_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.neg_result"
+    },
+    {
+      "id": "206c96712c918afa7a64d883",
+      "template_key": "capa.neg_result_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.neg_result"
+    },
+    {
+      "id": "206c96712c918afa7a64d883",
+      "template_key": "capa.neg_result_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.neg_result"
+    },
+    {
+      "id": "206c96712c918afa7a64d883",
+      "template_key": "capa.neg_result_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.neg_result"
+    },
+    {
+      "id": "206c96712c918afa7a64d883",
+      "template_key": "capa.neg_result_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.neg_result"
+    },
+    {
+      "id": "206c96712c918afa7a64d883",
+      "template_key": "capa.neg_result_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.neg_result"
+    },
+    {
+      "id": "206c96712c918afa7a64d883",
+      "template_key": "capa.neg_result_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.neg_result"
+    },
+    {
+      "id": "9bdea2922a4099ca15016166",
+      "template_key": "capa.query_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.query"
+    },
+    {
+      "id": "9bdea2922a4099ca15016166",
+      "template_key": "capa.query_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.query"
+    },
+    {
+      "id": "9bdea2922a4099ca15016166",
+      "template_key": "capa.query_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.query"
+    },
+    {
+      "id": "9bdea2922a4099ca15016166",
+      "template_key": "capa.query_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.query"
+    },
+    {
+      "id": "9bdea2922a4099ca15016166",
+      "template_key": "capa.query_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.query"
+    },
+    {
+      "id": "9bdea2922a4099ca15016166",
+      "template_key": "capa.query_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.query"
+    },
+    {
+      "id": "9bdea2922a4099ca15016166",
+      "template_key": "capa.query_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.query"
+    },
+    {
+      "id": "9bdea2922a4099ca15016166",
+      "template_key": "capa.query_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.query"
+    },
+    {
+      "id": "9bdea2922a4099ca15016166",
+      "template_key": "capa.query_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.query"
+    },
+    {
+      "id": "9bdea2922a4099ca15016166",
+      "template_key": "capa.query_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.query"
+    },
+    {
+      "id": "9bdea2922a4099ca15016166",
+      "template_key": "capa.query_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.query"
+    },
+    {
+      "id": "9bdea2922a4099ca15016166",
+      "template_key": "capa.query_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.query"
+    },
+    {
+      "id": "5428ca89ec460fe24129688a",
+      "template_key": "capa.profile_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.profile"
+    },
+    {
+      "id": "5428ca89ec460fe24129688a",
+      "template_key": "capa.profile_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.profile"
+    },
+    {
+      "id": "5428ca89ec460fe24129688a",
+      "template_key": "capa.profile_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.profile"
+    },
+    {
+      "id": "5428ca89ec460fe24129688a",
+      "template_key": "capa.profile_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.profile"
+    },
+    {
+      "id": "5428ca89ec460fe24129688a",
+      "template_key": "capa.profile_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.profile"
+    },
+    {
+      "id": "5428ca89ec460fe24129688a",
+      "template_key": "capa.profile_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.profile"
+    },
+    {
+      "id": "5428ca89ec460fe24129688a",
+      "template_key": "capa.profile_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.profile"
+    },
+    {
+      "id": "5428ca89ec460fe24129688a",
+      "template_key": "capa.profile_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.profile"
+    },
+    {
+      "id": "5428ca89ec460fe24129688a",
+      "template_key": "capa.profile_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.profile"
+    },
+    {
+      "id": "5428ca89ec460fe24129688a",
+      "template_key": "capa.profile_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.profile"
+    },
+    {
+      "id": "5428ca89ec460fe24129688a",
+      "template_key": "capa.profile_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.profile"
+    },
+    {
+      "id": "5428ca89ec460fe24129688a",
+      "template_key": "capa.profile_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.profile"
+    },
+    {
+      "id": "447e152f9ae4bc53dfa1e995",
+      "template_key": "capa.codec_pref_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.codec_pref"
+    },
+    {
+      "id": "447e152f9ae4bc53dfa1e995",
+      "template_key": "capa.codec_pref_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.codec_pref"
+    },
+    {
+      "id": "447e152f9ae4bc53dfa1e995",
+      "template_key": "capa.codec_pref_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.codec_pref"
+    },
+    {
+      "id": "447e152f9ae4bc53dfa1e995",
+      "template_key": "capa.codec_pref_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.codec_pref"
+    },
+    {
+      "id": "447e152f9ae4bc53dfa1e995",
+      "template_key": "capa.codec_pref_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.codec_pref"
+    },
+    {
+      "id": "447e152f9ae4bc53dfa1e995",
+      "template_key": "capa.codec_pref_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.codec_pref"
+    },
+    {
+      "id": "447e152f9ae4bc53dfa1e995",
+      "template_key": "capa.codec_pref_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.codec_pref"
+    },
+    {
+      "id": "447e152f9ae4bc53dfa1e995",
+      "template_key": "capa.codec_pref_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.codec_pref"
+    },
+    {
+      "id": "447e152f9ae4bc53dfa1e995",
+      "template_key": "capa.codec_pref_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.codec_pref"
+    },
+    {
+      "id": "447e152f9ae4bc53dfa1e995",
+      "template_key": "capa.codec_pref_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.codec_pref"
+    },
+    {
+      "id": "447e152f9ae4bc53dfa1e995",
+      "template_key": "capa.codec_pref_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.codec_pref"
+    },
+    {
+      "id": "447e152f9ae4bc53dfa1e995",
+      "template_key": "capa.codec_pref_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.codec_pref"
+    },
+    {
+      "id": "592671522df77b8a0f580a0c",
+      "template_key": "capa.mic_required_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.mic_required"
+    },
+    {
+      "id": "592671522df77b8a0f580a0c",
+      "template_key": "capa.mic_required_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.mic_required"
+    },
+    {
+      "id": "592671522df77b8a0f580a0c",
+      "template_key": "capa.mic_required_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.mic_required"
+    },
+    {
+      "id": "592671522df77b8a0f580a0c",
+      "template_key": "capa.mic_required_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.mic_required"
+    },
+    {
+      "id": "592671522df77b8a0f580a0c",
+      "template_key": "capa.mic_required_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.mic_required"
+    },
+    {
+      "id": "592671522df77b8a0f580a0c",
+      "template_key": "capa.mic_required_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.mic_required"
+    },
+    {
+      "id": "592671522df77b8a0f580a0c",
+      "template_key": "capa.mic_required_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.mic_required"
+    },
+    {
+      "id": "592671522df77b8a0f580a0c",
+      "template_key": "capa.mic_required_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.mic_required"
+    },
+    {
+      "id": "592671522df77b8a0f580a0c",
+      "template_key": "capa.mic_required_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.mic_required"
+    },
+    {
+      "id": "592671522df77b8a0f580a0c",
+      "template_key": "capa.mic_required_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.mic_required"
+    },
+    {
+      "id": "592671522df77b8a0f580a0c",
+      "template_key": "capa.mic_required_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.mic_required"
+    },
+    {
+      "id": "592671522df77b8a0f580a0c",
+      "template_key": "capa.mic_required_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.mic_required"
+    },
+    {
+      "id": "2334ace43ed2a81e4316c4f3",
+      "template_key": "capa.fec_required_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.fec_required"
+    },
+    {
+      "id": "2334ace43ed2a81e4316c4f3",
+      "template_key": "capa.fec_required_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.fec_required"
+    },
+    {
+      "id": "2334ace43ed2a81e4316c4f3",
+      "template_key": "capa.fec_required_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.fec_required"
+    },
+    {
+      "id": "2334ace43ed2a81e4316c4f3",
+      "template_key": "capa.fec_required_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.fec_required"
+    },
+    {
+      "id": "2334ace43ed2a81e4316c4f3",
+      "template_key": "capa.fec_required_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.fec_required"
+    },
+    {
+      "id": "2334ace43ed2a81e4316c4f3",
+      "template_key": "capa.fec_required_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.fec_required"
+    },
+    {
+      "id": "2334ace43ed2a81e4316c4f3",
+      "template_key": "capa.fec_required_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.fec_required"
+    },
+    {
+      "id": "2334ace43ed2a81e4316c4f3",
+      "template_key": "capa.fec_required_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.fec_required"
+    },
+    {
+      "id": "2334ace43ed2a81e4316c4f3",
+      "template_key": "capa.fec_required_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.fec_required"
+    },
+    {
+      "id": "2334ace43ed2a81e4316c4f3",
+      "template_key": "capa.fec_required_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.fec_required"
+    },
+    {
+      "id": "2334ace43ed2a81e4316c4f3",
+      "template_key": "capa.fec_required_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.fec_required"
+    },
+    {
+      "id": "2334ace43ed2a81e4316c4f3",
+      "template_key": "capa.fec_required_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.fec_required"
+    },
+    {
+      "id": "61de7f6ad19892706d9b59fc",
+      "template_key": "capa.pref_{}_{}",
+      "params": [
+        1,
+        1
+      ],
+      "title": "capa.pref(1,1)"
+    },
+    {
+      "id": "b90ecfc4509534fc7746d848",
+      "template_key": "capa.deps_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.deps(1)"
+    },
+    {
+      "id": "9a076e5344fb0636060c4c7b",
+      "template_key": "capa.conflict_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.conflict(1)"
+    },
+    {
+      "id": "e21ff817a7d9f781d0c3d316",
+      "template_key": "capa.snapshot_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.snapshot(1)"
+    },
+    {
+      "id": "4e47e07ea44e985de09a3f40",
+      "template_key": "capa.restore_{}",
+      "params": [
+        1
+      ],
+      "title": "capa.restore(1)"
+    }
+  ]
+}

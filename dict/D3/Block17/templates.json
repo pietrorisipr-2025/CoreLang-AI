@@ -1,0 +1,205 @@
+{
+  "block": "D3_Block17",
+  "version": "6.30R1",
+  "templates": [
+    {
+      "template_key": "fec.group_open_{}_{}",
+      "canonical": "fec.group_open",
+      "placeholders": [
+        "p1",
+        "p2"
+      ],
+      "types": [
+        "any",
+        "any"
+      ],
+      "freq": 1,
+      "category": "fec",
+      "op": "open"
+    },
+    {
+      "template_key": "fec.parity_emit_{}",
+      "canonical": "fec.parity_emit",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "fec",
+      "op": "emit"
+    },
+    {
+      "template_key": "fec.repair_attempt_{}",
+      "canonical": "fec.repair_attempt",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "fec",
+      "op": "repair"
+    },
+    {
+      "template_key": "rsyn.anchor_set_{}",
+      "canonical": "rsyn.anchor_set",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "rsyn",
+      "op": "set"
+    },
+    {
+      "template_key": "rsyn.buffer_window_{}",
+      "canonical": "rsyn.buffer_window",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "rsyn",
+      "op": "set"
+    },
+    {
+      "template_key": "rsyn.request_{}",
+      "canonical": "rsyn.request",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "rsyn",
+      "op": "request"
+    },
+    {
+      "template_key": "ack.ref_{}",
+      "canonical": "ack.ref",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "ack",
+      "op": "ack"
+    },
+    {
+      "template_key": "nack.ref_{}",
+      "canonical": "nack.ref",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "ack",
+      "op": "nack"
+    },
+    {
+      "template_key": "ack.range_{}_{}",
+      "canonical": "ack.range",
+      "placeholders": [
+        "p1",
+        "p2"
+      ],
+      "types": [
+        "any",
+        "any"
+      ],
+      "freq": 1,
+      "category": "ack",
+      "op": "ack"
+    },
+    {
+      "template_key": "ack.bitmap_{}",
+      "canonical": "ack.bitmap",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "ack",
+      "op": "ack"
+    },
+    {
+      "template_key": "nack.bitmap_{}",
+      "canonical": "nack.bitmap",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "ack",
+      "op": "nack"
+    },
+    {
+      "template_key": "fec.wire_rate_{}",
+      "canonical": "fec.wire_rate",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "fec",
+      "op": "set"
+    },
+    {
+      "template_key": "fec.interleave_{}",
+      "canonical": "fec.interleave",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "fec",
+      "op": "set"
+    },
+    {
+      "template_key": "rsyn.anchor_id_{}",
+      "canonical": "rsyn.anchor_id",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "rsyn",
+      "op": "get"
+    },
+    {
+      "template_key": "rsyn.delay_budget_{}",
+      "canonical": "rsyn.delay_budget",
+      "placeholders": [
+        "p1"
+      ],
+      "types": [
+        "any"
+      ],
+      "freq": 1,
+      "category": "rsyn",
+      "op": "set"
+    }
+  ]
+}
