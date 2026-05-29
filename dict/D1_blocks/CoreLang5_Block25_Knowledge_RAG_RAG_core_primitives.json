@@ -1,0 +1,39 @@
+{
+  "block": "CoreLang5_Block25_Knowledge_RAG_RAG_core_primitives",
+  "version": "6.30R1",
+  "tokens": [
+    {
+      "sym": "rag.index_put"
+    },
+    {
+      "sym": "rag.index_get"
+    },
+    {
+      "sym": "rag.chunk"
+    },
+    {
+      "sym": "rag.embed_ref"
+    },
+    {
+      "sym": "rag.search"
+    },
+    {
+      "sym": "rag.hybrid"
+    },
+    {
+      "sym": "rag.ground"
+    },
+    {
+      "sym": "rag.fuse"
+    },
+    {
+      "sym": "rag.compress"
+    },
+    {
+      "sym": "rag.cache"
+    },
+    {
+      "sym": "rag.invalidate"
+    }
+  ]
+}

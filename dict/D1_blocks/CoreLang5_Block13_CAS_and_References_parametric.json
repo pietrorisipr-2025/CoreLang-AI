@@ -1,0 +1,756 @@
+{
+  "block": "CoreLang5_Block13_CAS_and_References",
+  "version": "6.30R1",
+  "parametric": [
+    {
+      "sym": "cas.put",
+      "args": [
+        "p1"
+      ],
+      "category": "store",
+      "op": "put",
+      "template": "cas.put_{}",
+      "freq": 1,
+      "op_id": 59363,
+      "capa_tags": [
+        "CASR1",
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block13_CAS_and_References",
+      "args_types": [
+        "any"
+      ],
+      "idempotent": false,
+      "side_effect": "write"
+    },
+    {
+      "sym": "cas.get",
+      "args": [
+        "p1"
+      ],
+      "category": "store",
+      "op": "get",
+      "template": "cas.get_{}",
+      "freq": 1,
+      "op_id": 15070,
+      "capa_tags": [
+        "CASR1",
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block13_CAS_and_References",
+      "args_types": [
+        "any"
+      ],
+      "idempotent": true,
+      "side_effect": "read"
+    },
+    {
+      "sym": "cas.pin",
+      "args": [
+        "p1"
+      ],
+      "category": "cache",
+      "op": "pin",
+      "template": "cas.pin_{}",
+      "freq": 1,
+      "op_id": 22575,
+      "capa_tags": [
+        "CASR1",
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block13_CAS_and_References",
+      "args_types": [
+        "any"
+      ],
+      "idempotent": false,
+      "side_effect": "write"
+    },
+    {
+      "sym": "cas.unpin",
+      "args": [
+        "p1"
+      ],
+      "category": "cache",
+      "op": "unpin",
+      "template": "cas.unpin_{}",
+      "freq": 1,
+      "op_id": 1205,
+      "capa_tags": [
+        "CASR1",
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block13_CAS_and_References",
+      "args_types": [
+        "any"
+      ],
+      "idempotent": false,
+      "side_effect": "write"
+    },
+    {
+      "sym": "cas.prefetch",
+      "args": [
+        "p1"
+      ],
+      "category": "cache",
+      "op": "prefetch",
+      "template": "cas.prefetch_{}",
+      "freq": 1,
+      "op_id": 9521,
+      "capa_tags": [
+        "CASR1",
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block13_CAS_and_References",
+      "args_types": [
+        "any"
+      ],
+      "idempotent": false,
+      "side_effect": "write"
+    },
+    {
+      "sym": "cas.list",
+      "args": [
+        "p1"
+      ],
+      "category": "store",
+      "op": "list",
+      "template": "cas.list_{}",
+      "freq": 1,
+      "op_id": 55277,
+      "capa_tags": [
+        "CASR1",
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block13_CAS_and_References",
+      "args_types": [
+        "any"
+      ],
+      "idempotent": false,
+      "side_effect": "none"
+    },
+    {
+      "sym": "cas.stat",
+      "args": [
+        "p1"
+      ],
+      "category": "store",
+      "op": "stat",
+      "template": "cas.stat_{}",
+      "freq": 1,
+      "op_id": 26826,
+      "capa_tags": [
+        "CASR1",
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block13_CAS_and_References",
+      "args_types": [
+        "any"
+      ],
+      "idempotent": false,
+      "side_effect": "none"
+    },
+    {
+      "sym": "cas.evict",
+      "args": [
+        "p1"
+      ],
+      "category": "cache",
+      "op": "evict",
+      "template": "cas.evict_{}",
+      "freq": 1,
+      "op_id": 28363,
+      "capa_tags": [
+        "CASR1",
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block13_CAS_and_References",
+      "args_types": [
+        "any"
+      ],
+      "idempotent": false,
+      "side_effect": "write"
+    },
+    {
+      "sym": "cas.gc",
+      "args": [
+        "p1"
+      ],
+      "category": "gc",
+      "op": "collect",
+      "template": "cas.gc_{}",
+      "freq": 1,
+      "op_id": 46822,
+      "capa_tags": [
+        "CASR1",
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block13_CAS_and_References",
+      "args_types": [
+        "any"
+      ],
+      "idempotent": false,
+      "side_effect": "write"
+    },
+    {
+      "sym": "cas.retry",
+      "args": [
+        "p1"
+      ],
+      "category": "link",
+      "op": "retry",
+      "template": "cas.retry_{}",
+      "freq": 1,
+      "op_id": 13793,
+      "capa_tags": [
+        "CASR1",
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block13_CAS_and_References",
+      "args_types": [
+        "any"
+      ],
+      "idempotent": false,
+      "side_effect": "none"
+    },
+    {
+      "sym": "cas.timeout",
+      "args": [
+        "p1"
+      ],
+      "category": "link",
+      "op": "timeout",
+      "template": "cas.timeout_{}",
+      "freq": 1,
+      "op_id": 11179,
+      "capa_tags": [
+        "CASR1",
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block13_CAS_and_References",
+      "args_types": [
+        "any"
+      ],
+      "idempotent": false,
+      "side_effect": "none"
+    },
+    {
+      "sym": "cas.quota",
+      "args": [
+        "p1"
+      ],
+      "category": "quota",
+      "op": "set",
+      "template": "cas.quota_{}",
+      "freq": 1,
+      "op_id": 58302,
+      "capa_tags": [
+        "CASR1",
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block13_CAS_and_References",
+      "args_types": [
+        "any"
+      ],
+      "idempotent": false,
+      "side_effect": "none"
+    },
+    {
+      "sym": "cas.lru_set",
+      "args": [
+        "p1"
+      ],
+      "category": "cache",
+      "op": "capacity",
+      "template": "cas.lru_set_{}",
+      "freq": 1,
+      "op_id": 64730,
+      "capa_tags": [
+        "CASR1",
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block13_CAS_and_References",
+      "args_types": [
+        "any"
+      ],
+      "idempotent": false,
+      "side_effect": "none"
+    },
+    {
+      "sym": "cas.cache_mode",
+      "args": [
+        "p1"
+      ],
+      "category": "cache",
+      "op": "mode",
+      "template": "cas.cache_mode_{}",
+      "freq": 1,
+      "op_id": 527,
+      "capa_tags": [
+        "CASR1",
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block13_CAS_and_References",
+      "args_types": [
+        "any"
+      ],
+      "idempotent": false,
+      "side_effect": "none"
+    },
+    {
+      "sym": "cas.verify",
+      "args": [
+        "p1"
+      ],
+      "category": "integrity",
+      "op": "verify",
+      "template": "cas.verify_{}",
+      "freq": 1,
+      "op_id": 29614,
+      "capa_tags": [
+        "CASR1",
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block13_CAS_and_References",
+      "args_types": [
+        "any"
+      ],
+      "idempotent": false,
+      "side_effect": "none"
+    },
+    {
+      "sym": "cas.namespace",
+      "args": [
+        "p1"
+      ],
+      "category": "store",
+      "op": "ns",
+      "template": "cas.namespace_{}",
+      "freq": 1,
+      "op_id": 51389,
+      "capa_tags": [
+        "CASR1",
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block13_CAS_and_References",
+      "args_types": [
+        "any"
+      ],
+      "idempotent": false,
+      "side_effect": "write"
+    },
+    {
+      "sym": "cas.export",
+      "args": [
+        "p1"
+      ],
+      "category": "interop",
+      "op": "export",
+      "template": "cas.export_{}",
+      "freq": 1,
+      "op_id": 56303,
+      "capa_tags": [
+        "CASR1",
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block13_CAS_and_References",
+      "args_types": [
+        "any"
+      ],
+      "idempotent": false,
+      "side_effect": "write"
+    },
+    {
+      "sym": "cas.import",
+      "args": [
+        "p1"
+      ],
+      "category": "interop",
+      "op": "import",
+      "template": "cas.import_{}",
+      "freq": 1,
+      "op_id": 55799,
+      "capa_tags": [
+        "CASR1",
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block13_CAS_and_References",
+      "args_types": [
+        "any"
+      ],
+      "idempotent": false,
+      "side_effect": "write"
+    },
+    {
+      "sym": "cas.encrypt",
+      "args": [
+        "p1"
+      ],
+      "category": "security",
+      "op": "encrypt",
+      "template": "cas.encrypt_{}",
+      "freq": 1,
+      "op_id": 6721,
+      "capa_tags": [
+        "CASR1",
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block13_CAS_and_References",
+      "args_types": [
+        "any"
+      ],
+      "idempotent": false,
+      "side_effect": "write"
+    },
+    {
+      "sym": "cas.decrypt",
+      "args": [
+        "p1"
+      ],
+      "category": "security",
+      "op": "decrypt",
+      "template": "cas.decrypt_{}",
+      "freq": 1,
+      "op_id": 16656,
+      "capa_tags": [
+        "CASR1",
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block13_CAS_and_References",
+      "args_types": [
+        "any"
+      ],
+      "idempotent": false,
+      "side_effect": "write"
+    },
+    {
+      "sym": "cas.access",
+      "args": [
+        "p1"
+      ],
+      "category": "security",
+      "op": "access",
+      "template": "cas.access_{}",
+      "freq": 1,
+      "op_id": 12103,
+      "capa_tags": [
+        "CASR1",
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block13_CAS_and_References",
+      "args_types": [
+        "any"
+      ],
+      "idempotent": false,
+      "side_effect": "write"
+    },
+    {
+      "sym": "cas.audit",
+      "args": [
+        "p1"
+      ],
+      "category": "security",
+      "op": "audit",
+      "template": "cas.audit_{}",
+      "freq": 1,
+      "op_id": 50388,
+      "capa_tags": [
+        "CASR1",
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block13_CAS_and_References",
+      "args_types": [
+        "any"
+      ],
+      "idempotent": false,
+      "side_effect": "write"
+    },
+    {
+      "sym": "cas.stats_emit",
+      "args": [
+        "p1"
+      ],
+      "category": "metrics",
+      "op": "emit",
+      "template": "cas.stats_emit_{}",
+      "freq": 1,
+      "op_id": 30795,
+      "capa_tags": [
+        "CASR1",
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block13_CAS_and_References",
+      "args_types": [
+        "any"
+      ],
+      "idempotent": false,
+      "side_effect": "none"
+    },
+    {
+      "sym": "ref.hash",
+      "args": [
+        "p1"
+      ],
+      "category": "ref",
+      "op": "hash",
+      "template": "ref.hash_{}",
+      "freq": 1,
+      "op_id": 53688,
+      "capa_tags": [
+        "CASR1",
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block13_CAS_and_References",
+      "args_types": [
+        "any"
+      ],
+      "idempotent": true,
+      "side_effect": "read"
+    },
+    {
+      "sym": "ref.inline",
+      "args": [
+        "p1"
+      ],
+      "category": "ref",
+      "op": "inline",
+      "template": "ref.inline_{}",
+      "freq": 1,
+      "op_id": 31104,
+      "capa_tags": [
+        "CASR1",
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block13_CAS_and_References",
+      "args_types": [
+        "any"
+      ],
+      "idempotent": true,
+      "side_effect": "read"
+    },
+    {
+      "sym": "ref.pack",
+      "args": [
+        "p1"
+      ],
+      "category": "ref",
+      "op": "pack",
+      "template": "ref.pack_{}",
+      "freq": 1,
+      "op_id": 54833,
+      "capa_tags": [
+        "CASR1",
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block13_CAS_and_References",
+      "args_types": [
+        "any"
+      ],
+      "idempotent": true,
+      "side_effect": "read"
+    },
+    {
+      "sym": "ref.unpack",
+      "args": [
+        "p1"
+      ],
+      "category": "ref",
+      "op": "unpack",
+      "template": "ref.unpack_{}",
+      "freq": 1,
+      "op_id": 61183,
+      "capa_tags": [
+        "CASR1",
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block13_CAS_and_References",
+      "args_types": [
+        "any"
+      ],
+      "idempotent": true,
+      "side_effect": "read"
+    },
+    {
+      "sym": "ref.batch_put",
+      "args": [
+        "p1"
+      ],
+      "category": "ref",
+      "op": "put",
+      "template": "ref.batch_put_{}",
+      "freq": 1,
+      "op_id": 13962,
+      "capa_tags": [
+        "CASR1",
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block13_CAS_and_References",
+      "args_types": [
+        "any"
+      ],
+      "idempotent": true,
+      "side_effect": "read"
+    },
+    {
+      "sym": "ref.batch_get",
+      "args": [
+        "p1"
+      ],
+      "category": "ref",
+      "op": "get",
+      "template": "ref.batch_get_{}",
+      "freq": 1,
+      "op_id": 17240,
+      "capa_tags": [
+        "CASR1",
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block13_CAS_and_References",
+      "args_types": [
+        "any"
+      ],
+      "idempotent": true,
+      "side_effect": "read"
+    },
+    {
+      "sym": "ref.merge",
+      "args": [
+        "p1"
+      ],
+      "category": "ref",
+      "op": "merge",
+      "template": "ref.merge_{}",
+      "freq": 1,
+      "op_id": 41600,
+      "capa_tags": [
+        "CASR1",
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block13_CAS_and_References",
+      "args_types": [
+        "any"
+      ],
+      "idempotent": true,
+      "side_effect": "read"
+    },
+    {
+      "sym": "ref.split",
+      "args": [
+        "p1"
+      ],
+      "category": "ref",
+      "op": "split",
+      "template": "ref.split_{}",
+      "freq": 1,
+      "op_id": 29645,
+      "capa_tags": [
+        "CASR1",
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block13_CAS_and_References",
+      "args_types": [
+        "any"
+      ],
+      "idempotent": true,
+      "side_effect": "read"
+    },
+    {
+      "sym": "ref.remap",
+      "args": [
+        "p1"
+      ],
+      "category": "ref",
+      "op": "remap",
+      "template": "ref.remap_{}",
+      "freq": 1,
+      "op_id": 57629,
+      "capa_tags": [
+        "CASR1",
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block13_CAS_and_References",
+      "args_types": [
+        "any"
+      ],
+      "idempotent": true,
+      "side_effect": "read"
+    },
+    {
+      "sym": "casr.request",
+      "args": [
+        "p1"
+      ],
+      "category": "casr",
+      "op": "request",
+      "template": "casr.request_{}",
+      "freq": 1,
+      "op_id": 10911,
+      "capa_tags": [
+        "CASR1",
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block13_CAS_and_References",
+      "args_types": [
+        "any"
+      ],
+      "idempotent": false,
+      "side_effect": "none"
+    },
+    {
+      "sym": "casr.response",
+      "args": [
+        "p1"
+      ],
+      "category": "casr",
+      "op": "response",
+      "template": "casr.response_{}",
+      "freq": 1,
+      "op_id": 35634,
+      "capa_tags": [
+        "CASR1",
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block13_CAS_and_References",
+      "args_types": [
+        "any"
+      ],
+      "idempotent": false,
+      "side_effect": "none"
+    }
+  ],
+  "alias": {
+    "cas.put_{}": "cas.put",
+    "cas.get_{}": "cas.get",
+    "cas.pin_{}": "cas.pin",
+    "cas.unpin_{}": "cas.unpin",
+    "cas.prefetch_{}": "cas.prefetch",
+    "cas.list_{}": "cas.list",
+    "cas.stat_{}": "cas.stat",
+    "cas.evict_{}": "cas.evict",
+    "cas.gc_{}": "cas.gc",
+    "cas.retry_{}": "cas.retry",
+    "cas.timeout_{}": "cas.timeout",
+    "cas.quota_{}": "cas.quota",
+    "cas.lru_set_{}": "cas.lru_set",
+    "cas.cache_mode_{}": "cas.cache_mode",
+    "cas.verify_{}": "cas.verify",
+    "cas.namespace_{}": "cas.namespace",
+    "cas.export_{}": "cas.export",
+    "cas.import_{}": "cas.import",
+    "cas.encrypt_{}": "cas.encrypt",
+    "cas.decrypt_{}": "cas.decrypt",
+    "cas.access_{}": "cas.access",
+    "cas.audit_{}": "cas.audit",
+    "cas.stats_emit_{}": "cas.stats_emit",
+    "ref.hash_{}": "ref.hash",
+    "ref.inline_{}": "ref.inline",
+    "ref.pack_{}": "ref.pack",
+    "ref.unpack_{}": "ref.unpack",
+    "ref.batch_put_{}": "ref.batch_put",
+    "ref.batch_get_{}": "ref.batch_get",
+    "ref.merge_{}": "ref.merge",
+    "ref.split_{}": "ref.split",
+    "ref.remap_{}": "ref.remap",
+    "casr.request_{}": "casr.request",
+    "casr.response_{}": "casr.response"
+  }
+}

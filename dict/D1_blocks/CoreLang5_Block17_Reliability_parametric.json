@@ -1,0 +1,421 @@
+{
+  "block": "CoreLang5_Block17_Reliability",
+  "version": "6.30R1",
+  "parametric": [
+    {
+      "sym": "fec.group_open",
+      "args": [
+        "p1",
+        "p2"
+      ],
+      "args_types": [
+        "any",
+        "any"
+      ],
+      "constraints": {},
+      "category": "fec",
+      "op": "open",
+      "template": "fec.group_open_{}_{}",
+      "freq": 1,
+      "op_id": 39932,
+      "capa_tags": [
+        "FEC1",
+        "RSYN1"
+      ],
+      "source_block": "CoreLang5_Block17_Reliability",
+      "idempotent": true,
+      "side_effect": "control",
+      "stability": "stable",
+      "wire_cost_hint": 3,
+      "depends_on": [
+        "FEC1",
+        "RSYN1"
+      ]
+    },
+    {
+      "sym": "fec.parity_emit",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "fec",
+      "op": "emit",
+      "template": "fec.parity_emit_{}",
+      "freq": 1,
+      "op_id": 23985,
+      "capa_tags": [
+        "FEC1"
+      ],
+      "source_block": "CoreLang5_Block17_Reliability",
+      "idempotent": true,
+      "side_effect": "control",
+      "stability": "stable",
+      "wire_cost_hint": 3,
+      "depends_on": [
+        "FEC1"
+      ]
+    },
+    {
+      "sym": "fec.repair_attempt",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "fec",
+      "op": "repair",
+      "template": "fec.repair_attempt_{}",
+      "freq": 1,
+      "op_id": 20544,
+      "capa_tags": [
+        "FEC1"
+      ],
+      "source_block": "CoreLang5_Block17_Reliability",
+      "idempotent": true,
+      "side_effect": "control",
+      "stability": "stable",
+      "wire_cost_hint": 3,
+      "depends_on": [
+        "FEC1"
+      ]
+    },
+    {
+      "sym": "rsyn.anchor_set",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "rsyn",
+      "op": "set",
+      "template": "rsyn.anchor_set_{}",
+      "freq": 1,
+      "op_id": 11900,
+      "capa_tags": [
+        "RSYN1"
+      ],
+      "source_block": "CoreLang5_Block17_Reliability",
+      "idempotent": true,
+      "side_effect": "read",
+      "stability": "stable",
+      "wire_cost_hint": 2,
+      "depends_on": [
+        "RSYN1"
+      ]
+    },
+    {
+      "sym": "rsyn.buffer_window",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "rsyn",
+      "op": "set",
+      "template": "rsyn.buffer_window_{}",
+      "freq": 1,
+      "op_id": 44663,
+      "capa_tags": [
+        "RSYN1"
+      ],
+      "source_block": "CoreLang5_Block17_Reliability",
+      "idempotent": true,
+      "side_effect": "control",
+      "stability": "stable",
+      "wire_cost_hint": 2,
+      "depends_on": [
+        "RSYN1"
+      ]
+    },
+    {
+      "sym": "rsyn.request",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "rsyn",
+      "op": "request",
+      "template": "rsyn.request_{}",
+      "freq": 1,
+      "op_id": 15165,
+      "capa_tags": [
+        "RSYN1",
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block17_Reliability",
+      "idempotent": true,
+      "side_effect": "control",
+      "stability": "stable",
+      "wire_cost_hint": 2,
+      "depends_on": [
+        "RSYN1",
+        "MIC1"
+      ]
+    },
+    {
+      "sym": "ack.ref",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "ack",
+      "op": "ack",
+      "template": "ack.ref_{}",
+      "freq": 1,
+      "op_id": 62799,
+      "capa_tags": [
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block17_Reliability",
+      "idempotent": true,
+      "side_effect": "control",
+      "stability": "stable",
+      "wire_cost_hint": 1,
+      "depends_on": [
+        "MIC1"
+      ]
+    },
+    {
+      "sym": "nack.ref",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "ack",
+      "op": "nack",
+      "template": "nack.ref_{}",
+      "freq": 1,
+      "op_id": 40013,
+      "capa_tags": [
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block17_Reliability",
+      "idempotent": true,
+      "side_effect": "control",
+      "stability": "stable",
+      "wire_cost_hint": 1,
+      "depends_on": [
+        "MIC1"
+      ]
+    },
+    {
+      "sym": "ack.range",
+      "args": [
+        "p1",
+        "p2"
+      ],
+      "args_types": [
+        "any",
+        "any"
+      ],
+      "constraints": {},
+      "category": "ack",
+      "op": "ack",
+      "template": "ack.range_{}_{}",
+      "freq": 1,
+      "op_id": 25719,
+      "capa_tags": [
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block17_Reliability",
+      "idempotent": true,
+      "side_effect": "control",
+      "stability": "stable",
+      "wire_cost_hint": 1,
+      "depends_on": [
+        "MIC1"
+      ]
+    },
+    {
+      "sym": "ack.bitmap",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "ack",
+      "op": "ack",
+      "template": "ack.bitmap_{}",
+      "freq": 1,
+      "op_id": 53459,
+      "capa_tags": [
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block17_Reliability",
+      "idempotent": true,
+      "side_effect": "control",
+      "stability": "stable",
+      "wire_cost_hint": 1,
+      "depends_on": [
+        "MIC1"
+      ]
+    },
+    {
+      "sym": "nack.bitmap",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "ack",
+      "op": "nack",
+      "template": "nack.bitmap_{}",
+      "freq": 1,
+      "op_id": 15229,
+      "capa_tags": [
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block17_Reliability",
+      "idempotent": true,
+      "side_effect": "control",
+      "stability": "stable",
+      "wire_cost_hint": 1,
+      "depends_on": [
+        "MIC1"
+      ]
+    },
+    {
+      "sym": "fec.wire_rate",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "fec",
+      "op": "set",
+      "template": "fec.wire_rate_{}",
+      "freq": 1,
+      "op_id": 41872,
+      "capa_tags": [
+        "FEC1"
+      ],
+      "source_block": "CoreLang5_Block17_Reliability",
+      "idempotent": true,
+      "side_effect": "control",
+      "stability": "stable",
+      "wire_cost_hint": 3,
+      "depends_on": [
+        "FEC1"
+      ]
+    },
+    {
+      "sym": "fec.interleave",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "fec",
+      "op": "set",
+      "template": "fec.interleave_{}",
+      "freq": 1,
+      "op_id": 46388,
+      "capa_tags": [
+        "FEC1"
+      ],
+      "source_block": "CoreLang5_Block17_Reliability",
+      "idempotent": true,
+      "side_effect": "control",
+      "stability": "stable",
+      "wire_cost_hint": 3,
+      "depends_on": [
+        "FEC1"
+      ]
+    },
+    {
+      "sym": "rsyn.anchor_id",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "rsyn",
+      "op": "get",
+      "template": "rsyn.anchor_id_{}",
+      "freq": 1,
+      "op_id": 14970,
+      "capa_tags": [
+        "RSYN1"
+      ],
+      "source_block": "CoreLang5_Block17_Reliability",
+      "idempotent": true,
+      "side_effect": "control",
+      "stability": "stable",
+      "wire_cost_hint": 2,
+      "depends_on": [
+        "RSYN1"
+      ]
+    },
+    {
+      "sym": "rsyn.delay_budget",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "rsyn",
+      "op": "set",
+      "template": "rsyn.delay_budget_{}",
+      "freq": 1,
+      "op_id": 1254,
+      "capa_tags": [
+        "RSYN1"
+      ],
+      "source_block": "CoreLang5_Block17_Reliability",
+      "idempotent": true,
+      "side_effect": "control",
+      "stability": "stable",
+      "wire_cost_hint": 2,
+      "depends_on": [
+        "RSYN1"
+      ]
+    }
+  ],
+  "alias": {
+    "fec.group_open_{}_{}": "fec.group_open",
+    "fec.parity_emit_{}": "fec.parity_emit",
+    "fec.repair_attempt_{}": "fec.repair_attempt",
+    "rsyn.anchor_set_{}": "rsyn.anchor_set",
+    "rsyn.buffer_window_{}": "rsyn.buffer_window",
+    "rsyn.request_{}": "rsyn.request",
+    "ack.ref_{}": "ack.ref",
+    "nack.ref_{}": "nack.ref",
+    "ack.range_{}_{}": "ack.range",
+    "ack.bitmap_{}": "ack.bitmap",
+    "nack.bitmap_{}": "nack.bitmap",
+    "fec.wire_rate_{}": "fec.wire_rate",
+    "fec.interleave_{}": "fec.interleave",
+    "rsyn.anchor_id_{}": "rsyn.anchor_id",
+    "rsyn.delay_budget_{}": "rsyn.delay_budget"
+  }
+}

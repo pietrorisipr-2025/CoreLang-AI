@@ -1,0 +1,30 @@
+{
+  "block": "CoreLang5_Block17_Reliability_REL_core_primitives",
+  "version": "6.30R1",
+  "tokens": [
+    {
+      "sym": "fec.group_open"
+    },
+    {
+      "sym": "fec.parity_emit"
+    },
+    {
+      "sym": "fec.repair_attempt"
+    },
+    {
+      "sym": "rsyn.anchor_set"
+    },
+    {
+      "sym": "rsyn.buffer_window"
+    },
+    {
+      "sym": "rsyn.request"
+    },
+    {
+      "sym": "ack.ref"
+    },
+    {
+      "sym": "nack.ref"
+    }
+  ]
+}

@@ -1,0 +1,380 @@
+{
+  "block": "CoreLang5_Block23_Context_And_Threading",
+  "version": "6.30R1",
+  "parametric": [
+    {
+      "sym": "ctx.begin",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "context",
+      "op": "begin",
+      "template": "ctx.begin_{}",
+      "freq": 1,
+      "op_id": 54577,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block23_Context_And_Threading",
+      "idempotent": false,
+      "side_effect": "write",
+      "stability": "stable",
+      "wire_cost_hint": 2,
+      "depends_on": []
+    },
+    {
+      "sym": "ctx.end",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "context",
+      "op": "end",
+      "template": "ctx.end_{}",
+      "freq": 1,
+      "op_id": 48545,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block23_Context_And_Threading",
+      "idempotent": false,
+      "side_effect": "write",
+      "stability": "stable",
+      "wire_cost_hint": 2,
+      "depends_on": []
+    },
+    {
+      "sym": "ctx.link",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "context",
+      "op": "link",
+      "template": "ctx.link_{}",
+      "freq": 1,
+      "op_id": 14781,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block23_Context_And_Threading",
+      "idempotent": false,
+      "side_effect": "none",
+      "stability": "stable",
+      "wire_cost_hint": 2,
+      "depends_on": []
+    },
+    {
+      "sym": "ctx.ttl",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "context",
+      "op": "set",
+      "template": "ctx.ttl_{}",
+      "freq": 1,
+      "op_id": 39962,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block23_Context_And_Threading",
+      "idempotent": false,
+      "side_effect": "none",
+      "stability": "stable",
+      "wire_cost_hint": 2,
+      "depends_on": []
+    },
+    {
+      "sym": "ctx.batch_begin",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "batch",
+      "op": "begin",
+      "template": "ctx.batch_begin_{}",
+      "freq": 1,
+      "op_id": 53683,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block23_Context_And_Threading",
+      "idempotent": false,
+      "side_effect": "write",
+      "stability": "stable",
+      "wire_cost_hint": 2,
+      "depends_on": []
+    },
+    {
+      "sym": "ctx.batch_end",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "batch",
+      "op": "end",
+      "template": "ctx.batch_end_{}",
+      "freq": 1,
+      "op_id": 26180,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block23_Context_And_Threading",
+      "idempotent": false,
+      "side_effect": "write",
+      "stability": "stable",
+      "wire_cost_hint": 2,
+      "depends_on": []
+    },
+    {
+      "sym": "ctx.ordering",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "context",
+      "op": "set",
+      "template": "ctx.ordering_{}",
+      "freq": 1,
+      "op_id": 6752,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block23_Context_And_Threading",
+      "idempotent": false,
+      "side_effect": "none",
+      "stability": "stable",
+      "wire_cost_hint": 2,
+      "depends_on": []
+    },
+    {
+      "sym": "ctx.priority",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "context",
+      "op": "set",
+      "template": "ctx.priority_{}",
+      "freq": 1,
+      "op_id": 14893,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block23_Context_And_Threading",
+      "idempotent": false,
+      "side_effect": "none",
+      "stability": "stable",
+      "wire_cost_hint": 2,
+      "depends_on": []
+    },
+    {
+      "sym": "ctx.attach_ref",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "context",
+      "op": "attach",
+      "template": "ctx.attach_ref_{}",
+      "freq": 1,
+      "op_id": 6448,
+      "capa_tags": [
+        "CASR1"
+      ],
+      "source_block": "CoreLang5_Block23_Context_And_Threading",
+      "idempotent": false,
+      "side_effect": "none",
+      "stability": "stable",
+      "wire_cost_hint": 2,
+      "depends_on": [
+        "CASR1"
+      ]
+    },
+    {
+      "sym": "ctx.thread_id",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "context",
+      "op": "set",
+      "template": "ctx.thread_id_{}",
+      "freq": 1,
+      "op_id": 47295,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block23_Context_And_Threading",
+      "idempotent": false,
+      "side_effect": "none",
+      "stability": "stable",
+      "wire_cost_hint": 2,
+      "depends_on": []
+    },
+    {
+      "sym": "ctx.turn_id",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "context",
+      "op": "set",
+      "template": "ctx.turn_id_{}",
+      "freq": 1,
+      "op_id": 413,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block23_Context_And_Threading",
+      "idempotent": false,
+      "side_effect": "none",
+      "stability": "stable",
+      "wire_cost_hint": 2,
+      "depends_on": []
+    },
+    {
+      "sym": "ctx.topic",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "context",
+      "op": "set",
+      "template": "ctx.topic_{}",
+      "freq": 1,
+      "op_id": 39145,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block23_Context_And_Threading",
+      "idempotent": false,
+      "side_effect": "none",
+      "stability": "stable",
+      "wire_cost_hint": 2,
+      "depends_on": []
+    },
+    {
+      "sym": "ctx.get",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "context",
+      "op": "get",
+      "template": "ctx.get_{}",
+      "freq": 1,
+      "op_id": 21228,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block23_Context_And_Threading",
+      "idempotent": true,
+      "side_effect": "read",
+      "stability": "stable",
+      "wire_cost_hint": 1,
+      "depends_on": []
+    },
+    {
+      "sym": "ctx.trace_bind",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "context",
+      "op": "bind",
+      "template": "ctx.trace_bind_{}",
+      "freq": 1,
+      "op_id": 11978,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block23_Context_And_Threading",
+      "idempotent": false,
+      "side_effect": "write",
+      "stability": "stable",
+      "wire_cost_hint": 2,
+      "depends_on": []
+    },
+    {
+      "sym": "ctx.batch_limit",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "batch",
+      "op": "set",
+      "template": "ctx.batch_limit_{}",
+      "freq": 1,
+      "op_id": 53251,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block23_Context_And_Threading",
+      "idempotent": false,
+      "side_effect": "write",
+      "stability": "stable",
+      "wire_cost_hint": 2,
+      "depends_on": []
+    },
+    {
+      "sym": "ctx.ordering_strict",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "context",
+      "op": "set",
+      "template": "ctx.ordering_strict_{}",
+      "freq": 1,
+      "op_id": 30076,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block23_Context_And_Threading",
+      "idempotent": false,
+      "side_effect": "write",
+      "stability": "stable",
+      "wire_cost_hint": 2,
+      "depends_on": []
+    }
+  ],
+  "alias": {
+    "ctx.begin_{}": "ctx.begin",
+    "ctx.end_{}": "ctx.end",
+    "ctx.link_{}": "ctx.link",
+    "ctx.ttl_{}": "ctx.ttl",
+    "ctx.batch_begin_{}": "ctx.batch_begin",
+    "ctx.batch_end_{}": "ctx.batch_end",
+    "ctx.ordering_{}": "ctx.ordering",
+    "ctx.priority_{}": "ctx.priority",
+    "ctx.attach_ref_{}": "ctx.attach_ref",
+    "ctx.thread_id_{}": "ctx.thread_id",
+    "ctx.turn_id_{}": "ctx.turn_id",
+    "ctx.topic_{}": "ctx.topic",
+    "ctx.get_{}": "ctx.get",
+    "ctx.trace_bind_{}": "ctx.trace_bind",
+    "ctx.batch_limit_{}": "ctx.batch_limit",
+    "ctx.ordering_strict_{}": "ctx.ordering_strict"
+  }
+}

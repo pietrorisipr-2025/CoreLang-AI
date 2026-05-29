@@ -1,0 +1,156 @@
+{
+  "block": "CoreLang5_Block11_CRYPTO_core_primitives",
+  "version": "6.30R1",
+  "tokens": [
+    {
+      "sym": "crypto.sha1"
+    },
+    {
+      "sym": "crypto.sha256"
+    },
+    {
+      "sym": "crypto.sha384"
+    },
+    {
+      "sym": "crypto.sha512"
+    },
+    {
+      "sym": "crypto.sha3_256"
+    },
+    {
+      "sym": "crypto.sha3_512"
+    },
+    {
+      "sym": "crypto.blake2b"
+    },
+    {
+      "sym": "crypto.blake2s"
+    },
+    {
+      "sym": "crypto.keccak256"
+    },
+    {
+      "sym": "crypto.hmac_sha256"
+    },
+    {
+      "sym": "crypto.hmac_sha512"
+    },
+    {
+      "sym": "crypto.cmac_aes"
+    },
+    {
+      "sym": "crypto.kmac256"
+    },
+    {
+      "sym": "crypto.aes_ecb"
+    },
+    {
+      "sym": "crypto.aes_cbc"
+    },
+    {
+      "sym": "crypto.aes_ctr"
+    },
+    {
+      "sym": "crypto.aes_gcm"
+    },
+    {
+      "sym": "crypto.aes_ccm"
+    },
+    {
+      "sym": "crypto.chacha20"
+    },
+    {
+      "sym": "crypto.chacha20_poly1305"
+    },
+    {
+      "sym": "crypto.xchacha20_poly1305"
+    },
+    {
+      "sym": "crypto.rsa_pkcs1_v1_5_sign"
+    },
+    {
+      "sym": "crypto.rsa_pss_sign"
+    },
+    {
+      "sym": "crypto.rsa_oaep_encrypt"
+    },
+    {
+      "sym": "crypto.ecdsa_p256_sign"
+    },
+    {
+      "sym": "crypto.ed25519_sign"
+    },
+    {
+      "sym": "crypto.x25519_key_exchange"
+    },
+    {
+      "sym": "crypto.ecdh_p256_derive"
+    },
+    {
+      "sym": "crypto.hkdf_sha256"
+    },
+    {
+      "sym": "crypto.pbkdf2_hmac_sha256"
+    },
+    {
+      "sym": "crypto.scrypt"
+    },
+    {
+      "sym": "crypto.argon2id"
+    },
+    {
+      "sym": "crypto.random_bytes"
+    },
+    {
+      "sym": "crypto.iv_generate"
+    },
+    {
+      "sym": "crypto.nonce_generate"
+    },
+    {
+      "sym": "crypto.tag_verify"
+    },
+    {
+      "sym": "crypto.pem_encode"
+    },
+    {
+      "sym": "crypto.pem_decode"
+    },
+    {
+      "sym": "crypto.der_parse"
+    },
+    {
+      "sym": "crypto.asn1_parse"
+    },
+    {
+      "sym": "crypto.x509_parse_cert"
+    },
+    {
+      "sym": "crypto.x509_parse_csr"
+    },
+    {
+      "sym": "crypto.pkcs8_parse"
+    },
+    {
+      "sym": "crypto.pkcs12_parse"
+    },
+    {
+      "sym": "crypto.jwk_parse"
+    },
+    {
+      "sym": "crypto.jwt_sign"
+    },
+    {
+      "sym": "crypto.jwt_verify"
+    },
+    {
+      "sym": "crypto.jws_sign"
+    },
+    {
+      "sym": "crypto.jwe_encrypt"
+    },
+    {
+      "sym": "crypto.jwe_decrypt"
+    }
+  ]
+}

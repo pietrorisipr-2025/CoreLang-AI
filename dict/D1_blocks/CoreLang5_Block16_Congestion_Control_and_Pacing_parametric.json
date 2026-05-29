@@ -1,0 +1,444 @@
+{
+  "block": "CoreLang5_Block16_Congestion_Control_and_Pacing",
+  "version": "6.30R1",
+  "parametric": [
+    {
+      "sym": "cc.token_bucket",
+      "args": [
+        "p1",
+        "p2"
+      ],
+      "args_types": [
+        "any",
+        "any"
+      ],
+      "constraints": {},
+      "category": "pacing",
+      "op": "set",
+      "template": "cc.token_bucket_{}_{}",
+      "freq": 1,
+      "op_id": 23775,
+      "capa_tags": [
+        "RSYN1"
+      ],
+      "source_block": "CoreLang5_Block16_Congestion_Control_and_Pacing",
+      "idempotent": false,
+      "side_effect": "none",
+      "stability": "stable",
+      "wire_cost_hint": 2,
+      "depends_on": [
+        "RSYN1"
+      ]
+    },
+    {
+      "sym": "cc.latency_target",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "pacing",
+      "op": "set",
+      "template": "cc.latency_target_{}",
+      "freq": 1,
+      "op_id": 27668,
+      "capa_tags": [
+        "RSYN1"
+      ],
+      "source_block": "CoreLang5_Block16_Congestion_Control_and_Pacing",
+      "idempotent": true,
+      "side_effect": "read",
+      "stability": "experimental",
+      "wire_cost_hint": 2,
+      "depends_on": [
+        "RSYN1"
+      ]
+    },
+    {
+      "sym": "cc.rate_cap",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "pacing",
+      "op": "set",
+      "template": "cc.rate_cap_{}",
+      "freq": 1,
+      "op_id": 4941,
+      "capa_tags": [
+        "RSYN1"
+      ],
+      "source_block": "CoreLang5_Block16_Congestion_Control_and_Pacing",
+      "idempotent": true,
+      "side_effect": "read",
+      "stability": "experimental",
+      "wire_cost_hint": 2,
+      "depends_on": [
+        "RSYN1"
+      ]
+    },
+    {
+      "sym": "cc.rtt_estimate",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "estimation",
+      "op": "update",
+      "template": "cc.rtt_estimate_{}",
+      "freq": 1,
+      "op_id": 8863,
+      "capa_tags": [
+        "RSYN1"
+      ],
+      "source_block": "CoreLang5_Block16_Congestion_Control_and_Pacing",
+      "idempotent": true,
+      "side_effect": "read",
+      "stability": "experimental",
+      "wire_cost_hint": 2,
+      "depends_on": [
+        "RSYN1"
+      ]
+    },
+    {
+      "sym": "cc.path_mtu",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "estimation",
+      "op": "update",
+      "template": "cc.path_mtu_{}",
+      "freq": 1,
+      "op_id": 10830,
+      "capa_tags": [
+        "RSYN1"
+      ],
+      "source_block": "CoreLang5_Block16_Congestion_Control_and_Pacing",
+      "idempotent": true,
+      "side_effect": "read",
+      "stability": "experimental",
+      "wire_cost_hint": 2,
+      "depends_on": [
+        "RSYN1"
+      ]
+    },
+    {
+      "sym": "cc.slow_start",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "control",
+      "op": "enable",
+      "template": "cc.slow_start_{}",
+      "freq": 1,
+      "op_id": 26617,
+      "capa_tags": [
+        "RSYN1"
+      ],
+      "source_block": "CoreLang5_Block16_Congestion_Control_and_Pacing",
+      "idempotent": false,
+      "side_effect": "none",
+      "stability": "experimental",
+      "wire_cost_hint": 2,
+      "depends_on": [
+        "RSYN1"
+      ]
+    },
+    {
+      "sym": "cc.backoff",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "control",
+      "op": "set",
+      "template": "cc.backoff_{}",
+      "freq": 1,
+      "op_id": 42340,
+      "capa_tags": [
+        "RSYN1"
+      ],
+      "source_block": "CoreLang5_Block16_Congestion_Control_and_Pacing",
+      "idempotent": false,
+      "side_effect": "none",
+      "stability": "experimental",
+      "wire_cost_hint": 2,
+      "depends_on": [
+        "RSYN1"
+      ]
+    },
+    {
+      "sym": "cc.aimd",
+      "args": [
+        "p1",
+        "p2"
+      ],
+      "args_types": [
+        "any",
+        "any"
+      ],
+      "constraints": {},
+      "category": "control",
+      "op": "set",
+      "template": "cc.aimd_{}_{}",
+      "freq": 1,
+      "op_id": 20817,
+      "capa_tags": [
+        "RSYN1"
+      ],
+      "source_block": "CoreLang5_Block16_Congestion_Control_and_Pacing",
+      "idempotent": false,
+      "side_effect": "none",
+      "stability": "experimental",
+      "wire_cost_hint": 2,
+      "depends_on": [
+        "RSYN1"
+      ]
+    },
+    {
+      "sym": "cc.prioritize",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "qos",
+      "op": "set",
+      "template": "cc.prioritize_{}",
+      "freq": 1,
+      "op_id": 8049,
+      "capa_tags": [
+        "RSYN1"
+      ],
+      "source_block": "CoreLang5_Block16_Congestion_Control_and_Pacing",
+      "idempotent": false,
+      "side_effect": "none",
+      "stability": "experimental",
+      "wire_cost_hint": 2,
+      "depends_on": [
+        "RSYN1"
+      ]
+    },
+    {
+      "sym": "cc.pacing_enable",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "pacing",
+      "op": "enable",
+      "template": "cc.pacing_enable_{}",
+      "freq": 1,
+      "op_id": 16656,
+      "capa_tags": [
+        "RSYN1"
+      ],
+      "source_block": "CoreLang5_Block16_Congestion_Control_and_Pacing",
+      "idempotent": false,
+      "side_effect": "write",
+      "stability": "stable",
+      "wire_cost_hint": 2,
+      "depends_on": [
+        "RSYN1"
+      ]
+    },
+    {
+      "sym": "cc.ecn_enable",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "pacing",
+      "op": "enable",
+      "template": "cc.ecn_enable_{}",
+      "freq": 1,
+      "op_id": 22872,
+      "capa_tags": [
+        "RSYN1"
+      ],
+      "source_block": "CoreLang5_Block16_Congestion_Control_and_Pacing",
+      "idempotent": false,
+      "side_effect": "write",
+      "stability": "experimental",
+      "wire_cost_hint": 2,
+      "depends_on": [
+        "RSYN1"
+      ]
+    },
+    {
+      "sym": "cc.rto",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "control",
+      "op": "set",
+      "template": "cc.rto_{}",
+      "freq": 1,
+      "op_id": 11165,
+      "capa_tags": [
+        "RSYN1"
+      ],
+      "source_block": "CoreLang5_Block16_Congestion_Control_and_Pacing",
+      "idempotent": false,
+      "side_effect": "write",
+      "stability": "experimental",
+      "wire_cost_hint": 2,
+      "depends_on": [
+        "RSYN1"
+      ]
+    },
+    {
+      "sym": "cc.cwnd_set",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "control",
+      "op": "set",
+      "template": "cc.cwnd_set_{}",
+      "freq": 1,
+      "op_id": 55630,
+      "capa_tags": [
+        "RSYN1"
+      ],
+      "source_block": "CoreLang5_Block16_Congestion_Control_and_Pacing",
+      "idempotent": false,
+      "side_effect": "write",
+      "stability": "experimental",
+      "wire_cost_hint": 2,
+      "depends_on": [
+        "RSYN1"
+      ]
+    },
+    {
+      "sym": "cc.prio_map",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "qos",
+      "op": "set",
+      "template": "cc.prio_map_{}",
+      "freq": 1,
+      "op_id": 56184,
+      "capa_tags": [
+        "RSYN1"
+      ],
+      "source_block": "CoreLang5_Block16_Congestion_Control_and_Pacing",
+      "idempotent": false,
+      "side_effect": "write",
+      "stability": "experimental",
+      "wire_cost_hint": 2,
+      "depends_on": [
+        "RSYN1"
+      ]
+    },
+    {
+      "sym": "cc.bbr_gain",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "control",
+      "op": "set",
+      "template": "cc.bbr_gain_{}",
+      "freq": 1,
+      "op_id": 29783,
+      "capa_tags": [
+        "RSYN1"
+      ],
+      "source_block": "CoreLang5_Block16_Congestion_Control_and_Pacing",
+      "idempotent": false,
+      "side_effect": "write",
+      "stability": "experimental",
+      "wire_cost_hint": 2,
+      "depends_on": [
+        "RSYN1"
+      ]
+    },
+    {
+      "sym": "cc.gso",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "pacing",
+      "op": "set",
+      "template": "cc.gso_{}",
+      "freq": 1,
+      "op_id": 55301,
+      "capa_tags": [
+        "RSYN1"
+      ],
+      "source_block": "CoreLang5_Block16_Congestion_Control_and_Pacing",
+      "idempotent": false,
+      "side_effect": "write",
+      "stability": "experimental",
+      "wire_cost_hint": 2,
+      "depends_on": [
+        "RSYN1"
+      ]
+    }
+  ],
+  "alias": {
+    "cc.token_bucket_{}_{}": "cc.token_bucket",
+    "cc.latency_target_{}": "cc.latency_target",
+    "cc.rate_cap_{}": "cc.rate_cap",
+    "cc.rtt_estimate_{}": "cc.rtt_estimate",
+    "cc.path_mtu_{}": "cc.path_mtu",
+    "cc.slow_start_{}": "cc.slow_start",
+    "cc.backoff_{}": "cc.backoff",
+    "cc.aimd_{}_{}": "cc.aimd",
+    "cc.prioritize_{}": "cc.prioritize",
+    "cc.pacing_enable_{}": "cc.pacing_enable",
+    "cc.ecn_enable_{}": "cc.ecn_enable",
+    "cc.rto_{}": "cc.rto",
+    "cc.cwnd_set_{}": "cc.cwnd_set",
+    "cc.prio_map_{}": "cc.prio_map",
+    "cc.bbr_gain_{}": "cc.bbr_gain",
+    "cc.gso_{}": "cc.gso"
+  }
+}

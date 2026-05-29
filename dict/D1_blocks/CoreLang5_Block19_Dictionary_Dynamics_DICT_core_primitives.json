@@ -1,0 +1,39 @@
+{
+  "block": "CoreLang5_Block19_Dictionary_Dynamics_DICT_core_primitives",
+  "version": "6.30R1",
+  "tokens": [
+    {
+      "sym": "dict.train"
+    },
+    {
+      "sym": "dict.score"
+    },
+    {
+      "sym": "dict.apply"
+    },
+    {
+      "sym": "dict.announce"
+    },
+    {
+      "sym": "dict.rotate"
+    },
+    {
+      "sym": "dict.revoke"
+    },
+    {
+      "sym": "dict.pin"
+    },
+    {
+      "sym": "dict.unpin"
+    },
+    {
+      "sym": "dict.export"
+    },
+    {
+      "sym": "dict.import"
+    },
+    {
+      "sym": "dict.merkle"
+    }
+  ]
+}

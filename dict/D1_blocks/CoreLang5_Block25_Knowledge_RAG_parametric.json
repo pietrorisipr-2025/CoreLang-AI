@@ -1,0 +1,421 @@
+{
+  "block": "CoreLang5_Block25_Knowledge_RAG",
+  "version": "6.30R1",
+  "parametric": [
+    {
+      "sym": "rag.index_put",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "index",
+      "op": "put",
+      "template": "rag.index_put_{}",
+      "freq": 1,
+      "op_id": 20278,
+      "capa_tags": [
+        "CASR1"
+      ],
+      "source_block": "CoreLang5_Block25_Knowledge_RAG",
+      "idempotent": false,
+      "side_effect": "write",
+      "stability": "experimental",
+      "wire_cost_hint": 2,
+      "depends_on": [
+        "CASR1"
+      ]
+    },
+    {
+      "sym": "rag.index_get",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "index",
+      "op": "get",
+      "template": "rag.index_get_{}",
+      "freq": 1,
+      "op_id": 31363,
+      "capa_tags": [
+        "CASR1"
+      ],
+      "source_block": "CoreLang5_Block25_Knowledge_RAG",
+      "idempotent": false,
+      "side_effect": "none",
+      "stability": "experimental",
+      "wire_cost_hint": 1,
+      "depends_on": [
+        "CASR1"
+      ]
+    },
+    {
+      "sym": "rag.chunk",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "index",
+      "op": "chunk",
+      "template": "rag.chunk_{}",
+      "freq": 1,
+      "op_id": 54522,
+      "capa_tags": [
+        "CASR1"
+      ],
+      "source_block": "CoreLang5_Block25_Knowledge_RAG",
+      "idempotent": false,
+      "side_effect": "none",
+      "stability": "experimental",
+      "wire_cost_hint": 2,
+      "depends_on": [
+        "CASR1"
+      ]
+    },
+    {
+      "sym": "rag.embed_ref",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "embed",
+      "op": "ref",
+      "template": "rag.embed_ref_{}",
+      "freq": 1,
+      "op_id": 32011,
+      "capa_tags": [
+        "CASR1",
+        "QPROF1"
+      ],
+      "source_block": "CoreLang5_Block25_Knowledge_RAG",
+      "idempotent": false,
+      "side_effect": "none",
+      "stability": "experimental",
+      "wire_cost_hint": 2,
+      "depends_on": [
+        "CASR1",
+        "QPROF1"
+      ]
+    },
+    {
+      "sym": "rag.search",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "search",
+      "op": "search",
+      "template": "rag.search_{}",
+      "freq": 1,
+      "op_id": 35151,
+      "capa_tags": [
+        "CASR1"
+      ],
+      "source_block": "CoreLang5_Block25_Knowledge_RAG",
+      "idempotent": true,
+      "side_effect": "read",
+      "stability": "experimental",
+      "wire_cost_hint": 2,
+      "depends_on": [
+        "CASR1"
+      ]
+    },
+    {
+      "sym": "rag.hybrid",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "search",
+      "op": "mix",
+      "template": "rag.hybrid_{}",
+      "freq": 1,
+      "op_id": 34161,
+      "capa_tags": [
+        "CASR1"
+      ],
+      "source_block": "CoreLang5_Block25_Knowledge_RAG",
+      "idempotent": false,
+      "side_effect": "none",
+      "stability": "experimental",
+      "wire_cost_hint": 2,
+      "depends_on": [
+        "CASR1"
+      ]
+    },
+    {
+      "sym": "rag.ground",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "ground",
+      "op": "apply",
+      "template": "rag.ground_{}",
+      "freq": 1,
+      "op_id": 7744,
+      "capa_tags": [
+        "CASR1"
+      ],
+      "source_block": "CoreLang5_Block25_Knowledge_RAG",
+      "idempotent": true,
+      "side_effect": "read",
+      "stability": "experimental",
+      "wire_cost_hint": 2,
+      "depends_on": [
+        "CASR1"
+      ]
+    },
+    {
+      "sym": "rag.fuse",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "fuse",
+      "op": "apply",
+      "template": "rag.fuse_{}",
+      "freq": 1,
+      "op_id": 49092,
+      "capa_tags": [
+        "CASR1"
+      ],
+      "source_block": "CoreLang5_Block25_Knowledge_RAG",
+      "idempotent": true,
+      "side_effect": "read",
+      "stability": "experimental",
+      "wire_cost_hint": 2,
+      "depends_on": [
+        "CASR1"
+      ]
+    },
+    {
+      "sym": "rag.compress",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "index",
+      "op": "compress",
+      "template": "rag.compress_{}",
+      "freq": 1,
+      "op_id": 52580,
+      "capa_tags": [
+        "CASR1"
+      ],
+      "source_block": "CoreLang5_Block25_Knowledge_RAG",
+      "idempotent": false,
+      "side_effect": "none",
+      "stability": "experimental",
+      "wire_cost_hint": 2,
+      "depends_on": [
+        "CASR1"
+      ]
+    },
+    {
+      "sym": "rag.cache",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "cache",
+      "op": "set",
+      "template": "rag.cache_{}",
+      "freq": 1,
+      "op_id": 13606,
+      "capa_tags": [
+        "CASR1"
+      ],
+      "source_block": "CoreLang5_Block25_Knowledge_RAG",
+      "idempotent": false,
+      "side_effect": "none",
+      "stability": "experimental",
+      "wire_cost_hint": 2,
+      "depends_on": [
+        "CASR1"
+      ]
+    },
+    {
+      "sym": "rag.invalidate",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "index",
+      "op": "invalidate",
+      "template": "rag.invalidate_{}",
+      "freq": 1,
+      "op_id": 10974,
+      "capa_tags": [
+        "CASR1",
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block25_Knowledge_RAG",
+      "idempotent": false,
+      "side_effect": "write",
+      "stability": "experimental",
+      "wire_cost_hint": 2,
+      "depends_on": [
+        "CASR1",
+        "MIC1"
+      ]
+    },
+    {
+      "sym": "rag.index_schema",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "index",
+      "op": "schema",
+      "template": "rag.index_schema_{}",
+      "freq": 1,
+      "op_id": 40414,
+      "capa_tags": [
+        "CASR1"
+      ],
+      "source_block": "CoreLang5_Block25_Knowledge_RAG",
+      "idempotent": true,
+      "side_effect": "control",
+      "stability": "stable",
+      "wire_cost_hint": 1,
+      "depends_on": [
+        "CASR1"
+      ]
+    },
+    {
+      "sym": "rag.embed_schema",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "embed",
+      "op": "schema",
+      "template": "rag.embed_schema_{}",
+      "freq": 1,
+      "op_id": 52638,
+      "capa_tags": [
+        "CASR1",
+        "QPROF1"
+      ],
+      "source_block": "CoreLang5_Block25_Knowledge_RAG",
+      "idempotent": true,
+      "side_effect": "control",
+      "stability": "stable",
+      "wire_cost_hint": 1,
+      "depends_on": [
+        "CASR1",
+        "QPROF1"
+      ]
+    },
+    {
+      "sym": "rag.search_policy",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "search",
+      "op": "policy",
+      "template": "rag.search_policy_{}",
+      "freq": 1,
+      "op_id": 16766,
+      "capa_tags": [
+        "CASR1"
+      ],
+      "source_block": "CoreLang5_Block25_Knowledge_RAG",
+      "idempotent": true,
+      "side_effect": "control",
+      "stability": "stable",
+      "wire_cost_hint": 1,
+      "depends_on": [
+        "CASR1"
+      ]
+    },
+    {
+      "sym": "rag.invalidate_signed",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "index",
+      "op": "invalidate",
+      "template": "rag.invalidate_signed_{}",
+      "freq": 1,
+      "op_id": 47265,
+      "capa_tags": [
+        "CASR1",
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block25_Knowledge_RAG",
+      "idempotent": false,
+      "side_effect": "write",
+      "stability": "stable",
+      "wire_cost_hint": 2,
+      "depends_on": [
+        "CASR1",
+        "MIC1"
+      ]
+    }
+  ],
+  "alias": {
+    "rag.index_put_{}": "rag.index_put",
+    "rag.index_get_{}": "rag.index_get",
+    "rag.chunk_{}": "rag.chunk",
+    "rag.embed_ref_{}": "rag.embed_ref",
+    "rag.search_{}": "rag.search",
+    "rag.hybrid_{}": "rag.hybrid",
+    "rag.ground_{}": "rag.ground",
+    "rag.fuse_{}": "rag.fuse",
+    "rag.compress_{}": "rag.compress",
+    "rag.cache_{}": "rag.cache",
+    "rag.invalidate_{}": "rag.invalidate",
+    "rag.index_schema_{}": "rag.index_schema",
+    "rag.embed_schema_{}": "rag.embed_schema",
+    "rag.search_policy_{}": "rag.search_policy",
+    "rag.invalidate_signed_{}": "rag.invalidate_signed"
+  }
+}

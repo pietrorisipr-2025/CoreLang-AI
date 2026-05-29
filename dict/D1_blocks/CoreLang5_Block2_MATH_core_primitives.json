@@ -1,0 +1,117 @@
+{
+  "block": "CoreLang5_Block2_MATH_core_primitives",
+  "version": "6.30R3",
+  "tokens": [
+    {
+      "sym": "math.add"
+    },
+    {
+      "sym": "math.sub"
+    },
+    {
+      "sym": "math.mul"
+    },
+    {
+      "sym": "math.div"
+    },
+    {
+      "sym": "math.mod"
+    },
+    {
+      "sym": "math.pow"
+    },
+    {
+      "sym": "math.abs"
+    },
+    {
+      "sym": "math.min"
+    },
+    {
+      "sym": "math.max"
+    },
+    {
+      "sym": "math.clamp"
+    },
+    {
+      "sym": "math.round"
+    },
+    {
+      "sym": "math.floor"
+    },
+    {
+      "sym": "math.ceil"
+    },
+    {
+      "sym": "math.sqrt"
+    },
+    {
+      "sym": "math.mean"
+    },
+    {
+      "sym": "math.median"
+    },
+    {
+      "sym": "math.variance"
+    },
+    {
+      "sym": "math.std"
+    },
+    {
+      "sym": "math.norm_l2"
+    },
+    {
+      "sym": "math.gcd"
+    },
+    {
+      "sym": "math.lcm"
+    },
+    {
+      "sym": "math.is_prime"
+    },
+    {
+      "sym": "math.factorial"
+    },
+    {
+      "sym": "math.fibonacci"
+    },
+    {
+      "sym": "math.modexp"
+    },
+    {
+      "sym": "math.modinv"
+    },
+    {
+      "sym": "math.dot"
+    },
+    {
+      "sym": "math.cross"
+    },
+    {
+      "sym": "math.matmul"
+    },
+    {
+      "sym": "math.transpose"
+    },
+    {
+      "sym": "math.det"
+    },
+    {
+      "sym": "math.inv"
+    },
+    {
+      "sym": "math.solve"
+    },
+    {
+      "sym": "math.poly_eval"
+    },
+    {
+      "sym": "math.poly_deriv"
+    },
+    {
+      "sym": "math.poly_integral"
+    },
+    {
+      "sym": "math.poly_roots"
+    }
+  ]
+}

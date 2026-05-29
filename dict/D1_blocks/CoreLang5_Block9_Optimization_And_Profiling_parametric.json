@@ -1,0 +1,541 @@
+{
+  "block": "CoreLang5_Block9_Optimization_And_Profiling",
+  "version": "6.30R1",
+  "parametric": [
+    {
+      "sym": "perf.cl{}_c{}_alloc_rate_mb_per_s_floor_{}",
+      "args": [
+        "floor"
+      ],
+      "category": "performance",
+      "op": "op",
+      "template": "CL{n}_C{n}_ALLOC_RATE_MB_PER_S_FLOOR_{n}",
+      "freq": 286,
+      "op_id": 58013,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block9_Optimization_And_Profiling"
+    },
+    {
+      "sym": "perf.cl{}_c{}_amdahl_speedup_estimate_{}",
+      "args": [
+        "estimate"
+      ],
+      "category": "performance",
+      "op": "op",
+      "template": "CL{n}_C{n}_AMDAHL_SPEEDUP_ESTIMATE_{n}",
+      "freq": 286,
+      "op_id": 14683,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block9_Optimization_And_Profiling"
+    },
+    {
+      "sym": "perf.cl{}_c{}_branch_wasted_cycles_from_mispredicts_{}",
+      "args": [
+        "mispredicts"
+      ],
+      "category": "performance",
+      "op": "op",
+      "template": "CL{n}_C{n}_BRANCH_WASTED_CYCLES_FROM_MISPREDICTS_{n}",
+      "freq": 286,
+      "op_id": 55227,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block9_Optimization_And_Profiling"
+    },
+    {
+      "sym": "perf.cl{}_c{}_cache_amat_cycles_{}",
+      "args": [
+        "cycles"
+      ],
+      "category": "optimization",
+      "op": "op",
+      "template": "CL{n}_C{n}_CACHE_AMAT_CYCLES_{n}",
+      "freq": 286,
+      "op_id": 46698,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block9_Optimization_And_Profiling"
+    },
+    {
+      "sym": "perf.cl{}_c{}_cache_lines_needed_{}b_{}",
+      "args": [
+        "needed",
+        "b"
+      ],
+      "category": "optimization",
+      "op": "op",
+      "template": "CL{n}_C{n}_CACHE_LINES_NEEDED_{n}B_{n}",
+      "freq": 286,
+      "op_id": 55039,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block9_Optimization_And_Profiling"
+    },
+    {
+      "sym": "perf.cl{}_c{}_cpi_cycles_per_instruction_floor_{}",
+      "args": [
+        "floor"
+      ],
+      "category": "performance",
+      "op": "op",
+      "template": "CL{n}_C{n}_CPI_CYCLES_PER_INSTRUCTION_FLOOR_{n}",
+      "freq": 286,
+      "op_id": 10553,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block9_Optimization_And_Profiling"
+    },
+    {
+      "sym": "perf.cl{}_c{}_gc_total_pause_ms_{}",
+      "args": [
+        "ms"
+      ],
+      "category": "performance",
+      "op": "op",
+      "template": "CL{n}_C{n}_GC_TOTAL_PAUSE_MS_{n}",
+      "freq": 286,
+      "op_id": 43507,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block9_Optimization_And_Profiling"
+    },
+    {
+      "sym": "perf.cl{}_c{}_gustafson_scaled_speedup_{}",
+      "args": [
+        "speedup"
+      ],
+      "category": "performance",
+      "op": "op",
+      "template": "CL{n}_C{n}_GUSTAFSON_SCALED_SPEEDUP_{n}",
+      "freq": 286,
+      "op_id": 5015,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block9_Optimization_And_Profiling"
+    },
+    {
+      "sym": "perf.cl{}_c{}_inline_allowed_flag_{}",
+      "args": [
+        "flag"
+      ],
+      "category": "optimization",
+      "op": "op",
+      "template": "CL{n}_C{n}_INLINE_ALLOWED_FLAG_{n}",
+      "freq": 286,
+      "op_id": 61401,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block9_Optimization_And_Profiling"
+    },
+    {
+      "sym": "perf.cl{}_c{}_latency_p{}_from_mean_exponential_{}",
+      "args": [
+        "exponential"
+      ],
+      "category": "benchmark",
+      "op": "op",
+      "template": "CL{n}_C{n}_LATENCY_P{n}_FROM_MEAN_EXPONENTIAL_{n}",
+      "freq": 286,
+      "op_id": 30824,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block9_Optimization_And_Profiling"
+    },
+    {
+      "sym": "perf.cl{}_c{}_parallel_efficiency_percent_floor_{}",
+      "args": [
+        "floor"
+      ],
+      "category": "performance",
+      "op": "op",
+      "template": "CL{n}_C{n}_PARALLEL_EFFICIENCY_PERCENT_FLOOR_{n}",
+      "freq": 286,
+      "op_id": 58375,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block9_Optimization_And_Profiling"
+    },
+    {
+      "sym": "perf.cl{}_c{}_queue_mm{}_lq_floor_{}",
+      "args": [
+        "floor"
+      ],
+      "category": "performance",
+      "op": "op",
+      "template": "CL{n}_C{n}_QUEUE_MM{n}_LQ_FLOOR_{n}",
+      "freq": 286,
+      "op_id": 49028,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block9_Optimization_And_Profiling"
+    },
+    {
+      "sym": "perf.cl{}_c{}_roofline_attainable_gflops_{}",
+      "args": [
+        "gflops"
+      ],
+      "category": "performance",
+      "op": "op",
+      "template": "CL{n}_C{n}_ROOFLINE_ATTAINABLE_GFLOPS_{n}",
+      "freq": 286,
+      "op_id": 59828,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block9_Optimization_And_Profiling"
+    },
+    {
+      "sym": "perf.cl{}_c{}_simd_total_elements_processed_{}",
+      "args": [
+        "processed"
+      ],
+      "category": "optimization",
+      "op": "op",
+      "template": "CL{n}_C{n}_SIMD_TOTAL_ELEMENTS_PROCESSED_{n}",
+      "freq": 286,
+      "op_id": 9168,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block9_Optimization_And_Profiling"
+    },
+    {
+      "sym": "perf.cl{}_c{}_time_ms_from_cycles_at_ghz_{}",
+      "args": [
+        "ghz"
+      ],
+      "category": "performance",
+      "op": "op",
+      "template": "CL{n}_C{n}_TIME_MS_FROM_CYCLES_AT_GHZ_{n}",
+      "freq": 286,
+      "op_id": 52949,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block9_Optimization_And_Profiling"
+    },
+    {
+      "sym": "perf.cl{}_c{}_lock_contention_percent_floor_{}",
+      "args": [
+        "floor"
+      ],
+      "category": "performance",
+      "op": "op",
+      "template": "CL{n}_C{n}_LOCK_CONTENTION_PERCENT_FLOOR_{n}",
+      "freq": 285,
+      "op_id": 52610,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block9_Optimization_And_Profiling"
+    },
+    {
+      "sym": "perf.cl{}_c{}_prefetch_distance_iters_ceil_{}",
+      "args": [
+        "ceil"
+      ],
+      "category": "performance",
+      "op": "op",
+      "template": "CL{n}_C{n}_PREFETCH_DISTANCE_ITERS_CEIL_{n}",
+      "freq": 285,
+      "op_id": 60451,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block9_Optimization_And_Profiling"
+    },
+    {
+      "sym": "perf.cl{}_c{}_profile_hotspot_percent_floor_{}",
+      "args": [
+        "floor"
+      ],
+      "category": "profiling",
+      "op": "op",
+      "template": "CL{n}_C{n}_PROFILE_HOTSPOT_PERCENT_FLOOR_{n}",
+      "freq": 285,
+      "op_id": 59470,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block9_Optimization_And_Profiling"
+    },
+    {
+      "sym": "perf.cl{}_c{}_profile_sampling_interval_us_{}",
+      "args": [
+        "us"
+      ],
+      "category": "profiling",
+      "op": "op",
+      "template": "CL{n}_C{n}_PROFILE_SAMPLING_INTERVAL_US_{n}",
+      "freq": 285,
+      "op_id": 60672,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block9_Optimization_And_Profiling"
+    },
+    {
+      "sym": "perf.cl{}_c{}_tlb_coverage_percent_floor_{}",
+      "args": [
+        "floor"
+      ],
+      "category": "performance",
+      "op": "op",
+      "template": "CL{n}_C{n}_TLB_COVERAGE_PERCENT_FLOOR_{n}",
+      "freq": 285,
+      "op_id": 16811,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block9_Optimization_And_Profiling"
+    },
+    {
+      "sym": "perf.cl{}_c{}_tlb_page_walks_count_{}",
+      "args": [
+        "count"
+      ],
+      "category": "performance",
+      "op": "op",
+      "template": "CL{n}_C{n}_TLB_PAGE_WALKS_COUNT_{n}",
+      "freq": 285,
+      "op_id": 17140,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block9_Optimization_And_Profiling"
+    },
+    {
+      "sym": "perf.cl{}_c{}_amdahl_with_sync_overhead_{}",
+      "args": [
+        "overhead"
+      ],
+      "category": "performance",
+      "op": "op",
+      "template": "CL{n}_C{n}_AMDAHL_WITH_SYNC_OVERHEAD_{n}",
+      "freq": 236,
+      "op_id": 23502,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block9_Optimization_And_Profiling"
+    },
+    {
+      "sym": "perf.cl{}_c{}_cpi_breakdown_effective_floor_{}",
+      "args": [
+        "floor"
+      ],
+      "category": "performance",
+      "op": "op",
+      "template": "CL{n}_C{n}_CPI_BREAKDOWN_EFFECTIVE_FLOOR_{n}",
+      "freq": 236,
+      "op_id": 39916,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block9_Optimization_And_Profiling"
+    },
+    {
+      "sym": "perf.cl{}_c{}_roofline_gemm_attainable_gflops_{}",
+      "args": [
+        "gflops"
+      ],
+      "category": "performance",
+      "op": "op",
+      "template": "CL{n}_C{n}_ROOFLINE_GEMM_ATTAINABLE_GFLOPS_{n}",
+      "freq": 236,
+      "op_id": 22560,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block9_Optimization_And_Profiling"
+    },
+    {
+      "sym": "perf.cl{}_c{}_sched_work_stealing_throughput_tps_{}",
+      "args": [
+        "tps"
+      ],
+      "category": "benchmark",
+      "op": "op",
+      "template": "CL{n}_C{n}_SCHED_WORK_STEALING_THROUGHPUT_TPS_{n}",
+      "freq": 236,
+      "op_id": 49449,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block9_Optimization_And_Profiling"
+    },
+    {
+      "sym": "perf.cl{}_c{}_simd_gather_penalty_cycles_{}",
+      "args": [
+        "cycles"
+      ],
+      "category": "optimization",
+      "op": "op",
+      "template": "CL{n}_C{n}_SIMD_GATHER_PENALTY_CYCLES_{n}",
+      "freq": 236,
+      "op_id": 45959,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block9_Optimization_And_Profiling"
+    },
+    {
+      "sym": "perf.cl{}_c{}_batch_microbatch_items_per_sec_{}",
+      "args": [
+        "sec"
+      ],
+      "category": "benchmark",
+      "op": "op",
+      "template": "CL{n}_C{n}_BATCH_MICROBATCH_ITEMS_PER_SEC_{n}",
+      "freq": 235,
+      "op_id": 3762,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block9_Optimization_And_Profiling"
+    },
+    {
+      "sym": "perf.cl{}_c{}_cache_associativity_miss_percent_{}",
+      "args": [
+        "percent"
+      ],
+      "category": "optimization",
+      "op": "op",
+      "template": "CL{n}_C{n}_CACHE_ASSOCIATIVITY_MISS_PERCENT_{n}",
+      "freq": 235,
+      "op_id": 21736,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block9_Optimization_And_Profiling"
+    },
+    {
+      "sym": "perf.cl{}_c{}_fma_speedup_percent_floor_{}",
+      "args": [
+        "floor"
+      ],
+      "category": "performance",
+      "op": "op",
+      "template": "CL{n}_C{n}_FMA_SPEEDUP_PERCENT_FLOOR_{n}",
+      "freq": 235,
+      "op_id": 60005,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block9_Optimization_And_Profiling"
+    },
+    {
+      "sym": "perf.cl{}_c{}_io_queue_depth_extra_latency_ms_{}",
+      "args": [
+        "ms"
+      ],
+      "category": "benchmark",
+      "op": "op",
+      "template": "CL{n}_C{n}_IO_QUEUE_DEPTH_EXTRA_LATENCY_MS_{n}",
+      "freq": 235,
+      "op_id": 31566,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block9_Optimization_And_Profiling"
+    },
+    {
+      "sym": "perf.cl{}_c{}_latency_p{}_plus_p{}_exp_ms_{}",
+      "args": [
+        "ms"
+      ],
+      "category": "benchmark",
+      "op": "op",
+      "template": "CL{n}_C{n}_LATENCY_P{n}_PLUS_P{n}_EXP_MS_{n}",
+      "freq": 235,
+      "op_id": 12918,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block9_Optimization_And_Profiling"
+    },
+    {
+      "sym": "perf.cl{}_c{}_numa_remote_penalty_percent_{}",
+      "args": [
+        "percent"
+      ],
+      "category": "performance",
+      "op": "op",
+      "template": "CL{n}_C{n}_NUMA_REMOTE_PENALTY_PERCENT_{n}",
+      "freq": 235,
+      "op_id": 25091,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block9_Optimization_And_Profiling"
+    },
+    {
+      "sym": "perf.cl{}_c{}_numeric_kahan_beneficial_flag_{}",
+      "args": [
+        "flag"
+      ],
+      "category": "performance",
+      "op": "op",
+      "template": "CL{n}_C{n}_NUMERIC_KAHAN_BENEFICIAL_FLAG_{n}",
+      "freq": 235,
+      "op_id": 56466,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block9_Optimization_And_Profiling"
+    },
+    {
+      "sym": "perf.cl{}_c{}_prefetch_accuracy_percent_{}",
+      "args": [
+        "percent"
+      ],
+      "category": "performance",
+      "op": "op",
+      "template": "CL{n}_C{n}_PREFETCH_ACCURACY_PERCENT_{n}",
+      "freq": 235,
+      "op_id": 51767,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block9_Optimization_And_Profiling"
+    },
+    {
+      "sym": "perf.cl{}_c{}_profile_clock_drift_samples_{}",
+      "args": [
+        "samples"
+      ],
+      "category": "profiling",
+      "op": "op",
+      "template": "CL{n}_C{n}_PROFILE_CLOCK_DRIFT_SAMPLES_{n}",
+      "freq": 235,
+      "op_id": 35762,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block9_Optimization_And_Profiling"
+    },
+    {
+      "sym": "perf.cl{}_c{}_reg_spill_penalty_cycles_{}",
+      "args": [
+        "cycles"
+      ],
+      "category": "performance",
+      "op": "op",
+      "template": "CL{n}_C{n}_REG_SPILL_PENALTY_CYCLES_{n}",
+      "freq": 235,
+      "op_id": 44379,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block9_Optimization_And_Profiling"
+    },
+    {
+      "sym": "perf.cl{}_c{}_runtime_slowpath_calls_count_{}",
+      "args": [
+        "count"
+      ],
+      "category": "performance",
+      "op": "op",
+      "template": "CL{n}_C{n}_RUNTIME_SLOWPATH_CALLS_COUNT_{n}",
+      "freq": 235,
+      "op_id": 52926,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block9_Optimization_And_Profiling"
+    },
+    {
+      "sym": "perf.cl{}_c{}_tlb_huge_pages_coverage_gain_{}",
+      "args": [
+        "gain"
+      ],
+      "category": "performance",
+      "op": "op",
+      "template": "CL{n}_C{n}_TLB_HUGE_PAGES_COVERAGE_GAIN_{n}",
+      "freq": 235,
+      "op_id": 55327,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block9_Optimization_And_Profiling"
+    }
+  ],
+  "alias": {
+    "CL{n}_C{n}_ALLOC_RATE_MB_PER_S_FLOOR_{n}": "perf.cl{}_c{}_alloc_rate_mb_per_s_floor_{}",
+    "CL{n}_C{n}_AMDAHL_SPEEDUP_ESTIMATE_{n}": "perf.cl{}_c{}_amdahl_speedup_estimate_{}",
+    "CL{n}_C{n}_BRANCH_WASTED_CYCLES_FROM_MISPREDICTS_{n}": "perf.cl{}_c{}_branch_wasted_cycles_from_mispredicts_{}",
+    "CL{n}_C{n}_CACHE_AMAT_CYCLES_{n}": "perf.cl{}_c{}_cache_amat_cycles_{}",
+    "CL{n}_C{n}_CACHE_LINES_NEEDED_{n}B_{n}": "perf.cl{}_c{}_cache_lines_needed_{}b_{}",
+    "CL{n}_C{n}_CPI_CYCLES_PER_INSTRUCTION_FLOOR_{n}": "perf.cl{}_c{}_cpi_cycles_per_instruction_floor_{}",
+    "CL{n}_C{n}_GC_TOTAL_PAUSE_MS_{n}": "perf.cl{}_c{}_gc_total_pause_ms_{}",
+    "CL{n}_C{n}_GUSTAFSON_SCALED_SPEEDUP_{n}": "perf.cl{}_c{}_gustafson_scaled_speedup_{}",
+    "CL{n}_C{n}_INLINE_ALLOWED_FLAG_{n}": "perf.cl{}_c{}_inline_allowed_flag_{}",
+    "CL{n}_C{n}_LATENCY_P{n}_FROM_MEAN_EXPONENTIAL_{n}": "perf.cl{}_c{}_latency_p{}_from_mean_exponential_{}",
+    "CL{n}_C{n}_PARALLEL_EFFICIENCY_PERCENT_FLOOR_{n}": "perf.cl{}_c{}_parallel_efficiency_percent_floor_{}",
+    "CL{n}_C{n}_QUEUE_MM{n}_LQ_FLOOR_{n}": "perf.cl{}_c{}_queue_mm{}_lq_floor_{}",
+    "CL{n}_C{n}_ROOFLINE_ATTAINABLE_GFLOPS_{n}": "perf.cl{}_c{}_roofline_attainable_gflops_{}",
+    "CL{n}_C{n}_SIMD_TOTAL_ELEMENTS_PROCESSED_{n}": "perf.cl{}_c{}_simd_total_elements_processed_{}",
+    "CL{n}_C{n}_TIME_MS_FROM_CYCLES_AT_GHZ_{n}": "perf.cl{}_c{}_time_ms_from_cycles_at_ghz_{}",
+    "CL{n}_C{n}_LOCK_CONTENTION_PERCENT_FLOOR_{n}": "perf.cl{}_c{}_lock_contention_percent_floor_{}",
+    "CL{n}_C{n}_PREFETCH_DISTANCE_ITERS_CEIL_{n}": "perf.cl{}_c{}_prefetch_distance_iters_ceil_{}",
+    "CL{n}_C{n}_PROFILE_HOTSPOT_PERCENT_FLOOR_{n}": "perf.cl{}_c{}_profile_hotspot_percent_floor_{}",
+    "CL{n}_C{n}_PROFILE_SAMPLING_INTERVAL_US_{n}": "perf.cl{}_c{}_profile_sampling_interval_us_{}",
+    "CL{n}_C{n}_TLB_COVERAGE_PERCENT_FLOOR_{n}": "perf.cl{}_c{}_tlb_coverage_percent_floor_{}",
+    "CL{n}_C{n}_TLB_PAGE_WALKS_COUNT_{n}": "perf.cl{}_c{}_tlb_page_walks_count_{}",
+    "CL{n}_C{n}_AMDAHL_WITH_SYNC_OVERHEAD_{n}": "perf.cl{}_c{}_amdahl_with_sync_overhead_{}",
+    "CL{n}_C{n}_CPI_BREAKDOWN_EFFECTIVE_FLOOR_{n}": "perf.cl{}_c{}_cpi_breakdown_effective_floor_{}",
+    "CL{n}_C{n}_ROOFLINE_GEMM_ATTAINABLE_GFLOPS_{n}": "perf.cl{}_c{}_roofline_gemm_attainable_gflops_{}",
+    "CL{n}_C{n}_SCHED_WORK_STEALING_THROUGHPUT_TPS_{n}": "perf.cl{}_c{}_sched_work_stealing_throughput_tps_{}",
+    "CL{n}_C{n}_SIMD_GATHER_PENALTY_CYCLES_{n}": "perf.cl{}_c{}_simd_gather_penalty_cycles_{}",
+    "CL{n}_C{n}_BATCH_MICROBATCH_ITEMS_PER_SEC_{n}": "perf.cl{}_c{}_batch_microbatch_items_per_sec_{}",
+    "CL{n}_C{n}_CACHE_ASSOCIATIVITY_MISS_PERCENT_{n}": "perf.cl{}_c{}_cache_associativity_miss_percent_{}",
+    "CL{n}_C{n}_FMA_SPEEDUP_PERCENT_FLOOR_{n}": "perf.cl{}_c{}_fma_speedup_percent_floor_{}",
+    "CL{n}_C{n}_IO_QUEUE_DEPTH_EXTRA_LATENCY_MS_{n}": "perf.cl{}_c{}_io_queue_depth_extra_latency_ms_{}",
+    "CL{n}_C{n}_LATENCY_P{n}_PLUS_P{n}_EXP_MS_{n}": "perf.cl{}_c{}_latency_p{}_plus_p{}_exp_ms_{}",
+    "CL{n}_C{n}_NUMA_REMOTE_PENALTY_PERCENT_{n}": "perf.cl{}_c{}_numa_remote_penalty_percent_{}",
+    "CL{n}_C{n}_NUMERIC_KAHAN_BENEFICIAL_FLAG_{n}": "perf.cl{}_c{}_numeric_kahan_beneficial_flag_{}",
+    "CL{n}_C{n}_PREFETCH_ACCURACY_PERCENT_{n}": "perf.cl{}_c{}_prefetch_accuracy_percent_{}",
+    "CL{n}_C{n}_PROFILE_CLOCK_DRIFT_SAMPLES_{n}": "perf.cl{}_c{}_profile_clock_drift_samples_{}",
+    "CL{n}_C{n}_REG_SPILL_PENALTY_CYCLES_{n}": "perf.cl{}_c{}_reg_spill_penalty_cycles_{}",
+    "CL{n}_C{n}_RUNTIME_SLOWPATH_CALLS_COUNT_{n}": "perf.cl{}_c{}_runtime_slowpath_calls_count_{}",
+    "CL{n}_C{n}_TLB_HUGE_PAGES_COVERAGE_GAIN_{n}": "perf.cl{}_c{}_tlb_huge_pages_coverage_gain_{}"
+  }
+}

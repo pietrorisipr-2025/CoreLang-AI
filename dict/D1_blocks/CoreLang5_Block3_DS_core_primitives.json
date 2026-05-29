@@ -1,0 +1,111 @@
+{
+  "block": "CoreLang5_Block3_DS_core_primitives",
+  "version": "6.30R1",
+  "tokens": [
+    {
+      "sym": "ds.array"
+    },
+    {
+      "sym": "ds.vector"
+    },
+    {
+      "sym": "ds.slice"
+    },
+    {
+      "sym": "ds.buffer"
+    },
+    {
+      "sym": "ds.ringbuffer"
+    },
+    {
+      "sym": "ds.list"
+    },
+    {
+      "sym": "ds.linked_list"
+    },
+    {
+      "sym": "ds.doubly_linked_list"
+    },
+    {
+      "sym": "ds.deque"
+    },
+    {
+      "sym": "ds.stack"
+    },
+    {
+      "sym": "ds.queue"
+    },
+    {
+      "sym": "ds.priority_queue"
+    },
+    {
+      "sym": "ds.heap"
+    },
+    {
+      "sym": "ds.set"
+    },
+    {
+      "sym": "ds.hashset"
+    },
+    {
+      "sym": "ds.bitset"
+    },
+    {
+      "sym": "ds.bloom"
+    },
+    {
+      "sym": "ds.map"
+    },
+    {
+      "sym": "ds.hashmap"
+    },
+    {
+      "sym": "ds.ordered_map"
+    },
+    {
+      "sym": "ds.multimap"
+    },
+    {
+      "sym": "ds.tree"
+    },
+    {
+      "sym": "ds.bst"
+    },
+    {
+      "sym": "ds.avl"
+    },
+    {
+      "sym": "ds.rbt"
+    },
+    {
+      "sym": "ds.btree"
+    },
+    {
+      "sym": "ds.trie"
+    },
+    {
+      "sym": "ds.patricia"
+    },
+    {
+      "sym": "ds.radix"
+    },
+    {
+      "sym": "ds.graph"
+    },
+    {
+      "sym": "ds.dag"
+    },
+    {
+      "sym": "ds.adj_list"
+    },
+    {
+      "sym": "ds.adj_matrix"
+    },
+    {
+      "sym": "ds.union_find"
+    },
+    {
+      "sym": "ds.lru_cache"
+    }
+  ]
+}

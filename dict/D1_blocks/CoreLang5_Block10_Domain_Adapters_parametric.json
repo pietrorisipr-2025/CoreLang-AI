@@ -1,0 +1,540 @@
+{
+  "block": "CoreLang5_Block10_Domain_Adapters",
+  "version": "6.30R1",
+  "parametric": [
+    {
+      "sym": "da.cl{}_c{}_ads_expected_clicks_from_ctr_permille_{}",
+      "args": [
+        "permille"
+      ],
+      "category": "domain",
+      "op": "op",
+      "template": "CL{n}_C{n}_ADS_EXPECTED_CLICKS_FROM_CTR_PERMILLE_{n}",
+      "freq": 300,
+      "op_id": 57148,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block10_Domain_Adapters"
+    },
+    {
+      "sym": "da.cl{}_c{}_api_pagination_offset_{}",
+      "args": [
+        "offset"
+      ],
+      "category": "domain",
+      "op": "op",
+      "template": "CL{n}_C{n}_API_PAGINATION_OFFSET_{n}",
+      "freq": 300,
+      "op_id": 59446,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block10_Domain_Adapters"
+    },
+    {
+      "sym": "da.cl{}_c{}_audio_pcm_bytes_total_{}",
+      "args": [
+        "total"
+      ],
+      "category": "domain",
+      "op": "op",
+      "template": "CL{n}_C{n}_AUDIO_PCM_BYTES_TOTAL_{n}",
+      "freq": 300,
+      "op_id": 61509,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block10_Domain_Adapters"
+    },
+    {
+      "sym": "da.cl{}_c{}_calendar_iso_week_number_{}",
+      "args": [
+        "number"
+      ],
+      "category": "domain",
+      "op": "op",
+      "template": "CL{n}_C{n}_CALENDAR_ISO_WEEK_NUMBER_{n}",
+      "freq": 300,
+      "op_id": 25939,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block10_Domain_Adapters"
+    },
+    {
+      "sym": "da.cl{}_c{}_enc_base{}_length_{}",
+      "args": [
+        "length"
+      ],
+      "category": "domain",
+      "op": "op",
+      "template": "CL{n}_C{n}_ENC_BASE{n}_LENGTH_{n}",
+      "freq": 300,
+      "op_id": 5388,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block10_Domain_Adapters"
+    },
+    {
+      "sym": "da.cl{}_c{}_finance_iban_mod{}_remainder_{}",
+      "args": [
+        "remainder"
+      ],
+      "category": "domain",
+      "op": "op",
+      "template": "CL{n}_C{n}_FINANCE_IBAN_MOD{n}_REMAINDER_{n}",
+      "freq": 300,
+      "op_id": 5303,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block10_Domain_Adapters"
+    },
+    {
+      "sym": "da.cl{}_c{}_finance_vat_gross_cents_round_{}",
+      "args": [
+        "round"
+      ],
+      "category": "domain",
+      "op": "op",
+      "template": "CL{n}_C{n}_FINANCE_VAT_GROSS_CENTS_ROUND_{n}",
+      "freq": 300,
+      "op_id": 62631,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block10_Domain_Adapters"
+    },
+    {
+      "sym": "da.cl{}_c{}_geo_webmercator_xtile_from_lon_{}",
+      "args": [
+        "lon"
+      ],
+      "category": "domain",
+      "op": "op",
+      "template": "CL{n}_C{n}_GEO_WEBMERCATOR_XTILE_FROM_LON_{n}",
+      "freq": 300,
+      "op_id": 17813,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block10_Domain_Adapters"
+    },
+    {
+      "sym": "da.cl{}_c{}_geo_webmercator_ytile_from_lat_{}",
+      "args": [
+        "lat"
+      ],
+      "category": "domain",
+      "op": "op",
+      "template": "CL{n}_C{n}_GEO_WEBMERCATOR_YTILE_FROM_LAT_{n}",
+      "freq": 300,
+      "op_id": 22652,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block10_Domain_Adapters"
+    },
+    {
+      "sym": "da.cl{}_c{}_logistics_eta_days_from_distance_{}",
+      "args": [
+        "distance"
+      ],
+      "category": "domain",
+      "op": "op",
+      "template": "CL{n}_C{n}_LOGISTICS_ETA_DAYS_FROM_DISTANCE_{n}",
+      "freq": 300,
+      "op_id": 41019,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block10_Domain_Adapters"
+    },
+    {
+      "sym": "da.cl{}_c{}_logistics_volumetric_weight_kg_{}",
+      "args": [
+        "kg"
+      ],
+      "category": "domain",
+      "op": "op",
+      "template": "CL{n}_C{n}_LOGISTICS_VOLUMETRIC_WEIGHT_KG_{n}",
+      "freq": 300,
+      "op_id": 61220,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block10_Domain_Adapters"
+    },
+    {
+      "sym": "da.cl{}_c{}_media_scaled_height_from_width_{}",
+      "args": [
+        "width"
+      ],
+      "category": "domain",
+      "op": "op",
+      "template": "CL{n}_C{n}_MEDIA_SCALED_HEIGHT_FROM_WIDTH_{n}",
+      "freq": 300,
+      "op_id": 20046,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block10_Domain_Adapters"
+    },
+    {
+      "sym": "da.cl{}_c{}_media_video_bitrate_kbps_{}",
+      "args": [
+        "kbps"
+      ],
+      "category": "domain",
+      "op": "op",
+      "template": "CL{n}_C{n}_MEDIA_VIDEO_BITRATE_KBPS_{n}",
+      "freq": 300,
+      "op_id": 58058,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block10_Domain_Adapters"
+    },
+    {
+      "sym": "da.cl{}_c{}_pricing_stacked_discounts_cents_{}",
+      "args": [
+        "cents"
+      ],
+      "category": "domain",
+      "op": "op",
+      "template": "CL{n}_C{n}_PRICING_STACKED_DISCOUNTS_CENTS_{n}",
+      "freq": 300,
+      "op_id": 55425,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block10_Domain_Adapters"
+    },
+    {
+      "sym": "da.cl{}_c{}_sched_cron_runs_in_window_{}",
+      "args": [
+        "window"
+      ],
+      "category": "domain",
+      "op": "op",
+      "template": "CL{n}_C{n}_SCHED_CRON_RUNS_IN_WINDOW_{n}",
+      "freq": 300,
+      "op_id": 56453,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block10_Domain_Adapters"
+    },
+    {
+      "sym": "da.cl{}_c{}_serde_csv_rows_from_bytes_{}",
+      "args": [
+        "bytes"
+      ],
+      "category": "domain",
+      "op": "op",
+      "template": "CL{n}_C{n}_SERDE_CSV_ROWS_FROM_BYTES_{n}",
+      "freq": 300,
+      "op_id": 18197,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block10_Domain_Adapters"
+    },
+    {
+      "sym": "da.cl{}_c{}_serde_json_minified_bytes_estimate_{}",
+      "args": [
+        "estimate"
+      ],
+      "category": "domain",
+      "op": "op",
+      "template": "CL{n}_C{n}_SERDE_JSON_MINIFIED_BYTES_ESTIMATE_{n}",
+      "freq": 300,
+      "op_id": 42151,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block10_Domain_Adapters"
+    },
+    {
+      "sym": "da.cl{}_c{}_supply_safety_stock_units_{}",
+      "args": [
+        "units"
+      ],
+      "category": "domain",
+      "op": "op",
+      "template": "CL{n}_C{n}_SUPPLY_SAFETY_STOCK_UNITS_{n}",
+      "freq": 300,
+      "op_id": 47477,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block10_Domain_Adapters"
+    },
+    {
+      "sym": "da.cl{}_c{}_validation_luhn_check_digit_{}",
+      "args": [
+        "digit"
+      ],
+      "category": "domain",
+      "op": "validate",
+      "template": "CL{n}_C{n}_VALIDATION_LUHN_CHECK_DIGIT_{n}",
+      "freq": 300,
+      "op_id": 6784,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block10_Domain_Adapters"
+    },
+    {
+      "sym": "da.cl{}_c{}_web_slug_length_capped_{}",
+      "args": [
+        "capped"
+      ],
+      "category": "domain",
+      "op": "op",
+      "template": "CL{n}_C{n}_WEB_SLUG_LENGTH_CAPPED_{n}",
+      "freq": 300,
+      "op_id": 18718,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block10_Domain_Adapters"
+    },
+    {
+      "sym": "da.cl{}_c{}_fhir_bundle_total_bytes_{}",
+      "args": [
+        "bytes"
+      ],
+      "category": "domain",
+      "op": "op",
+      "template": "CL{n}_C{n}_FHIR_BUNDLE_TOTAL_BYTES_{n}",
+      "freq": 223,
+      "op_id": 15070,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block10_Domain_Adapters"
+    },
+    {
+      "sym": "da.cl{}_c{}_geojson_bbox_area_km{}_estimate_{}",
+      "args": [
+        "estimate"
+      ],
+      "category": "domain",
+      "op": "op",
+      "template": "CL{n}_C{n}_GEOJSON_BBOX_AREA_KM{n}_ESTIMATE_{n}",
+      "freq": 223,
+      "op_id": 7910,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block10_Domain_Adapters"
+    },
+    {
+      "sym": "da.cl{}_c{}_gtfs_trips_in_window_{}",
+      "args": [
+        "window"
+      ],
+      "category": "domain",
+      "op": "op",
+      "template": "CL{n}_C{n}_GTFS_TRIPS_IN_WINDOW_{n}",
+      "freq": 223,
+      "op_id": 7510,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block10_Domain_Adapters"
+    },
+    {
+      "sym": "da.cl{}_c{}_hl{}_segment_length_bytes_estimate_{}",
+      "args": [
+        "estimate"
+      ],
+      "category": "domain",
+      "op": "op",
+      "template": "CL{n}_C{n}_HL{n}_SEGMENT_LENGTH_BYTES_ESTIMATE_{n}",
+      "freq": 223,
+      "op_id": 58234,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block10_Domain_Adapters"
+    },
+    {
+      "sym": "da.cl{}_c{}_finance_currency_basket_to_eur_cents_{}",
+      "args": [
+        "cents"
+      ],
+      "category": "domain",
+      "op": "op",
+      "template": "CL{n}_C{n}_FINANCE_CURRENCY_BASKET_TO_EUR_CENTS_{n}",
+      "freq": 222,
+      "op_id": 56079,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block10_Domain_Adapters"
+    },
+    {
+      "sym": "da.cl{}_c{}_graphql_window_items_total_{}",
+      "args": [
+        "total"
+      ],
+      "category": "domain",
+      "op": "op",
+      "template": "CL{n}_C{n}_GRAPHQL_WINDOW_ITEMS_TOTAL_{n}",
+      "freq": 222,
+      "op_id": 11152,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block10_Domain_Adapters"
+    },
+    {
+      "sym": "da.cl{}_c{}_i{}n_plural_rule_en_one_flag_{}",
+      "args": [
+        "flag"
+      ],
+      "category": "domain",
+      "op": "op",
+      "template": "CL{n}_C{n}_I{n}N_PLURAL_RULE_EN_ONE_FLAG_{n}",
+      "freq": 222,
+      "op_id": 10017,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block10_Domain_Adapters"
+    },
+    {
+      "sym": "da.cl{}_c{}_openapi_operations_count_estimate_{}",
+      "args": [
+        "estimate"
+      ],
+      "category": "domain",
+      "op": "op",
+      "template": "CL{n}_C{n}_OPENAPI_OPERATIONS_COUNT_ESTIMATE_{n}",
+      "freq": 222,
+      "op_id": 26218,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block10_Domain_Adapters"
+    },
+    {
+      "sym": "da.cl{}_c{}_phone_e{}_length_with_plus_{}",
+      "args": [
+        "plus"
+      ],
+      "category": "domain",
+      "op": "op",
+      "template": "CL{n}_C{n}_PHONE_E{n}_LENGTH_WITH_PLUS_{n}",
+      "freq": 222,
+      "op_id": 7293,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block10_Domain_Adapters"
+    },
+    {
+      "sym": "da.cl{}_c{}_regex_groups_count_simplified_{}",
+      "args": [
+        "simplified"
+      ],
+      "category": "domain",
+      "op": "op",
+      "template": "CL{n}_C{n}_REGEX_GROUPS_COUNT_SIMPLIFIED_{n}",
+      "freq": 222,
+      "op_id": 4044,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block10_Domain_Adapters"
+    },
+    {
+      "sym": "da.cl{}_c{}_seo_sitemap_files_needed_{}",
+      "args": [
+        "needed"
+      ],
+      "category": "domain",
+      "op": "transform",
+      "template": "CL{n}_C{n}_SEO_SITEMAP_FILES_NEEDED_{n}",
+      "freq": 222,
+      "op_id": 16962,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block10_Domain_Adapters"
+    },
+    {
+      "sym": "da.cl{}_c{}_serde_csv_quotes_escape_added_chars_{}",
+      "args": [
+        "chars"
+      ],
+      "category": "domain",
+      "op": "op",
+      "template": "CL{n}_C{n}_SERDE_CSV_QUOTES_ESCAPE_ADDED_CHARS_{n}",
+      "freq": 222,
+      "op_id": 11386,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block10_Domain_Adapters"
+    },
+    {
+      "sym": "da.cl{}_c{}_serde_yaml_indent_extra_bytes_{}",
+      "args": [
+        "bytes"
+      ],
+      "category": "domain",
+      "op": "op",
+      "template": "CL{n}_C{n}_SERDE_YAML_INDENT_EXTRA_BYTES_{n}",
+      "freq": 222,
+      "op_id": 19427,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block10_Domain_Adapters"
+    },
+    {
+      "sym": "da.cl{}_c{}_time_rfc{}_duration_seconds_{}",
+      "args": [
+        "seconds"
+      ],
+      "category": "domain",
+      "op": "op",
+      "template": "CL{n}_C{n}_TIME_RFC{n}_DURATION_SECONDS_{n}",
+      "freq": 222,
+      "op_id": 56262,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block10_Domain_Adapters"
+    },
+    {
+      "sym": "da.cl{}_c{}_time_timezone_offset_minutes_{}",
+      "args": [
+        "minutes"
+      ],
+      "category": "domain",
+      "op": "op",
+      "template": "CL{n}_C{n}_TIME_TIMEZONE_OFFSET_MINUTES_{n}",
+      "freq": 222,
+      "op_id": 32668,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block10_Domain_Adapters"
+    },
+    {
+      "sym": "da.cl{}_c{}_unit_celsius_to_fahrenheit_floor_{}",
+      "args": [
+        "floor"
+      ],
+      "category": "domain",
+      "op": "op",
+      "template": "CL{n}_C{n}_UNIT_CELSIUS_TO_FAHRENHEIT_FLOOR_{n}",
+      "freq": 222,
+      "op_id": 57663,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block10_Domain_Adapters"
+    },
+    {
+      "sym": "da.cl{}_c{}_unit_km_to_miles_floor_{}",
+      "args": [
+        "floor"
+      ],
+      "category": "domain",
+      "op": "op",
+      "template": "CL{n}_C{n}_UNIT_KM_TO_MILES_FLOOR_{n}",
+      "freq": 222,
+      "op_id": 12565,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block10_Domain_Adapters"
+    },
+    {
+      "sym": "da.cl{}_c{}_web_url_join_length_estimate_{}",
+      "args": [
+        "estimate"
+      ],
+      "category": "domain",
+      "op": "op",
+      "template": "CL{n}_C{n}_WEB_URL_JOIN_LENGTH_ESTIMATE_{n}",
+      "freq": 222,
+      "op_id": 10539,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block10_Domain_Adapters"
+    }
+  ],
+  "alias": {
+    "CL{n}_C{n}_ADS_EXPECTED_CLICKS_FROM_CTR_PERMILLE_{n}": "da.cl{}_c{}_ads_expected_clicks_from_ctr_permille_{}",
+    "CL{n}_C{n}_API_PAGINATION_OFFSET_{n}": "da.cl{}_c{}_api_pagination_offset_{}",
+    "CL{n}_C{n}_AUDIO_PCM_BYTES_TOTAL_{n}": "da.cl{}_c{}_audio_pcm_bytes_total_{}",
+    "CL{n}_C{n}_CALENDAR_ISO_WEEK_NUMBER_{n}": "da.cl{}_c{}_calendar_iso_week_number_{}",
+    "CL{n}_C{n}_ENC_BASE{n}_LENGTH_{n}": "da.cl{}_c{}_enc_base{}_length_{}",
+    "CL{n}_C{n}_FINANCE_IBAN_MOD{n}_REMAINDER_{n}": "da.cl{}_c{}_finance_iban_mod{}_remainder_{}",
+    "CL{n}_C{n}_FINANCE_VAT_GROSS_CENTS_ROUND_{n}": "da.cl{}_c{}_finance_vat_gross_cents_round_{}",
+    "CL{n}_C{n}_GEO_WEBMERCATOR_XTILE_FROM_LON_{n}": "da.cl{}_c{}_geo_webmercator_xtile_from_lon_{}",
+    "CL{n}_C{n}_GEO_WEBMERCATOR_YTILE_FROM_LAT_{n}": "da.cl{}_c{}_geo_webmercator_ytile_from_lat_{}",
+    "CL{n}_C{n}_LOGISTICS_ETA_DAYS_FROM_DISTANCE_{n}": "da.cl{}_c{}_logistics_eta_days_from_distance_{}",
+    "CL{n}_C{n}_LOGISTICS_VOLUMETRIC_WEIGHT_KG_{n}": "da.cl{}_c{}_logistics_volumetric_weight_kg_{}",
+    "CL{n}_C{n}_MEDIA_SCALED_HEIGHT_FROM_WIDTH_{n}": "da.cl{}_c{}_media_scaled_height_from_width_{}",
+    "CL{n}_C{n}_MEDIA_VIDEO_BITRATE_KBPS_{n}": "da.cl{}_c{}_media_video_bitrate_kbps_{}",
+    "CL{n}_C{n}_PRICING_STACKED_DISCOUNTS_CENTS_{n}": "da.cl{}_c{}_pricing_stacked_discounts_cents_{}",
+    "CL{n}_C{n}_SCHED_CRON_RUNS_IN_WINDOW_{n}": "da.cl{}_c{}_sched_cron_runs_in_window_{}",
+    "CL{n}_C{n}_SERDE_CSV_ROWS_FROM_BYTES_{n}": "da.cl{}_c{}_serde_csv_rows_from_bytes_{}",
+    "CL{n}_C{n}_SERDE_JSON_MINIFIED_BYTES_ESTIMATE_{n}": "da.cl{}_c{}_serde_json_minified_bytes_estimate_{}",
+    "CL{n}_C{n}_SUPPLY_SAFETY_STOCK_UNITS_{n}": "da.cl{}_c{}_supply_safety_stock_units_{}",
+    "CL{n}_C{n}_VALIDATION_LUHN_CHECK_DIGIT_{n}": "da.cl{}_c{}_validation_luhn_check_digit_{}",
+    "CL{n}_C{n}_WEB_SLUG_LENGTH_CAPPED_{n}": "da.cl{}_c{}_web_slug_length_capped_{}",
+    "CL{n}_C{n}_FHIR_BUNDLE_TOTAL_BYTES_{n}": "da.cl{}_c{}_fhir_bundle_total_bytes_{}",
+    "CL{n}_C{n}_GEOJSON_BBOX_AREA_KM{n}_ESTIMATE_{n}": "da.cl{}_c{}_geojson_bbox_area_km{}_estimate_{}",
+    "CL{n}_C{n}_GTFS_TRIPS_IN_WINDOW_{n}": "da.cl{}_c{}_gtfs_trips_in_window_{}",
+    "CL{n}_C{n}_HL{n}_SEGMENT_LENGTH_BYTES_ESTIMATE_{n}": "da.cl{}_c{}_hl{}_segment_length_bytes_estimate_{}",
+    "CL{n}_C{n}_FINANCE_CURRENCY_BASKET_TO_EUR_CENTS_{n}": "da.cl{}_c{}_finance_currency_basket_to_eur_cents_{}",
+    "CL{n}_C{n}_GRAPHQL_WINDOW_ITEMS_TOTAL_{n}": "da.cl{}_c{}_graphql_window_items_total_{}",
+    "CL{n}_C{n}_I{n}N_PLURAL_RULE_EN_ONE_FLAG_{n}": "da.cl{}_c{}_i{}n_plural_rule_en_one_flag_{}",
+    "CL{n}_C{n}_OPENAPI_OPERATIONS_COUNT_ESTIMATE_{n}": "da.cl{}_c{}_openapi_operations_count_estimate_{}",
+    "CL{n}_C{n}_PHONE_E{n}_LENGTH_WITH_PLUS_{n}": "da.cl{}_c{}_phone_e{}_length_with_plus_{}",
+    "CL{n}_C{n}_REGEX_GROUPS_COUNT_SIMPLIFIED_{n}": "da.cl{}_c{}_regex_groups_count_simplified_{}",
+    "CL{n}_C{n}_SEO_SITEMAP_FILES_NEEDED_{n}": "da.cl{}_c{}_seo_sitemap_files_needed_{}",
+    "CL{n}_C{n}_SERDE_CSV_QUOTES_ESCAPE_ADDED_CHARS_{n}": "da.cl{}_c{}_serde_csv_quotes_escape_added_chars_{}",
+    "CL{n}_C{n}_SERDE_YAML_INDENT_EXTRA_BYTES_{n}": "da.cl{}_c{}_serde_yaml_indent_extra_bytes_{}",
+    "CL{n}_C{n}_TIME_RFC{n}_DURATION_SECONDS_{n}": "da.cl{}_c{}_time_rfc{}_duration_seconds_{}",
+    "CL{n}_C{n}_TIME_TIMEZONE_OFFSET_MINUTES_{n}": "da.cl{}_c{}_time_timezone_offset_minutes_{}",
+    "CL{n}_C{n}_UNIT_CELSIUS_TO_FAHRENHEIT_FLOOR_{n}": "da.cl{}_c{}_unit_celsius_to_fahrenheit_floor_{}",
+    "CL{n}_C{n}_UNIT_KM_TO_MILES_FLOOR_{n}": "da.cl{}_c{}_unit_km_to_miles_floor_{}",
+    "CL{n}_C{n}_WEB_URL_JOIN_LENGTH_ESTIMATE_{n}": "da.cl{}_c{}_web_url_join_length_estimate_{}"
+  }
+}

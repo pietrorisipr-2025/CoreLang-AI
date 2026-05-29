@@ -1,0 +1,108 @@
+{
+  "block": "CoreLang5_Block1_LCF_core_primitives",
+  "version": "6.30R2",
+  "tokens": [
+    {
+      "sym": "lcf.if"
+    },
+    {
+      "sym": "lcf.elif"
+    },
+    {
+      "sym": "lcf.else"
+    },
+    {
+      "sym": "lcf.switch"
+    },
+    {
+      "sym": "lcf.case"
+    },
+    {
+      "sym": "lcf.default"
+    },
+    {
+      "sym": "lcf.for"
+    },
+    {
+      "sym": "lcf.foreach"
+    },
+    {
+      "sym": "lcf.while"
+    },
+    {
+      "sym": "lcf.do_while"
+    },
+    {
+      "sym": "lcf.break"
+    },
+    {
+      "sym": "lcf.continue"
+    },
+    {
+      "sym": "lcf.return"
+    },
+    {
+      "sym": "lcf.yield"
+    },
+    {
+      "sym": "lcf.await"
+    },
+    {
+      "sym": "lcf.async"
+    },
+    {
+      "sym": "lcf.try"
+    },
+    {
+      "sym": "lcf.catch"
+    },
+    {
+      "sym": "lcf.finally"
+    },
+    {
+      "sym": "lcf.throw"
+    },
+    {
+      "sym": "lcf.raise"
+    },
+    {
+      "sym": "lcf.assert"
+    },
+    {
+      "sym": "lcf.defer"
+    },
+    {
+      "sym": "lcf.with"
+    },
+    {
+      "sym": "lcf.match"
+    },
+    {
+      "sym": "lcf.guard"
+    },
+    {
+      "sym": "lcf.loop"
+    },
+    {
+      "sym": "lcf.repeat"
+    },
+    {
+      "sym": "lcf.until"
+    },
+    {
+      "sym": "lcf.function"
+    },
+    {
+      "sym": "lcf.lambda"
+    },
+    {
+      "sym": "lcf.macro"
+    },
+    {
+      "sym": "lcf.coroutine"
+    },
+    {
+      "sym": "lcf.generator"
+    }
+  ]
+}

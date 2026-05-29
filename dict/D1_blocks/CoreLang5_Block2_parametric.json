@@ -1,0 +1,797 @@
+{
+  "block": "CoreLang5_Block2_Math_and_Algebra",
+  "version": "6.30R3",
+  "parametric": [
+    {
+      "sym": "math.cl{}_binom_nck_n{}_k{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3",
+        "p4"
+      ],
+      "category": "algebra",
+      "template": "CL{n}_BINOM_NCK_N{n}_K{n}_{n}",
+      "freq": 321,
+      "op_id": 17369,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block2_Math_and_Algebra"
+    },
+    {
+      "sym": "math.cl{}_factorial_trailing_zeros_n{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3"
+      ],
+      "category": "polynomial",
+      "template": "CL{n}_FACTORIAL_TRAILING_ZEROS_N{n}_{n}",
+      "freq": 321,
+      "op_id": 4984,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block2_Math_and_Algebra"
+    },
+    {
+      "sym": "math.cl{}_gcd_gcd_x{}_y{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3",
+        "p4"
+      ],
+      "category": "number_theory",
+      "template": "CL{n}_GCD_GCD_X{n}_Y{n}_{n}",
+      "freq": 321,
+      "op_id": 60031,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block2_Math_and_Algebra"
+    },
+    {
+      "sym": "math.cl{}_geom_seq_sum_a{}_r{}_n{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3",
+        "p4",
+        "p5"
+      ],
+      "category": "algebra",
+      "template": "CL{n}_GEOM_SEQ_SUM_A{n}_R{n}_N{n}_{n}",
+      "freq": 321,
+      "op_id": 9229,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block2_Math_and_Algebra"
+    },
+    {
+      "sym": "math.cl{}_lcm_lcm_x{}_y{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3",
+        "p4"
+      ],
+      "category": "number_theory",
+      "template": "CL{n}_LCM_LCM_X{n}_Y{n}_{n}",
+      "freq": 321,
+      "op_id": 58099,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block2_Math_and_Algebra"
+    },
+    {
+      "sym": "math.cl{}_mod_add_a{}_b{}_m{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3",
+        "p4",
+        "p5"
+      ],
+      "category": "number_theory",
+      "template": "CL{n}_MOD_ADD_A{n}_B{n}_M{n}_{n}",
+      "freq": 321,
+      "op_id": 56339,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block2_Math_and_Algebra"
+    },
+    {
+      "sym": "math.cl{}_mod_mul_a{}_b{}_m{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3",
+        "p4",
+        "p5"
+      ],
+      "category": "number_theory",
+      "template": "CL{n}_MOD_MUL_A{n}_B{n}_M{n}_{n}",
+      "freq": 321,
+      "op_id": 55893,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block2_Math_and_Algebra"
+    },
+    {
+      "sym": "math.cl{}_mod_pow_a{}_b{}_m{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3",
+        "p4",
+        "p5"
+      ],
+      "category": "number_theory",
+      "template": "CL{n}_MOD_POW_A{n}_B{n}_M{n}_{n}",
+      "freq": 321,
+      "op_id": 42929,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block2_Math_and_Algebra"
+    },
+    {
+      "sym": "math.cl{}_bits_length_n{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3"
+      ],
+      "category": "algebra",
+      "template": "CL{n}_BITS_LENGTH_N{n}_{n}",
+      "freq": 320,
+      "op_id": 27006,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block2_Math_and_Algebra"
+    },
+    {
+      "sym": "math.cl{}_digits_base{}_n{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3",
+        "p4"
+      ],
+      "category": "algebra",
+      "template": "CL{n}_DIGITS_BASE{n}_N{n}_{n}",
+      "freq": 320,
+      "op_id": 23848,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block2_Math_and_Algebra"
+    },
+    {
+      "sym": "math.cl{}_perm_npk_n{}_k{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3",
+        "p4"
+      ],
+      "category": "algebra",
+      "template": "CL{n}_PERM_NPK_N{n}_K{n}_{n}",
+      "freq": 320,
+      "op_id": 38532,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block2_Math_and_Algebra"
+    },
+    {
+      "sym": "math.cl{}_digital_root_n{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3"
+      ],
+      "category": "polynomial",
+      "template": "CL{n}_DIGITAL_ROOT_N{n}_{n}",
+      "freq": 319,
+      "op_id": 49679,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block2_Math_and_Algebra"
+    },
+    {
+      "sym": "math.cl{}_divisors_count_n{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3"
+      ],
+      "category": "algebra",
+      "template": "CL{n}_DIVISORS_COUNT_N{n}_{n}",
+      "freq": 319,
+      "op_id": 13079,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block2_Math_and_Algebra"
+    },
+    {
+      "sym": "math.cl{}_floor_log_base_b{}_n{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3",
+        "p4"
+      ],
+      "category": "arithmetic",
+      "template": "CL{n}_FLOOR_LOG_BASE_B{n}_N{n}_{n}",
+      "freq": 319,
+      "op_id": 53668,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block2_Math_and_Algebra"
+    },
+    {
+      "sym": "math.cl{}_lattice_paths_r{}_c{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3",
+        "p4"
+      ],
+      "category": "algebra",
+      "template": "CL{n}_LATTICE_PATHS_R{n}_C{n}_{n}",
+      "freq": 319,
+      "op_id": 48083,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block2_Math_and_Algebra"
+    },
+    {
+      "sym": "math.cl{}_matrix_mul_ops_a{}x{}_{}x{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3",
+        "p4",
+        "p5",
+        "p6"
+      ],
+      "category": "linear_algebra",
+      "template": "CL{n}_MATRIX_MUL_OPS_A{n}X{n}_{n}X{n}_{n}",
+      "freq": 319,
+      "op_id": 64578,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block2_Math_and_Algebra"
+    },
+    {
+      "sym": "math.cl{}_mod_inverse_exists_a{}_m{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3",
+        "p4"
+      ],
+      "category": "number_theory",
+      "template": "CL{n}_MOD_INVERSE_EXISTS_A{n}_M{n}_{n}",
+      "freq": 319,
+      "op_id": 12015,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block2_Math_and_Algebra"
+    },
+    {
+      "sym": "math.cl{}_polygon_interior_angles_sum_n{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3"
+      ],
+      "category": "polynomial",
+      "template": "CL{n}_POLYGON_INTERIOR_ANGLES_SUM_N{n}_{n}",
+      "freq": 319,
+      "op_id": 53790,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block2_Math_and_Algebra"
+    },
+    {
+      "sym": "math.cl{}_sum_{}_to_n_n{}_{}",
+      "args": [
+        "sum"
+      ],
+      "category": "algebra",
+      "template": "CL{n}_SUM_{n}_TO_N_N{n}_{n}",
+      "freq": 319,
+      "op_id": 38001,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block2_Math_and_Algebra"
+    },
+    {
+      "sym": "math.cl{}_geom_seq_nth_a{}_r{}_n{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3",
+        "p4",
+        "p5"
+      ],
+      "category": "algebra",
+      "template": "CL{n}_GEOM_SEQ_NTH_A{n}_R{n}_N{n}_{n}",
+      "freq": 277,
+      "op_id": 58414,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block2_Math_and_Algebra"
+    },
+    {
+      "sym": "math.cl{}_quadratic_discriminant_a{}_b{}_c{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3",
+        "p4",
+        "p5"
+      ],
+      "category": "arithmetic",
+      "template": "CL{n}_QUADRATIC_DISCRIMINANT_A{n}_B{n}_C{n}_{n}",
+      "freq": 275,
+      "op_id": 29694,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block2_Math_and_Algebra"
+    },
+    {
+      "sym": "math.cl{}_arith_seq_sum_a{}_d{}_n{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3",
+        "p4",
+        "p5"
+      ],
+      "category": "algebra",
+      "template": "CL{n}_ARITH_SEQ_SUM_A{n}_D{n}_N{n}_{n}",
+      "freq": 274,
+      "op_id": 52662,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block2_Math_and_Algebra"
+    },
+    {
+      "sym": "math.cl{}_arith_seq_nth_a{}_d{}_n{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3",
+        "p4",
+        "p5"
+      ],
+      "category": "algebra",
+      "template": "CL{n}_ARITH_SEQ_NTH_A{n}_D{n}_N{n}_{n}",
+      "freq": 269,
+      "op_id": 60449,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block2_Math_and_Algebra"
+    },
+    {
+      "sym": "math.cl{}_diophantine_solvable_a{}_b{}_c{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3",
+        "p4",
+        "p5"
+      ],
+      "category": "algebra",
+      "template": "CL{n}_DIOPHANTINE_SOLVABLE_A{n}_B{n}_C{n}_{n}",
+      "freq": 263,
+      "op_id": 55529,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block2_Math_and_Algebra"
+    },
+    {
+      "sym": "math.cl{}_sum_range_l{}_r{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3",
+        "p4"
+      ],
+      "category": "algebra",
+      "template": "CL{n}_SUM_RANGE_L{n}_R{n}_{n}",
+      "freq": 257,
+      "op_id": 28578,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block2_Math_and_Algebra"
+    },
+    {
+      "sym": "math.cl{}_c{}_math_add_mod_{}",
+      "args": [
+        "mod"
+      ],
+      "category": "number_theory",
+      "template": "CL{n}_C{n}_MATH_ADD_MOD_{n}",
+      "freq": 250,
+      "op_id": 38825,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block2_Math_and_Algebra"
+    },
+    {
+      "sym": "math.cl{}_c{}_math_factorial_trailing_zeros_{}",
+      "args": [
+        "zeros"
+      ],
+      "category": "polynomial",
+      "template": "CL{n}_C{n}_MATH_FACTORIAL_TRAILING_ZEROS_{n}",
+      "freq": 250,
+      "op_id": 19567,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block2_Math_and_Algebra"
+    },
+    {
+      "sym": "math.cl{}_c{}_math_fib_mod_{}",
+      "args": [
+        "mod"
+      ],
+      "category": "number_theory",
+      "template": "CL{n}_C{n}_MATH_FIB_MOD_{n}",
+      "freq": 250,
+      "op_id": 20226,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block2_Math_and_Algebra"
+    },
+    {
+      "sym": "math.cl{}_c{}_math_gcd_euclid_{}",
+      "args": [
+        "euclid"
+      ],
+      "category": "number_theory",
+      "template": "CL{n}_C{n}_MATH_GCD_EUCLID_{n}",
+      "freq": 250,
+      "op_id": 4147,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block2_Math_and_Algebra"
+    },
+    {
+      "sym": "math.cl{}_c{}_math_lcm_from_gcd_{}",
+      "args": [
+        "gcd"
+      ],
+      "category": "number_theory",
+      "template": "CL{n}_C{n}_MATH_LCM_FROM_GCD_{n}",
+      "freq": 250,
+      "op_id": 17552,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block2_Math_and_Algebra"
+    },
+    {
+      "sym": "math.cl{}_c{}_math_n_choose_k_{}",
+      "args": [
+        "k"
+      ],
+      "category": "algebra",
+      "template": "CL{n}_C{n}_MATH_N_CHOOSE_K_{n}",
+      "freq": 250,
+      "op_id": 34334,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block2_Math_and_Algebra"
+    },
+    {
+      "sym": "math.cl{}_c{}_math_powmod_{}",
+      "args": [
+        "powmod"
+      ],
+      "category": "number_theory",
+      "template": "CL{n}_C{n}_MATH_POWMOD_{n}",
+      "freq": 250,
+      "op_id": 62557,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block2_Math_and_Algebra"
+    },
+    {
+      "sym": "math.cl{}_c{}_math_vec{}_l{}_squared_{}",
+      "args": [
+        "squared"
+      ],
+      "category": "algebra",
+      "template": "CL{n}_C{n}_MATH_VEC{n}_L{n}_SQUARED_{n}",
+      "freq": 250,
+      "op_id": 54070,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block2_Math_and_Algebra"
+    },
+    {
+      "sym": "math.cl{}_sum_range_l_{}_r_{}_{}",
+      "args": [
+        "l",
+        "r"
+      ],
+      "category": "algebra",
+      "template": "CL{n}_SUM_RANGE_L_{n}_R_{n}_{n}",
+      "freq": 62,
+      "op_id": 56491,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block2_Math_and_Algebra"
+    },
+    {
+      "sym": "math.cl{}_arith_seq_nth_a{}_{}_d_{}_n{}_{}",
+      "args": [
+        "d"
+      ],
+      "category": "algebra",
+      "template": "CL{n}_ARITH_SEQ_NTH_A{n}_{n}_D_{n}_N{n}_{n}",
+      "freq": 20,
+      "op_id": 52741,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block2_Math_and_Algebra"
+    },
+    {
+      "sym": "math.cl{}_arith_seq_nth_a{}_{}_d{}_n{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3",
+        "p4",
+        "p5",
+        "p6"
+      ],
+      "category": "algebra",
+      "template": "CL{n}_ARITH_SEQ_NTH_A{n}_{n}_D{n}_N{n}_{n}",
+      "freq": 20,
+      "op_id": 60446,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block2_Math_and_Algebra"
+    },
+    {
+      "sym": "math.cl{}_quadratic_discriminant_a{}_b_{}_c_{}_{}",
+      "args": [
+        "b",
+        "c"
+      ],
+      "category": "arithmetic",
+      "template": "CL{n}_QUADRATIC_DISCRIMINANT_A{n}_B_{n}_C_{n}_{n}",
+      "freq": 19,
+      "op_id": 27132,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block2_Math_and_Algebra"
+    },
+    {
+      "sym": "math.cl{}_arith_seq_sum_a{}_{}_d_{}_n{}_{}",
+      "args": [
+        "d"
+      ],
+      "category": "algebra",
+      "template": "CL{n}_ARITH_SEQ_SUM_A{n}_{n}_D_{n}_N{n}_{n}",
+      "freq": 17,
+      "op_id": 41009,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block2_Math_and_Algebra"
+    },
+    {
+      "sym": "math.cl{}_arith_seq_sum_a{}_d_{}_n{}_{}",
+      "args": [
+        "d"
+      ],
+      "category": "algebra",
+      "template": "CL{n}_ARITH_SEQ_SUM_A{n}_D_{n}_N{n}_{n}",
+      "freq": 15,
+      "op_id": 31303,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block2_Math_and_Algebra"
+    },
+    {
+      "sym": "math.cl{}_arith_seq_sum_a{}_{}_d{}_n{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3",
+        "p4",
+        "p5",
+        "p6"
+      ],
+      "category": "algebra",
+      "template": "CL{n}_ARITH_SEQ_SUM_A{n}_{n}_D{n}_N{n}_{n}",
+      "freq": 15,
+      "op_id": 50652,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block2_Math_and_Algebra"
+    },
+    {
+      "sym": "math.cl{}_geom_seq_nth_a{}_{}_r_{}_n{}_{}",
+      "args": [
+        "r"
+      ],
+      "category": "algebra",
+      "template": "CL{n}_GEOM_SEQ_NTH_A{n}_{n}_R_{n}_N{n}_{n}",
+      "freq": 15,
+      "op_id": 40087,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block2_Math_and_Algebra"
+    },
+    {
+      "sym": "math.cl{}_geom_seq_nth_a{}_{}_r{}_n{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3",
+        "p4",
+        "p5",
+        "p6"
+      ],
+      "category": "algebra",
+      "template": "CL{n}_GEOM_SEQ_NTH_A{n}_{n}_R{n}_N{n}_{n}",
+      "freq": 15,
+      "op_id": 12143,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block2_Math_and_Algebra"
+    },
+    {
+      "sym": "math.cl{}_geom_seq_nth_a{}_r_{}_n{}_{}",
+      "args": [
+        "r"
+      ],
+      "category": "algebra",
+      "template": "CL{n}_GEOM_SEQ_NTH_A{n}_R_{n}_N{n}_{n}",
+      "freq": 14,
+      "op_id": 609,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block2_Math_and_Algebra"
+    },
+    {
+      "sym": "math.cl{}_quadratic_discriminant_a{}_b{}_c_{}_{}",
+      "args": [
+        "c"
+      ],
+      "category": "arithmetic",
+      "template": "CL{n}_QUADRATIC_DISCRIMINANT_A{n}_B{n}_C_{n}_{n}",
+      "freq": 13,
+      "op_id": 55073,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block2_Math_and_Algebra"
+    },
+    {
+      "sym": "math.cl{}_arith_seq_nth_a{}_d_{}_n{}_{}",
+      "args": [
+        "d"
+      ],
+      "category": "algebra",
+      "template": "CL{n}_ARITH_SEQ_NTH_A{n}_D_{n}_N{n}_{n}",
+      "freq": 12,
+      "op_id": 64121,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block2_Math_and_Algebra"
+    },
+    {
+      "sym": "math.cl{}_diophantine_solvable_a_{}_b_{}_c_{}_{}",
+      "args": [
+        "a",
+        "b",
+        "c"
+      ],
+      "category": "algebra",
+      "template": "CL{n}_DIOPHANTINE_SOLVABLE_A_{n}_B_{n}_C_{n}_{n}",
+      "freq": 12,
+      "op_id": 29959,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block2_Math_and_Algebra"
+    },
+    {
+      "sym": "math.cl{}_quadratic_discriminant_a{}_b_{}_c{}_{}",
+      "args": [
+        "b"
+      ],
+      "category": "arithmetic",
+      "template": "CL{n}_QUADRATIC_DISCRIMINANT_A{n}_B_{n}_C{n}_{n}",
+      "freq": 12,
+      "op_id": 45687,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block2_Math_and_Algebra"
+    },
+    {
+      "sym": "math.cl{}_diophantine_solvable_a_{}_b_{}_c{}_{}",
+      "args": [
+        "a",
+        "b"
+      ],
+      "category": "algebra",
+      "template": "CL{n}_DIOPHANTINE_SOLVABLE_A_{n}_B_{n}_C{n}_{n}",
+      "freq": 10,
+      "op_id": 1893,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block2_Math_and_Algebra"
+    },
+    {
+      "sym": "math.cl{}_diophantine_solvable_a_{}_b{}_c_{}_{}",
+      "args": [
+        "a",
+        "c"
+      ],
+      "category": "algebra",
+      "template": "CL{n}_DIOPHANTINE_SOLVABLE_A_{n}_B{n}_C_{n}_{n}",
+      "freq": 9,
+      "op_id": 62478,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block2_Math_and_Algebra"
+    },
+    {
+      "sym": "math.cl{}_diophantine_solvable_a_{}_b{}_c{}_{}",
+      "args": [
+        "a"
+      ],
+      "category": "algebra",
+      "template": "CL{n}_DIOPHANTINE_SOLVABLE_A_{n}_B{n}_C{n}_{n}",
+      "freq": 9,
+      "op_id": 44807,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block2_Math_and_Algebra"
+    },
+    {
+      "sym": "math.cl{}_diophantine_solvable_a{}_b_{}_c_{}_{}",
+      "args": [
+        "b",
+        "c"
+      ],
+      "category": "algebra",
+      "template": "CL{n}_DIOPHANTINE_SOLVABLE_A{n}_B_{n}_C_{n}_{n}",
+      "freq": 6,
+      "op_id": 19724,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block2_Math_and_Algebra"
+    },
+    {
+      "sym": "math.cl{}_diophantine_solvable_a{}_b_{}_c{}_{}",
+      "args": [
+        "b"
+      ],
+      "category": "algebra",
+      "template": "CL{n}_DIOPHANTINE_SOLVABLE_A{n}_B_{n}_C{n}_{n}",
+      "freq": 5,
+      "op_id": 56428,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block2_Math_and_Algebra"
+    },
+    {
+      "sym": "math.cl{}_diophantine_solvable_a{}_b{}_c_{}_{}",
+      "args": [
+        "c"
+      ],
+      "category": "algebra",
+      "template": "CL{n}_DIOPHANTINE_SOLVABLE_A{n}_B{n}_C_{n}_{n}",
+      "freq": 5,
+      "op_id": 46431,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block2_Math_and_Algebra"
+    }
+  ],
+  "alias": {
+    "CL{n}_BINOM_NCK_N{n}_K{n}_{n}": "math.cl{}_binom_nck_n{}_k{}_{}",
+    "CL{n}_FACTORIAL_TRAILING_ZEROS_N{n}_{n}": "math.cl{}_factorial_trailing_zeros_n{}_{}",
+    "CL{n}_GCD_GCD_X{n}_Y{n}_{n}": "math.cl{}_gcd_gcd_x{}_y{}_{}",
+    "CL{n}_GEOM_SEQ_SUM_A{n}_R{n}_N{n}_{n}": "math.cl{}_geom_seq_sum_a{}_r{}_n{}_{}",
+    "CL{n}_LCM_LCM_X{n}_Y{n}_{n}": "math.cl{}_lcm_lcm_x{}_y{}_{}",
+    "CL{n}_MOD_ADD_A{n}_B{n}_M{n}_{n}": "math.cl{}_mod_add_a{}_b{}_m{}_{}",
+    "CL{n}_MOD_MUL_A{n}_B{n}_M{n}_{n}": "math.cl{}_mod_mul_a{}_b{}_m{}_{}",
+    "CL{n}_MOD_POW_A{n}_B{n}_M{n}_{n}": "math.cl{}_mod_pow_a{}_b{}_m{}_{}",
+    "CL{n}_BITS_LENGTH_N{n}_{n}": "math.cl{}_bits_length_n{}_{}",
+    "CL{n}_DIGITS_BASE{n}_N{n}_{n}": "math.cl{}_digits_base{}_n{}_{}",
+    "CL{n}_PERM_NPK_N{n}_K{n}_{n}": "math.cl{}_perm_npk_n{}_k{}_{}",
+    "CL{n}_DIGITAL_ROOT_N{n}_{n}": "math.cl{}_digital_root_n{}_{}",
+    "CL{n}_DIVISORS_COUNT_N{n}_{n}": "math.cl{}_divisors_count_n{}_{}",
+    "CL{n}_FLOOR_LOG_BASE_B{n}_N{n}_{n}": "math.cl{}_floor_log_base_b{}_n{}_{}",
+    "CL{n}_LATTICE_PATHS_R{n}_C{n}_{n}": "math.cl{}_lattice_paths_r{}_c{}_{}",
+    "CL{n}_MATRIX_MUL_OPS_A{n}X{n}_{n}X{n}_{n}": "math.cl{}_matrix_mul_ops_a{}x{}_{}x{}_{}",
+    "CL{n}_MOD_INVERSE_EXISTS_A{n}_M{n}_{n}": "math.cl{}_mod_inverse_exists_a{}_m{}_{}",
+    "CL{n}_POLYGON_INTERIOR_ANGLES_SUM_N{n}_{n}": "math.cl{}_polygon_interior_angles_sum_n{}_{}",
+    "CL{n}_SUM_{n}_TO_N_N{n}_{n}": "math.cl{}_sum_{}_to_n_n{}_{}",
+    "CL{n}_GEOM_SEQ_NTH_A{n}_R{n}_N{n}_{n}": "math.cl{}_geom_seq_nth_a{}_r{}_n{}_{}",
+    "CL{n}_QUADRATIC_DISCRIMINANT_A{n}_B{n}_C{n}_{n}": "math.cl{}_quadratic_discriminant_a{}_b{}_c{}_{}",
+    "CL{n}_ARITH_SEQ_SUM_A{n}_D{n}_N{n}_{n}": "math.cl{}_arith_seq_sum_a{}_d{}_n{}_{}",
+    "CL{n}_ARITH_SEQ_NTH_A{n}_D{n}_N{n}_{n}": "math.cl{}_arith_seq_nth_a{}_d{}_n{}_{}",
+    "CL{n}_DIOPHANTINE_SOLVABLE_A{n}_B{n}_C{n}_{n}": "math.cl{}_diophantine_solvable_a{}_b{}_c{}_{}",
+    "CL{n}_SUM_RANGE_L{n}_R{n}_{n}": "math.cl{}_sum_range_l{}_r{}_{}",
+    "CL{n}_C{n}_MATH_ADD_MOD_{n}": "math.cl{}_c{}_math_add_mod_{}",
+    "CL{n}_C{n}_MATH_FACTORIAL_TRAILING_ZEROS_{n}": "math.cl{}_c{}_math_factorial_trailing_zeros_{}",
+    "CL{n}_C{n}_MATH_FIB_MOD_{n}": "math.cl{}_c{}_math_fib_mod_{}",
+    "CL{n}_C{n}_MATH_GCD_EUCLID_{n}": "math.cl{}_c{}_math_gcd_euclid_{}",
+    "CL{n}_C{n}_MATH_LCM_FROM_GCD_{n}": "math.cl{}_c{}_math_lcm_from_gcd_{}",
+    "CL{n}_C{n}_MATH_N_CHOOSE_K_{n}": "math.cl{}_c{}_math_n_choose_k_{}",
+    "CL{n}_C{n}_MATH_POWMOD_{n}": "math.cl{}_c{}_math_powmod_{}",
+    "CL{n}_C{n}_MATH_VEC{n}_L{n}_SQUARED_{n}": "math.cl{}_c{}_math_vec{}_l{}_squared_{}",
+    "CL{n}_SUM_RANGE_L_{n}_R_{n}_{n}": "math.cl{}_sum_range_l_{}_r_{}_{}",
+    "CL{n}_ARITH_SEQ_NTH_A{n}_{n}_D_{n}_N{n}_{n}": "math.cl{}_arith_seq_nth_a{}_{}_d_{}_n{}_{}",
+    "CL{n}_ARITH_SEQ_NTH_A{n}_{n}_D{n}_N{n}_{n}": "math.cl{}_arith_seq_nth_a{}_{}_d{}_n{}_{}",
+    "CL{n}_QUADRATIC_DISCRIMINANT_A{n}_B_{n}_C_{n}_{n}": "math.cl{}_quadratic_discriminant_a{}_b_{}_c_{}_{}",
+    "CL{n}_ARITH_SEQ_SUM_A{n}_{n}_D_{n}_N{n}_{n}": "math.cl{}_arith_seq_sum_a{}_{}_d_{}_n{}_{}",
+    "CL{n}_ARITH_SEQ_SUM_A{n}_D_{n}_N{n}_{n}": "math.cl{}_arith_seq_sum_a{}_d_{}_n{}_{}",
+    "CL{n}_ARITH_SEQ_SUM_A{n}_{n}_D{n}_N{n}_{n}": "math.cl{}_arith_seq_sum_a{}_{}_d{}_n{}_{}",
+    "CL{n}_GEOM_SEQ_NTH_A{n}_{n}_R_{n}_N{n}_{n}": "math.cl{}_geom_seq_nth_a{}_{}_r_{}_n{}_{}",
+    "CL{n}_GEOM_SEQ_NTH_A{n}_{n}_R{n}_N{n}_{n}": "math.cl{}_geom_seq_nth_a{}_{}_r{}_n{}_{}",
+    "CL{n}_GEOM_SEQ_NTH_A{n}_R_{n}_N{n}_{n}": "math.cl{}_geom_seq_nth_a{}_r_{}_n{}_{}",
+    "CL{n}_QUADRATIC_DISCRIMINANT_A{n}_B{n}_C_{n}_{n}": "math.cl{}_quadratic_discriminant_a{}_b{}_c_{}_{}",
+    "CL{n}_ARITH_SEQ_NTH_A{n}_D_{n}_N{n}_{n}": "math.cl{}_arith_seq_nth_a{}_d_{}_n{}_{}",
+    "CL{n}_DIOPHANTINE_SOLVABLE_A_{n}_B_{n}_C_{n}_{n}": "math.cl{}_diophantine_solvable_a_{}_b_{}_c_{}_{}",
+    "CL{n}_QUADRATIC_DISCRIMINANT_A{n}_B_{n}_C{n}_{n}": "math.cl{}_quadratic_discriminant_a{}_b_{}_c{}_{}",
+    "CL{n}_DIOPHANTINE_SOLVABLE_A_{n}_B_{n}_C{n}_{n}": "math.cl{}_diophantine_solvable_a_{}_b_{}_c{}_{}",
+    "CL{n}_DIOPHANTINE_SOLVABLE_A_{n}_B{n}_C_{n}_{n}": "math.cl{}_diophantine_solvable_a_{}_b{}_c_{}_{}",
+    "CL{n}_DIOPHANTINE_SOLVABLE_A_{n}_B{n}_C{n}_{n}": "math.cl{}_diophantine_solvable_a_{}_b{}_c{}_{}",
+    "CL{n}_DIOPHANTINE_SOLVABLE_A{n}_B_{n}_C_{n}_{n}": "math.cl{}_diophantine_solvable_a{}_b_{}_c_{}_{}",
+    "CL{n}_DIOPHANTINE_SOLVABLE_A{n}_B_{n}_C{n}_{n}": "math.cl{}_diophantine_solvable_a{}_b_{}_c{}_{}",
+    "CL{n}_DIOPHANTINE_SOLVABLE_A{n}_B{n}_C_{n}_{n}": "math.cl{}_diophantine_solvable_a{}_b{}_c_{}_{}"
+  }
+}

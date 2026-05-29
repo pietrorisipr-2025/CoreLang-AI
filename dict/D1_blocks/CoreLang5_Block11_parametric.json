@@ -1,0 +1,729 @@
+{
+  "block": "CoreLang5_Block11_Crypto_Interop",
+  "version": "6.30R1",
+  "parametric": [
+    {
+      "sym": "crypto.cl{}_round_price_tick_p{}_t{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3",
+        "p4"
+      ],
+      "category": "crypto",
+      "op": "op",
+      "template": "CL{n}_ROUND_PRICE_TICK_P{n}_T{n}_{n}",
+      "freq": 334,
+      "op_id": 45665,
+      "capa_tags": [
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block11_Crypto_Interop"
+    },
+    {
+      "sym": "crypto.cl{}_units_erc{}_scale_units{}_d{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3",
+        "p4",
+        "p5"
+      ],
+      "category": "crypto",
+      "op": "op",
+      "template": "CL{n}_UNITS_ERC{n}_SCALE_UNITS{n}_D{n}_{n}",
+      "freq": 334,
+      "op_id": 47933,
+      "capa_tags": [
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block11_Crypto_Interop"
+    },
+    {
+      "sym": "crypto.cl{}_units_eth_gwei_to_wei_gwei{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3"
+      ],
+      "category": "crypto",
+      "op": "op",
+      "template": "CL{n}_UNITS_ETH_GWEI_TO_WEI_GWEI{n}_{n}",
+      "freq": 334,
+      "op_id": 37866,
+      "capa_tags": [
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block11_Crypto_Interop"
+    },
+    {
+      "sym": "crypto.cl{}_units_microxrp_to_drops_micro{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3"
+      ],
+      "category": "crypto",
+      "op": "op",
+      "template": "CL{n}_UNITS_MICROXRP_TO_DROPS_MICRO{n}_{n}",
+      "freq": 334,
+      "op_id": 56768,
+      "capa_tags": [
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block11_Crypto_Interop"
+    },
+    {
+      "sym": "crypto.cl{}_units_millisats_to_sats_msat{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3"
+      ],
+      "category": "crypto",
+      "op": "op",
+      "template": "CL{n}_UNITS_MILLISATS_TO_SATS_MSAT{n}_{n}",
+      "freq": 334,
+      "op_id": 45461,
+      "capa_tags": [
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block11_Crypto_Interop"
+    },
+    {
+      "sym": "crypto.cl{}_units_sol_micro_to_lamports_micro{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3"
+      ],
+      "category": "crypto",
+      "op": "op",
+      "template": "CL{n}_UNITS_SOL_MICRO_TO_LAMPORTS_MICRO{n}_{n}",
+      "freq": 334,
+      "op_id": 21138,
+      "capa_tags": [
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block11_Crypto_Interop"
+    },
+    {
+      "sym": "crypto.cl{}_addr_btc_base{}check_valid_v{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3",
+        "p4"
+      ],
+      "category": "crypto",
+      "op": "op",
+      "template": "CL{n}_ADDR_BTC_BASE{n}CHECK_VALID_V{n}_{n}",
+      "freq": 333,
+      "op_id": 35129,
+      "capa_tags": [
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block11_Crypto_Interop"
+    },
+    {
+      "sym": "crypto.cl{}_addr_sol_base{}_len{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3",
+        "p4"
+      ],
+      "category": "crypto",
+      "op": "op",
+      "template": "CL{n}_ADDR_SOL_BASE{n}_LEN{n}_{n}",
+      "freq": 333,
+      "op_id": 8987,
+      "capa_tags": [
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block11_Crypto_Interop"
+    },
+    {
+      "sym": "crypto.cl{}_auth_nonce_window_server{}_client{}_skew{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3",
+        "p4",
+        "p5"
+      ],
+      "category": "random_material",
+      "op": "op",
+      "template": "CL{n}_AUTH_NONCE_WINDOW_SERVER{n}_CLIENT{n}_SKEW{n}_{n}",
+      "freq": 333,
+      "op_id": 62433,
+      "capa_tags": [
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block11_Crypto_Interop"
+    },
+    {
+      "sym": "crypto.cl{}_fee_base_bps_qty{}_bps{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3",
+        "p4"
+      ],
+      "category": "crypto",
+      "op": "op",
+      "template": "CL{n}_FEE_BASE_BPS_QTY{n}_BPS{n}_{n}",
+      "freq": 333,
+      "op_id": 9408,
+      "capa_tags": [
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block11_Crypto_Interop"
+    },
+    {
+      "sym": "crypto.cl{}_paging_offset_n{}_p{}_k{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3",
+        "p4",
+        "p5"
+      ],
+      "category": "crypto",
+      "op": "op",
+      "template": "CL{n}_PAGING_OFFSET_N{n}_P{n}_K{n}_{n}",
+      "freq": 333,
+      "op_id": 49610,
+      "capa_tags": [
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block11_Crypto_Interop"
+    },
+    {
+      "sym": "crypto.cl{}_ratelimit_token_bucket_cap{}_rate{}_req{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3",
+        "p4",
+        "p5"
+      ],
+      "category": "crypto",
+      "op": "op",
+      "template": "CL{n}_RATELIMIT_TOKEN_BUCKET_CAP{n}_RATE{n}_REQ{n}_{n}",
+      "freq": 333,
+      "op_id": 14365,
+      "capa_tags": [
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block11_Crypto_Interop"
+    },
+    {
+      "sym": "crypto.cl{}_round_qty_lot_q{}_l{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3",
+        "p4"
+      ],
+      "category": "crypto",
+      "op": "op",
+      "template": "CL{n}_ROUND_QTY_LOT_Q{n}_L{n}_{n}",
+      "freq": 333,
+      "op_id": 13899,
+      "capa_tags": [
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block11_Crypto_Interop"
+    },
+    {
+      "sym": "crypto.cl{}_sign_hmac_hex_len_hmac_sha{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3"
+      ],
+      "category": "hash",
+      "op": "sign",
+      "template": "CL{n}_SIGN_HMAC_HEX_LEN_HMAC_SHA{n}_{n}",
+      "freq": 333,
+      "op_id": 2908,
+      "capa_tags": [
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block11_Crypto_Interop"
+    },
+    {
+      "sym": "crypto.cl{}_symbol_category_sol_eur_{}",
+      "args": [
+        "eur"
+      ],
+      "category": "crypto",
+      "op": "op",
+      "template": "CL{n}_SYMBOL_CATEGORY_SOL_EUR_{n}",
+      "freq": 333,
+      "op_id": 31291,
+      "capa_tags": [
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block11_Crypto_Interop"
+    },
+    {
+      "sym": "crypto.cl{}_ws_heartbeat_interval{}_elapsed{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3",
+        "p4"
+      ],
+      "category": "crypto",
+      "op": "op",
+      "template": "CL{n}_WS_HEARTBEAT_INTERVAL{n}_ELAPSED{n}_{n}",
+      "freq": 333,
+      "op_id": 7960,
+      "capa_tags": [
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block11_Crypto_Interop"
+    },
+    {
+      "sym": "crypto.cl{}_eip{}_string_to_sign_len_bytes_{}",
+      "args": [
+        "bytes"
+      ],
+      "category": "crypto",
+      "op": "sign",
+      "template": "CL{n}_EIP{n}_STRING_TO_SIGN_LEN_BYTES_{n}",
+      "freq": 286,
+      "op_id": 50948,
+      "capa_tags": [
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block11_Crypto_Interop"
+    },
+    {
+      "sym": "crypto.cl{}_precision_clamp_nano_to_decimals_{}",
+      "args": [
+        "decimals"
+      ],
+      "category": "crypto",
+      "op": "decrypt",
+      "template": "CL{n}_PRECISION_CLAMP_NANO_TO_DECIMALS_{n}",
+      "freq": 286,
+      "op_id": 17930,
+      "capa_tags": [
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block11_Crypto_Interop"
+    },
+    {
+      "sym": "crypto.cl{}_time_bucket_floor_ms_{}",
+      "args": [
+        "ms"
+      ],
+      "category": "crypto",
+      "op": "op",
+      "template": "CL{n}_TIME_BUCKET_FLOOR_MS_{n}",
+      "freq": 286,
+      "op_id": 43654,
+      "capa_tags": [
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block11_Crypto_Interop"
+    },
+    {
+      "sym": "crypto.cl{}_ws_backoff_full_jitter_attempts_{}",
+      "args": [
+        "attempts"
+      ],
+      "category": "crypto",
+      "op": "op",
+      "template": "CL{n}_WS_BACKOFF_FULL_JITTER_ATTEMPTS_{n}",
+      "freq": 286,
+      "op_id": 51741,
+      "capa_tags": [
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block11_Crypto_Interop"
+    },
+    {
+      "sym": "crypto.cl{}_xrp_destination_tag_{}bit_valid_{}",
+      "args": [
+        "tag",
+        "valid"
+      ],
+      "category": "random_material",
+      "op": "op",
+      "template": "CL{n}_XRP_DESTINATION_TAG_{n}BIT_VALID_{n}",
+      "freq": 286,
+      "op_id": 1949,
+      "capa_tags": [
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block11_Crypto_Interop"
+    },
+    {
+      "sym": "crypto.cl{}_evm_chain_id_category_{}",
+      "args": [
+        "category"
+      ],
+      "category": "crypto",
+      "op": "op",
+      "template": "CL{n}_EVM_CHAIN_ID_CATEGORY_{n}",
+      "freq": 285,
+      "op_id": 23815,
+      "capa_tags": [
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block11_Crypto_Interop"
+    },
+    {
+      "sym": "crypto.cl{}_http_idempotency_window_check_{}",
+      "args": [
+        "check"
+      ],
+      "category": "crypto",
+      "op": "encrypt",
+      "template": "CL{n}_HTTP_IDEMPOTENCY_WINDOW_CHECK_{n}",
+      "freq": 285,
+      "op_id": 4313,
+      "capa_tags": [
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block11_Crypto_Interop"
+    },
+    {
+      "sym": "crypto.cl{}_btc_bech{}_class_{}",
+      "args": [
+        "class"
+      ],
+      "category": "crypto",
+      "op": "op",
+      "template": "CL{n}_BTC_BECH{n}_CLASS_{n}",
+      "freq": 223,
+      "op_id": 24029,
+      "capa_tags": [
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block11_Crypto_Interop"
+    },
+    {
+      "sym": "crypto.cl{}_eth_eip{}_checksum_valid_{}",
+      "args": [
+        "valid"
+      ],
+      "category": "crypto",
+      "op": "op",
+      "template": "CL{n}_ETH_EIP{n}_CHECKSUM_VALID_{n}",
+      "freq": 223,
+      "op_id": 17529,
+      "capa_tags": [
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block11_Crypto_Interop"
+    },
+    {
+      "sym": "crypto.cl{}_candle_bucket_floor_{}",
+      "args": [
+        "floor"
+      ],
+      "category": "crypto",
+      "op": "op",
+      "template": "CL{n}_CANDLE_BUCKET_FLOOR_{n}",
+      "freq": 222,
+      "op_id": 33518,
+      "capa_tags": [
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block11_Crypto_Interop"
+    },
+    {
+      "sym": "crypto.cl{}_eip{}_total_fee_{}",
+      "args": [
+        "fee"
+      ],
+      "category": "crypto",
+      "op": "op",
+      "template": "CL{n}_EIP{n}_TOTAL_FEE_{n}",
+      "freq": 222,
+      "op_id": 19287,
+      "capa_tags": [
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block11_Crypto_Interop"
+    },
+    {
+      "sym": "crypto.cl{}_orderbook_checksum_crc{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3"
+      ],
+      "category": "formats",
+      "op": "op",
+      "template": "CL{n}_ORDERBOOK_CHECKSUM_CRC{n}_{n}",
+      "freq": 222,
+      "op_id": 50326,
+      "capa_tags": [
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block11_Crypto_Interop"
+    },
+    {
+      "sym": "crypto.cl{}_ratelimit_sliding_window_{}",
+      "args": [
+        "window"
+      ],
+      "category": "crypto",
+      "op": "op",
+      "template": "CL{n}_RATELIMIT_SLIDING_WINDOW_{n}",
+      "freq": 222,
+      "op_id": 6268,
+      "capa_tags": [
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block11_Crypto_Interop"
+    },
+    {
+      "sym": "crypto.cl{}_round_cascade_price_qty_fee_{}",
+      "args": [
+        "fee"
+      ],
+      "category": "crypto",
+      "op": "op",
+      "template": "CL{n}_ROUND_CASCADE_PRICE_QTY_FEE_{n}",
+      "freq": 222,
+      "op_id": 32877,
+      "capa_tags": [
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block11_Crypto_Interop"
+    },
+    {
+      "sym": "crypto.cl{}_sol_sig_len{}_base{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3",
+        "p4"
+      ],
+      "category": "crypto",
+      "op": "op",
+      "template": "CL{n}_SOL_SIG_LEN{n}_BASE{n}_{n}",
+      "freq": 222,
+      "op_id": 23890,
+      "capa_tags": [
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block11_Crypto_Interop"
+    },
+    {
+      "sym": "crypto.cl{}_symbol_canonicalize_{}",
+      "args": [
+        "canonicalize"
+      ],
+      "category": "crypto",
+      "op": "op",
+      "template": "CL{n}_SYMBOL_CANONICALIZE_{n}",
+      "freq": 222,
+      "op_id": 8364,
+      "capa_tags": [
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block11_Crypto_Interop"
+    },
+    {
+      "sym": "crypto.cl{}_rpc_method_category_eth_getblockbynumber_{}",
+      "args": [
+        "getblockbynumber"
+      ],
+      "category": "crypto",
+      "op": "op",
+      "template": "CL{n}_RPC_METHOD_CATEGORY_ETH_GETBLOCKBYNUMBER_{n}",
+      "freq": 84,
+      "op_id": 27715,
+      "capa_tags": [
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block11_Crypto_Interop"
+    },
+    {
+      "sym": "crypto.cl{}_rpc_method_category_getblockhash_{}",
+      "args": [
+        "getblockhash"
+      ],
+      "category": "crypto",
+      "op": "hash",
+      "template": "CL{n}_RPC_METHOD_CATEGORY_GETBLOCKHASH_{n}",
+      "freq": 83,
+      "op_id": 41906,
+      "capa_tags": [
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block11_Crypto_Interop"
+    },
+    {
+      "sym": "crypto.cl{}_rpc_method_category_getblockheight_{}",
+      "args": [
+        "getblockheight"
+      ],
+      "category": "crypto",
+      "op": "op",
+      "template": "CL{n}_RPC_METHOD_CATEGORY_GETBLOCKHEIGHT_{n}",
+      "freq": 83,
+      "op_id": 37752,
+      "capa_tags": [
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block11_Crypto_Interop"
+    },
+    {
+      "sym": "crypto.cl{}_rpc_method_category_ledger_{}",
+      "args": [
+        "ledger"
+      ],
+      "category": "crypto",
+      "op": "op",
+      "template": "CL{n}_RPC_METHOD_CATEGORY_LEDGER_{n}",
+      "freq": 83,
+      "op_id": 58667,
+      "capa_tags": [
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block11_Crypto_Interop"
+    },
+    {
+      "sym": "crypto.cl{}_finality_safe_btc_conf{}_thr{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3",
+        "p4"
+      ],
+      "category": "crypto",
+      "op": "op",
+      "template": "CL{n}_FINALITY_SAFE_BTC_CONF{n}_THR{n}_{n}",
+      "freq": 67,
+      "op_id": 39926,
+      "capa_tags": [
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block11_Crypto_Interop"
+    },
+    {
+      "sym": "crypto.cl{}_finality_safe_imx_conf{}_thr{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3",
+        "p4"
+      ],
+      "category": "crypto",
+      "op": "op",
+      "template": "CL{n}_FINALITY_SAFE_IMX_CONF{n}_THR{n}_{n}",
+      "freq": 67,
+      "op_id": 49154,
+      "capa_tags": [
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block11_Crypto_Interop"
+    },
+    {
+      "sym": "crypto.cl{}_finality_safe_sol_conf{}_thr{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3",
+        "p4"
+      ],
+      "category": "crypto",
+      "op": "op",
+      "template": "CL{n}_FINALITY_SAFE_SOL_CONF{n}_THR{n}_{n}",
+      "freq": 67,
+      "op_id": 51386,
+      "capa_tags": [
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block11_Crypto_Interop"
+    },
+    {
+      "sym": "crypto.cl{}_finality_safe_eth_conf{}_thr{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3",
+        "p4"
+      ],
+      "category": "crypto",
+      "op": "op",
+      "template": "CL{n}_FINALITY_SAFE_ETH_CONF{n}_THR{n}_{n}",
+      "freq": 66,
+      "op_id": 47442,
+      "capa_tags": [
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block11_Crypto_Interop"
+    },
+    {
+      "sym": "crypto.cl{}_finality_safe_xrp_conf{}_thr{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3",
+        "p4"
+      ],
+      "category": "crypto",
+      "op": "op",
+      "template": "CL{n}_FINALITY_SAFE_XRP_CONF{n}_THR{n}_{n}",
+      "freq": 66,
+      "op_id": 36847,
+      "capa_tags": [
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block11_Crypto_Interop"
+    }
+  ],
+  "alias": {
+    "CL{n}_ROUND_PRICE_TICK_P{n}_T{n}_{n}": "crypto.cl{}_round_price_tick_p{}_t{}_{}",
+    "CL{n}_UNITS_ERC{n}_SCALE_UNITS{n}_D{n}_{n}": "crypto.cl{}_units_erc{}_scale_units{}_d{}_{}",
+    "CL{n}_UNITS_ETH_GWEI_TO_WEI_GWEI{n}_{n}": "crypto.cl{}_units_eth_gwei_to_wei_gwei{}_{}",
+    "CL{n}_UNITS_MICROXRP_TO_DROPS_MICRO{n}_{n}": "crypto.cl{}_units_microxrp_to_drops_micro{}_{}",
+    "CL{n}_UNITS_MILLISATS_TO_SATS_MSAT{n}_{n}": "crypto.cl{}_units_millisats_to_sats_msat{}_{}",
+    "CL{n}_UNITS_SOL_MICRO_TO_LAMPORTS_MICRO{n}_{n}": "crypto.cl{}_units_sol_micro_to_lamports_micro{}_{}",
+    "CL{n}_ADDR_BTC_BASE{n}CHECK_VALID_V{n}_{n}": "crypto.cl{}_addr_btc_base{}check_valid_v{}_{}",
+    "CL{n}_ADDR_SOL_BASE{n}_LEN{n}_{n}": "crypto.cl{}_addr_sol_base{}_len{}_{}",
+    "CL{n}_AUTH_NONCE_WINDOW_SERVER{n}_CLIENT{n}_SKEW{n}_{n}": "crypto.cl{}_auth_nonce_window_server{}_client{}_skew{}_{}",
+    "CL{n}_FEE_BASE_BPS_QTY{n}_BPS{n}_{n}": "crypto.cl{}_fee_base_bps_qty{}_bps{}_{}",
+    "CL{n}_PAGING_OFFSET_N{n}_P{n}_K{n}_{n}": "crypto.cl{}_paging_offset_n{}_p{}_k{}_{}",
+    "CL{n}_RATELIMIT_TOKEN_BUCKET_CAP{n}_RATE{n}_REQ{n}_{n}": "crypto.cl{}_ratelimit_token_bucket_cap{}_rate{}_req{}_{}",
+    "CL{n}_ROUND_QTY_LOT_Q{n}_L{n}_{n}": "crypto.cl{}_round_qty_lot_q{}_l{}_{}",
+    "CL{n}_SIGN_HMAC_HEX_LEN_HMAC_SHA{n}_{n}": "crypto.cl{}_sign_hmac_hex_len_hmac_sha{}_{}",
+    "CL{n}_SYMBOL_CATEGORY_SOL_EUR_{n}": "crypto.cl{}_symbol_category_sol_eur_{}",
+    "CL{n}_WS_HEARTBEAT_INTERVAL{n}_ELAPSED{n}_{n}": "crypto.cl{}_ws_heartbeat_interval{}_elapsed{}_{}",
+    "CL{n}_EIP{n}_STRING_TO_SIGN_LEN_BYTES_{n}": "crypto.cl{}_eip{}_string_to_sign_len_bytes_{}",
+    "CL{n}_PRECISION_CLAMP_NANO_TO_DECIMALS_{n}": "crypto.cl{}_precision_clamp_nano_to_decimals_{}",
+    "CL{n}_TIME_BUCKET_FLOOR_MS_{n}": "crypto.cl{}_time_bucket_floor_ms_{}",
+    "CL{n}_WS_BACKOFF_FULL_JITTER_ATTEMPTS_{n}": "crypto.cl{}_ws_backoff_full_jitter_attempts_{}",
+    "CL{n}_XRP_DESTINATION_TAG_{n}BIT_VALID_{n}": "crypto.cl{}_xrp_destination_tag_{}bit_valid_{}",
+    "CL{n}_EVM_CHAIN_ID_CATEGORY_{n}": "crypto.cl{}_evm_chain_id_category_{}",
+    "CL{n}_HTTP_IDEMPOTENCY_WINDOW_CHECK_{n}": "crypto.cl{}_http_idempotency_window_check_{}",
+    "CL{n}_BTC_BECH{n}_CLASS_{n}": "crypto.cl{}_btc_bech{}_class_{}",
+    "CL{n}_ETH_EIP{n}_CHECKSUM_VALID_{n}": "crypto.cl{}_eth_eip{}_checksum_valid_{}",
+    "CL{n}_CANDLE_BUCKET_FLOOR_{n}": "crypto.cl{}_candle_bucket_floor_{}",
+    "CL{n}_EIP{n}_TOTAL_FEE_{n}": "crypto.cl{}_eip{}_total_fee_{}",
+    "CL{n}_ORDERBOOK_CHECKSUM_CRC{n}_{n}": "crypto.cl{}_orderbook_checksum_crc{}_{}",
+    "CL{n}_RATELIMIT_SLIDING_WINDOW_{n}": "crypto.cl{}_ratelimit_sliding_window_{}",
+    "CL{n}_ROUND_CASCADE_PRICE_QTY_FEE_{n}": "crypto.cl{}_round_cascade_price_qty_fee_{}",
+    "CL{n}_SOL_SIG_LEN{n}_BASE{n}_{n}": "crypto.cl{}_sol_sig_len{}_base{}_{}",
+    "CL{n}_SYMBOL_CANONICALIZE_{n}": "crypto.cl{}_symbol_canonicalize_{}",
+    "CL{n}_RPC_METHOD_CATEGORY_ETH_GETBLOCKBYNUMBER_{n}": "crypto.cl{}_rpc_method_category_eth_getblockbynumber_{}",
+    "CL{n}_RPC_METHOD_CATEGORY_GETBLOCKHASH_{n}": "crypto.cl{}_rpc_method_category_getblockhash_{}",
+    "CL{n}_RPC_METHOD_CATEGORY_GETBLOCKHEIGHT_{n}": "crypto.cl{}_rpc_method_category_getblockheight_{}",
+    "CL{n}_RPC_METHOD_CATEGORY_LEDGER_{n}": "crypto.cl{}_rpc_method_category_ledger_{}",
+    "CL{n}_FINALITY_SAFE_BTC_CONF{n}_THR{n}_{n}": "crypto.cl{}_finality_safe_btc_conf{}_thr{}_{}",
+    "CL{n}_FINALITY_SAFE_IMX_CONF{n}_THR{n}_{n}": "crypto.cl{}_finality_safe_imx_conf{}_thr{}_{}",
+    "CL{n}_FINALITY_SAFE_SOL_CONF{n}_THR{n}_{n}": "crypto.cl{}_finality_safe_sol_conf{}_thr{}_{}",
+    "CL{n}_FINALITY_SAFE_ETH_CONF{n}_THR{n}_{n}": "crypto.cl{}_finality_safe_eth_conf{}_thr{}_{}",
+    "CL{n}_FINALITY_SAFE_XRP_CONF{n}_THR{n}_{n}": "crypto.cl{}_finality_safe_xrp_conf{}_thr{}_{}"
+  }
+}

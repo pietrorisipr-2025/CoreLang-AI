@@ -1,0 +1,570 @@
+{
+  "block": "CoreLang5_Block3_Data_Structures",
+  "version": "6.30R1",
+  "parametric": [
+    {
+      "sym": "ds.cl{}_bloom_fp_rate_pct_m{}_n{}_k{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3",
+        "p4",
+        "p5"
+      ],
+      "category": "associative",
+      "op": "op",
+      "template": "CL{n}_BLOOM_FP_RATE_PCT_M{n}_N{n}_K{n}_{n}",
+      "freq": 369,
+      "op_id": 2442,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block3_Data_Structures"
+    },
+    {
+      "sym": "ds.cl{}_bloom_optimal_k_m{}_n{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3",
+        "p4"
+      ],
+      "category": "associative",
+      "op": "op",
+      "template": "CL{n}_BLOOM_OPTIMAL_K_M{n}_N{n}_{n}",
+      "freq": 369,
+      "op_id": 44954,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block3_Data_Structures"
+    },
+    {
+      "sym": "ds.cl{}_bplustree_leaf_capacity_p{}_k{}_ptr{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3",
+        "p4",
+        "p5"
+      ],
+      "category": "tree",
+      "op": "resize",
+      "template": "CL{n}_BPLUSTREE_LEAF_CAPACITY_P{n}_K{n}_PTR{n}_{n}",
+      "freq": 369,
+      "op_id": 64336,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block3_Data_Structures"
+    },
+    {
+      "sym": "ds.cl{}_btree_max_keys_p{}_k{}_ptr{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3",
+        "p4",
+        "p5"
+      ],
+      "category": "tree",
+      "op": "op",
+      "template": "CL{n}_BTREE_MAX_KEYS_P{n}_K{n}_PTR{n}_{n}",
+      "freq": 369,
+      "op_id": 39780,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block3_Data_Structures"
+    },
+    {
+      "sym": "ds.cl{}_btree_min_keys_nonroot_t{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3"
+      ],
+      "category": "tree",
+      "op": "op",
+      "template": "CL{n}_BTREE_MIN_KEYS_NONROOT_T{n}_{n}",
+      "freq": 369,
+      "op_id": 53495,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block3_Data_Structures"
+    },
+    {
+      "sym": "ds.cl{}_dynarray_resizes_for_pushes_n{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3"
+      ],
+      "category": "linear",
+      "op": "insert",
+      "template": "CL{n}_DYNARRAY_RESIZES_FOR_PUSHES_N{n}_{n}",
+      "freq": 369,
+      "op_id": 18532,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block3_Data_Structures"
+    },
+    {
+      "sym": "ds.cl{}_dynarray_total_moves_for_pushes_n{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3"
+      ],
+      "category": "linear",
+      "op": "insert",
+      "template": "CL{n}_DYNARRAY_TOTAL_MOVES_FOR_PUSHES_N{n}_{n}",
+      "freq": 369,
+      "op_id": 26667,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block3_Data_Structures"
+    },
+    {
+      "sym": "ds.cl{}_skiplist_max_level_n{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3"
+      ],
+      "category": "linear",
+      "op": "op",
+      "template": "CL{n}_SKIPLIST_MAX_LEVEL_N{n}_{n}",
+      "freq": 369,
+      "op_id": 56467,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block3_Data_Structures"
+    },
+    {
+      "sym": "ds.cl{}_bitset_storage_aligned{}b_n{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3",
+        "p4"
+      ],
+      "category": "associative",
+      "op": "update",
+      "template": "CL{n}_BITSET_STORAGE_ALIGNED{n}B_N{n}_{n}",
+      "freq": 368,
+      "op_id": 54026,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block3_Data_Structures"
+    },
+    {
+      "sym": "ds.cl{}_bitset_storage_bytes_n{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3"
+      ],
+      "category": "associative",
+      "op": "update",
+      "template": "CL{n}_BITSET_STORAGE_BYTES_N{n}_{n}",
+      "freq": 368,
+      "op_id": 43496,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block3_Data_Structures"
+    },
+    {
+      "sym": "ds.cl{}_fenwick_parent_index_x{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3"
+      ],
+      "category": "disjoint_set",
+      "op": "op",
+      "template": "CL{n}_FENWICK_PARENT_INDEX_X{n}_{n}",
+      "freq": 368,
+      "op_id": 18443,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block3_Data_Structures"
+    },
+    {
+      "sym": "ds.cl{}_fenwick_prefix_steps_x{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3"
+      ],
+      "category": "generic",
+      "op": "op",
+      "template": "CL{n}_FENWICK_PREFIX_STEPS_X{n}_{n}",
+      "freq": 368,
+      "op_id": 52223,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block3_Data_Structures"
+    },
+    {
+      "sym": "ds.cl{}_hash_openaddr_probe_cap{}_start{}_t{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3",
+        "p4",
+        "p5"
+      ],
+      "category": "associative",
+      "op": "insert",
+      "template": "CL{n}_HASH_OPENADDR_PROBE_CAP{n}_START{n}_T{n}_{n}",
+      "freq": 368,
+      "op_id": 20464,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block3_Data_Structures"
+    },
+    {
+      "sym": "ds.cl{}_hash_openaddr_steps_to_empty_cap{}_d{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3",
+        "p4"
+      ],
+      "category": "associative",
+      "op": "insert",
+      "template": "CL{n}_HASH_OPENADDR_STEPS_TO_EMPTY_CAP{n}_D{n}_{n}",
+      "freq": 368,
+      "op_id": 45814,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block3_Data_Structures"
+    },
+    {
+      "sym": "ds.cl{}_segtree_size_nodes_n{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3"
+      ],
+      "category": "tree",
+      "op": "op",
+      "template": "CL{n}_SEGTREE_SIZE_NODES_N{n}_{n}",
+      "freq": 368,
+      "op_id": 55502,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block3_Data_Structures"
+    },
+    {
+      "sym": "ds.cl{}_skiplist_expected_pointers_n{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3"
+      ],
+      "category": "linear",
+      "op": "op",
+      "template": "CL{n}_SKIPLIST_EXPECTED_POINTERS_N{n}_{n}",
+      "freq": 368,
+      "op_id": 58767,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block3_Data_Structures"
+    },
+    {
+      "sym": "ds.cl{}_sparsetable_cells_n{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3"
+      ],
+      "category": "associative",
+      "op": "update",
+      "template": "CL{n}_SPARSETABLE_CELLS_N{n}_{n}",
+      "freq": 368,
+      "op_id": 39514,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block3_Data_Structures"
+    },
+    {
+      "sym": "ds.cl{}_sparsetable_intervals_n{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3"
+      ],
+      "category": "associative",
+      "op": "update",
+      "template": "CL{n}_SPARSETABLE_INTERVALS_N{n}_{n}",
+      "freq": 368,
+      "op_id": 36182,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block3_Data_Structures"
+    },
+    {
+      "sym": "ds.cl{}_trie_naive_array_mem_sigma{}_n{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3",
+        "p4"
+      ],
+      "category": "linear",
+      "op": "op",
+      "template": "CL{n}_TRIE_NAIVE_ARRAY_MEM_SIGMA{n}_N{n}_{n}",
+      "freq": 368,
+      "op_id": 1016,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block3_Data_Structures"
+    },
+    {
+      "sym": "ds.cl{}_array_valid_index_count_n{}_l{}_r{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3",
+        "p4",
+        "p5"
+      ],
+      "category": "linear",
+      "op": "op",
+      "template": "CL{n}_ARRAY_VALID_INDEX_COUNT_N{n}_L{n}_R{n}_{n}",
+      "freq": 358,
+      "op_id": 28921,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block3_Data_Structures"
+    },
+    {
+      "sym": "ds.cl{}_stack_size_after_push{}_pop{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3",
+        "p4"
+      ],
+      "category": "queueing",
+      "op": "insert",
+      "template": "CL{n}_STACK_SIZE_AFTER_PUSH{n}_POP{n}_{n}",
+      "freq": 358,
+      "op_id": 5811,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block3_Data_Structures"
+    },
+    {
+      "sym": "ds.cl{}_adjlist_undirected_entries_n{}_m{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3",
+        "p4"
+      ],
+      "category": "linear",
+      "op": "op",
+      "template": "CL{n}_ADJLIST_UNDIRECTED_ENTRIES_N{n}_M{n}_{n}",
+      "freq": 357,
+      "op_id": 55368,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block3_Data_Structures"
+    },
+    {
+      "sym": "ds.cl{}_bitset_popcount_set{}_clr{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3",
+        "p4"
+      ],
+      "category": "associative",
+      "op": "remove",
+      "template": "CL{n}_BITSET_POPCOUNT_SET{n}_CLR{n}_{n}",
+      "freq": 357,
+      "op_id": 55075,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block3_Data_Structures"
+    },
+    {
+      "sym": "ds.cl{}_bst_inorder_pred_index_n{}_i{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3",
+        "p4"
+      ],
+      "category": "tree",
+      "op": "op",
+      "template": "CL{n}_BST_INORDER_PRED_INDEX_N{n}_I{n}_{n}",
+      "freq": 357,
+      "op_id": 12158,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block3_Data_Structures"
+    },
+    {
+      "sym": "ds.cl{}_circq_head_index_c{}_e{}_d{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3",
+        "p4",
+        "p5"
+      ],
+      "category": "generic",
+      "op": "op",
+      "template": "CL{n}_CIRCQ_HEAD_INDEX_C{n}_E{n}_D{n}_{n}",
+      "freq": 357,
+      "op_id": 13766,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block3_Data_Structures"
+    },
+    {
+      "sym": "ds.cl{}_deque_final_size_pf{}_pb{}_popf{}_popb{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3",
+        "p4",
+        "p5",
+        "p6"
+      ],
+      "category": "linear",
+      "op": "remove",
+      "template": "CL{n}_DEQUE_FINAL_SIZE_PF{n}_PB{n}_POPF{n}_POPB{n}_{n}",
+      "freq": 357,
+      "op_id": 59976,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block3_Data_Structures"
+    },
+    {
+      "sym": "ds.cl{}_deque_physical_index_c{}_f{}_s{}_j{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3",
+        "p4",
+        "p5",
+        "p6"
+      ],
+      "category": "linear",
+      "op": "op",
+      "template": "CL{n}_DEQUE_PHYSICAL_INDEX_C{n}_F{n}_S{n}_J{n}_{n}",
+      "freq": 357,
+      "op_id": 32883,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block3_Data_Structures"
+    },
+    {
+      "sym": "ds.cl{}_fenwick_lsb_x{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3"
+      ],
+      "category": "generic",
+      "op": "op",
+      "template": "CL{n}_FENWICK_LSB_X{n}_{n}",
+      "freq": 357,
+      "op_id": 33326,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block3_Data_Structures"
+    },
+    {
+      "sym": "ds.cl{}_hash_ap_collisions_m{}_step{}_n{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3",
+        "p4",
+        "p5"
+      ],
+      "category": "associative",
+      "op": "op",
+      "template": "CL{n}_HASH_AP_COLLISIONS_M{n}_STEP{n}_N{n}_{n}",
+      "freq": 357,
+      "op_id": 50673,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block3_Data_Structures"
+    },
+    {
+      "sym": "ds.cl{}_hash_load_factor_pct_n{}_cap{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3",
+        "p4"
+      ],
+      "category": "associative",
+      "op": "op",
+      "template": "CL{n}_HASH_LOAD_FACTOR_PCT_N{n}_CAP{n}_{n}",
+      "freq": 357,
+      "op_id": 49796,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block3_Data_Structures"
+    },
+    {
+      "sym": "ds.cl{}_hash_resize_check_n{}_cap{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3",
+        "p4"
+      ],
+      "category": "associative",
+      "op": "resize",
+      "template": "CL{n}_HASH_RESIZE_CHECK_N{n}_CAP{n}_{n}",
+      "freq": 357,
+      "op_id": 17731,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block3_Data_Structures"
+    },
+    {
+      "sym": "ds.cl{}_heap_kary_children_k{}_n{}_i{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3",
+        "p4",
+        "p5"
+      ],
+      "category": "queueing",
+      "op": "op",
+      "template": "CL{n}_HEAP_KARY_CHILDREN_K{n}_N{n}_I{n}_{n}",
+      "freq": 357,
+      "op_id": 1981,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block3_Data_Structures"
+    },
+    {
+      "sym": "ds.cl{}_trie_nodes_common_prefix_m{}_p{}_s{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3",
+        "p4",
+        "p5"
+      ],
+      "category": "tree",
+      "op": "op",
+      "template": "CL{n}_TRIE_NODES_COMMON_PREFIX_M{n}_P{n}_S{n}_{n}",
+      "freq": 357,
+      "op_id": 61698,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block3_Data_Structures"
+    }
+  ],
+  "alias": {
+    "CL{n}_BLOOM_FP_RATE_PCT_M{n}_N{n}_K{n}_{n}": "ds.cl{}_bloom_fp_rate_pct_m{}_n{}_k{}_{}",
+    "CL{n}_BLOOM_OPTIMAL_K_M{n}_N{n}_{n}": "ds.cl{}_bloom_optimal_k_m{}_n{}_{}",
+    "CL{n}_BPLUSTREE_LEAF_CAPACITY_P{n}_K{n}_PTR{n}_{n}": "ds.cl{}_bplustree_leaf_capacity_p{}_k{}_ptr{}_{}",
+    "CL{n}_BTREE_MAX_KEYS_P{n}_K{n}_PTR{n}_{n}": "ds.cl{}_btree_max_keys_p{}_k{}_ptr{}_{}",
+    "CL{n}_BTREE_MIN_KEYS_NONROOT_T{n}_{n}": "ds.cl{}_btree_min_keys_nonroot_t{}_{}",
+    "CL{n}_DYNARRAY_RESIZES_FOR_PUSHES_N{n}_{n}": "ds.cl{}_dynarray_resizes_for_pushes_n{}_{}",
+    "CL{n}_DYNARRAY_TOTAL_MOVES_FOR_PUSHES_N{n}_{n}": "ds.cl{}_dynarray_total_moves_for_pushes_n{}_{}",
+    "CL{n}_SKIPLIST_MAX_LEVEL_N{n}_{n}": "ds.cl{}_skiplist_max_level_n{}_{}",
+    "CL{n}_BITSET_STORAGE_ALIGNED{n}B_N{n}_{n}": "ds.cl{}_bitset_storage_aligned{}b_n{}_{}",
+    "CL{n}_BITSET_STORAGE_BYTES_N{n}_{n}": "ds.cl{}_bitset_storage_bytes_n{}_{}",
+    "CL{n}_FENWICK_PARENT_INDEX_X{n}_{n}": "ds.cl{}_fenwick_parent_index_x{}_{}",
+    "CL{n}_FENWICK_PREFIX_STEPS_X{n}_{n}": "ds.cl{}_fenwick_prefix_steps_x{}_{}",
+    "CL{n}_HASH_OPENADDR_PROBE_CAP{n}_START{n}_T{n}_{n}": "ds.cl{}_hash_openaddr_probe_cap{}_start{}_t{}_{}",
+    "CL{n}_HASH_OPENADDR_STEPS_TO_EMPTY_CAP{n}_D{n}_{n}": "ds.cl{}_hash_openaddr_steps_to_empty_cap{}_d{}_{}",
+    "CL{n}_SEGTREE_SIZE_NODES_N{n}_{n}": "ds.cl{}_segtree_size_nodes_n{}_{}",
+    "CL{n}_SKIPLIST_EXPECTED_POINTERS_N{n}_{n}": "ds.cl{}_skiplist_expected_pointers_n{}_{}",
+    "CL{n}_SPARSETABLE_CELLS_N{n}_{n}": "ds.cl{}_sparsetable_cells_n{}_{}",
+    "CL{n}_SPARSETABLE_INTERVALS_N{n}_{n}": "ds.cl{}_sparsetable_intervals_n{}_{}",
+    "CL{n}_TRIE_NAIVE_ARRAY_MEM_SIGMA{n}_N{n}_{n}": "ds.cl{}_trie_naive_array_mem_sigma{}_n{}_{}",
+    "CL{n}_ARRAY_VALID_INDEX_COUNT_N{n}_L{n}_R{n}_{n}": "ds.cl{}_array_valid_index_count_n{}_l{}_r{}_{}",
+    "CL{n}_STACK_SIZE_AFTER_PUSH{n}_POP{n}_{n}": "ds.cl{}_stack_size_after_push{}_pop{}_{}",
+    "CL{n}_ADJLIST_UNDIRECTED_ENTRIES_N{n}_M{n}_{n}": "ds.cl{}_adjlist_undirected_entries_n{}_m{}_{}",
+    "CL{n}_BITSET_POPCOUNT_SET{n}_CLR{n}_{n}": "ds.cl{}_bitset_popcount_set{}_clr{}_{}",
+    "CL{n}_BST_INORDER_PRED_INDEX_N{n}_I{n}_{n}": "ds.cl{}_bst_inorder_pred_index_n{}_i{}_{}",
+    "CL{n}_CIRCQ_HEAD_INDEX_C{n}_E{n}_D{n}_{n}": "ds.cl{}_circq_head_index_c{}_e{}_d{}_{}",
+    "CL{n}_DEQUE_FINAL_SIZE_PF{n}_PB{n}_POPF{n}_POPB{n}_{n}": "ds.cl{}_deque_final_size_pf{}_pb{}_popf{}_popb{}_{}",
+    "CL{n}_DEQUE_PHYSICAL_INDEX_C{n}_F{n}_S{n}_J{n}_{n}": "ds.cl{}_deque_physical_index_c{}_f{}_s{}_j{}_{}",
+    "CL{n}_FENWICK_LSB_X{n}_{n}": "ds.cl{}_fenwick_lsb_x{}_{}",
+    "CL{n}_HASH_AP_COLLISIONS_M{n}_STEP{n}_N{n}_{n}": "ds.cl{}_hash_ap_collisions_m{}_step{}_n{}_{}",
+    "CL{n}_HASH_LOAD_FACTOR_PCT_N{n}_CAP{n}_{n}": "ds.cl{}_hash_load_factor_pct_n{}_cap{}_{}",
+    "CL{n}_HASH_RESIZE_CHECK_N{n}_CAP{n}_{n}": "ds.cl{}_hash_resize_check_n{}_cap{}_{}",
+    "CL{n}_HEAP_KARY_CHILDREN_K{n}_N{n}_I{n}_{n}": "ds.cl{}_heap_kary_children_k{}_n{}_i{}_{}",
+    "CL{n}_TRIE_NODES_COMMON_PREFIX_M{n}_P{n}_S{n}_{n}": "ds.cl{}_trie_nodes_common_prefix_m{}_p{}_s{}_{}"
+  }
+}

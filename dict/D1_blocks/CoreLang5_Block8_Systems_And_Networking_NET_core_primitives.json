@@ -1,0 +1,90 @@
+{
+  "block": "CoreLang5_Block8_Systems_And_Networking_NET_core_primitives",
+  "version": "6.30R1",
+  "tokens": [
+    {
+      "sym": "net.socket_create"
+    },
+    {
+      "sym": "net.bind"
+    },
+    {
+      "sym": "net.listen"
+    },
+    {
+      "sym": "net.accept"
+    },
+    {
+      "sym": "net.connect"
+    },
+    {
+      "sym": "net.close"
+    },
+    {
+      "sym": "net.send"
+    },
+    {
+      "sym": "net.recv"
+    },
+    {
+      "sym": "net.sendmsg"
+    },
+    {
+      "sym": "net.recvmsg"
+    },
+    {
+      "sym": "net.setsockopt"
+    },
+    {
+      "sym": "net.getsockopt"
+    },
+    {
+      "sym": "net.tcp"
+    },
+    {
+      "sym": "net.udp"
+    },
+    {
+      "sym": "net.quic"
+    },
+    {
+      "sym": "net.http"
+    },
+    {
+      "sym": "net.http2"
+    },
+    {
+      "sym": "net.http3"
+    },
+    {
+      "sym": "net.tls_handshake"
+    },
+    {
+      "sym": "net.dns_query"
+    },
+    {
+      "sym": "net.icmp_ping"
+    },
+    {
+      "sym": "net.route_add"
+    },
+    {
+      "sym": "net.route_del"
+    },
+    {
+      "sym": "net.nat_enable"
+    },
+    {
+      "sym": "net.firewall_rule"
+    },
+    {
+      "sym": "net.keepalive_enable"
+    },
+    {
+      "sym": "net.congestion_cubic"
+    },
+    {
+      "sym": "net.pacing_enable"
+    }
+  ]
+}

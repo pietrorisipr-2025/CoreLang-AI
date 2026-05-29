@@ -1,0 +1,373 @@
+{
+  "block": "CoreLang5_Block24_Safety_And_Policy",
+  "version": "6.30R1",
+  "parametric": [
+    {
+      "sym": "safety.guardrail_set",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "safety",
+      "op": "set",
+      "template": "safety.guardrail_set_{}",
+      "freq": 1,
+      "op_id": 17579,
+      "capa_tags": [
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block24_Safety_And_Policy",
+      "idempotent": false,
+      "side_effect": "write",
+      "stability": "stable",
+      "wire_cost_hint": 2,
+      "depends_on": [
+        "MIC1"
+      ]
+    },
+    {
+      "sym": "safety.violation_report",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "safety",
+      "op": "report",
+      "template": "safety.violation_report_{}",
+      "freq": 1,
+      "op_id": 24564,
+      "capa_tags": [
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block24_Safety_And_Policy",
+      "idempotent": false,
+      "side_effect": "none",
+      "stability": "stable",
+      "wire_cost_hint": 2,
+      "depends_on": [
+        "MIC1"
+      ]
+    },
+    {
+      "sym": "safety.rate_limit",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "safety",
+      "op": "limit",
+      "template": "safety.rate_limit_{}",
+      "freq": 1,
+      "op_id": 54485,
+      "capa_tags": [
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block24_Safety_And_Policy",
+      "idempotent": false,
+      "side_effect": "write",
+      "stability": "stable",
+      "wire_cost_hint": 2,
+      "depends_on": [
+        "MIC1"
+      ]
+    },
+    {
+      "sym": "safety.sandbox",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "safety",
+      "op": "mode",
+      "template": "safety.sandbox_{}",
+      "freq": 1,
+      "op_id": 58595,
+      "capa_tags": [
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block24_Safety_And_Policy",
+      "idempotent": false,
+      "side_effect": "none",
+      "stability": "stable",
+      "wire_cost_hint": 2,
+      "depends_on": [
+        "MIC1"
+      ]
+    },
+    {
+      "sym": "safety.quarantine",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "safety",
+      "op": "isolate",
+      "template": "safety.quarantine_{}",
+      "freq": 1,
+      "op_id": 1974,
+      "capa_tags": [
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block24_Safety_And_Policy",
+      "idempotent": false,
+      "side_effect": "none",
+      "stability": "stable",
+      "wire_cost_hint": 2,
+      "depends_on": [
+        "MIC1"
+      ]
+    },
+    {
+      "sym": "policy.load",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "policy",
+      "op": "load",
+      "template": "policy.load_{}",
+      "freq": 1,
+      "op_id": 45090,
+      "capa_tags": [
+        "MIC1",
+        "CAPA_NEG"
+      ],
+      "source_block": "CoreLang5_Block24_Safety_And_Policy",
+      "idempotent": false,
+      "side_effect": "write",
+      "stability": "stable",
+      "wire_cost_hint": 2,
+      "depends_on": [
+        "MIC1",
+        "CAPA_NEG"
+      ]
+    },
+    {
+      "sym": "policy.enable",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "policy",
+      "op": "enable",
+      "template": "policy.enable_{}",
+      "freq": 1,
+      "op_id": 3714,
+      "capa_tags": [
+        "MIC1",
+        "CAPA_NEG"
+      ],
+      "source_block": "CoreLang5_Block24_Safety_And_Policy",
+      "idempotent": false,
+      "side_effect": "write",
+      "stability": "stable",
+      "wire_cost_hint": 2,
+      "depends_on": [
+        "MIC1",
+        "CAPA_NEG"
+      ]
+    },
+    {
+      "sym": "policy.disable",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "policy",
+      "op": "disable",
+      "template": "policy.disable_{}",
+      "freq": 1,
+      "op_id": 37667,
+      "capa_tags": [
+        "MIC1",
+        "CAPA_NEG"
+      ],
+      "source_block": "CoreLang5_Block24_Safety_And_Policy",
+      "idempotent": false,
+      "side_effect": "write",
+      "stability": "stable",
+      "wire_cost_hint": 2,
+      "depends_on": [
+        "MIC1",
+        "CAPA_NEG"
+      ]
+    },
+    {
+      "sym": "policy.query",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "policy",
+      "op": "query",
+      "template": "policy.query_{}",
+      "freq": 1,
+      "op_id": 11632,
+      "capa_tags": [
+        "MIC1",
+        "CAPA_NEG"
+      ],
+      "source_block": "CoreLang5_Block24_Safety_And_Policy",
+      "idempotent": true,
+      "side_effect": "read",
+      "stability": "stable",
+      "wire_cost_hint": 1,
+      "depends_on": [
+        "MIC1",
+        "CAPA_NEG"
+      ]
+    },
+    {
+      "sym": "policy.decision",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "policy",
+      "op": "decide",
+      "template": "policy.decision_{}",
+      "freq": 1,
+      "op_id": 1875,
+      "capa_tags": [
+        "MIC1",
+        "CAPA_NEG"
+      ],
+      "source_block": "CoreLang5_Block24_Safety_And_Policy",
+      "idempotent": false,
+      "side_effect": "write",
+      "stability": "stable",
+      "wire_cost_hint": 2,
+      "depends_on": [
+        "MIC1",
+        "CAPA_NEG"
+      ]
+    },
+    {
+      "sym": "policy.pack_load",
+      "args": [
+        "p1",
+        "p2"
+      ],
+      "args_types": [
+        "any",
+        "any"
+      ],
+      "constraints": {},
+      "category": "policy",
+      "op": "load",
+      "template": "policy.pack_load_{}_{}",
+      "freq": 1,
+      "op_id": 24365,
+      "capa_tags": [
+        "MIC1",
+        "CAPA_NEG"
+      ],
+      "source_block": "CoreLang5_Block24_Safety_And_Policy",
+      "idempotent": false,
+      "side_effect": "write",
+      "stability": "stable",
+      "wire_cost_hint": 2,
+      "depends_on": [
+        "MIC1",
+        "CAPA_NEG"
+      ]
+    },
+    {
+      "sym": "safety.audit_mic",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "safety",
+      "op": "set",
+      "template": "safety.audit_mic_{}",
+      "freq": 1,
+      "op_id": 26857,
+      "capa_tags": [
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block24_Safety_And_Policy",
+      "idempotent": true,
+      "side_effect": "control",
+      "stability": "stable",
+      "wire_cost_hint": 1,
+      "depends_on": [
+        "MIC1"
+      ]
+    },
+    {
+      "sym": "safety.sandbox_level",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "safety",
+      "op": "set",
+      "template": "safety.sandbox_level_{}",
+      "freq": 1,
+      "op_id": 64597,
+      "capa_tags": [
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block24_Safety_And_Policy",
+      "idempotent": false,
+      "side_effect": "write",
+      "stability": "stable",
+      "wire_cost_hint": 2,
+      "depends_on": [
+        "MIC1"
+      ]
+    }
+  ],
+  "alias": {
+    "safety.guardrail_set_{}": "safety.guardrail_set",
+    "safety.violation_report_{}": "safety.violation_report",
+    "safety.rate_limit_{}": "safety.rate_limit",
+    "safety.sandbox_{}": "safety.sandbox",
+    "safety.quarantine_{}": "safety.quarantine",
+    "policy.load_{}": "policy.load",
+    "policy.enable_{}": "policy.enable",
+    "policy.disable_{}": "policy.disable",
+    "policy.query_{}": "policy.query",
+    "policy.decision_{}": "policy.decision",
+    "policy.pack_load_{}_{}": "policy.pack_load",
+    "safety.audit_mic_{}": "safety.audit_mic",
+    "safety.sandbox_level_{}": "safety.sandbox_level"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "block": "CoreLang5_Block20_Capability_Negotiation_CAPA_core_primitives",
+  "version": "6.30R1",
+  "tokens": [
+    {
+      "sym": "capa.offer"
+    },
+    {
+      "sym": "capa.require"
+    },
+    {
+      "sym": "capa.enable"
+    },
+    {
+      "sym": "capa.disable"
+    },
+    {
+      "sym": "capa.neg_result"
+    },
+    {
+      "sym": "capa.query"
+    },
+    {
+      "sym": "capa.profile"
+    },
+    {
+      "sym": "capa.codec_pref"
+    },
+    {
+      "sym": "capa.mic_required"
+    },
+    {
+      "sym": "capa.fec_required"
+    }
+  ]
+}

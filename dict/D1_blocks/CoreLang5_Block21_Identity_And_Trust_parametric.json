@@ -1,0 +1,471 @@
+{
+  "block": "CoreLang5_Block21_Identity_And_Trust",
+  "version": "6.30R1",
+  "parametric": [
+    {
+      "sym": "id.peer_announce",
+      "args": [
+        "p1",
+        "p2"
+      ],
+      "args_types": [
+        "any",
+        "any"
+      ],
+      "constraints": {},
+      "category": "identity",
+      "op": "announce",
+      "template": "id.peer_announce_{}_{}",
+      "freq": 1,
+      "op_id": 60744,
+      "capa_tags": [
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block21_Identity_And_Trust",
+      "idempotent": true,
+      "side_effect": "read",
+      "stability": "stable",
+      "wire_cost_hint": 2,
+      "depends_on": [
+        "MIC1"
+      ]
+    },
+    {
+      "sym": "id.key_fingerprint",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "identity",
+      "op": "get",
+      "template": "id.key_fingerprint_{}",
+      "freq": 1,
+      "op_id": 5175,
+      "capa_tags": [
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block21_Identity_And_Trust",
+      "idempotent": true,
+      "side_effect": "read",
+      "stability": "stable",
+      "wire_cost_hint": 2,
+      "depends_on": [
+        "MIC1"
+      ]
+    },
+    {
+      "sym": "id.key_rotate",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "identity",
+      "op": "rotate",
+      "template": "id.key_rotate_{}",
+      "freq": 1,
+      "op_id": 29744,
+      "capa_tags": [
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block21_Identity_And_Trust",
+      "idempotent": false,
+      "side_effect": "write",
+      "stability": "stable",
+      "wire_cost_hint": 2,
+      "depends_on": [
+        "MIC1"
+      ]
+    },
+    {
+      "sym": "id.session_ticket",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "identity",
+      "op": "issue",
+      "template": "id.session_ticket_{}",
+      "freq": 1,
+      "op_id": 58684,
+      "capa_tags": [
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block21_Identity_And_Trust",
+      "idempotent": false,
+      "side_effect": "write",
+      "stability": "stable",
+      "wire_cost_hint": 2,
+      "depends_on": [
+        "MIC1"
+      ]
+    },
+    {
+      "sym": "auth.challenge",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "auth",
+      "op": "challenge",
+      "template": "auth.challenge_{}",
+      "freq": 1,
+      "op_id": 23157,
+      "capa_tags": [
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block21_Identity_And_Trust",
+      "idempotent": true,
+      "side_effect": "read",
+      "stability": "stable",
+      "wire_cost_hint": 2,
+      "depends_on": [
+        "MIC1"
+      ]
+    },
+    {
+      "sym": "auth.response",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "auth",
+      "op": "respond",
+      "template": "auth.response_{}",
+      "freq": 1,
+      "op_id": 41833,
+      "capa_tags": [
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block21_Identity_And_Trust",
+      "idempotent": false,
+      "side_effect": "write",
+      "stability": "stable",
+      "wire_cost_hint": 2,
+      "depends_on": [
+        "MIC1"
+      ]
+    },
+    {
+      "sym": "auth.verify",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "auth",
+      "op": "verify",
+      "template": "auth.verify_{}",
+      "freq": 1,
+      "op_id": 38854,
+      "capa_tags": [
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block21_Identity_And_Trust",
+      "idempotent": true,
+      "side_effect": "read",
+      "stability": "stable",
+      "wire_cost_hint": 2,
+      "depends_on": [
+        "MIC1"
+      ]
+    },
+    {
+      "sym": "auth.pop",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "auth",
+      "op": "prove",
+      "template": "auth.pop_{}",
+      "freq": 1,
+      "op_id": 19095,
+      "capa_tags": [
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block21_Identity_And_Trust",
+      "idempotent": false,
+      "side_effect": "write",
+      "stability": "stable",
+      "wire_cost_hint": 2,
+      "depends_on": [
+        "MIC1"
+      ]
+    },
+    {
+      "sym": "trust.score",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "trust",
+      "op": "score",
+      "template": "trust.score_{}",
+      "freq": 1,
+      "op_id": 24631,
+      "capa_tags": [
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block21_Identity_And_Trust",
+      "idempotent": true,
+      "side_effect": "read",
+      "stability": "stable",
+      "wire_cost_hint": 2,
+      "depends_on": [
+        "MIC1"
+      ]
+    },
+    {
+      "sym": "trust.report",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "trust",
+      "op": "report",
+      "template": "trust.report_{}",
+      "freq": 1,
+      "op_id": 15436,
+      "capa_tags": [
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block21_Identity_And_Trust",
+      "idempotent": true,
+      "side_effect": "read",
+      "stability": "stable",
+      "wire_cost_hint": 2,
+      "depends_on": [
+        "MIC1"
+      ]
+    },
+    {
+      "sym": "trust.policy_require",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "trust",
+      "op": "require",
+      "template": "trust.policy_require_{}",
+      "freq": 1,
+      "op_id": 22133,
+      "capa_tags": [
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block21_Identity_And_Trust",
+      "idempotent": false,
+      "side_effect": "write",
+      "stability": "stable",
+      "wire_cost_hint": 2,
+      "depends_on": [
+        "MIC1"
+      ]
+    },
+    {
+      "sym": "trust.revoke",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "trust",
+      "op": "revoke",
+      "template": "trust.revoke_{}",
+      "freq": 1,
+      "op_id": 45975,
+      "capa_tags": [
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block21_Identity_And_Trust",
+      "idempotent": false,
+      "side_effect": "write",
+      "stability": "stable",
+      "wire_cost_hint": 2,
+      "depends_on": [
+        "MIC1"
+      ]
+    },
+    {
+      "sym": "id.capability_bind",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "identity",
+      "op": "bind",
+      "template": "id.capability_bind_{}",
+      "freq": 1,
+      "op_id": 14934,
+      "capa_tags": [
+        "MIC1",
+        "CAPA_NEG"
+      ],
+      "source_block": "CoreLang5_Block21_Identity_And_Trust",
+      "idempotent": false,
+      "side_effect": "none",
+      "stability": "stable",
+      "wire_cost_hint": 2,
+      "depends_on": [
+        "MIC1",
+        "CAPA_NEG"
+      ]
+    },
+    {
+      "sym": "id.session_ticket_0rtt",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "identity",
+      "op": "issue",
+      "template": "id.session_ticket_0rtt_{}",
+      "freq": 1,
+      "op_id": 27504,
+      "capa_tags": [
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block21_Identity_And_Trust",
+      "idempotent": false,
+      "side_effect": "write",
+      "stability": "stable",
+      "wire_cost_hint": 2,
+      "depends_on": [
+        "MIC1"
+      ]
+    },
+    {
+      "sym": "auth.transcript_mic",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "auth",
+      "op": "bind",
+      "template": "auth.transcript_mic_{}",
+      "freq": 1,
+      "op_id": 50164,
+      "capa_tags": [
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block21_Identity_And_Trust",
+      "idempotent": true,
+      "side_effect": "control",
+      "stability": "stable",
+      "wire_cost_hint": 1,
+      "depends_on": [
+        "MIC1"
+      ]
+    },
+    {
+      "sym": "id.key_rotate_grace",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "identity",
+      "op": "set",
+      "template": "id.key_rotate_grace_{}",
+      "freq": 1,
+      "op_id": 326,
+      "capa_tags": [
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block21_Identity_And_Trust",
+      "idempotent": false,
+      "side_effect": "write",
+      "stability": "stable",
+      "wire_cost_hint": 2,
+      "depends_on": [
+        "MIC1"
+      ]
+    },
+    {
+      "sym": "trust.score_components",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "trust",
+      "op": "config",
+      "template": "trust.score_components_{}",
+      "freq": 1,
+      "op_id": 40808,
+      "capa_tags": [
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block21_Identity_And_Trust",
+      "idempotent": false,
+      "side_effect": "write",
+      "stability": "stable",
+      "wire_cost_hint": 2,
+      "depends_on": [
+        "MIC1"
+      ]
+    }
+  ],
+  "alias": {
+    "id.peer_announce_{}_{}": "id.peer_announce",
+    "id.key_fingerprint_{}": "id.key_fingerprint",
+    "id.key_rotate_{}": "id.key_rotate",
+    "id.session_ticket_{}": "id.session_ticket",
+    "auth.challenge_{}": "auth.challenge",
+    "auth.response_{}": "auth.response",
+    "auth.verify_{}": "auth.verify",
+    "auth.pop_{}": "auth.pop",
+    "trust.score_{}": "trust.score",
+    "trust.report_{}": "trust.report",
+    "trust.policy_require_{}": "trust.policy_require",
+    "trust.revoke_{}": "trust.revoke",
+    "id.capability_bind_{}": "id.capability_bind",
+    "id.session_ticket_0rtt_{}": "id.session_ticket_0rtt",
+    "auth.transcript_mic_{}": "auth.transcript_mic",
+    "id.key_rotate_grace_{}": "id.key_rotate_grace",
+    "trust.score_components_{}": "trust.score_components"
+  }
+}

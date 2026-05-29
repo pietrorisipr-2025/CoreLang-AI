@@ -1,0 +1,589 @@
+{
+  "block": "CoreLang5_Block8_Systems_And_Networking",
+  "version": "6.30R1",
+  "parametric": [
+    {
+      "sym": "net.cl{}_c{}_base{}_encoded_length_{}",
+      "args": [
+        "length"
+      ],
+      "category": "system",
+      "op": "op",
+      "template": "CL{n}_C{n}_BASE{n}_ENCODED_LENGTH_{n}",
+      "freq": 300,
+      "op_id": 8579,
+      "capa_tags": [
+        "RSYN1",
+        "FEC1"
+      ],
+      "source_block": "CoreLang5_Block8_Systems_And_Networking"
+    },
+    {
+      "sym": "net.cl{}_c{}_checksum{}_ones_complement_fold_{}",
+      "args": [
+        "fold"
+      ],
+      "category": "system",
+      "op": "op",
+      "template": "CL{n}_C{n}_CHECKSUM{n}_ONES_COMPLEMENT_FOLD_{n}",
+      "freq": 300,
+      "op_id": 61711,
+      "capa_tags": [
+        "RSYN1",
+        "FEC1"
+      ],
+      "source_block": "CoreLang5_Block8_Systems_And_Networking"
+    },
+    {
+      "sym": "net.cl{}_c{}_cidr_subnets_from_supernet_{}",
+      "args": [
+        "supernet"
+      ],
+      "category": "system",
+      "op": "op",
+      "template": "CL{n}_C{n}_CIDR_SUBNETS_FROM_SUPERNET_{n}",
+      "freq": 300,
+      "op_id": 851,
+      "capa_tags": [
+        "RSYN1",
+        "FEC1"
+      ],
+      "source_block": "CoreLang5_Block8_Systems_And_Networking"
+    },
+    {
+      "sym": "net.cl{}_c{}_cidr_usable_hosts_ipv{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3",
+        "p4"
+      ],
+      "category": "system",
+      "op": "op",
+      "template": "CL{n}_C{n}_CIDR_USABLE_HOSTS_IPV{n}_{n}",
+      "freq": 300,
+      "op_id": 63102,
+      "capa_tags": [
+        "RSYN1",
+        "FEC1"
+      ],
+      "source_block": "CoreLang5_Block8_Systems_And_Networking"
+    },
+    {
+      "sym": "net.cl{}_c{}_dns_label_count_{}",
+      "args": [
+        "count"
+      ],
+      "category": "protocol",
+      "op": "op",
+      "template": "CL{n}_C{n}_DNS_LABEL_COUNT_{n}",
+      "freq": 300,
+      "op_id": 16087,
+      "capa_tags": [
+        "RSYN1",
+        "FEC1"
+      ],
+      "source_block": "CoreLang5_Block8_Systems_And_Networking"
+    },
+    {
+      "sym": "net.cl{}_c{}_ethernet_mac_oui_category_{}",
+      "args": [
+        "category"
+      ],
+      "category": "system",
+      "op": "op",
+      "template": "CL{n}_C{n}_ETHERNET_MAC_OUI_CATEGORY_{n}",
+      "freq": 300,
+      "op_id": 46443,
+      "capa_tags": [
+        "RSYN1",
+        "FEC1"
+      ],
+      "source_block": "CoreLang5_Block8_Systems_And_Networking"
+    },
+    {
+      "sym": "net.cl{}_c{}_http_status_class_hundreds_{}",
+      "args": [
+        "hundreds"
+      ],
+      "category": "protocol",
+      "op": "op",
+      "template": "CL{n}_C{n}_HTTP_STATUS_CLASS_HUNDREDS_{n}",
+      "freq": 300,
+      "op_id": 58372,
+      "capa_tags": [
+        "RSYN1",
+        "FEC1"
+      ],
+      "source_block": "CoreLang5_Block8_Systems_And_Networking"
+    },
+    {
+      "sym": "net.cl{}_c{}_http{}_frames_needed_{}",
+      "args": [
+        "needed"
+      ],
+      "category": "protocol",
+      "op": "op",
+      "template": "CL{n}_C{n}_HTTP{n}_FRAMES_NEEDED_{n}",
+      "freq": 300,
+      "op_id": 38568,
+      "capa_tags": [
+        "RSYN1",
+        "FEC1"
+      ],
+      "source_block": "CoreLang5_Block8_Systems_And_Networking"
+    },
+    {
+      "sym": "net.cl{}_c{}_ipv{}_fragments_count_simple_{}",
+      "args": [
+        "simple"
+      ],
+      "category": "system",
+      "op": "op",
+      "template": "CL{n}_C{n}_IPV{n}_FRAGMENTS_COUNT_SIMPLE_{n}",
+      "freq": 300,
+      "op_id": 16178,
+      "capa_tags": [
+        "RSYN1",
+        "FEC1"
+      ],
+      "source_block": "CoreLang5_Block8_Systems_And_Networking"
+    },
+    {
+      "sym": "net.cl{}_c{}_nat_port_pool_used_{}",
+      "args": [
+        "used"
+      ],
+      "category": "network_stack",
+      "op": "op",
+      "template": "CL{n}_C{n}_NAT_PORT_POOL_USED_{n}",
+      "freq": 300,
+      "op_id": 57180,
+      "capa_tags": [
+        "RSYN1",
+        "FEC1"
+      ],
+      "source_block": "CoreLang5_Block8_Systems_And_Networking"
+    },
+    {
+      "sym": "net.cl{}_c{}_netmask_dotted_from_prefix_{}",
+      "args": [
+        "prefix"
+      ],
+      "category": "system",
+      "op": "op",
+      "template": "CL{n}_C{n}_NETMASK_DOTTED_FROM_PREFIX_{n}",
+      "freq": 300,
+      "op_id": 12963,
+      "capa_tags": [
+        "RSYN1",
+        "FEC1"
+      ],
+      "source_block": "CoreLang5_Block8_Systems_And_Networking"
+    },
+    {
+      "sym": "net.cl{}_c{}_queue_droptail_drops_{}",
+      "args": [
+        "drops"
+      ],
+      "category": "system",
+      "op": "op",
+      "template": "CL{n}_C{n}_QUEUE_DROPTAIL_DROPS_{n}",
+      "freq": 300,
+      "op_id": 48200,
+      "capa_tags": [
+        "RSYN1",
+        "FEC1"
+      ],
+      "source_block": "CoreLang5_Block8_Systems_And_Networking"
+    },
+    {
+      "sym": "net.cl{}_c{}_routing_path_cost_sum_{}",
+      "args": [
+        "sum"
+      ],
+      "category": "system",
+      "op": "op",
+      "template": "CL{n}_C{n}_ROUTING_PATH_COST_SUM_{n}",
+      "freq": 300,
+      "op_id": 33253,
+      "capa_tags": [
+        "RSYN1",
+        "FEC1"
+      ],
+      "source_block": "CoreLang5_Block8_Systems_And_Networking"
+    },
+    {
+      "sym": "net.cl{}_c{}_rtt_estimated_ms_hops_{}",
+      "args": [
+        "hops"
+      ],
+      "category": "system",
+      "op": "op",
+      "template": "CL{n}_C{n}_RTT_ESTIMATED_MS_HOPS_{n}",
+      "freq": 300,
+      "op_id": 65184,
+      "capa_tags": [
+        "RSYN1",
+        "FEC1"
+      ],
+      "source_block": "CoreLang5_Block8_Systems_And_Networking"
+    },
+    {
+      "sym": "net.cl{}_c{}_socket_accepted_with_backlog_{}",
+      "args": [
+        "backlog"
+      ],
+      "category": "socket",
+      "op": "endpoint",
+      "template": "CL{n}_C{n}_SOCKET_ACCEPTED_WITH_BACKLOG_{n}",
+      "freq": 300,
+      "op_id": 36050,
+      "capa_tags": [
+        "RSYN1",
+        "FEC1"
+      ],
+      "source_block": "CoreLang5_Block8_Systems_And_Networking"
+    },
+    {
+      "sym": "net.cl{}_c{}_tcp_bandwidth_delay_product_bytes_{}",
+      "args": [
+        "bytes"
+      ],
+      "category": "protocol",
+      "op": "op",
+      "template": "CL{n}_C{n}_TCP_BANDWIDTH_DELAY_PRODUCT_BYTES_{n}",
+      "freq": 300,
+      "op_id": 24359,
+      "capa_tags": [
+        "RSYN1",
+        "FEC1"
+      ],
+      "source_block": "CoreLang5_Block8_Systems_And_Networking"
+    },
+    {
+      "sym": "net.cl{}_c{}_tcp_mss_from_mtu_ipv{}_noopts_{}",
+      "args": [
+        "noopts"
+      ],
+      "category": "protocol",
+      "op": "op",
+      "template": "CL{n}_C{n}_TCP_MSS_FROM_MTU_IPV{n}_NOOPTS_{n}",
+      "freq": 300,
+      "op_id": 32005,
+      "capa_tags": [
+        "RSYN1",
+        "FEC1"
+      ],
+      "source_block": "CoreLang5_Block8_Systems_And_Networking"
+    },
+    {
+      "sym": "net.cl{}_c{}_tcp_throughput_window_rtt_{}",
+      "args": [
+        "rtt"
+      ],
+      "category": "protocol",
+      "op": "op",
+      "template": "CL{n}_C{n}_TCP_THROUGHPUT_WINDOW_RTT_{n}",
+      "freq": 300,
+      "op_id": 43422,
+      "capa_tags": [
+        "RSYN1",
+        "FEC1"
+      ],
+      "source_block": "CoreLang5_Block8_Systems_And_Networking"
+    },
+    {
+      "sym": "net.cl{}_c{}_tls_records_needed_{}",
+      "args": [
+        "needed"
+      ],
+      "category": "protocol",
+      "op": "security",
+      "template": "CL{n}_C{n}_TLS_RECORDS_NEEDED_{n}",
+      "freq": 300,
+      "op_id": 39854,
+      "capa_tags": [
+        "RSYN1",
+        "FEC1"
+      ],
+      "source_block": "CoreLang5_Block8_Systems_And_Networking"
+    },
+    {
+      "sym": "net.cl{}_c{}_udp_datagrams_needed_over_mtu_{}",
+      "args": [
+        "mtu"
+      ],
+      "category": "protocol",
+      "op": "op",
+      "template": "CL{n}_C{n}_UDP_DATAGRAMS_NEEDED_OVER_MTU_{n}",
+      "freq": 300,
+      "op_id": 35939,
+      "capa_tags": [
+        "RSYN1",
+        "FEC1"
+      ],
+      "source_block": "CoreLang5_Block8_Systems_And_Networking"
+    },
+    {
+      "sym": "net.cl{}_c{}_bgp_as_path_length_{}",
+      "args": [
+        "length"
+      ],
+      "category": "system",
+      "op": "op",
+      "template": "CL{n}_C{n}_BGP_AS_PATH_LENGTH_{n}",
+      "freq": 286,
+      "op_id": 37309,
+      "capa_tags": [
+        "RSYN1",
+        "FEC1"
+      ],
+      "source_block": "CoreLang5_Block8_Systems_And_Networking"
+    },
+    {
+      "sym": "net.cl{}_c{}_dhcp_t{}_t{}_seconds_{}",
+      "args": [
+        "seconds"
+      ],
+      "category": "protocol",
+      "op": "op",
+      "template": "CL{n}_C{n}_DHCP_T{n}_T{n}_SECONDS_{n}",
+      "freq": 286,
+      "op_id": 30911,
+      "capa_tags": [
+        "RSYN1",
+        "FEC1"
+      ],
+      "source_block": "CoreLang5_Block8_Systems_And_Networking"
+    },
+    {
+      "sym": "net.cl{}_c{}_ecn_ce_mark_seen_{}",
+      "args": [
+        "seen"
+      ],
+      "category": "system",
+      "op": "op",
+      "template": "CL{n}_C{n}_ECN_CE_MARK_SEEN_{n}",
+      "freq": 286,
+      "op_id": 63051,
+      "capa_tags": [
+        "RSYN1",
+        "FEC1"
+      ],
+      "source_block": "CoreLang5_Block8_Systems_And_Networking"
+    },
+    {
+      "sym": "net.cl{}_c{}_icmp_rate_limit_quota_{}",
+      "args": [
+        "quota"
+      ],
+      "category": "protocol",
+      "op": "op",
+      "template": "CL{n}_C{n}_ICMP_RATE_LIMIT_QUOTA_{n}",
+      "freq": 286,
+      "op_id": 15339,
+      "capa_tags": [
+        "RSYN1",
+        "FEC1"
+      ],
+      "source_block": "CoreLang5_Block8_Systems_And_Networking"
+    },
+    {
+      "sym": "net.cl{}_c{}_ntp_step_needed_flag_{}",
+      "args": [
+        "flag"
+      ],
+      "category": "system",
+      "op": "op",
+      "template": "CL{n}_C{n}_NTP_STEP_NEEDED_FLAG_{n}",
+      "freq": 286,
+      "op_id": 44134,
+      "capa_tags": [
+        "RSYN1",
+        "FEC1"
+      ],
+      "source_block": "CoreLang5_Block8_Systems_And_Networking"
+    },
+    {
+      "sym": "net.cl{}_c{}_qos_wred_approx_drops_{}",
+      "args": [
+        "drops"
+      ],
+      "category": "system",
+      "op": "op",
+      "template": "CL{n}_C{n}_QOS_WRED_APPROX_DROPS_{n}",
+      "freq": 286,
+      "op_id": 39057,
+      "capa_tags": [
+        "RSYN1",
+        "FEC1"
+      ],
+      "source_block": "CoreLang5_Block8_Systems_And_Networking"
+    },
+    {
+      "sym": "net.cl{}_c{}_tcp_cubic_cwnd_simplified_after_t_{}",
+      "args": [
+        "t"
+      ],
+      "category": "protocol",
+      "op": "op",
+      "template": "CL{n}_C{n}_TCP_CUBIC_CWND_SIMPLIFIED_AFTER_T_{n}",
+      "freq": 286,
+      "op_id": 19181,
+      "capa_tags": [
+        "RSYN1",
+        "FEC1"
+      ],
+      "source_block": "CoreLang5_Block8_Systems_And_Networking"
+    },
+    {
+      "sym": "net.cl{}_c{}_tcp_reno_cwnd_after_events_{}",
+      "args": [
+        "events"
+      ],
+      "category": "protocol",
+      "op": "op",
+      "template": "CL{n}_C{n}_TCP_RENO_CWND_AFTER_EVENTS_{n}",
+      "freq": 286,
+      "op_id": 54506,
+      "capa_tags": [
+        "RSYN1",
+        "FEC1"
+      ],
+      "source_block": "CoreLang5_Block8_Systems_And_Networking"
+    },
+    {
+      "sym": "net.cl{}_c{}_vxlan_bytes_on_wire_ipv{}_udp_{}",
+      "args": [
+        "udp"
+      ],
+      "category": "protocol",
+      "op": "op",
+      "template": "CL{n}_C{n}_VXLAN_BYTES_ON_WIRE_IPV{n}_UDP_{n}",
+      "freq": 286,
+      "op_id": 53183,
+      "capa_tags": [
+        "RSYN1",
+        "FEC1"
+      ],
+      "source_block": "CoreLang5_Block8_Systems_And_Networking"
+    },
+    {
+      "sym": "net.cl{}_c{}_wireguard_peers_processed_rate_limit_{}",
+      "args": [
+        "limit"
+      ],
+      "category": "transport_control",
+      "op": "op",
+      "template": "CL{n}_C{n}_WIREGUARD_PEERS_PROCESSED_RATE_LIMIT_{n}",
+      "freq": 286,
+      "op_id": 3461,
+      "capa_tags": [
+        "RSYN1",
+        "FEC1"
+      ],
+      "source_block": "CoreLang5_Block8_Systems_And_Networking"
+    },
+    {
+      "sym": "net.cl{}_c{}_arp_cache_entries_live_{}",
+      "args": [
+        "live"
+      ],
+      "category": "network_stack",
+      "op": "op",
+      "template": "CL{n}_C{n}_ARP_CACHE_ENTRIES_LIVE_{n}",
+      "freq": 285,
+      "op_id": 10532,
+      "capa_tags": [
+        "RSYN1",
+        "FEC1"
+      ],
+      "source_block": "CoreLang5_Block8_Systems_And_Networking"
+    },
+    {
+      "sym": "net.cl{}_c{}_ipv{}_mask_ones_count_{}",
+      "args": [
+        "count"
+      ],
+      "category": "system",
+      "op": "op",
+      "template": "CL{n}_C{n}_IPV{n}_MASK_ONES_COUNT_{n}",
+      "freq": 285,
+      "op_id": 42114,
+      "capa_tags": [
+        "RSYN1",
+        "FEC1"
+      ],
+      "source_block": "CoreLang5_Block8_Systems_And_Networking"
+    },
+    {
+      "sym": "net.cl{}_c{}_nat_hairpin_supported_flag_{}",
+      "args": [
+        "flag"
+      ],
+      "category": "network_stack",
+      "op": "op",
+      "template": "CL{n}_C{n}_NAT_HAIRPIN_SUPPORTED_FLAG_{n}",
+      "freq": 285,
+      "op_id": 4966,
+      "capa_tags": [
+        "RSYN1",
+        "FEC1"
+      ],
+      "source_block": "CoreLang5_Block8_Systems_And_Networking"
+    },
+    {
+      "sym": "net.cl{}_c{}_sctp_data_chunks_needed_{}",
+      "args": [
+        "needed"
+      ],
+      "category": "system",
+      "op": "op",
+      "template": "CL{n}_C{n}_SCTP_DATA_CHUNKS_NEEDED_{n}",
+      "freq": 285,
+      "op_id": 36332,
+      "capa_tags": [
+        "RSYN1",
+        "FEC1"
+      ],
+      "source_block": "CoreLang5_Block8_Systems_And_Networking"
+    }
+  ],
+  "alias": {
+    "CL{n}_C{n}_BASE{n}_ENCODED_LENGTH_{n}": "net.cl{}_c{}_base{}_encoded_length_{}",
+    "CL{n}_C{n}_CHECKSUM{n}_ONES_COMPLEMENT_FOLD_{n}": "net.cl{}_c{}_checksum{}_ones_complement_fold_{}",
+    "CL{n}_C{n}_CIDR_SUBNETS_FROM_SUPERNET_{n}": "net.cl{}_c{}_cidr_subnets_from_supernet_{}",
+    "CL{n}_C{n}_CIDR_USABLE_HOSTS_IPV{n}_{n}": "net.cl{}_c{}_cidr_usable_hosts_ipv{}_{}",
+    "CL{n}_C{n}_DNS_LABEL_COUNT_{n}": "net.cl{}_c{}_dns_label_count_{}",
+    "CL{n}_C{n}_ETHERNET_MAC_OUI_CATEGORY_{n}": "net.cl{}_c{}_ethernet_mac_oui_category_{}",
+    "CL{n}_C{n}_HTTP_STATUS_CLASS_HUNDREDS_{n}": "net.cl{}_c{}_http_status_class_hundreds_{}",
+    "CL{n}_C{n}_HTTP{n}_FRAMES_NEEDED_{n}": "net.cl{}_c{}_http{}_frames_needed_{}",
+    "CL{n}_C{n}_IPV{n}_FRAGMENTS_COUNT_SIMPLE_{n}": "net.cl{}_c{}_ipv{}_fragments_count_simple_{}",
+    "CL{n}_C{n}_NAT_PORT_POOL_USED_{n}": "net.cl{}_c{}_nat_port_pool_used_{}",
+    "CL{n}_C{n}_NETMASK_DOTTED_FROM_PREFIX_{n}": "net.cl{}_c{}_netmask_dotted_from_prefix_{}",
+    "CL{n}_C{n}_QUEUE_DROPTAIL_DROPS_{n}": "net.cl{}_c{}_queue_droptail_drops_{}",
+    "CL{n}_C{n}_ROUTING_PATH_COST_SUM_{n}": "net.cl{}_c{}_routing_path_cost_sum_{}",
+    "CL{n}_C{n}_RTT_ESTIMATED_MS_HOPS_{n}": "net.cl{}_c{}_rtt_estimated_ms_hops_{}",
+    "CL{n}_C{n}_SOCKET_ACCEPTED_WITH_BACKLOG_{n}": "net.cl{}_c{}_socket_accepted_with_backlog_{}",
+    "CL{n}_C{n}_TCP_BANDWIDTH_DELAY_PRODUCT_BYTES_{n}": "net.cl{}_c{}_tcp_bandwidth_delay_product_bytes_{}",
+    "CL{n}_C{n}_TCP_MSS_FROM_MTU_IPV{n}_NOOPTS_{n}": "net.cl{}_c{}_tcp_mss_from_mtu_ipv{}_noopts_{}",
+    "CL{n}_C{n}_TCP_THROUGHPUT_WINDOW_RTT_{n}": "net.cl{}_c{}_tcp_throughput_window_rtt_{}",
+    "CL{n}_C{n}_TLS_RECORDS_NEEDED_{n}": "net.cl{}_c{}_tls_records_needed_{}",
+    "CL{n}_C{n}_UDP_DATAGRAMS_NEEDED_OVER_MTU_{n}": "net.cl{}_c{}_udp_datagrams_needed_over_mtu_{}",
+    "CL{n}_C{n}_BGP_AS_PATH_LENGTH_{n}": "net.cl{}_c{}_bgp_as_path_length_{}",
+    "CL{n}_C{n}_DHCP_T{n}_T{n}_SECONDS_{n}": "net.cl{}_c{}_dhcp_t{}_t{}_seconds_{}",
+    "CL{n}_C{n}_ECN_CE_MARK_SEEN_{n}": "net.cl{}_c{}_ecn_ce_mark_seen_{}",
+    "CL{n}_C{n}_ICMP_RATE_LIMIT_QUOTA_{n}": "net.cl{}_c{}_icmp_rate_limit_quota_{}",
+    "CL{n}_C{n}_NTP_STEP_NEEDED_FLAG_{n}": "net.cl{}_c{}_ntp_step_needed_flag_{}",
+    "CL{n}_C{n}_QOS_WRED_APPROX_DROPS_{n}": "net.cl{}_c{}_qos_wred_approx_drops_{}",
+    "CL{n}_C{n}_TCP_CUBIC_CWND_SIMPLIFIED_AFTER_T_{n}": "net.cl{}_c{}_tcp_cubic_cwnd_simplified_after_t_{}",
+    "CL{n}_C{n}_TCP_RENO_CWND_AFTER_EVENTS_{n}": "net.cl{}_c{}_tcp_reno_cwnd_after_events_{}",
+    "CL{n}_C{n}_VXLAN_BYTES_ON_WIRE_IPV{n}_UDP_{n}": "net.cl{}_c{}_vxlan_bytes_on_wire_ipv{}_udp_{}",
+    "CL{n}_C{n}_WIREGUARD_PEERS_PROCESSED_RATE_LIMIT_{n}": "net.cl{}_c{}_wireguard_peers_processed_rate_limit_{}",
+    "CL{n}_C{n}_ARP_CACHE_ENTRIES_LIVE_{n}": "net.cl{}_c{}_arp_cache_entries_live_{}",
+    "CL{n}_C{n}_IPV{n}_MASK_ONES_COUNT_{n}": "net.cl{}_c{}_ipv{}_mask_ones_count_{}",
+    "CL{n}_C{n}_NAT_HAIRPIN_SUPPORTED_FLAG_{n}": "net.cl{}_c{}_nat_hairpin_supported_flag_{}",
+    "CL{n}_C{n}_SCTP_DATA_CHUNKS_NEEDED_{n}": "net.cl{}_c{}_sctp_data_chunks_needed_{}"
+  }
+}

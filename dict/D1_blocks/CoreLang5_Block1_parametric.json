@@ -1,0 +1,503 @@
+{
+  "block": "CoreLang5_Block1_Logic_and_ControlFlow",
+  "version": "6.30R2",
+  "parametric": [
+    {
+      "sym": "lcf.logic_bool_and",
+      "args": [],
+      "category": "logic",
+      "template": "LOGIC_bool_and",
+      "op_id": 60198,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block1_Logic_and_ControlFlow"
+    },
+    {
+      "sym": "lcf.logic_bool_or",
+      "args": [],
+      "category": "logic",
+      "template": "LOGIC_bool_or",
+      "op_id": 2132,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block1_Logic_and_ControlFlow"
+    },
+    {
+      "sym": "lcf.logic_branch_paths_count",
+      "args": [],
+      "category": "logic",
+      "template": "LOGIC_branch_paths_count",
+      "op_id": 12468,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block1_Logic_and_ControlFlow"
+    },
+    {
+      "sym": "lcf.logic_demorgan_equivalence",
+      "args": [],
+      "category": "logic",
+      "template": "LOGIC_demorgan_equivalence",
+      "op_id": 47835,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block1_Logic_and_ControlFlow"
+    },
+    {
+      "sym": "lcf.logic_xor_parity",
+      "args": [],
+      "category": "logic",
+      "template": "LOGIC_xor_parity",
+      "op_id": 28679,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block1_Logic_and_ControlFlow"
+    },
+    {
+      "sym": "lcf.logic_bitmask_highbyte",
+      "args": [],
+      "category": "logic",
+      "template": "LOGIC_bitmask_highbyte",
+      "op_id": 30827,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block1_Logic_and_ControlFlow"
+    },
+    {
+      "sym": "lcf.logic_loop_sum_{}_to_n",
+      "args": [
+        "sum"
+      ],
+      "category": "logic",
+      "template": "LOGIC_loop_sum_{n}_to_n",
+      "op_id": 27162,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block1_Logic_and_ControlFlow"
+    },
+    {
+      "sym": "lcf.logic_popcount_bits",
+      "args": [],
+      "category": "logic",
+      "template": "LOGIC_popcount_bits",
+      "op_id": 27444,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block1_Logic_and_ControlFlow"
+    },
+    {
+      "sym": "lcf.logic_truth_table_index",
+      "args": [],
+      "category": "logic",
+      "template": "LOGIC_truth_table_index",
+      "op_id": 46869,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block1_Logic_and_ControlFlow"
+    },
+    {
+      "sym": "lcf.break_first_multiple_n_{}_m_{}",
+      "args": [
+        "n",
+        "m"
+      ],
+      "category": "loop_control",
+      "template": "BREAK_first_multiple_n_{n}_m_{n}",
+      "op_id": 12601,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block1_Logic_and_ControlFlow"
+    },
+    {
+      "sym": "lcf.continue_count_actions_even_n_{}",
+      "args": [
+        "n"
+      ],
+      "category": "loop_control",
+      "template": "CONTINUE_count_actions_even_n_{n}",
+      "op_id": 47382,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block1_Logic_and_ControlFlow"
+    },
+    {
+      "sym": "lcf.nested_rectangular_a_{}_b_{}",
+      "args": [
+        "a",
+        "b"
+      ],
+      "category": "loop",
+      "template": "NESTED_rectangular_a_{n}_b_{n}",
+      "op_id": 6633,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block1_Logic_and_ControlFlow"
+    },
+    {
+      "sym": "lcf.nested_triangular_n_{}",
+      "args": [
+        "n"
+      ],
+      "category": "loop",
+      "template": "NESTED_triangular_n_{n}",
+      "op_id": 13359,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block1_Logic_and_ControlFlow"
+    },
+    {
+      "sym": "lcf.recursion_calls_factorial_n_{}",
+      "args": [
+        "n"
+      ],
+      "category": "recursion",
+      "template": "RECURSION_calls_factorial_n_{n}",
+      "op_id": 59839,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block1_Logic_and_ControlFlow"
+    },
+    {
+      "sym": "lcf.shortcirc_evalcount_and_i_{}",
+      "args": [
+        "i"
+      ],
+      "category": "branch",
+      "template": "SHORTCIRC_evalcount_AND_i_{n}",
+      "op_id": 62422,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block1_Logic_and_ControlFlow"
+    },
+    {
+      "sym": "lcf.switch_first_match_x_{}",
+      "args": [
+        "x"
+      ],
+      "category": "branch",
+      "template": "SWITCH_first_match_x_{n}",
+      "op_id": 50789,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block1_Logic_and_ControlFlow"
+    },
+    {
+      "sym": "lcf.toggle_boolean_after_k_{}",
+      "args": [
+        "k"
+      ],
+      "category": "logic",
+      "template": "TOGGLE_boolean_after_k_{n}",
+      "op_id": 24614,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block1_Logic_and_ControlFlow"
+    },
+    {
+      "sym": "lcf.truthtable_assignments_k_{}",
+      "args": [
+        "k"
+      ],
+      "category": "logic",
+      "template": "TRUTHTABLE_assignments_k_{n}",
+      "op_id": 32843,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block1_Logic_and_ControlFlow"
+    },
+    {
+      "sym": "lcf.while_halving_steps_n_{}",
+      "args": [
+        "n"
+      ],
+      "category": "loop",
+      "template": "WHILE_halving_steps_n_{n}",
+      "op_id": 42050,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block1_Logic_and_ControlFlow"
+    },
+    {
+      "sym": "lcf.paths_nested_if_a_{}_b_{}",
+      "args": [
+        "a",
+        "b"
+      ],
+      "category": "logic",
+      "template": "PATHS_nested_if_a_{n}_b_{n}",
+      "op_id": 37338,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block1_Logic_and_ControlFlow"
+    },
+    {
+      "sym": "lcf.xor_parity_popcount_x_{}",
+      "args": [
+        "x"
+      ],
+      "category": "logic",
+      "template": "XOR_parity_popcount_x_{n}",
+      "op_id": 55582,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block1_Logic_and_ControlFlow"
+    },
+    {
+      "sym": "lcf.while_off_by_one_start_{}_n_{}_step_{}_prompt",
+      "args": [
+        "start",
+        "n",
+        "step"
+      ],
+      "category": "loop",
+      "template": "WHILE_off_by_one_start_{n}_n_{n}_step_{n}_prompt",
+      "op_id": 44087,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block1_Logic_and_ControlFlow"
+    },
+    {
+      "sym": "lcf.for_iterations_geq_start_{}_end_{}_step_{}_pr",
+      "args": [
+        "start",
+        "end",
+        "step"
+      ],
+      "category": "loop",
+      "template": "FOR_iterations_geq_start_{n}_end_{n}_step_{n}_pr",
+      "op_id": 32913,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block1_Logic_and_ControlFlow"
+    },
+    {
+      "sym": "lcf.range_membership_x_{}_l_{}_r_{}_prompt__",
+      "args": [
+        "x",
+        "l",
+        "r"
+      ],
+      "category": "predicate",
+      "template": "RANGE_membership_x_{n}_L_{n}_R_{n}_prompt_:",
+      "op_id": 62539,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block1_Logic_and_ControlFlow"
+    },
+    {
+      "sym": "lcf.ternary_chain_result_p_{}_q_{}_r_{}_prompt",
+      "args": [
+        "p",
+        "q",
+        "r"
+      ],
+      "category": "branch",
+      "template": "TERNARY_chain_result_p_{n}_q_{n}_r_{n}_prompt",
+      "op_id": 7230,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block1_Logic_and_ControlFlow"
+    },
+    {
+      "sym": "lcf.for_iterations_leq_start_{}_end_{}_step_{}_pr",
+      "args": [
+        "start",
+        "end",
+        "step"
+      ],
+      "category": "loop",
+      "template": "FOR_iterations_leq_start_{n}_end_{n}_step_{n}_pr",
+      "op_id": 40802,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block1_Logic_and_ControlFlow"
+    },
+    {
+      "sym": "lcf.ifelse_branch_index_x_{}_a_{}_b_{}_c_{}_prom",
+      "args": [
+        "x",
+        "a",
+        "b",
+        "c"
+      ],
+      "category": "branch",
+      "template": "IFELSE_branch_index_x_{n}_a_{n}_b_{n}_c_{n}_prom",
+      "op_id": 54015,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block1_Logic_and_ControlFlow"
+    },
+    {
+      "sym": "lcf.ternary_chain_result_p_{}_q_{}_r_{}_prompt__",
+      "args": [
+        "p",
+        "q",
+        "r"
+      ],
+      "category": "branch",
+      "template": "TERNARY_chain_result_p_{n}_q_{n}_r_{n}_prompt_:",
+      "op_id": 45598,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block1_Logic_and_ControlFlow"
+    },
+    {
+      "sym": "lcf.for_iterations_leq_start_{}_end_{}_step_{}_pro",
+      "args": [
+        "start",
+        "end",
+        "step"
+      ],
+      "category": "loop",
+      "template": "FOR_iterations_leq_start_{n}_end_{n}_step_{n}_pro",
+      "op_id": 8641,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block1_Logic_and_ControlFlow"
+    },
+    {
+      "sym": "lcf.ifelse_branch_index_x_{}_a_{}_b_{}_c_{}_pro",
+      "args": [
+        "x",
+        "a",
+        "b",
+        "c"
+      ],
+      "category": "branch",
+      "template": "IFELSE_branch_index_x_{n}_a_{n}_b_{n}_c_{n}_pro",
+      "op_id": 43792,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block1_Logic_and_ControlFlow"
+    },
+    {
+      "sym": "lcf.range_membership_x_{}_l_{}_r_{}",
+      "args": [
+        "x",
+        "l",
+        "r"
+      ],
+      "category": "predicate",
+      "template": "RANGE_membership_x_{n}_L_{n}_R_{n}",
+      "op_id": 37916,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block1_Logic_and_ControlFlow"
+    },
+    {
+      "sym": "lcf.ifelse_branch_index_x_{}_a_{}_b_{}_c_{}_promp",
+      "args": [
+        "x",
+        "a",
+        "b",
+        "c"
+      ],
+      "category": "branch",
+      "template": "IFELSE_branch_index_x_{n}_a_{n}_b_{n}_c_{n}_promp",
+      "op_id": 36724,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block1_Logic_and_ControlFlow"
+    },
+    {
+      "sym": "lcf.for_iterations_leq_start_{}_end_{}_step_{}_p",
+      "args": [
+        "start",
+        "end",
+        "step"
+      ],
+      "category": "loop",
+      "template": "FOR_iterations_leq_start_{n}_end_{n}_step_{n}_p",
+      "op_id": 5770,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block1_Logic_and_ControlFlow"
+    },
+    {
+      "sym": "lcf.for_iterations_geq_start_{}_end_{}_step_{}_pro",
+      "args": [
+        "start",
+        "end",
+        "step"
+      ],
+      "category": "loop",
+      "template": "FOR_iterations_geq_start_{n}_end_{n}_step_{n}_pro",
+      "op_id": 63917,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block1_Logic_and_ControlFlow"
+    },
+    {
+      "sym": "lcf.while_off_by_one_start_{}_n_{}_step_{}_prompt__",
+      "args": [
+        "start",
+        "n",
+        "step"
+      ],
+      "category": "loop",
+      "template": "WHILE_off_by_one_start_{n}_n_{n}_step_{n}_prompt_:",
+      "op_id": 57042,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block1_Logic_and_ControlFlow"
+    },
+    {
+      "sym": "lcf.ifelse_branch_index_x_{}_a_{}_b_{}_c_{}_pr",
+      "args": [
+        "x",
+        "a",
+        "b",
+        "c"
+      ],
+      "category": "branch",
+      "template": "IFELSE_branch_index_x_{n}_a_{n}_b_{n}_c_{n}_pr",
+      "op_id": 28392,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block1_Logic_and_ControlFlow"
+    },
+    {
+      "sym": "lcf.ifelse_branch_index_x_{}_a_{}_b_{}_c_{}_prompt",
+      "args": [
+        "x",
+        "a",
+        "b",
+        "c"
+      ],
+      "category": "branch",
+      "template": "IFELSE_branch_index_x_{n}_a_{n}_b_{n}_c_{n}_prompt",
+      "op_id": 40309,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block1_Logic_and_ControlFlow"
+    },
+    {
+      "sym": "lcf.ifelse_branch_index_x_{}_a_{}_b_{}_c_{}_p",
+      "args": [
+        "x",
+        "a",
+        "b",
+        "c"
+      ],
+      "category": "branch",
+      "template": "IFELSE_branch_index_x_{n}_a_{n}_b_{n}_c_{n}_p",
+      "op_id": 62702,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block1_Logic_and_ControlFlow"
+    },
+    {
+      "sym": "lcf.for_iterations_leq_start_{}_end_{}_step_{}_prom",
+      "args": [
+        "start",
+        "end",
+        "step"
+      ],
+      "category": "loop",
+      "template": "FOR_iterations_leq_start_{n}_end_{n}_step_{n}_prom",
+      "op_id": 48098,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block1_Logic_and_ControlFlow"
+    },
+    {
+      "sym": "lcf.range_membership_x_{}_l_{}_r_{}_prompt",
+      "args": [
+        "x",
+        "l",
+        "r"
+      ],
+      "category": "predicate",
+      "template": "RANGE_membership_x_{n}_L_{n}_R_{n}_prompt",
+      "op_id": 60689,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block1_Logic_and_ControlFlow"
+    },
+    {
+      "sym": "lcf.ternary_chain_result_p_{}_q_{}_r_{}",
+      "args": [
+        "p",
+        "q",
+        "r"
+      ],
+      "category": "branch",
+      "template": "TERNARY_chain_result_p_{n}_q_{n}_r_{n}",
+      "op_id": 33985,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block1_Logic_and_ControlFlow"
+    },
+    {
+      "sym": "lcf.ternary_chain_result_p_{}_q_{}_r_{}_pro",
+      "args": [
+        "p",
+        "q",
+        "r"
+      ],
+      "category": "branch",
+      "template": "TERNARY_chain_result_p_{n}_q_{n}_r_{n}_pro",
+      "op_id": 44750,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block1_Logic_and_ControlFlow"
+    }
+  ]
+}

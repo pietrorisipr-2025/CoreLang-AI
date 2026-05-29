@@ -1,0 +1,467 @@
+{
+  "block": "CoreLang5_Block22_Session_Discovery_Routing",
+  "version": "6.30R1",
+  "parametric": [
+    {
+      "sym": "session.start",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "session",
+      "op": "start",
+      "template": "session.start_{}",
+      "freq": 1,
+      "op_id": 40878,
+      "capa_tags": [
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block22_Session_Discovery_Routing",
+      "idempotent": false,
+      "side_effect": "write",
+      "stability": "stable",
+      "wire_cost_hint": 2,
+      "depends_on": [
+        "MIC1"
+      ]
+    },
+    {
+      "sym": "session.end",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "session",
+      "op": "end",
+      "template": "session.end_{}",
+      "freq": 1,
+      "op_id": 44645,
+      "capa_tags": [
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block22_Session_Discovery_Routing",
+      "idempotent": false,
+      "side_effect": "write",
+      "stability": "stable",
+      "wire_cost_hint": 2,
+      "depends_on": [
+        "MIC1"
+      ]
+    },
+    {
+      "sym": "session.resume",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "session",
+      "op": "resume",
+      "template": "session.resume_{}",
+      "freq": 1,
+      "op_id": 37106,
+      "capa_tags": [
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block22_Session_Discovery_Routing",
+      "idempotent": false,
+      "side_effect": "write",
+      "stability": "stable",
+      "wire_cost_hint": 2,
+      "depends_on": [
+        "MIC1"
+      ]
+    },
+    {
+      "sym": "session.resume_token",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "session",
+      "op": "issue",
+      "template": "session.resume_token_{}",
+      "freq": 1,
+      "op_id": 33481,
+      "capa_tags": [
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block22_Session_Discovery_Routing",
+      "idempotent": true,
+      "side_effect": "read",
+      "stability": "stable",
+      "wire_cost_hint": 2,
+      "depends_on": [
+        "MIC1"
+      ]
+    },
+    {
+      "sym": "peer.ping",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "peer",
+      "op": "ping",
+      "template": "peer.ping_{}",
+      "freq": 1,
+      "op_id": 16640,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block22_Session_Discovery_Routing",
+      "idempotent": true,
+      "side_effect": "read",
+      "stability": "stable",
+      "wire_cost_hint": 1,
+      "depends_on": []
+    },
+    {
+      "sym": "peer.pong",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "peer",
+      "op": "pong",
+      "template": "peer.pong_{}",
+      "freq": 1,
+      "op_id": 10013,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block22_Session_Discovery_Routing",
+      "idempotent": false,
+      "side_effect": "none",
+      "stability": "stable",
+      "wire_cost_hint": 1,
+      "depends_on": []
+    },
+    {
+      "sym": "peer.path_hint",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "peer",
+      "op": "hint",
+      "template": "peer.path_hint_{}",
+      "freq": 1,
+      "op_id": 35012,
+      "capa_tags": [
+        "RSYN1"
+      ],
+      "source_block": "CoreLang5_Block22_Session_Discovery_Routing",
+      "idempotent": false,
+      "side_effect": "write",
+      "stability": "stable",
+      "wire_cost_hint": 2,
+      "depends_on": [
+        "RSYN1"
+      ]
+    },
+    {
+      "sym": "disco.cache_put",
+      "args": [
+        "p1",
+        "p2"
+      ],
+      "args_types": [
+        "any",
+        "any"
+      ],
+      "constraints": {},
+      "category": "discovery",
+      "op": "put",
+      "template": "disco.cache_put_{}_{}",
+      "freq": 1,
+      "op_id": 49299,
+      "capa_tags": [
+        "CAPA_NEG"
+      ],
+      "source_block": "CoreLang5_Block22_Session_Discovery_Routing",
+      "idempotent": false,
+      "side_effect": "none",
+      "stability": "stable",
+      "wire_cost_hint": 2,
+      "depends_on": [
+        "CAPA_NEG"
+      ]
+    },
+    {
+      "sym": "disco.cache_get",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "discovery",
+      "op": "get",
+      "template": "disco.cache_get_{}",
+      "freq": 1,
+      "op_id": 1523,
+      "capa_tags": [
+        "CAPA_NEG"
+      ],
+      "source_block": "CoreLang5_Block22_Session_Discovery_Routing",
+      "idempotent": true,
+      "side_effect": "read",
+      "stability": "stable",
+      "wire_cost_hint": 1,
+      "depends_on": [
+        "CAPA_NEG"
+      ]
+    },
+    {
+      "sym": "route.add",
+      "args": [
+        "p1",
+        "p2"
+      ],
+      "args_types": [
+        "any",
+        "any"
+      ],
+      "constraints": {},
+      "category": "routing",
+      "op": "add",
+      "template": "route.add_{}_{}",
+      "freq": 1,
+      "op_id": 18234,
+      "capa_tags": [
+        "RSYN1",
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block22_Session_Discovery_Routing",
+      "idempotent": false,
+      "side_effect": "write",
+      "stability": "stable",
+      "wire_cost_hint": 2,
+      "depends_on": [
+        "RSYN1",
+        "MIC1"
+      ]
+    },
+    {
+      "sym": "route.remove",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "routing",
+      "op": "remove",
+      "template": "route.remove_{}",
+      "freq": 1,
+      "op_id": 18990,
+      "capa_tags": [
+        "RSYN1",
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block22_Session_Discovery_Routing",
+      "idempotent": false,
+      "side_effect": "write",
+      "stability": "stable",
+      "wire_cost_hint": 2,
+      "depends_on": [
+        "RSYN1",
+        "MIC1"
+      ]
+    },
+    {
+      "sym": "route.cost_get",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "routing",
+      "op": "get",
+      "template": "route.cost_get_{}",
+      "freq": 1,
+      "op_id": 62271,
+      "capa_tags": [
+        "RSYN1"
+      ],
+      "source_block": "CoreLang5_Block22_Session_Discovery_Routing",
+      "idempotent": true,
+      "side_effect": "read",
+      "stability": "stable",
+      "wire_cost_hint": 1,
+      "depends_on": [
+        "RSYN1"
+      ]
+    },
+    {
+      "sym": "route.relay",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "routing",
+      "op": "relay",
+      "template": "route.relay_{}",
+      "freq": 1,
+      "op_id": 55880,
+      "capa_tags": [
+        "RSYN1"
+      ],
+      "source_block": "CoreLang5_Block22_Session_Discovery_Routing",
+      "idempotent": false,
+      "side_effect": "none",
+      "stability": "stable",
+      "wire_cost_hint": 2,
+      "depends_on": [
+        "RSYN1"
+      ]
+    },
+    {
+      "sym": "session.resume_mic",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "session",
+      "op": "bind",
+      "template": "session.resume_mic_{}",
+      "freq": 1,
+      "op_id": 24109,
+      "capa_tags": [
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block22_Session_Discovery_Routing",
+      "idempotent": true,
+      "side_effect": "control",
+      "stability": "stable",
+      "wire_cost_hint": 1,
+      "depends_on": [
+        "MIC1"
+      ]
+    },
+    {
+      "sym": "disco.cache_ttl",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "discovery",
+      "op": "set",
+      "template": "disco.cache_ttl_{}",
+      "freq": 1,
+      "op_id": 54327,
+      "capa_tags": [
+        "CAPA_NEG"
+      ],
+      "source_block": "CoreLang5_Block22_Session_Discovery_Routing",
+      "idempotent": false,
+      "side_effect": "write",
+      "stability": "stable",
+      "wire_cost_hint": 2,
+      "depends_on": [
+        "CAPA_NEG"
+      ]
+    },
+    {
+      "sym": "route.cost_metrics",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "routing",
+      "op": "set",
+      "template": "route.cost_metrics_{}",
+      "freq": 1,
+      "op_id": 29100,
+      "capa_tags": [
+        "RSYN1"
+      ],
+      "source_block": "CoreLang5_Block22_Session_Discovery_Routing",
+      "idempotent": false,
+      "side_effect": "write",
+      "stability": "stable",
+      "wire_cost_hint": 2,
+      "depends_on": [
+        "RSYN1"
+      ]
+    },
+    {
+      "sym": "route.relay_hint",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "routing",
+      "op": "hint",
+      "template": "route.relay_hint_{}",
+      "freq": 1,
+      "op_id": 24255,
+      "capa_tags": [
+        "RSYN1"
+      ],
+      "source_block": "CoreLang5_Block22_Session_Discovery_Routing",
+      "idempotent": false,
+      "side_effect": "write",
+      "stability": "stable",
+      "wire_cost_hint": 2,
+      "depends_on": [
+        "RSYN1"
+      ]
+    }
+  ],
+  "alias": {
+    "session.start_{}": "session.start",
+    "session.end_{}": "session.end",
+    "session.resume_{}": "session.resume",
+    "session.resume_token_{}": "session.resume_token",
+    "peer.ping_{}": "peer.ping",
+    "peer.pong_{}": "peer.pong",
+    "peer.path_hint_{}": "peer.path_hint",
+    "disco.cache_put_{}_{}": "disco.cache_put",
+    "disco.cache_get_{}": "disco.cache_get",
+    "route.add_{}_{}": "route.add",
+    "route.remove_{}": "route.remove",
+    "route.cost_get_{}": "route.cost_get",
+    "route.relay_{}": "route.relay",
+    "session.resume_mic_{}": "session.resume_mic",
+    "disco.cache_ttl_{}": "disco.cache_ttl",
+    "route.cost_metrics_{}": "route.cost_metrics",
+    "route.relay_hint_{}": "route.relay_hint"
+  }
+}

@@ -1,0 +1,207 @@
+{
+  "block": "CoreLang5_Block6_CONC_core_primitives",
+  "version": "6.30R1",
+  "tokens": [
+    {
+      "sym": "conc.task_spawn"
+    },
+    {
+      "sym": "conc.task_join"
+    },
+    {
+      "sym": "conc.task_cancel"
+    },
+    {
+      "sym": "conc.task_detach"
+    },
+    {
+      "sym": "conc.future_create"
+    },
+    {
+      "sym": "conc.future_await"
+    },
+    {
+      "sym": "conc.async_spawn"
+    },
+    {
+      "sym": "conc.async_await"
+    },
+    {
+      "sym": "conc.coroutine_create"
+    },
+    {
+      "sym": "conc.coroutine_resume"
+    },
+    {
+      "sym": "conc.coroutine_yield"
+    },
+    {
+      "sym": "conc.thread_spawn"
+    },
+    {
+      "sym": "conc.thread_join"
+    },
+    {
+      "sym": "conc.thread_detach"
+    },
+    {
+      "sym": "conc.thread_yield"
+    },
+    {
+      "sym": "conc.thread_sleep"
+    },
+    {
+      "sym": "conc.pool_create"
+    },
+    {
+      "sym": "conc.pool_submit"
+    },
+    {
+      "sym": "conc.pool_shutdown"
+    },
+    {
+      "sym": "conc.pool_resize"
+    },
+    {
+      "sym": "conc.worksteal_enable"
+    },
+    {
+      "sym": "conc.mutex_lock"
+    },
+    {
+      "sym": "conc.mutex_unlock"
+    },
+    {
+      "sym": "conc.rwlock_read_lock"
+    },
+    {
+      "sym": "conc.rwlock_write_lock"
+    },
+    {
+      "sym": "conc.rwlock_unlock"
+    },
+    {
+      "sym": "conc.spin_lock"
+    },
+    {
+      "sym": "conc.spin_unlock"
+    },
+    {
+      "sym": "conc.semaphore_acquire"
+    },
+    {
+      "sym": "conc.semaphore_release"
+    },
+    {
+      "sym": "conc.cond_wait"
+    },
+    {
+      "sym": "conc.cond_signal"
+    },
+    {
+      "sym": "conc.cond_broadcast"
+    },
+    {
+      "sym": "conc.barrier_wait"
+    },
+    {
+      "sym": "conc.atomic_load"
+    },
+    {
+      "sym": "conc.atomic_store"
+    },
+    {
+      "sym": "conc.atomic_fetch_add"
+    },
+    {
+      "sym": "conc.atomic_cas"
+    },
+    {
+      "sym": "conc.memory_fence"
+    },
+    {
+      "sym": "conc.channel_send"
+    },
+    {
+      "sym": "conc.channel_recv"
+    },
+    {
+      "sym": "conc.mpmc_push"
+    },
+    {
+      "sym": "conc.mpmc_pop"
+    },
+    {
+      "sym": "conc.spsc_push"
+    },
+    {
+      "sym": "conc.spsc_pop"
+    },
+    {
+      "sym": "conc.mailbox_send"
+    },
+    {
+      "sym": "conc.mailbox_recv"
+    },
+    {
+      "sym": "conc.actor_send"
+    },
+    {
+      "sym": "conc.actor_receive"
+    },
+    {
+      "sym": "conc.ringbuffer_push"
+    },
+    {
+      "sym": "conc.ringbuffer_pop"
+    },
+    {
+      "sym": "conc.eventloop_run"
+    },
+    {
+      "sym": "conc.eventloop_stop"
+    },
+    {
+      "sym": "conc.select_wait"
+    },
+    {
+      "sym": "conc.poll_wait"
+    },
+    {
+      "sym": "conc.epoll_wait"
+    },
+    {
+      "sym": "conc.kqueue_wait"
+    },
+    {
+      "sym": "conc.iouring_submit"
+    },
+    {
+      "sym": "conc.timeout_set"
+    },
+    {
+      "sym": "conc.deadline_set"
+    },
+    {
+      "sym": "conc.retry_with_backoff"
+    },
+    {
+      "sym": "conc.rate_limit_token_bucket"
+    },
+    {
+      "sym": "conc.pacing_enable"
+    },
+    {
+      "sym": "conc.timer_set"
+    },
+    {
+      "sym": "conc.timer_cancel"
+    },
+    {
+      "sym": "conc.sleep_ms"
+    },
+    {
+      "sym": "conc.yield_now"
+    }
+  ]
+}

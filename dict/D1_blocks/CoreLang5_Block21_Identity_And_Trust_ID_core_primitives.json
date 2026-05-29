@@ -1,0 +1,45 @@
+{
+  "block": "CoreLang5_Block21_Identity_And_Trust_ID_core_primitives",
+  "version": "6.30R1",
+  "tokens": [
+    {
+      "sym": "id.peer_announce"
+    },
+    {
+      "sym": "id.key_fingerprint"
+    },
+    {
+      "sym": "id.key_rotate"
+    },
+    {
+      "sym": "id.session_ticket"
+    },
+    {
+      "sym": "auth.challenge"
+    },
+    {
+      "sym": "auth.response"
+    },
+    {
+      "sym": "auth.verify"
+    },
+    {
+      "sym": "auth.pop"
+    },
+    {
+      "sym": "trust.score"
+    },
+    {
+      "sym": "trust.report"
+    },
+    {
+      "sym": "trust.policy_require"
+    },
+    {
+      "sym": "trust.revoke"
+    },
+    {
+      "sym": "id.capability_bind"
+    }
+  ]
+}

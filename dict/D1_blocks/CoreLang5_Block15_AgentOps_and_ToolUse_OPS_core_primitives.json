@@ -1,0 +1,66 @@
+{
+  "block": "CoreLang5_Block15_AgentOps_and_ToolUse_OPS_core_primitives",
+  "version": "6.30R1",
+  "tokens": [
+    {
+      "sym": "ops.session_start"
+    },
+    {
+      "sym": "ops.session_close"
+    },
+    {
+      "sym": "ops.plan"
+    },
+    {
+      "sym": "ops.step"
+    },
+    {
+      "sym": "ops.ack_semantic"
+    },
+    {
+      "sym": "ops.tool_invoke"
+    },
+    {
+      "sym": "ops.tool_result"
+    },
+    {
+      "sym": "ops.content_put"
+    },
+    {
+      "sym": "ops.content_get"
+    },
+    {
+      "sym": "ops.rollback"
+    },
+    {
+      "sym": "ops.rate_limit"
+    },
+    {
+      "sym": "ops.trace_link"
+    },
+    {
+      "sym": "ops.escrow_open"
+    },
+    {
+      "sym": "ops.escrow_close"
+    },
+    {
+      "sym": "ops.resource_request"
+    },
+    {
+      "sym": "ops.resource_grant"
+    },
+    {
+      "sym": "ops.resource_revoke"
+    },
+    {
+      "sym": "ops.guardrail"
+    },
+    {
+      "sym": "ops.capa_neg"
+    },
+    {
+      "sym": "ops.handoff"
+    }
+  ]
+}

@@ -1,0 +1,207 @@
+{
+  "block": "CoreLang5_Block5_IO_core_primitives",
+  "version": "6.30R1",
+  "tokens": [
+    {
+      "sym": "io.open"
+    },
+    {
+      "sym": "io.close"
+    },
+    {
+      "sym": "io.read"
+    },
+    {
+      "sym": "io.write"
+    },
+    {
+      "sym": "io.flush"
+    },
+    {
+      "sym": "io.seek"
+    },
+    {
+      "sym": "io.tell"
+    },
+    {
+      "sym": "io.read_all"
+    },
+    {
+      "sym": "io.write_all"
+    },
+    {
+      "sym": "io.readline"
+    },
+    {
+      "sym": "io.readlines"
+    },
+    {
+      "sym": "io.copy"
+    },
+    {
+      "sym": "io.move"
+    },
+    {
+      "sym": "io.rename"
+    },
+    {
+      "sym": "io.mkdir"
+    },
+    {
+      "sym": "io.rmdir"
+    },
+    {
+      "sym": "io.stat"
+    },
+    {
+      "sym": "io.chmod"
+    },
+    {
+      "sym": "io.unlink"
+    },
+    {
+      "sym": "io.stream_open"
+    },
+    {
+      "sym": "io.stream_close"
+    },
+    {
+      "sym": "io.stream_read"
+    },
+    {
+      "sym": "io.stream_write"
+    },
+    {
+      "sym": "io.buffer"
+    },
+    {
+      "sym": "io.chunk"
+    },
+    {
+      "sym": "io.frame_lenprefix"
+    },
+    {
+      "sym": "io.frame_delim"
+    },
+    {
+      "sym": "io.varint_encode"
+    },
+    {
+      "sym": "io.varint_decode"
+    },
+    {
+      "sym": "io.json_encode"
+    },
+    {
+      "sym": "io.json_decode"
+    },
+    {
+      "sym": "io.yaml_encode"
+    },
+    {
+      "sym": "io.yaml_decode"
+    },
+    {
+      "sym": "io.csv_encode"
+    },
+    {
+      "sym": "io.csv_decode"
+    },
+    {
+      "sym": "io.xml_encode"
+    },
+    {
+      "sym": "io.xml_decode"
+    },
+    {
+      "sym": "io.msgpack_encode"
+    },
+    {
+      "sym": "io.msgpack_decode"
+    },
+    {
+      "sym": "io.cbor_encode"
+    },
+    {
+      "sym": "io.cbor_decode"
+    },
+    {
+      "sym": "io.protobuf_encode"
+    },
+    {
+      "sym": "io.protobuf_decode"
+    },
+    {
+      "sym": "io.avro_encode"
+    },
+    {
+      "sym": "io.avro_decode"
+    },
+    {
+      "sym": "io.parquet_write"
+    },
+    {
+      "sym": "io.parquet_read"
+    },
+    {
+      "sym": "io.arrow_write"
+    },
+    {
+      "sym": "io.arrow_read"
+    },
+    {
+      "sym": "io.base64_encode"
+    },
+    {
+      "sym": "io.base64_decode"
+    },
+    {
+      "sym": "io.hex_encode"
+    },
+    {
+      "sym": "io.hex_decode"
+    },
+    {
+      "sym": "io.gzip_compress"
+    },
+    {
+      "sym": "io.gzip_decompress"
+    },
+    {
+      "sym": "io.zlib_compress"
+    },
+    {
+      "sym": "io.zlib_decompress"
+    },
+    {
+      "sym": "io.zstd_compress"
+    },
+    {
+      "sym": "io.zstd_decompress"
+    },
+    {
+      "sym": "io.lz4_compress"
+    },
+    {
+      "sym": "io.lz4_decompress"
+    },
+    {
+      "sym": "io.deflate_compress"
+    },
+    {
+      "sym": "io.deflate_decompress"
+    },
+    {
+      "sym": "io.crc32"
+    },
+    {
+      "sym": "io.adler32"
+    },
+    {
+      "sym": "io.sha1"
+    },
+    {
+      "sym": "io.sha256"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "block": "CoreLang5_Block24_Safety_And_Policy_SAFETY_core_primitives",
+  "version": "6.30R1",
+  "tokens": [
+    {
+      "sym": "safety.guardrail_set"
+    },
+    {
+      "sym": "safety.violation_report"
+    },
+    {
+      "sym": "safety.rate_limit"
+    },
+    {
+      "sym": "safety.sandbox"
+    },
+    {
+      "sym": "safety.quarantine"
+    },
+    {
+      "sym": "policy.load"
+    },
+    {
+      "sym": "policy.enable"
+    },
+    {
+      "sym": "policy.disable"
+    },
+    {
+      "sym": "policy.query"
+    },
+    {
+      "sym": "policy.decision"
+    }
+  ]
+}

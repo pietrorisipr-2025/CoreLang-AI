@@ -1,0 +1,36 @@
+{
+  "block": "CoreLang5_Block16_Congestion_Control_and_Pacing_CC_core_primitives",
+  "version": "6.30R1",
+  "tokens": [
+    {
+      "sym": "cc.token_bucket"
+    },
+    {
+      "sym": "cc.latency_target"
+    },
+    {
+      "sym": "cc.rate_cap"
+    },
+    {
+      "sym": "cc.rtt_estimate"
+    },
+    {
+      "sym": "cc.path_mtu"
+    },
+    {
+      "sym": "cc.slow_start"
+    },
+    {
+      "sym": "cc.backoff"
+    },
+    {
+      "sym": "cc.aimd"
+    },
+    {
+      "sym": "cc.prioritize"
+    },
+    {
+      "sym": "cc.pacing_enable"
+    }
+  ]
+}

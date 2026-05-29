@@ -1,0 +1,439 @@
+{
+  "block": "CoreLang5_Block20_Capability_Negotiation",
+  "version": "6.30R1",
+  "parametric": [
+    {
+      "sym": "capa.offer",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "capa",
+      "op": "offer",
+      "template": "capa.offer_{}",
+      "freq": 1,
+      "op_id": 19161,
+      "capa_tags": [
+        "CAPA_NEG",
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block20_Capability_Negotiation",
+      "idempotent": false,
+      "side_effect": "write",
+      "stability": "stable",
+      "wire_cost_hint": 3,
+      "depends_on": [
+        "CAPA_NEG",
+        "MIC1"
+      ]
+    },
+    {
+      "sym": "capa.require",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "capa",
+      "op": "require",
+      "template": "capa.require_{}",
+      "freq": 1,
+      "op_id": 63699,
+      "capa_tags": [
+        "CAPA_NEG",
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block20_Capability_Negotiation",
+      "idempotent": false,
+      "side_effect": "write",
+      "stability": "stable",
+      "wire_cost_hint": 3,
+      "depends_on": [
+        "CAPA_NEG",
+        "MIC1"
+      ]
+    },
+    {
+      "sym": "capa.enable",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "capa",
+      "op": "enable",
+      "template": "capa.enable_{}",
+      "freq": 1,
+      "op_id": 52239,
+      "capa_tags": [
+        "CAPA_NEG",
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block20_Capability_Negotiation",
+      "idempotent": false,
+      "side_effect": "write",
+      "stability": "experimental",
+      "wire_cost_hint": 3,
+      "depends_on": [
+        "CAPA_NEG",
+        "MIC1"
+      ]
+    },
+    {
+      "sym": "capa.disable",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "capa",
+      "op": "disable",
+      "template": "capa.disable_{}",
+      "freq": 1,
+      "op_id": 26110,
+      "capa_tags": [
+        "CAPA_NEG",
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block20_Capability_Negotiation",
+      "idempotent": false,
+      "side_effect": "write",
+      "stability": "experimental",
+      "wire_cost_hint": 3,
+      "depends_on": [
+        "CAPA_NEG",
+        "MIC1"
+      ]
+    },
+    {
+      "sym": "capa.neg_result",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "capa",
+      "op": "result",
+      "template": "capa.neg_result_{}",
+      "freq": 1,
+      "op_id": 55483,
+      "capa_tags": [
+        "CAPA_NEG",
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block20_Capability_Negotiation",
+      "idempotent": false,
+      "side_effect": "none",
+      "stability": "experimental",
+      "wire_cost_hint": 3,
+      "depends_on": [
+        "CAPA_NEG",
+        "MIC1"
+      ]
+    },
+    {
+      "sym": "capa.query",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "capa",
+      "op": "query",
+      "template": "capa.query_{}",
+      "freq": 1,
+      "op_id": 2170,
+      "capa_tags": [
+        "CAPA_NEG"
+      ],
+      "source_block": "CoreLang5_Block20_Capability_Negotiation",
+      "idempotent": true,
+      "side_effect": "read",
+      "stability": "experimental",
+      "wire_cost_hint": 1,
+      "depends_on": [
+        "CAPA_NEG"
+      ]
+    },
+    {
+      "sym": "capa.profile",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "capa",
+      "op": "profile",
+      "template": "capa.profile_{}",
+      "freq": 1,
+      "op_id": 6266,
+      "capa_tags": [
+        "CAPA_NEG"
+      ],
+      "source_block": "CoreLang5_Block20_Capability_Negotiation",
+      "idempotent": false,
+      "side_effect": "none",
+      "stability": "experimental",
+      "wire_cost_hint": 3,
+      "depends_on": [
+        "CAPA_NEG"
+      ]
+    },
+    {
+      "sym": "capa.codec_pref",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "capa",
+      "op": "set",
+      "template": "capa.codec_pref_{}",
+      "freq": 1,
+      "op_id": 1237,
+      "capa_tags": [
+        "CAPA_NEG"
+      ],
+      "source_block": "CoreLang5_Block20_Capability_Negotiation",
+      "idempotent": false,
+      "side_effect": "none",
+      "stability": "experimental",
+      "wire_cost_hint": 3,
+      "depends_on": [
+        "CAPA_NEG"
+      ]
+    },
+    {
+      "sym": "capa.mic_required",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "capa",
+      "op": "set",
+      "template": "capa.mic_required_{}",
+      "freq": 1,
+      "op_id": 25310,
+      "capa_tags": [
+        "CAPA_NEG",
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block20_Capability_Negotiation",
+      "idempotent": false,
+      "side_effect": "write",
+      "stability": "experimental",
+      "wire_cost_hint": 3,
+      "depends_on": [
+        "CAPA_NEG",
+        "MIC1"
+      ]
+    },
+    {
+      "sym": "capa.fec_required",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "capa",
+      "op": "set",
+      "template": "capa.fec_required_{}",
+      "freq": 1,
+      "op_id": 5448,
+      "capa_tags": [
+        "CAPA_NEG",
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block20_Capability_Negotiation",
+      "idempotent": false,
+      "side_effect": "write",
+      "stability": "experimental",
+      "wire_cost_hint": 3,
+      "depends_on": [
+        "CAPA_NEG",
+        "MIC1"
+      ]
+    },
+    {
+      "sym": "capa.pref",
+      "args": [
+        "p1",
+        "p2"
+      ],
+      "args_types": [
+        "any",
+        "any"
+      ],
+      "constraints": {},
+      "category": "capa",
+      "op": "set",
+      "template": "capa.pref_{}_{}",
+      "freq": 1,
+      "op_id": 35421,
+      "capa_tags": [
+        "CAPA_NEG",
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block20_Capability_Negotiation",
+      "idempotent": false,
+      "side_effect": "write",
+      "stability": "experimental",
+      "wire_cost_hint": 3,
+      "depends_on": [
+        "CAPA_NEG",
+        "MIC1"
+      ]
+    },
+    {
+      "sym": "capa.deps",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "capa",
+      "op": "set",
+      "template": "capa.deps_{}",
+      "freq": 1,
+      "op_id": 8655,
+      "capa_tags": [
+        "CAPA_NEG",
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block20_Capability_Negotiation",
+      "idempotent": false,
+      "side_effect": "write",
+      "stability": "experimental",
+      "wire_cost_hint": 3,
+      "depends_on": [
+        "CAPA_NEG",
+        "MIC1"
+      ]
+    },
+    {
+      "sym": "capa.conflict",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "capa",
+      "op": "report",
+      "template": "capa.conflict_{}",
+      "freq": 1,
+      "op_id": 2976,
+      "capa_tags": [
+        "CAPA_NEG",
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block20_Capability_Negotiation",
+      "idempotent": false,
+      "side_effect": "write",
+      "stability": "experimental",
+      "wire_cost_hint": 3,
+      "depends_on": [
+        "CAPA_NEG",
+        "MIC1"
+      ]
+    },
+    {
+      "sym": "capa.snapshot",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "capa",
+      "op": "snapshot",
+      "template": "capa.snapshot_{}",
+      "freq": 1,
+      "op_id": 40690,
+      "capa_tags": [
+        "CAPA_NEG",
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block20_Capability_Negotiation",
+      "idempotent": false,
+      "side_effect": "write",
+      "stability": "experimental",
+      "wire_cost_hint": 3,
+      "depends_on": [
+        "CAPA_NEG",
+        "MIC1"
+      ]
+    },
+    {
+      "sym": "capa.restore",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "capa",
+      "op": "restore",
+      "template": "capa.restore_{}",
+      "freq": 1,
+      "op_id": 2071,
+      "capa_tags": [
+        "CAPA_NEG",
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block20_Capability_Negotiation",
+      "idempotent": false,
+      "side_effect": "write",
+      "stability": "experimental",
+      "wire_cost_hint": 3,
+      "depends_on": [
+        "CAPA_NEG",
+        "MIC1"
+      ]
+    }
+  ],
+  "alias": {
+    "capa.offer_{}": "capa.offer",
+    "capa.require_{}": "capa.require",
+    "capa.enable_{}": "capa.enable",
+    "capa.disable_{}": "capa.disable",
+    "capa.neg_result_{}": "capa.neg_result",
+    "capa.query_{}": "capa.query",
+    "capa.profile_{}": "capa.profile",
+    "capa.codec_pref_{}": "capa.codec_pref",
+    "capa.mic_required_{}": "capa.mic_required",
+    "capa.fec_required_{}": "capa.fec_required",
+    "capa.pref_{}_{}": "capa.pref",
+    "capa.deps_{}": "capa.deps",
+    "capa.conflict_{}": "capa.conflict",
+    "capa.snapshot_{}": "capa.snapshot",
+    "capa.restore_{}": "capa.restore"
+  }
+}

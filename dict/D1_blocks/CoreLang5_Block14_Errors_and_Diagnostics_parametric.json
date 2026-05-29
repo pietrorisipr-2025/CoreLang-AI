@@ -1,0 +1,356 @@
+{
+  "block": "CoreLang5_Block14_Errors_and_Diagnostics",
+  "version": "6.30R1",
+  "parametric": [
+    {
+      "sym": "err.new",
+      "args": [
+        "p1",
+        "p2"
+      ],
+      "category": "error",
+      "op": "new",
+      "template": "err.new_{}_{}",
+      "freq": 1,
+      "op_id": 61592,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block14_Errors_and_Diagnostics",
+      "args_types": [
+        "any",
+        "any"
+      ],
+      "idempotent": false,
+      "side_effect": "none"
+    },
+    {
+      "sym": "err.wrap",
+      "args": [
+        "p1"
+      ],
+      "category": "error",
+      "op": "wrap",
+      "template": "err.wrap_{}",
+      "freq": 1,
+      "op_id": 16077,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block14_Errors_and_Diagnostics",
+      "args_types": [
+        "any"
+      ],
+      "idempotent": false,
+      "side_effect": "none"
+    },
+    {
+      "sym": "err.with_kv",
+      "args": [
+        "p1",
+        "p2"
+      ],
+      "category": "error",
+      "op": "annotate",
+      "template": "err.with_kv_{}_{}",
+      "freq": 1,
+      "op_id": 28875,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block14_Errors_and_Diagnostics",
+      "args_types": [
+        "any",
+        "any"
+      ],
+      "idempotent": false,
+      "side_effect": "none"
+    },
+    {
+      "sym": "err.classify",
+      "args": [
+        "p1"
+      ],
+      "category": "error",
+      "op": "classify",
+      "template": "err.classify_{}",
+      "freq": 1,
+      "op_id": 23476,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block14_Errors_and_Diagnostics",
+      "args_types": [
+        "any"
+      ],
+      "idempotent": false,
+      "side_effect": "none"
+    },
+    {
+      "sym": "err.retryable",
+      "args": [
+        "p1"
+      ],
+      "category": "error",
+      "op": "flag",
+      "template": "err.retryable_{}",
+      "freq": 1,
+      "op_id": 58521,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block14_Errors_and_Diagnostics",
+      "args_types": [
+        "any"
+      ],
+      "idempotent": false,
+      "side_effect": "none"
+    },
+    {
+      "sym": "err.caused_by",
+      "args": [
+        "p1"
+      ],
+      "category": "error",
+      "op": "chain",
+      "template": "err.caused_by_{}",
+      "freq": 1,
+      "op_id": 3620,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block14_Errors_and_Diagnostics",
+      "args_types": [
+        "any"
+      ],
+      "idempotent": false,
+      "side_effect": "none"
+    },
+    {
+      "sym": "diag.span_start",
+      "args": [
+        "p1"
+      ],
+      "category": "diag",
+      "op": "start",
+      "template": "diag.span_start_{}",
+      "freq": 1,
+      "op_id": 34163,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block14_Errors_and_Diagnostics",
+      "args_types": [
+        "any"
+      ],
+      "idempotent": true,
+      "side_effect": "read"
+    },
+    {
+      "sym": "diag.span_end",
+      "args": [
+        "p1"
+      ],
+      "category": "diag",
+      "op": "end",
+      "template": "diag.span_end_{}",
+      "freq": 1,
+      "op_id": 57699,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block14_Errors_and_Diagnostics",
+      "args_types": [
+        "any"
+      ],
+      "idempotent": true,
+      "side_effect": "read"
+    },
+    {
+      "sym": "diag.event",
+      "args": [
+        "p1"
+      ],
+      "category": "diag",
+      "op": "event",
+      "template": "diag.event_{}",
+      "freq": 1,
+      "op_id": 6159,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block14_Errors_and_Diagnostics",
+      "args_types": [
+        "any"
+      ],
+      "idempotent": true,
+      "side_effect": "read"
+    },
+    {
+      "sym": "diag.kv",
+      "args": [
+        "p1",
+        "p2"
+      ],
+      "category": "diag",
+      "op": "kv",
+      "template": "diag.kv_{}_{}",
+      "freq": 1,
+      "op_id": 49075,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block14_Errors_and_Diagnostics",
+      "args_types": [
+        "any",
+        "any"
+      ],
+      "idempotent": true,
+      "side_effect": "read"
+    },
+    {
+      "sym": "diag.emit_metric",
+      "args": [
+        "p1"
+      ],
+      "category": "metrics",
+      "op": "emit",
+      "template": "diag.emit_metric_{}",
+      "freq": 1,
+      "op_id": 43959,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block14_Errors_and_Diagnostics",
+      "args_types": [
+        "any"
+      ],
+      "idempotent": true,
+      "side_effect": "read"
+    },
+    {
+      "sym": "diag.emit_hist",
+      "args": [
+        "p1"
+      ],
+      "category": "metrics",
+      "op": "emit",
+      "template": "diag.emit_hist_{}",
+      "freq": 1,
+      "op_id": 7090,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block14_Errors_and_Diagnostics",
+      "args_types": [
+        "any"
+      ],
+      "idempotent": true,
+      "side_effect": "read"
+    },
+    {
+      "sym": "diag.rate_limit",
+      "args": [
+        "p1"
+      ],
+      "category": "metrics",
+      "op": "limit",
+      "template": "diag.rate_limit_{}",
+      "freq": 1,
+      "op_id": 63687,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block14_Errors_and_Diagnostics",
+      "args_types": [
+        "any"
+      ],
+      "idempotent": true,
+      "side_effect": "read"
+    },
+    {
+      "sym": "diag.sample",
+      "args": [
+        "p1"
+      ],
+      "category": "metrics",
+      "op": "sample",
+      "template": "diag.sample_{}",
+      "freq": 1,
+      "op_id": 24523,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block14_Errors_and_Diagnostics",
+      "args_types": [
+        "any"
+      ],
+      "idempotent": true,
+      "side_effect": "read"
+    },
+    {
+      "sym": "diag.trace_id",
+      "args": [
+        "p1"
+      ],
+      "category": "trace",
+      "op": "set",
+      "template": "diag.trace_id_{}",
+      "freq": 1,
+      "op_id": 12114,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block14_Errors_and_Diagnostics",
+      "args_types": [
+        "any"
+      ],
+      "idempotent": true,
+      "side_effect": "read"
+    },
+    {
+      "sym": "diag.span_link",
+      "args": [
+        "p1"
+      ],
+      "category": "trace",
+      "op": "link",
+      "template": "diag.span_link_{}",
+      "freq": 1,
+      "op_id": 39676,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block14_Errors_and_Diagnostics",
+      "args_types": [
+        "any"
+      ],
+      "idempotent": true,
+      "side_effect": "read"
+    },
+    {
+      "sym": "diag.log",
+      "args": [
+        "p1"
+      ],
+      "category": "log",
+      "op": "emit",
+      "template": "diag.log_{}",
+      "freq": 1,
+      "op_id": 45117,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block14_Errors_and_Diagnostics",
+      "args_types": [
+        "any"
+      ],
+      "idempotent": true,
+      "side_effect": "read"
+    },
+    {
+      "sym": "diag.flush",
+      "args": [
+        "p1"
+      ],
+      "category": "log",
+      "op": "flush",
+      "template": "diag.flush_{}",
+      "freq": 1,
+      "op_id": 56513,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block14_Errors_and_Diagnostics",
+      "args_types": [
+        "any"
+      ],
+      "idempotent": true,
+      "side_effect": "read"
+    }
+  ],
+  "alias": {
+    "err.new_{}_{}": "err.new",
+    "err.wrap_{}": "err.wrap",
+    "err.with_kv_{}_{}": "err.with_kv",
+    "err.classify_{}": "err.classify",
+    "err.retryable_{}": "err.retryable",
+    "err.caused_by_{}": "err.caused_by",
+    "diag.span_start_{}": "diag.span_start",
+    "diag.span_end_{}": "diag.span_end",
+    "diag.event_{}": "diag.event",
+    "diag.kv_{}_{}": "diag.kv",
+    "diag.emit_metric_{}": "diag.emit_metric",
+    "diag.emit_hist_{}": "diag.emit_hist",
+    "diag.rate_limit_{}": "diag.rate_limit",
+    "diag.sample_{}": "diag.sample",
+    "diag.trace_id_{}": "diag.trace_id",
+    "diag.span_link_{}": "diag.span_link",
+    "diag.log_{}": "diag.log",
+    "diag.flush_{}": "diag.flush"
+  }
+}

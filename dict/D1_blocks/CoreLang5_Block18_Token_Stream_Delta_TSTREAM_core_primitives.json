@@ -1,0 +1,30 @@
+{
+  "block": "CoreLang5_Block18_Token_Stream_Delta_TSTREAM_core_primitives",
+  "version": "6.30R1",
+  "tokens": [
+    {
+      "sym": "tstream.delta_tokens"
+    },
+    {
+      "sym": "tstream.micro_update"
+    },
+    {
+      "sym": "tstream.window"
+    },
+    {
+      "sym": "tstream.entropy"
+    },
+    {
+      "sym": "tstream.flush"
+    },
+    {
+      "sym": "tstream.commit"
+    },
+    {
+      "sym": "tstream.rollback"
+    },
+    {
+      "sym": "tstream.pack"
+    }
+  ]
+}

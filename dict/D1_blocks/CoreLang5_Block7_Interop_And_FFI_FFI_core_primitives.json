@@ -1,0 +1,75 @@
+{
+  "block": "CoreLang5_Block7_Interop_And_FFI_FFI_core_primitives",
+  "version": "6.30R1",
+  "tokens": [
+    {
+      "sym": "ffi.abi_cdecl"
+    },
+    {
+      "sym": "ffi.abi_stdcall"
+    },
+    {
+      "sym": "ffi.abi_sysv"
+    },
+    {
+      "sym": "ffi.dlopen"
+    },
+    {
+      "sym": "ffi.dlsym"
+    },
+    {
+      "sym": "ffi.loadlib"
+    },
+    {
+      "sym": "ffi.bind_symbol"
+    },
+    {
+      "sym": "ffi.call"
+    },
+    {
+      "sym": "ffi.callback"
+    },
+    {
+      "sym": "ffi.marshal_pack"
+    },
+    {
+      "sym": "ffi.marshal_unpack"
+    },
+    {
+      "sym": "ffi.struct_layout"
+    },
+    {
+      "sym": "ffi.endian_little"
+    },
+    {
+      "sym": "ffi.endian_big"
+    },
+    {
+      "sym": "ffi.ctypes"
+    },
+    {
+      "sym": "ffi.cffi"
+    },
+    {
+      "sym": "ffi.jni"
+    },
+    {
+      "sym": "ffi.jna"
+    },
+    {
+      "sym": "ffi.swig"
+    },
+    {
+      "sym": "ffi.syscall"
+    },
+    {
+      "sym": "ffi.ioctl"
+    },
+    {
+      "sym": "ffi.wasm_import"
+    },
+    {
+      "sym": "ffi.wasm_export"
+    }
+  ]
+}

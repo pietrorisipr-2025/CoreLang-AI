@@ -1,0 +1,108 @@
+{
+  "block": "CoreLang5_Block12_Tensors_And_Quantization_TENS_core_primitives",
+  "version": "6.30R1",
+  "tokens": [
+    {
+      "sym": "tens.qprofile_define"
+    },
+    {
+      "sym": "tens.qprofile_autotune"
+    },
+    {
+      "sym": "tens.qprofile_rotate"
+    },
+    {
+      "sym": "tens.qprofile_gc"
+    },
+    {
+      "sym": "tens.quantize"
+    },
+    {
+      "sym": "tens.dequantize"
+    },
+    {
+      "sym": "tens.pack_tensor"
+    },
+    {
+      "sym": "tens.unpack_tensor"
+    },
+    {
+      "sym": "tens.pq_encode"
+    },
+    {
+      "sym": "tens.pq_decode"
+    },
+    {
+      "sym": "tens.rvq_encode"
+    },
+    {
+      "sym": "tens.rvq_decode"
+    },
+    {
+      "sym": "tens.clip"
+    },
+    {
+      "sym": "tens.scale_shift"
+    },
+    {
+      "sym": "tens.sparsify"
+    },
+    {
+      "sym": "tens.desparsify"
+    },
+    {
+      "sym": "tens.cast"
+    },
+    {
+      "sym": "tens.compress"
+    },
+    {
+      "sym": "tens.decompress"
+    },
+    {
+      "sym": "tens.transpose"
+    },
+    {
+      "sym": "tens.reshape"
+    },
+    {
+      "sym": "tens.broadcast"
+    },
+    {
+      "sym": "tens.matmul_tile"
+    },
+    {
+      "sym": "tens.matmul_block"
+    },
+    {
+      "sym": "tens.attn_pack"
+    },
+    {
+      "sym": "tens.attn_delta"
+    },
+    {
+      "sym": "tens.embed_ref"
+    },
+    {
+      "sym": "tens.gather"
+    },
+    {
+      "sym": "tens.scatter"
+    },
+    {
+      "sym": "tens.reduce"
+    },
+    {
+      "sym": "tens.quant_error"
+    },
+    {
+      "sym": "tens.calibrate"
+    },
+    {
+      "sym": "tens.vectorize"
+    },
+    {
+      "sym": "tens.reorder"
+    }
+  ]
+}

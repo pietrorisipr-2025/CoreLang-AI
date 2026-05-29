@@ -1,0 +1,454 @@
+{
+  "block": "CoreLang5_Block15_AgentOps_and_ToolUse",
+  "version": "6.30R1",
+  "parametric": [
+    {
+      "sym": "ops.session_start",
+      "args": [
+        "p1"
+      ],
+      "category": "session",
+      "op": "start",
+      "template": "ops.session_start_{}",
+      "freq": 1,
+      "op_id": 8701,
+      "capa_tags": [
+        "ACK1",
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block15_AgentOps_and_ToolUse",
+      "args_types": [
+        "any"
+      ],
+      "idempotent": false,
+      "side_effect": "write"
+    },
+    {
+      "sym": "ops.session_close",
+      "args": [
+        "p1"
+      ],
+      "category": "session",
+      "op": "close",
+      "template": "ops.session_close_{}",
+      "freq": 1,
+      "op_id": 37161,
+      "capa_tags": [
+        "ACK1",
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block15_AgentOps_and_ToolUse",
+      "args_types": [
+        "any"
+      ],
+      "idempotent": false,
+      "side_effect": "write"
+    },
+    {
+      "sym": "ops.plan",
+      "args": [
+        "p1"
+      ],
+      "category": "plan",
+      "op": "new",
+      "template": "ops.plan_{}",
+      "freq": 1,
+      "op_id": 21168,
+      "capa_tags": [
+        "ACK1",
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block15_AgentOps_and_ToolUse",
+      "args_types": [
+        "any"
+      ],
+      "idempotent": false,
+      "side_effect": "write"
+    },
+    {
+      "sym": "ops.step",
+      "args": [
+        "p1"
+      ],
+      "category": "plan",
+      "op": "step",
+      "template": "ops.step_{}",
+      "freq": 1,
+      "op_id": 24005,
+      "capa_tags": [
+        "ACK1",
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block15_AgentOps_and_ToolUse",
+      "args_types": [
+        "any"
+      ],
+      "idempotent": false,
+      "side_effect": "write"
+    },
+    {
+      "sym": "ops.ack_semantic",
+      "args": [
+        "p1"
+      ],
+      "category": "ack",
+      "op": "ack",
+      "template": "ops.ack_semantic_{}",
+      "freq": 1,
+      "op_id": 20966,
+      "capa_tags": [
+        "ACK1",
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block15_AgentOps_and_ToolUse",
+      "args_types": [
+        "any"
+      ],
+      "idempotent": true,
+      "side_effect": "read"
+    },
+    {
+      "sym": "ops.tool_invoke",
+      "args": [
+        "p1",
+        "p2"
+      ],
+      "category": "tool",
+      "op": "invoke",
+      "template": "ops.tool_invoke_{}_{}",
+      "freq": 1,
+      "op_id": 7411,
+      "capa_tags": [
+        "ACK1",
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block15_AgentOps_and_ToolUse",
+      "args_types": [
+        "any",
+        "any"
+      ],
+      "idempotent": false,
+      "side_effect": "write"
+    },
+    {
+      "sym": "ops.tool_result",
+      "args": [
+        "p1"
+      ],
+      "category": "tool",
+      "op": "result",
+      "template": "ops.tool_result_{}",
+      "freq": 1,
+      "op_id": 43199,
+      "capa_tags": [
+        "ACK1",
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block15_AgentOps_and_ToolUse",
+      "args_types": [
+        "any"
+      ],
+      "idempotent": false,
+      "side_effect": "none"
+    },
+    {
+      "sym": "ops.content_put",
+      "args": [
+        "p1"
+      ],
+      "category": "content",
+      "op": "put",
+      "template": "ops.content_put_{}",
+      "freq": 1,
+      "op_id": 40322,
+      "capa_tags": [
+        "ACK1",
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block15_AgentOps_and_ToolUse",
+      "args_types": [
+        "any"
+      ],
+      "idempotent": false,
+      "side_effect": "write"
+    },
+    {
+      "sym": "ops.content_get",
+      "args": [
+        "p1"
+      ],
+      "category": "content",
+      "op": "get",
+      "template": "ops.content_get_{}",
+      "freq": 1,
+      "op_id": 51379,
+      "capa_tags": [
+        "ACK1",
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block15_AgentOps_and_ToolUse",
+      "args_types": [
+        "any"
+      ],
+      "idempotent": false,
+      "side_effect": "none"
+    },
+    {
+      "sym": "ops.rollback",
+      "args": [
+        "p1"
+      ],
+      "category": "control",
+      "op": "rollback",
+      "template": "ops.rollback_{}",
+      "freq": 1,
+      "op_id": 34582,
+      "capa_tags": [
+        "ACK1",
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block15_AgentOps_and_ToolUse",
+      "args_types": [
+        "any"
+      ],
+      "idempotent": false,
+      "side_effect": "none"
+    },
+    {
+      "sym": "ops.rate_limit",
+      "args": [
+        "p1"
+      ],
+      "category": "control",
+      "op": "rate",
+      "template": "ops.rate_limit_{}",
+      "freq": 1,
+      "op_id": 31641,
+      "capa_tags": [
+        "ACK1",
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block15_AgentOps_and_ToolUse",
+      "args_types": [
+        "any"
+      ],
+      "idempotent": false,
+      "side_effect": "none"
+    },
+    {
+      "sym": "ops.trace_link",
+      "args": [
+        "p1"
+      ],
+      "category": "trace",
+      "op": "link",
+      "template": "ops.trace_link_{}",
+      "freq": 1,
+      "op_id": 33825,
+      "capa_tags": [
+        "ACK1",
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block15_AgentOps_and_ToolUse",
+      "args_types": [
+        "any"
+      ],
+      "idempotent": true,
+      "side_effect": "read"
+    },
+    {
+      "sym": "ops.escrow_open",
+      "args": [
+        "p1"
+      ],
+      "category": "resource",
+      "op": "open",
+      "template": "ops.escrow_open_{}",
+      "freq": 1,
+      "op_id": 14419,
+      "capa_tags": [
+        "ACK1",
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block15_AgentOps_and_ToolUse",
+      "args_types": [
+        "any"
+      ],
+      "idempotent": false,
+      "side_effect": "none"
+    },
+    {
+      "sym": "ops.escrow_close",
+      "args": [
+        "p1"
+      ],
+      "category": "resource",
+      "op": "close",
+      "template": "ops.escrow_close_{}",
+      "freq": 1,
+      "op_id": 43256,
+      "capa_tags": [
+        "ACK1",
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block15_AgentOps_and_ToolUse",
+      "args_types": [
+        "any"
+      ],
+      "idempotent": false,
+      "side_effect": "none"
+    },
+    {
+      "sym": "ops.resource_request",
+      "args": [
+        "p1",
+        "p2"
+      ],
+      "category": "resource",
+      "op": "request",
+      "template": "ops.resource_request_{}_{}",
+      "freq": 1,
+      "op_id": 16853,
+      "capa_tags": [
+        "ACK1",
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block15_AgentOps_and_ToolUse",
+      "args_types": [
+        "any",
+        "any"
+      ],
+      "idempotent": false,
+      "side_effect": "write"
+    },
+    {
+      "sym": "ops.resource_grant",
+      "args": [
+        "p1",
+        "p2"
+      ],
+      "category": "resource",
+      "op": "grant",
+      "template": "ops.resource_grant_{}_{}",
+      "freq": 1,
+      "op_id": 56553,
+      "capa_tags": [
+        "ACK1",
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block15_AgentOps_and_ToolUse",
+      "args_types": [
+        "any",
+        "any"
+      ],
+      "idempotent": false,
+      "side_effect": "write"
+    },
+    {
+      "sym": "ops.resource_revoke",
+      "args": [
+        "p1"
+      ],
+      "category": "resource",
+      "op": "revoke",
+      "template": "ops.resource_revoke_{}",
+      "freq": 1,
+      "op_id": 20874,
+      "capa_tags": [
+        "ACK1",
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block15_AgentOps_and_ToolUse",
+      "args_types": [
+        "any"
+      ],
+      "idempotent": false,
+      "side_effect": "none"
+    },
+    {
+      "sym": "ops.guardrail",
+      "args": [
+        "p1"
+      ],
+      "category": "policy",
+      "op": "apply",
+      "template": "ops.guardrail_{}",
+      "freq": 1,
+      "op_id": 61068,
+      "capa_tags": [
+        "ACK1",
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block15_AgentOps_and_ToolUse",
+      "args_types": [
+        "any"
+      ],
+      "idempotent": false,
+      "side_effect": "write"
+    },
+    {
+      "sym": "ops.capa_neg",
+      "args": [
+        "p1"
+      ],
+      "category": "link",
+      "op": "negotiate",
+      "template": "ops.capa_neg_{}",
+      "freq": 1,
+      "op_id": 3741,
+      "capa_tags": [
+        "ACK1",
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block15_AgentOps_and_ToolUse",
+      "args_types": [
+        "any"
+      ],
+      "idempotent": false,
+      "side_effect": "write"
+    },
+    {
+      "sym": "ops.handoff",
+      "args": [
+        "p1"
+      ],
+      "category": "session",
+      "op": "handoff",
+      "template": "ops.handoff_{}",
+      "freq": 1,
+      "op_id": 57115,
+      "capa_tags": [
+        "ACK1",
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block15_AgentOps_and_ToolUse",
+      "args_types": [
+        "any"
+      ],
+      "idempotent": false,
+      "side_effect": "none"
+    }
+  ],
+  "alias": {
+    "ops.session_start_{}": "ops.session_start",
+    "ops.session_close_{}": "ops.session_close",
+    "ops.plan_{}": "ops.plan",
+    "ops.step_{}": "ops.step",
+    "ops.ack_semantic_{}": "ops.ack_semantic",
+    "ops.tool_invoke_{}_{}": "ops.tool_invoke",
+    "ops.tool_result_{}": "ops.tool_result",
+    "ops.content_put_{}": "ops.content_put",
+    "ops.content_get_{}": "ops.content_get",
+    "ops.rollback_{}": "ops.rollback",
+    "ops.rate_limit_{}": "ops.rate_limit",
+    "ops.trace_link_{}": "ops.trace_link",
+    "ops.escrow_open_{}": "ops.escrow_open",
+    "ops.escrow_close_{}": "ops.escrow_close",
+    "ops.resource_request_{}_{}": "ops.resource_request",
+    "ops.resource_grant_{}_{}": "ops.resource_grant",
+    "ops.resource_revoke_{}": "ops.resource_revoke",
+    "ops.guardrail_{}": "ops.guardrail",
+    "ops.capa_neg_{}": "ops.capa_neg",
+    "ops.handoff_{}": "ops.handoff"
+  }
+}

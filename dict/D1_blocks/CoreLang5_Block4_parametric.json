@@ -1,0 +1,521 @@
+{
+  "block": "CoreLang5_Block4_Algorithms",
+  "version": "6.30R1",
+  "parametric": [
+    {
+      "sym": "algo.cl{}_grid_unique_paths_r{}_c{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3",
+        "p4"
+      ],
+      "category": "generic",
+      "template": "CL{n}_GRID_UNIQUE_PATHS_R{n}_C{n}_{n}",
+      "freq": 910,
+      "op_id": 20488,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block4_Algorithms"
+    },
+    {
+      "sym": "algo.cl{}_bst_edges_for_nodes_n{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3"
+      ],
+      "category": "generic",
+      "template": "CL{n}_BST_EDGES_FOR_NODES_N{n}_{n}",
+      "freq": 909,
+      "op_id": 36309,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block4_Algorithms"
+    },
+    {
+      "sym": "algo.cl{}_bt_last_level_nodes_n{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3"
+      ],
+      "category": "generic",
+      "template": "CL{n}_BT_LAST_LEVEL_NODES_N{n}_{n}",
+      "freq": 909,
+      "op_id": 13436,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block4_Algorithms"
+    },
+    {
+      "sym": "algo.cl{}_cayley_spanning_trees_k_n_n{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3"
+      ],
+      "category": "generic",
+      "template": "CL{n}_CAYLEY_SPANNING_TREES_K_N_N{n}_{n}",
+      "freq": 909,
+      "op_id": 59368,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block4_Algorithms"
+    },
+    {
+      "sym": "algo.cl{}_euclid_steps_fib_m{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3"
+      ],
+      "category": "generic",
+      "template": "CL{n}_EUCLID_STEPS_FIB_M{n}_{n}",
+      "freq": 909,
+      "op_id": 6202,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block4_Algorithms"
+    },
+    {
+      "sym": "algo.cl{}_gp_sum_a{}_r{}_k{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3",
+        "p4",
+        "p5"
+      ],
+      "category": "generic",
+      "template": "CL{n}_GP_SUM_A{n}_R{n}_K{n}_{n}",
+      "freq": 909,
+      "op_id": 17938,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block4_Algorithms"
+    },
+    {
+      "sym": "algo.cl{}_heap_parent_index_n{}_i{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3",
+        "p4"
+      ],
+      "category": "generic",
+      "template": "CL{n}_HEAP_PARENT_INDEX_N{n}_I{n}_{n}",
+      "freq": 909,
+      "op_id": 31620,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block4_Algorithms"
+    },
+    {
+      "sym": "algo.cl{}_radix_passes_digits{}_base{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3",
+        "p4"
+      ],
+      "category": "generic",
+      "template": "CL{n}_RADIX_PASSES_DIGITS{n}_BASE{n}_{n}",
+      "freq": 909,
+      "op_id": 61577,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block4_Algorithms"
+    },
+    {
+      "sym": "algo.cl{}_ring_shortest_distance_n{}_u{}_v{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3",
+        "p4",
+        "p5"
+      ],
+      "category": "generic",
+      "template": "CL{n}_RING_SHORTEST_DISTANCE_N{n}_U{n}_V{n}_{n}",
+      "freq": 909,
+      "op_id": 36374,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block4_Algorithms"
+    },
+    {
+      "sym": "algo.cl{}_topo_orders_chain_n{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3"
+      ],
+      "category": "graph",
+      "template": "CL{n}_TOPO_ORDERS_CHAIN_N{n}_{n}",
+      "freq": 909,
+      "op_id": 27302,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block4_Algorithms"
+    },
+    {
+      "sym": "algo.cl{}_tree_edges_for_nodes_n{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3"
+      ],
+      "category": "generic",
+      "template": "CL{n}_TREE_EDGES_FOR_NODES_N{n}_{n}",
+      "freq": 909,
+      "op_id": 11693,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block4_Algorithms"
+    },
+    {
+      "sym": "algo.cl{}_bt_perfect_nodes_h{}_d{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3",
+        "p4"
+      ],
+      "category": "generic",
+      "template": "CL{n}_BT_PERFECT_NODES_H{n}_D{n}_{n}",
+      "freq": 200,
+      "op_id": 22764,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block4_Algorithms"
+    },
+    {
+      "sym": "algo.cl{}_countingsort_advise_n{}_k{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3",
+        "p4"
+      ],
+      "category": "sorting_selection",
+      "template": "CL{n}_COUNTINGSORT_ADVISE_N{n}_K{n}_{n}",
+      "freq": 200,
+      "op_id": 16326,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block4_Algorithms"
+    },
+    {
+      "sym": "algo.cl{}_dijkstra_line_{}_to_{}_{}",
+      "args": [
+        "line",
+        "to"
+      ],
+      "category": "graph",
+      "template": "CL{n}_DIJKSTRA_LINE_{n}_TO_{n}_{n}",
+      "freq": 200,
+      "op_id": 41814,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block4_Algorithms"
+    },
+    {
+      "sym": "algo.cl{}_graph_k_n_edges_n{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3"
+      ],
+      "category": "graph",
+      "template": "CL{n}_GRAPH_K_N_EDGES_N{n}_{n}",
+      "freq": 200,
+      "op_id": 43637,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block4_Algorithms"
+    },
+    {
+      "sym": "algo.cl{}_lis_single_inversion_n{}_p{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3",
+        "p4"
+      ],
+      "category": "generic",
+      "template": "CL{n}_LIS_SINGLE_INVERSION_N{n}_P{n}_{n}",
+      "freq": 200,
+      "op_id": 22719,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block4_Algorithms"
+    },
+    {
+      "sym": "algo.cl{}_lowerbound_ap_n{}_step{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3",
+        "p4"
+      ],
+      "category": "generic",
+      "template": "CL{n}_LOWERBOUND_AP_N{n}_STEP{n}_{n}",
+      "freq": 200,
+      "op_id": 36768,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block4_Algorithms"
+    },
+    {
+      "sym": "algo.cl{}_mst_line_n{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3"
+      ],
+      "category": "generic",
+      "template": "CL{n}_MST_LINE_N{n}_{n}",
+      "freq": 200,
+      "op_id": 59400,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block4_Algorithms"
+    },
+    {
+      "sym": "algo.cl{}_sweepline_aligned_n{}_l{}_g{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3",
+        "p4",
+        "p5"
+      ],
+      "category": "geometry",
+      "template": "CL{n}_SWEEPLINE_ALIGNED_N{n}_L{n}_G{n}_{n}",
+      "freq": 200,
+      "op_id": 38425,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block4_Algorithms"
+    },
+    {
+      "sym": "algo.cl{}_topo_dag_chain_n{}_extra{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3",
+        "p4"
+      ],
+      "category": "graph",
+      "template": "CL{n}_TOPO_DAG_CHAIN_N{n}_EXTRA{n}_{n}",
+      "freq": 200,
+      "op_id": 64355,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block4_Algorithms"
+    },
+    {
+      "sym": "algo.cl{}_unionfind_min_unions_connect_n{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3"
+      ],
+      "category": "generic",
+      "template": "CL{n}_UNIONFIND_MIN_UNIONS_CONNECT_N{n}_{n}",
+      "freq": 200,
+      "op_id": 57071,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block4_Algorithms"
+    },
+    {
+      "sym": "algo.cl{}_catalan_parentheses_n{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3"
+      ],
+      "category": "generic",
+      "template": "CL{n}_CATALAN_PARENTHESES_N{n}_{n}",
+      "freq": 167,
+      "op_id": 2449,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block4_Algorithms"
+    },
+    {
+      "sym": "algo.cl{}_graph_k_a_b_edges_a{}_b{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3",
+        "p4"
+      ],
+      "category": "graph",
+      "template": "CL{n}_GRAPH_K_A_B_EDGES_A{n}_B{n}_{n}",
+      "freq": 167,
+      "op_id": 6032,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block4_Algorithms"
+    },
+    {
+      "sym": "algo.cl{}_grid_path_len_r{}_c{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3",
+        "p4"
+      ],
+      "category": "generic",
+      "template": "CL{n}_GRID_PATH_LEN_R{n}_C{n}_{n}",
+      "freq": 167,
+      "op_id": 50708,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block4_Algorithms"
+    },
+    {
+      "sym": "algo.cl{}_heap_kary_height_k{}_n{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3",
+        "p4"
+      ],
+      "category": "generic",
+      "template": "CL{n}_HEAP_KARY_HEIGHT_K{n}_N{n}_{n}",
+      "freq": 167,
+      "op_id": 46787,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block4_Algorithms"
+    },
+    {
+      "sym": "algo.cl{}_inv_reversed_array_n{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3"
+      ],
+      "category": "generic",
+      "template": "CL{n}_INV_REVERSED_ARRAY_N{n}_{n}",
+      "freq": 167,
+      "op_id": 62240,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block4_Algorithms"
+    },
+    {
+      "sym": "algo.cl{}_segtree_nodes_for_n_n{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3"
+      ],
+      "category": "generic",
+      "template": "CL{n}_SEGTREE_NODES_FOR_N_N{n}_{n}",
+      "freq": 167,
+      "op_id": 56811,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block4_Algorithms"
+    },
+    {
+      "sym": "algo.cl{}_sort_lower_bound_comparisons_n{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3"
+      ],
+      "category": "sorting_selection",
+      "template": "CL{n}_SORT_LOWER_BOUND_COMPARISONS_N{n}_{n}",
+      "freq": 167,
+      "op_id": 45112,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block4_Algorithms"
+    },
+    {
+      "sym": "algo.cl{}_upperbound_ap_n{}_step{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3",
+        "p4"
+      ],
+      "category": "generic",
+      "template": "CL{n}_UPPERBOUND_AP_N{n}_STEP{n}_{n}",
+      "freq": 167,
+      "op_id": 46560,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block4_Algorithms"
+    },
+    {
+      "sym": "algo.cl{}_bt_perfect_leaves_h{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3"
+      ],
+      "category": "generic",
+      "template": "CL{n}_BT_PERFECT_LEAVES_H{n}_{n}",
+      "freq": 166,
+      "op_id": 37919,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block4_Algorithms"
+    },
+    {
+      "sym": "algo.cl{}_comb_nck_n{}_k{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3",
+        "p4"
+      ],
+      "category": "generic",
+      "template": "CL{n}_COMB_NCK_N{n}_K{n}_{n}",
+      "freq": 166,
+      "op_id": 2053,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block4_Algorithms"
+    },
+    {
+      "sym": "algo.cl{}_graph_handshake_edges_sum{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3"
+      ],
+      "category": "graph",
+      "template": "CL{n}_GRAPH_HANDSHAKE_EDGES_SUM{n}_{n}",
+      "freq": 166,
+      "op_id": 46161,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block4_Algorithms"
+    },
+    {
+      "sym": "algo.cl{}_sets_subsets_count_n{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3"
+      ],
+      "category": "generic",
+      "template": "CL{n}_SETS_SUBSETS_COUNT_N{n}_{n}",
+      "freq": 166,
+      "op_id": 10726,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block4_Algorithms"
+    }
+  ],
+  "alias": {
+    "CL{n}_GRID_UNIQUE_PATHS_R{n}_C{n}_{n}": "algo.cl{}_grid_unique_paths_r{}_c{}_{}",
+    "CL{n}_BST_EDGES_FOR_NODES_N{n}_{n}": "algo.cl{}_bst_edges_for_nodes_n{}_{}",
+    "CL{n}_BT_LAST_LEVEL_NODES_N{n}_{n}": "algo.cl{}_bt_last_level_nodes_n{}_{}",
+    "CL{n}_CAYLEY_SPANNING_TREES_K_N_N{n}_{n}": "algo.cl{}_cayley_spanning_trees_k_n_n{}_{}",
+    "CL{n}_EUCLID_STEPS_FIB_M{n}_{n}": "algo.cl{}_euclid_steps_fib_m{}_{}",
+    "CL{n}_GP_SUM_A{n}_R{n}_K{n}_{n}": "algo.cl{}_gp_sum_a{}_r{}_k{}_{}",
+    "CL{n}_HEAP_PARENT_INDEX_N{n}_I{n}_{n}": "algo.cl{}_heap_parent_index_n{}_i{}_{}",
+    "CL{n}_RADIX_PASSES_DIGITS{n}_BASE{n}_{n}": "algo.cl{}_radix_passes_digits{}_base{}_{}",
+    "CL{n}_RING_SHORTEST_DISTANCE_N{n}_U{n}_V{n}_{n}": "algo.cl{}_ring_shortest_distance_n{}_u{}_v{}_{}",
+    "CL{n}_TOPO_ORDERS_CHAIN_N{n}_{n}": "algo.cl{}_topo_orders_chain_n{}_{}",
+    "CL{n}_TREE_EDGES_FOR_NODES_N{n}_{n}": "algo.cl{}_tree_edges_for_nodes_n{}_{}",
+    "CL{n}_BT_PERFECT_NODES_H{n}_D{n}_{n}": "algo.cl{}_bt_perfect_nodes_h{}_d{}_{}",
+    "CL{n}_COUNTINGSORT_ADVISE_N{n}_K{n}_{n}": "algo.cl{}_countingsort_advise_n{}_k{}_{}",
+    "CL{n}_DIJKSTRA_LINE_{n}_TO_{n}_{n}": "algo.cl{}_dijkstra_line_{}_to_{}_{}",
+    "CL{n}_GRAPH_K_N_EDGES_N{n}_{n}": "algo.cl{}_graph_k_n_edges_n{}_{}",
+    "CL{n}_LIS_SINGLE_INVERSION_N{n}_P{n}_{n}": "algo.cl{}_lis_single_inversion_n{}_p{}_{}",
+    "CL{n}_LOWERBOUND_AP_N{n}_STEP{n}_{n}": "algo.cl{}_lowerbound_ap_n{}_step{}_{}",
+    "CL{n}_MST_LINE_N{n}_{n}": "algo.cl{}_mst_line_n{}_{}",
+    "CL{n}_SWEEPLINE_ALIGNED_N{n}_L{n}_G{n}_{n}": "algo.cl{}_sweepline_aligned_n{}_l{}_g{}_{}",
+    "CL{n}_TOPO_DAG_CHAIN_N{n}_EXTRA{n}_{n}": "algo.cl{}_topo_dag_chain_n{}_extra{}_{}",
+    "CL{n}_UNIONFIND_MIN_UNIONS_CONNECT_N{n}_{n}": "algo.cl{}_unionfind_min_unions_connect_n{}_{}",
+    "CL{n}_CATALAN_PARENTHESES_N{n}_{n}": "algo.cl{}_catalan_parentheses_n{}_{}",
+    "CL{n}_GRAPH_K_A_B_EDGES_A{n}_B{n}_{n}": "algo.cl{}_graph_k_a_b_edges_a{}_b{}_{}",
+    "CL{n}_GRID_PATH_LEN_R{n}_C{n}_{n}": "algo.cl{}_grid_path_len_r{}_c{}_{}",
+    "CL{n}_HEAP_KARY_HEIGHT_K{n}_N{n}_{n}": "algo.cl{}_heap_kary_height_k{}_n{}_{}",
+    "CL{n}_INV_REVERSED_ARRAY_N{n}_{n}": "algo.cl{}_inv_reversed_array_n{}_{}",
+    "CL{n}_SEGTREE_NODES_FOR_N_N{n}_{n}": "algo.cl{}_segtree_nodes_for_n_n{}_{}",
+    "CL{n}_SORT_LOWER_BOUND_COMPARISONS_N{n}_{n}": "algo.cl{}_sort_lower_bound_comparisons_n{}_{}",
+    "CL{n}_UPPERBOUND_AP_N{n}_STEP{n}_{n}": "algo.cl{}_upperbound_ap_n{}_step{}_{}",
+    "CL{n}_BT_PERFECT_LEAVES_H{n}_{n}": "algo.cl{}_bt_perfect_leaves_h{}_{}",
+    "CL{n}_COMB_NCK_N{n}_K{n}_{n}": "algo.cl{}_comb_nck_n{}_k{}_{}",
+    "CL{n}_GRAPH_HANDSHAKE_EDGES_SUM{n}_{n}": "algo.cl{}_graph_handshake_edges_sum{}_{}",
+    "CL{n}_SETS_SUBSETS_COUNT_N{n}_{n}": "algo.cl{}_sets_subsets_count_n{}_{}"
+  }
+}

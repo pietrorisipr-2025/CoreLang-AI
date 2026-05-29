@@ -1,0 +1,775 @@
+{
+  "block": "CoreLang5_Block5_IO_And_Serialization",
+  "version": "6.30R1",
+  "parametric": [
+    {
+      "sym": "io.cl{}_c{}_io_base{}_encoded_length_{}",
+      "args": [
+        "length"
+      ],
+      "category": "generic",
+      "op": "write_encode",
+      "template": "CL{n}_C{n}_IO_BASE{n}_ENCODED_LENGTH_{n}",
+      "freq": 715,
+      "op_id": 20663,
+      "capa_tags": [
+        "CMP_ZSTD1"
+      ],
+      "source_block": "CoreLang5_Block5_IO_And_Serialization"
+    },
+    {
+      "sym": "io.cl{}_c{}_io_file_chunks_needed_{}",
+      "args": [
+        "needed"
+      ],
+      "category": "file",
+      "op": "framing",
+      "template": "CL{n}_C{n}_IO_FILE_CHUNKS_NEEDED_{n}",
+      "freq": 715,
+      "op_id": 37334,
+      "capa_tags": [
+        "CMP_ZSTD1"
+      ],
+      "source_block": "CoreLang5_Block5_IO_And_Serialization"
+    },
+    {
+      "sym": "io.cl{}_c{}_io_checksum_simplified_mod_{}",
+      "args": [
+        "mod"
+      ],
+      "category": "checksum",
+      "op": "checksum",
+      "template": "CL{n}_C{n}_IO_CHECKSUM_SIMPLIFIED_MOD_{n}",
+      "freq": 714,
+      "op_id": 31789,
+      "capa_tags": [
+        "CMP_ZSTD1"
+      ],
+      "source_block": "CoreLang5_Block5_IO_And_Serialization"
+    },
+    {
+      "sym": "io.cl{}_c{}_io_json_escape_extra_chars_{}",
+      "args": [
+        "chars"
+      ],
+      "category": "format",
+      "op": "op",
+      "template": "CL{n}_C{n}_IO_JSON_ESCAPE_EXTRA_CHARS_{n}",
+      "freq": 714,
+      "op_id": 62060,
+      "capa_tags": [
+        "CMP_ZSTD1"
+      ],
+      "source_block": "CoreLang5_Block5_IO_And_Serialization"
+    },
+    {
+      "sym": "io.cl{}_c{}_io_protobuf_tag_value_{}",
+      "args": [
+        "value"
+      ],
+      "category": "format",
+      "op": "op",
+      "template": "CL{n}_C{n}_IO_PROTOBUF_TAG_VALUE_{n}",
+      "freq": 714,
+      "op_id": 10257,
+      "capa_tags": [
+        "CMP_ZSTD1"
+      ],
+      "source_block": "CoreLang5_Block5_IO_And_Serialization"
+    },
+    {
+      "sym": "io.cl{}_c{}_io_utf{}_bytes_for_codepoint_{}",
+      "args": [
+        "codepoint"
+      ],
+      "category": "generic",
+      "op": "op",
+      "template": "CL{n}_C{n}_IO_UTF{n}_BYTES_FOR_CODEPOINT_{n}",
+      "freq": 714,
+      "op_id": 18504,
+      "capa_tags": [
+        "CMP_ZSTD1"
+      ],
+      "source_block": "CoreLang5_Block5_IO_And_Serialization"
+    },
+    {
+      "sym": "io.cl{}_c{}_io_varint_bytes_needed_{}",
+      "args": [
+        "needed"
+      ],
+      "category": "encoding",
+      "op": "framing",
+      "template": "CL{n}_C{n}_IO_VARINT_BYTES_NEEDED_{n}",
+      "freq": 714,
+      "op_id": 46384,
+      "capa_tags": [
+        "CMP_ZSTD1"
+      ],
+      "source_block": "CoreLang5_Block5_IO_And_Serialization"
+    },
+    {
+      "sym": "io.cl{}_endian_swap{}_x{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3",
+        "p4"
+      ],
+      "category": "generic",
+      "op": "op",
+      "template": "CL{n}_ENDIAN_SWAP{n}_X{n}_{n}",
+      "freq": 470,
+      "op_id": 46902,
+      "capa_tags": [
+        "CMP_ZSTD1"
+      ],
+      "source_block": "CoreLang5_Block5_IO_And_Serialization"
+    },
+    {
+      "sym": "io.cl{}_zigzag{}_varint_len_n_{}_{}",
+      "args": [
+        "n"
+      ],
+      "category": "encoding",
+      "op": "framing",
+      "template": "CL{n}_ZIGZAG{n}_VARINT_LEN_N_{n}_{n}",
+      "freq": 470,
+      "op_id": 35663,
+      "capa_tags": [
+        "CMP_ZSTD1"
+      ],
+      "source_block": "CoreLang5_Block5_IO_And_Serialization"
+    },
+    {
+      "sym": "io.cl{}_base{}_length_bytes{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3",
+        "p4"
+      ],
+      "category": "generic",
+      "op": "framing",
+      "template": "CL{n}_BASE{n}_LENGTH_BYTES{n}_{n}",
+      "freq": 236,
+      "op_id": 42001,
+      "capa_tags": [
+        "CMP_ZSTD1"
+      ],
+      "source_block": "CoreLang5_Block5_IO_And_Serialization"
+    },
+    {
+      "sym": "io.cl{}_base{}_padding_bytes{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3",
+        "p4"
+      ],
+      "category": "generic",
+      "op": "op",
+      "template": "CL{n}_BASE{n}_PADDING_BYTES{n}_{n}",
+      "freq": 236,
+      "op_id": 26925,
+      "capa_tags": [
+        "CMP_ZSTD1"
+      ],
+      "source_block": "CoreLang5_Block5_IO_And_Serialization"
+    },
+    {
+      "sym": "io.cl{}_hex_length_bytes{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3"
+      ],
+      "category": "encoding",
+      "op": "framing",
+      "template": "CL{n}_HEX_LENGTH_BYTES{n}_{n}",
+      "freq": 236,
+      "op_id": 54191,
+      "capa_tags": [
+        "CMP_ZSTD1"
+      ],
+      "source_block": "CoreLang5_Block5_IO_And_Serialization"
+    },
+    {
+      "sym": "io.cl{}_urlenc_length_safe{}_spaces{}_unsafe{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3",
+        "p4",
+        "p5"
+      ],
+      "category": "generic",
+      "op": "framing",
+      "template": "CL{n}_URLENC_LENGTH_SAFE{n}_SPACES{n}_UNSAFE{n}_{n}",
+      "freq": 236,
+      "op_id": 4983,
+      "capa_tags": [
+        "CMP_ZSTD1"
+      ],
+      "source_block": "CoreLang5_Block5_IO_And_Serialization"
+    },
+    {
+      "sym": "io.cl{}_utf{}_length_c{}_c{}_c{}_c{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3",
+        "p4",
+        "p5",
+        "p6",
+        "p7"
+      ],
+      "category": "generic",
+      "op": "framing",
+      "template": "CL{n}_UTF{n}_LENGTH_C{n}_C{n}_C{n}_C{n}_{n}",
+      "freq": 236,
+      "op_id": 23447,
+      "capa_tags": [
+        "CMP_ZSTD1"
+      ],
+      "source_block": "CoreLang5_Block5_IO_And_Serialization"
+    },
+    {
+      "sym": "io.cl{}_align{}_padded_header_h{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3",
+        "p4"
+      ],
+      "category": "generic",
+      "op": "op",
+      "template": "CL{n}_ALIGN{n}_PADDED_HEADER_H{n}_{n}",
+      "freq": 235,
+      "op_id": 607,
+      "capa_tags": [
+        "CMP_ZSTD1"
+      ],
+      "source_block": "CoreLang5_Block5_IO_And_Serialization"
+    },
+    {
+      "sym": "io.cl{}_bitpack_bytes_k{}_b{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3",
+        "p4"
+      ],
+      "category": "generic",
+      "op": "write_encode",
+      "template": "CL{n}_BITPACK_BYTES_K{n}_B{n}_{n}",
+      "freq": 235,
+      "op_id": 39363,
+      "capa_tags": [
+        "CMP_ZSTD1"
+      ],
+      "source_block": "CoreLang5_Block5_IO_And_Serialization"
+    },
+    {
+      "sym": "io.cl{}_eol_normalize_savings_crlf{}_lf{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3",
+        "p4"
+      ],
+      "category": "generic",
+      "op": "op",
+      "template": "CL{n}_EOL_NORMALIZE_SAVINGS_CRLF{n}_LF{n}_{n}",
+      "freq": 235,
+      "op_id": 16052,
+      "capa_tags": [
+        "CMP_ZSTD1"
+      ],
+      "source_block": "CoreLang5_Block5_IO_And_Serialization"
+    },
+    {
+      "sym": "io.cl{}_json_array_min_len_n{}_d{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3",
+        "p4"
+      ],
+      "category": "format",
+      "op": "framing",
+      "template": "CL{n}_JSON_ARRAY_MIN_LEN_N{n}_D{n}_{n}",
+      "freq": 235,
+      "op_id": 19973,
+      "capa_tags": [
+        "CMP_ZSTD1"
+      ],
+      "source_block": "CoreLang5_Block5_IO_And_Serialization"
+    },
+    {
+      "sym": "io.cl{}_tlv_total_len_v{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3"
+      ],
+      "category": "generic",
+      "op": "framing",
+      "template": "CL{n}_TLV_TOTAL_LEN_V{n}_{n}",
+      "freq": 235,
+      "op_id": 42576,
+      "capa_tags": [
+        "CMP_ZSTD1"
+      ],
+      "source_block": "CoreLang5_Block5_IO_And_Serialization"
+    },
+    {
+      "sym": "io.cl{}_utf{}_code_units_bmp{}_surr{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3",
+        "p4",
+        "p5"
+      ],
+      "category": "generic",
+      "op": "op",
+      "template": "CL{n}_UTF{n}_CODE_UNITS_BMP{n}_SURR{n}_{n}",
+      "freq": 235,
+      "op_id": 14307,
+      "capa_tags": [
+        "CMP_ZSTD1"
+      ],
+      "source_block": "CoreLang5_Block5_IO_And_Serialization"
+    },
+    {
+      "sym": "io.cl{}_varint_u_leb{}_len_n{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3",
+        "p4"
+      ],
+      "category": "encoding",
+      "op": "framing",
+      "template": "CL{n}_VARINT_U_LEB{n}_LEN_N{n}_{n}",
+      "freq": 235,
+      "op_id": 49485,
+      "capa_tags": [
+        "CMP_ZSTD1"
+      ],
+      "source_block": "CoreLang5_Block5_IO_And_Serialization"
+    },
+    {
+      "sym": "io.cl{}_xor_checksum_{}_to_n_n{}_{}",
+      "args": [
+        "checksum"
+      ],
+      "category": "checksum",
+      "op": "checksum",
+      "template": "CL{n}_XOR_CHECKSUM_{n}_TO_N_N{n}_{n}",
+      "freq": 235,
+      "op_id": 16938,
+      "capa_tags": [
+        "CMP_ZSTD1"
+      ],
+      "source_block": "CoreLang5_Block5_IO_And_Serialization"
+    },
+    {
+      "sym": "io.cl{}_base{}_decode_{}_{}",
+      "args": [
+        "decode"
+      ],
+      "category": "generic",
+      "op": "read_decode",
+      "template": "CL{n}_BASE{n}_DECODE_{n}_{n}",
+      "freq": 133,
+      "op_id": 23686,
+      "capa_tags": [
+        "CMP_ZSTD1"
+      ],
+      "source_block": "CoreLang5_Block5_IO_And_Serialization"
+    },
+    {
+      "sym": "io.cl{}_csv_somma_{}_{}",
+      "args": [
+        "somma"
+      ],
+      "category": "format",
+      "op": "op",
+      "template": "CL{n}_CSV_SOMMA_{n}_{n}",
+      "freq": 93,
+      "op_id": 57680,
+      "capa_tags": [
+        "CMP_ZSTD1"
+      ],
+      "source_block": "CoreLang5_Block5_IO_And_Serialization"
+    },
+    {
+      "sym": "io.cl{}_line_protocol_body_{}_{}",
+      "args": [
+        "body"
+      ],
+      "category": "format",
+      "op": "op",
+      "template": "CL{n}_LINE_PROTOCOL_BODY_{n}_{n}",
+      "freq": 93,
+      "op_id": 36343,
+      "capa_tags": [
+        "CMP_ZSTD1"
+      ],
+      "source_block": "CoreLang5_Block5_IO_And_Serialization"
+    },
+    {
+      "sym": "io.cl{}_ndjson_count_attivi_{}_{}",
+      "args": [
+        "attivi"
+      ],
+      "category": "format",
+      "op": "op",
+      "template": "CL{n}_NDJSON_COUNT_ATTIVI_{n}_{n}",
+      "freq": 93,
+      "op_id": 49071,
+      "capa_tags": [
+        "CMP_ZSTD1"
+      ],
+      "source_block": "CoreLang5_Block5_IO_And_Serialization"
+    },
+    {
+      "sym": "io.cl{}_tlv_decode_{}_{}",
+      "args": [
+        "decode"
+      ],
+      "category": "generic",
+      "op": "read_decode",
+      "template": "CL{n}_TLV_DECODE_{n}_{n}",
+      "freq": 93,
+      "op_id": 3507,
+      "capa_tags": [
+        "CMP_ZSTD1"
+      ],
+      "source_block": "CoreLang5_Block5_IO_And_Serialization"
+    },
+    {
+      "sym": "io.cl{}_zlib_decompress_{}_{}",
+      "args": [
+        "decompress"
+      ],
+      "category": "compression",
+      "op": "compress",
+      "template": "CL{n}_ZLIB_DECOMPRESS_{n}_{n}",
+      "freq": 93,
+      "op_id": 13027,
+      "capa_tags": [
+        "CMP_ZSTD1"
+      ],
+      "source_block": "CoreLang5_Block5_IO_And_Serialization"
+    },
+    {
+      "sym": "io.cl{}_checksum_additivo_{}_{}",
+      "args": [
+        "additivo"
+      ],
+      "category": "checksum",
+      "op": "checksum",
+      "template": "CL{n}_CHECKSUM_ADDITIVO_{n}_{n}",
+      "freq": 92,
+      "op_id": 34628,
+      "capa_tags": [
+        "CMP_ZSTD1"
+      ],
+      "source_block": "CoreLang5_Block5_IO_And_Serialization"
+    },
+    {
+      "sym": "io.cl{}_json_schema_check_{}_{}",
+      "args": [
+        "check"
+      ],
+      "category": "format",
+      "op": "op",
+      "template": "CL{n}_JSON_SCHEMA_CHECK_{n}_{n}",
+      "freq": 50,
+      "op_id": 62794,
+      "capa_tags": [
+        "CMP_ZSTD1"
+      ],
+      "source_block": "CoreLang5_Block5_IO_And_Serialization"
+    },
+    {
+      "sym": "io.cl{}_frame_decode_{}_{}",
+      "args": [
+        "decode"
+      ],
+      "category": "stream",
+      "op": "read_decode",
+      "template": "CL{n}_FRAME_DECODE_{n}_{n}",
+      "freq": 40,
+      "op_id": 54731,
+      "capa_tags": [
+        "CMP_ZSTD1"
+      ],
+      "source_block": "CoreLang5_Block5_IO_And_Serialization"
+    },
+    {
+      "sym": "io.cl{}_varint_decode_{}_{}",
+      "args": [
+        "decode"
+      ],
+      "category": "encoding",
+      "op": "read_decode",
+      "template": "CL{n}_VARINT_DECODE_{n}_{n}",
+      "freq": 40,
+      "op_id": 12926,
+      "capa_tags": [
+        "CMP_ZSTD1"
+      ],
+      "source_block": "CoreLang5_Block5_IO_And_Serialization"
+    },
+    {
+      "sym": "io.cl{}_crc{}_hex_{}_{}",
+      "args": [
+        "hex"
+      ],
+      "category": "encoding",
+      "op": "checksum",
+      "template": "CL{n}_CRC{n}_HEX_{n}_{n}",
+      "freq": 30,
+      "op_id": 35592,
+      "capa_tags": [
+        "CMP_ZSTD1"
+      ],
+      "source_block": "CoreLang5_Block5_IO_And_Serialization"
+    },
+    {
+      "sym": "io.cl{}_csv_quote_somma_{}_{}",
+      "args": [
+        "somma"
+      ],
+      "category": "format",
+      "op": "op",
+      "template": "CL{n}_CSV_QUOTE_SOMMA_{n}_{n}",
+      "freq": 30,
+      "op_id": 38881,
+      "capa_tags": [
+        "CMP_ZSTD1"
+      ],
+      "source_block": "CoreLang5_Block5_IO_And_Serialization"
+    },
+    {
+      "sym": "io.cl{}_bin_endianness_{}_{}",
+      "args": [
+        "endianness"
+      ],
+      "category": "generic",
+      "op": "op",
+      "template": "CL{n}_BIN_ENDIANNESS_{n}_{n}",
+      "freq": 20,
+      "op_id": 53960,
+      "capa_tags": [
+        "CMP_ZSTD1"
+      ],
+      "source_block": "CoreLang5_Block5_IO_And_Serialization"
+    },
+    {
+      "sym": "io.cl{}_csv_somma_valore_ordine_{}_{}",
+      "args": [
+        "ordine"
+      ],
+      "category": "format",
+      "op": "op",
+      "template": "CL{n}_CSV_SOMMA_VALORE_ORDINE_{n}_{n}",
+      "freq": 20,
+      "op_id": 56102,
+      "capa_tags": [
+        "CMP_ZSTD1"
+      ],
+      "source_block": "CoreLang5_Block5_IO_And_Serialization"
+    },
+    {
+      "sym": "io.cl{}_stream_concetto_{}_{}",
+      "args": [
+        "concetto"
+      ],
+      "category": "stream",
+      "op": "op",
+      "template": "CL{n}_STREAM_CONCETTO_{n}_{n}",
+      "freq": 20,
+      "op_id": 14397,
+      "capa_tags": [
+        "CMP_ZSTD1"
+      ],
+      "source_block": "CoreLang5_Block5_IO_And_Serialization"
+    },
+    {
+      "sym": "io.cl{}_gzip_decompress_{}_{}",
+      "args": [
+        "decompress"
+      ],
+      "category": "compression",
+      "op": "compress",
+      "template": "CL{n}_GZIP_DECOMPRESS_{n}_{n}",
+      "freq": 15,
+      "op_id": 11920,
+      "capa_tags": [
+        "CMP_ZSTD1"
+      ],
+      "source_block": "CoreLang5_Block5_IO_And_Serialization"
+    },
+    {
+      "sym": "io.cl{}_stream_ricomposizione_{}_{}",
+      "args": [
+        "ricomposizione"
+      ],
+      "category": "stream",
+      "op": "op",
+      "template": "CL{n}_STREAM_RICOMPOSIZIONE_{n}_{n}",
+      "freq": 15,
+      "op_id": 4482,
+      "capa_tags": [
+        "CMP_ZSTD1"
+      ],
+      "source_block": "CoreLang5_Block5_IO_And_Serialization"
+    },
+    {
+      "sym": "io.cl{}_codec_conversione_{}_{}",
+      "args": [
+        "conversione"
+      ],
+      "category": "generic",
+      "op": "op",
+      "template": "CL{n}_CODEC_CONVERSIONE_{n}_{n}",
+      "freq": 10,
+      "op_id": 54713,
+      "capa_tags": [
+        "CMP_ZSTD1"
+      ],
+      "source_block": "CoreLang5_Block5_IO_And_Serialization"
+    },
+    {
+      "sym": "io.cl{}_json_estrazione_{}_a_b_c_{}",
+      "args": [
+        "estrazione",
+        "c"
+      ],
+      "category": "format",
+      "op": "op",
+      "template": "CL{n}_JSON_ESTRAZIONE_{n}_A_B_C_{n}",
+      "freq": 4,
+      "op_id": 10225,
+      "capa_tags": [
+        "CMP_ZSTD1"
+      ],
+      "source_block": "CoreLang5_Block5_IO_And_Serialization"
+    },
+    {
+      "sym": "io.cl{}_json_estrazione_{}_lenarr_{}",
+      "args": [
+        "estrazione",
+        "lenarr"
+      ],
+      "category": "format",
+      "op": "framing",
+      "template": "CL{n}_JSON_ESTRAZIONE_{n}_LENARR_{n}",
+      "freq": 4,
+      "op_id": 51463,
+      "capa_tags": [
+        "CMP_ZSTD1"
+      ],
+      "source_block": "CoreLang5_Block5_IO_And_Serialization"
+    },
+    {
+      "sym": "io.cl{}_json_estrazione_{}_typespiok_{}",
+      "args": [
+        "estrazione",
+        "typespiok"
+      ],
+      "category": "format",
+      "op": "op",
+      "template": "CL{n}_JSON_ESTRAZIONE_{n}_TYPESPIOK_{n}",
+      "freq": 4,
+      "op_id": 18797,
+      "capa_tags": [
+        "CMP_ZSTD1"
+      ],
+      "source_block": "CoreLang5_Block5_IO_And_Serialization"
+    },
+    {
+      "sym": "io.cl{}_json_estrazione_{}_user_name_{}",
+      "args": [
+        "estrazione",
+        "name"
+      ],
+      "category": "format",
+      "op": "op",
+      "template": "CL{n}_JSON_ESTRAZIONE_{n}_USER_NAME_{n}",
+      "freq": 4,
+      "op_id": 64024,
+      "capa_tags": [
+        "CMP_ZSTD1"
+      ],
+      "source_block": "CoreLang5_Block5_IO_And_Serialization"
+    },
+    {
+      "sym": "io.cl{}_json_estrazione_{}_xy_{}",
+      "args": [
+        "estrazione",
+        "xy"
+      ],
+      "category": "format",
+      "op": "op",
+      "template": "CL{n}_JSON_ESTRAZIONE_{n}_XY_{n}",
+      "freq": 4,
+      "op_id": 49192,
+      "capa_tags": [
+        "CMP_ZSTD1"
+      ],
+      "source_block": "CoreLang5_Block5_IO_And_Serialization"
+    }
+  ],
+  "alias": {
+    "CL{n}_C{n}_IO_BASE{n}_ENCODED_LENGTH_{n}": "io.cl{}_c{}_io_base{}_encoded_length_{}",
+    "CL{n}_C{n}_IO_FILE_CHUNKS_NEEDED_{n}": "io.cl{}_c{}_io_file_chunks_needed_{}",
+    "CL{n}_C{n}_IO_CHECKSUM_SIMPLIFIED_MOD_{n}": "io.cl{}_c{}_io_checksum_simplified_mod_{}",
+    "CL{n}_C{n}_IO_JSON_ESCAPE_EXTRA_CHARS_{n}": "io.cl{}_c{}_io_json_escape_extra_chars_{}",
+    "CL{n}_C{n}_IO_PROTOBUF_TAG_VALUE_{n}": "io.cl{}_c{}_io_protobuf_tag_value_{}",
+    "CL{n}_C{n}_IO_UTF{n}_BYTES_FOR_CODEPOINT_{n}": "io.cl{}_c{}_io_utf{}_bytes_for_codepoint_{}",
+    "CL{n}_C{n}_IO_VARINT_BYTES_NEEDED_{n}": "io.cl{}_c{}_io_varint_bytes_needed_{}",
+    "CL{n}_ENDIAN_SWAP{n}_X{n}_{n}": "io.cl{}_endian_swap{}_x{}_{}",
+    "CL{n}_ZIGZAG{n}_VARINT_LEN_N_{n}_{n}": "io.cl{}_zigzag{}_varint_len_n_{}_{}",
+    "CL{n}_BASE{n}_LENGTH_BYTES{n}_{n}": "io.cl{}_base{}_length_bytes{}_{}",
+    "CL{n}_BASE{n}_PADDING_BYTES{n}_{n}": "io.cl{}_base{}_padding_bytes{}_{}",
+    "CL{n}_HEX_LENGTH_BYTES{n}_{n}": "io.cl{}_hex_length_bytes{}_{}",
+    "CL{n}_URLENC_LENGTH_SAFE{n}_SPACES{n}_UNSAFE{n}_{n}": "io.cl{}_urlenc_length_safe{}_spaces{}_unsafe{}_{}",
+    "CL{n}_UTF{n}_LENGTH_C{n}_C{n}_C{n}_C{n}_{n}": "io.cl{}_utf{}_length_c{}_c{}_c{}_c{}_{}",
+    "CL{n}_ALIGN{n}_PADDED_HEADER_H{n}_{n}": "io.cl{}_align{}_padded_header_h{}_{}",
+    "CL{n}_BITPACK_BYTES_K{n}_B{n}_{n}": "io.cl{}_bitpack_bytes_k{}_b{}_{}",
+    "CL{n}_EOL_NORMALIZE_SAVINGS_CRLF{n}_LF{n}_{n}": "io.cl{}_eol_normalize_savings_crlf{}_lf{}_{}",
+    "CL{n}_JSON_ARRAY_MIN_LEN_N{n}_D{n}_{n}": "io.cl{}_json_array_min_len_n{}_d{}_{}",
+    "CL{n}_TLV_TOTAL_LEN_V{n}_{n}": "io.cl{}_tlv_total_len_v{}_{}",
+    "CL{n}_UTF{n}_CODE_UNITS_BMP{n}_SURR{n}_{n}": "io.cl{}_utf{}_code_units_bmp{}_surr{}_{}",
+    "CL{n}_VARINT_U_LEB{n}_LEN_N{n}_{n}": "io.cl{}_varint_u_leb{}_len_n{}_{}",
+    "CL{n}_XOR_CHECKSUM_{n}_TO_N_N{n}_{n}": "io.cl{}_xor_checksum_{}_to_n_n{}_{}",
+    "CL{n}_BASE{n}_DECODE_{n}_{n}": "io.cl{}_base{}_decode_{}_{}",
+    "CL{n}_CSV_SOMMA_{n}_{n}": "io.cl{}_csv_somma_{}_{}",
+    "CL{n}_LINE_PROTOCOL_BODY_{n}_{n}": "io.cl{}_line_protocol_body_{}_{}",
+    "CL{n}_NDJSON_COUNT_ATTIVI_{n}_{n}": "io.cl{}_ndjson_count_attivi_{}_{}",
+    "CL{n}_TLV_DECODE_{n}_{n}": "io.cl{}_tlv_decode_{}_{}",
+    "CL{n}_ZLIB_DECOMPRESS_{n}_{n}": "io.cl{}_zlib_decompress_{}_{}",
+    "CL{n}_CHECKSUM_ADDITIVO_{n}_{n}": "io.cl{}_checksum_additivo_{}_{}",
+    "CL{n}_JSON_SCHEMA_CHECK_{n}_{n}": "io.cl{}_json_schema_check_{}_{}",
+    "CL{n}_FRAME_DECODE_{n}_{n}": "io.cl{}_frame_decode_{}_{}",
+    "CL{n}_VARINT_DECODE_{n}_{n}": "io.cl{}_varint_decode_{}_{}",
+    "CL{n}_CRC{n}_HEX_{n}_{n}": "io.cl{}_crc{}_hex_{}_{}",
+    "CL{n}_CSV_QUOTE_SOMMA_{n}_{n}": "io.cl{}_csv_quote_somma_{}_{}",
+    "CL{n}_BIN_ENDIANNESS_{n}_{n}": "io.cl{}_bin_endianness_{}_{}",
+    "CL{n}_CSV_SOMMA_VALORE_ORDINE_{n}_{n}": "io.cl{}_csv_somma_valore_ordine_{}_{}",
+    "CL{n}_STREAM_CONCETTO_{n}_{n}": "io.cl{}_stream_concetto_{}_{}",
+    "CL{n}_GZIP_DECOMPRESS_{n}_{n}": "io.cl{}_gzip_decompress_{}_{}",
+    "CL{n}_STREAM_RICOMPOSIZIONE_{n}_{n}": "io.cl{}_stream_ricomposizione_{}_{}",
+    "CL{n}_CODEC_CONVERSIONE_{n}_{n}": "io.cl{}_codec_conversione_{}_{}",
+    "CL{n}_JSON_ESTRAZIONE_{n}_A_B_C_{n}": "io.cl{}_json_estrazione_{}_a_b_c_{}",
+    "CL{n}_JSON_ESTRAZIONE_{n}_LENARR_{n}": "io.cl{}_json_estrazione_{}_lenarr_{}",
+    "CL{n}_JSON_ESTRAZIONE_{n}_TYPESPIOK_{n}": "io.cl{}_json_estrazione_{}_typespiok_{}",
+    "CL{n}_JSON_ESTRAZIONE_{n}_USER_NAME_{n}": "io.cl{}_json_estrazione_{}_user_name_{}",
+    "CL{n}_JSON_ESTRAZIONE_{n}_XY_{n}": "io.cl{}_json_estrazione_{}_xy_{}"
+  }
+}

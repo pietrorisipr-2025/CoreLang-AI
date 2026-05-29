@@ -1,0 +1,619 @@
+{
+  "block": "CoreLang5_Block6_Concurrency_And_Async",
+  "version": "6.30R1",
+  "parametric": [
+    {
+      "sym": "conc.cl{}_c{}_async_queue_latency_slots_{}",
+      "args": [
+        "slots"
+      ],
+      "category": "async_tasks",
+      "op": "op",
+      "template": "CL{n}_C{n}_ASYNC_QUEUE_LATENCY_SLOTS_{n}",
+      "freq": 353,
+      "op_id": 2285,
+      "capa_tags": [
+        "RSYN1"
+      ],
+      "source_block": "CoreLang5_Block6_Concurrency_And_Async"
+    },
+    {
+      "sym": "conc.cl{}_c{}_async_timeout_cancels_op_{}",
+      "args": [
+        "op"
+      ],
+      "category": "async_tasks",
+      "op": "control",
+      "template": "CL{n}_C{n}_ASYNC_TIMEOUT_CANCELS_OP_{n}",
+      "freq": 353,
+      "op_id": 26178,
+      "capa_tags": [
+        "RSYN1"
+      ],
+      "source_block": "CoreLang5_Block6_Concurrency_And_Async"
+    },
+    {
+      "sym": "conc.cl{}_c{}_atomic_fetch_add_total_{}",
+      "args": [
+        "total"
+      ],
+      "category": "synchronization",
+      "op": "op",
+      "template": "CL{n}_C{n}_ATOMIC_FETCH_ADD_TOTAL_{n}",
+      "freq": 353,
+      "op_id": 45247,
+      "capa_tags": [
+        "RSYN1"
+      ],
+      "source_block": "CoreLang5_Block6_Concurrency_And_Async"
+    },
+    {
+      "sym": "conc.cl{}_c{}_backpressure_queue_depth_after_t_{}",
+      "args": [
+        "t"
+      ],
+      "category": "messaging",
+      "op": "op",
+      "template": "CL{n}_C{n}_BACKPRESSURE_QUEUE_DEPTH_AFTER_T_{n}",
+      "freq": 353,
+      "op_id": 6531,
+      "capa_tags": [
+        "RSYN1"
+      ],
+      "source_block": "CoreLang5_Block6_Concurrency_And_Async"
+    },
+    {
+      "sym": "conc.cl{}_c{}_barrier_generations_completed_{}",
+      "args": [
+        "completed"
+      ],
+      "category": "synchronization",
+      "op": "op",
+      "template": "CL{n}_C{n}_BARRIER_GENERATIONS_COMPLETED_{n}",
+      "freq": 353,
+      "op_id": 23123,
+      "capa_tags": [
+        "RSYN1"
+      ],
+      "source_block": "CoreLang5_Block6_Concurrency_And_Async"
+    },
+    {
+      "sym": "conc.cl{}_c{}_barrier_trips_count_{}",
+      "args": [
+        "count"
+      ],
+      "category": "synchronization",
+      "op": "op",
+      "template": "CL{n}_C{n}_BARRIER_TRIPS_COUNT_{n}",
+      "freq": 353,
+      "op_id": 59087,
+      "capa_tags": [
+        "RSYN1"
+      ],
+      "source_block": "CoreLang5_Block6_Concurrency_And_Async"
+    },
+    {
+      "sym": "conc.cl{}_c{}_cas_attempts_to_reach_target_{}",
+      "args": [
+        "target"
+      ],
+      "category": "synchronization",
+      "op": "op",
+      "template": "CL{n}_C{n}_CAS_ATTEMPTS_TO_REACH_TARGET_{n}",
+      "freq": 353,
+      "op_id": 30087,
+      "capa_tags": [
+        "RSYN1"
+      ],
+      "source_block": "CoreLang5_Block6_Concurrency_And_Async"
+    },
+    {
+      "sym": "conc.cl{}_c{}_condvar_wake_count_{}",
+      "args": [
+        "count"
+      ],
+      "category": "synchronization",
+      "op": "op",
+      "template": "CL{n}_C{n}_CONDVAR_WAKE_COUNT_{n}",
+      "freq": 353,
+      "op_id": 12587,
+      "capa_tags": [
+        "RSYN1"
+      ],
+      "source_block": "CoreLang5_Block6_Concurrency_And_Async"
+    },
+    {
+      "sym": "conc.cl{}_c{}_eventloop_microtasks_before_first_macro_{}",
+      "args": [
+        "macro"
+      ],
+      "category": "async_tasks",
+      "op": "op",
+      "template": "CL{n}_C{n}_EVENTLOOP_MICROTASKS_BEFORE_FIRST_MACRO_{n}",
+      "freq": 353,
+      "op_id": 10817,
+      "capa_tags": [
+        "RSYN1"
+      ],
+      "source_block": "CoreLang5_Block6_Concurrency_And_Async"
+    },
+    {
+      "sym": "conc.cl{}_c{}_mutex_passes_through_cs_{}",
+      "args": [
+        "cs"
+      ],
+      "category": "synchronization",
+      "op": "op",
+      "template": "CL{n}_C{n}_MUTEX_PASSES_THROUGH_CS_{n}",
+      "freq": 353,
+      "op_id": 52204,
+      "capa_tags": [
+        "RSYN1"
+      ],
+      "source_block": "CoreLang5_Block6_Concurrency_And_Async"
+    },
+    {
+      "sym": "conc.cl{}_c{}_queue_processed_blocking_bounded_{}",
+      "args": [
+        "bounded"
+      ],
+      "category": "synchronization",
+      "op": "sync",
+      "template": "CL{n}_C{n}_QUEUE_PROCESSED_BLOCKING_BOUNDED_{n}",
+      "freq": 353,
+      "op_id": 9783,
+      "capa_tags": [
+        "RSYN1"
+      ],
+      "source_block": "CoreLang5_Block6_Concurrency_And_Async"
+    },
+    {
+      "sym": "conc.cl{}_c{}_rwlock_processed_units_window_{}",
+      "args": [
+        "window"
+      ],
+      "category": "synchronization",
+      "op": "sync",
+      "template": "CL{n}_C{n}_RWLOCK_PROCESSED_UNITS_WINDOW_{n}",
+      "freq": 353,
+      "op_id": 32153,
+      "capa_tags": [
+        "RSYN1"
+      ],
+      "source_block": "CoreLang5_Block6_Concurrency_And_Async"
+    },
+    {
+      "sym": "conc.cl{}_c{}_sched_round_robin_rounds_needed_{}",
+      "args": [
+        "needed"
+      ],
+      "category": "scheduling",
+      "op": "op",
+      "template": "CL{n}_C{n}_SCHED_ROUND_ROBIN_ROUNDS_NEEDED_{n}",
+      "freq": 353,
+      "op_id": 50936,
+      "capa_tags": [
+        "RSYN1"
+      ],
+      "source_block": "CoreLang5_Block6_Concurrency_And_Async"
+    },
+    {
+      "sym": "conc.cl{}_c{}_semaphore_successful_acquires_{}",
+      "args": [
+        "acquires"
+      ],
+      "category": "synchronization",
+      "op": "sync",
+      "template": "CL{n}_C{n}_SEMAPHORE_SUCCESSFUL_ACQUIRES_{n}",
+      "freq": 353,
+      "op_id": 39435,
+      "capa_tags": [
+        "RSYN1"
+      ],
+      "source_block": "CoreLang5_Block6_Concurrency_And_Async"
+    },
+    {
+      "sym": "conc.cl{}_c{}_steal_per_worker_task_count_{}",
+      "args": [
+        "count"
+      ],
+      "category": "async_tasks",
+      "op": "op",
+      "template": "CL{n}_C{n}_STEAL_PER_WORKER_TASK_COUNT_{n}",
+      "freq": 353,
+      "op_id": 1498,
+      "capa_tags": [
+        "RSYN1"
+      ],
+      "source_block": "CoreLang5_Block6_Concurrency_And_Async"
+    },
+    {
+      "sym": "conc.cl{}_c{}_threadpool_makespan_upperbound_{}",
+      "args": [
+        "upperbound"
+      ],
+      "category": "async_tasks",
+      "op": "op",
+      "template": "CL{n}_C{n}_THREADPOOL_MAKESPAN_UPPERBOUND_{n}",
+      "freq": 353,
+      "op_id": 30002,
+      "capa_tags": [
+        "RSYN1"
+      ],
+      "source_block": "CoreLang5_Block6_Concurrency_And_Async"
+    },
+    {
+      "sym": "conc.cl{}_c{}_deadlock_risk_pattern_ab_ba_{}",
+      "args": [
+        "ba"
+      ],
+      "category": "synchronization",
+      "op": "sync",
+      "template": "CL{n}_C{n}_DEADLOCK_RISK_PATTERN_AB_BA_{n}",
+      "freq": 352,
+      "op_id": 52646,
+      "capa_tags": [
+        "RSYN1"
+      ],
+      "source_block": "CoreLang5_Block6_Concurrency_And_Async"
+    },
+    {
+      "sym": "conc.cl{}_c{}_actor_mailbox_drops_{}",
+      "args": [
+        "drops"
+      ],
+      "category": "messaging",
+      "op": "op",
+      "template": "CL{n}_C{n}_ACTOR_MAILBOX_DROPS_{n}",
+      "freq": 231,
+      "op_id": 60495,
+      "capa_tags": [
+        "RSYN1"
+      ],
+      "source_block": "CoreLang5_Block6_Concurrency_And_Async"
+    },
+    {
+      "sym": "conc.cl{}_c{}_async_fan_in_processed_{}",
+      "args": [
+        "processed"
+      ],
+      "category": "async_tasks",
+      "op": "op",
+      "template": "CL{n}_C{n}_ASYNC_FAN_IN_PROCESSED_{n}",
+      "freq": 231,
+      "op_id": 10108,
+      "capa_tags": [
+        "RSYN1"
+      ],
+      "source_block": "CoreLang5_Block6_Concurrency_And_Async"
+    },
+    {
+      "sym": "conc.cl{}_c{}_async_fan_out_completed_{}",
+      "args": [
+        "completed"
+      ],
+      "category": "async_tasks",
+      "op": "op",
+      "template": "CL{n}_C{n}_ASYNC_FAN_OUT_COMPLETED_{n}",
+      "freq": 231,
+      "op_id": 64511,
+      "capa_tags": [
+        "RSYN1"
+      ],
+      "source_block": "CoreLang5_Block6_Concurrency_And_Async"
+    },
+    {
+      "sym": "conc.cl{}_c{}_cb_state_from_failures_{}",
+      "args": [
+        "failures"
+      ],
+      "category": "generic",
+      "op": "op",
+      "template": "CL{n}_C{n}_CB_STATE_FROM_FAILURES_{n}",
+      "freq": 231,
+      "op_id": 49814,
+      "capa_tags": [
+        "RSYN1"
+      ],
+      "source_block": "CoreLang5_Block6_Concurrency_And_Async"
+    },
+    {
+      "sym": "conc.cl{}_c{}_deadline_residual_time_{}",
+      "args": [
+        "time"
+      ],
+      "category": "control",
+      "op": "control",
+      "template": "CL{n}_C{n}_DEADLINE_RESIDUAL_TIME_{n}",
+      "freq": 231,
+      "op_id": 35712,
+      "capa_tags": [
+        "RSYN1"
+      ],
+      "source_block": "CoreLang5_Block6_Concurrency_And_Async"
+    },
+    {
+      "sym": "conc.cl{}_c{}_futures_pending_count_{}",
+      "args": [
+        "count"
+      ],
+      "category": "async_tasks",
+      "op": "op",
+      "template": "CL{n}_C{n}_FUTURES_PENDING_COUNT_{n}",
+      "freq": 231,
+      "op_id": 31288,
+      "capa_tags": [
+        "RSYN1"
+      ],
+      "source_block": "CoreLang5_Block6_Concurrency_And_Async"
+    },
+    {
+      "sym": "conc.cl{}_c{}_lock_fairness_served_count_{}",
+      "args": [
+        "count"
+      ],
+      "category": "synchronization",
+      "op": "sync",
+      "template": "CL{n}_C{n}_LOCK_FAIRNESS_SERVED_COUNT_{n}",
+      "freq": 231,
+      "op_id": 56466,
+      "capa_tags": [
+        "RSYN1"
+      ],
+      "source_block": "CoreLang5_Block6_Concurrency_And_Async"
+    },
+    {
+      "sym": "conc.cl{}_c{}_prio_inversion_severity_{}",
+      "args": [
+        "severity"
+      ],
+      "category": "generic",
+      "op": "op",
+      "template": "CL{n}_C{n}_PRIO_INVERSION_SEVERITY_{n}",
+      "freq": 231,
+      "op_id": 31493,
+      "capa_tags": [
+        "RSYN1"
+      ],
+      "source_block": "CoreLang5_Block6_Concurrency_And_Async"
+    },
+    {
+      "sym": "conc.cl{}_c{}_ratelimit_leaky_bucket_accepted_{}",
+      "args": [
+        "accepted"
+      ],
+      "category": "control",
+      "op": "op",
+      "template": "CL{n}_C{n}_RATELIMIT_LEAKY_BUCKET_ACCEPTED_{n}",
+      "freq": 231,
+      "op_id": 12135,
+      "capa_tags": [
+        "RSYN1"
+      ],
+      "source_block": "CoreLang5_Block6_Concurrency_And_Async"
+    },
+    {
+      "sym": "conc.cl{}_c{}_retry_attempts_with_budget_{}",
+      "args": [
+        "budget"
+      ],
+      "category": "control",
+      "op": "control",
+      "template": "CL{n}_C{n}_RETRY_ATTEMPTS_WITH_BUDGET_{n}",
+      "freq": 231,
+      "op_id": 30612,
+      "capa_tags": [
+        "RSYN1"
+      ],
+      "source_block": "CoreLang5_Block6_Concurrency_And_Async"
+    },
+    {
+      "sym": "conc.cl{}_c{}_batch_formed_count_{}",
+      "args": [
+        "count"
+      ],
+      "category": "generic",
+      "op": "op",
+      "template": "CL{n}_C{n}_BATCH_FORMED_COUNT_{n}",
+      "freq": 230,
+      "op_id": 8011,
+      "capa_tags": [
+        "RSYN1"
+      ],
+      "source_block": "CoreLang5_Block6_Concurrency_And_Async"
+    },
+    {
+      "sym": "conc.cl{}_c{}_semaphore_try_acquire_success_{}",
+      "args": [
+        "success"
+      ],
+      "category": "synchronization",
+      "op": "sync",
+      "template": "CL{n}_C{n}_SEMAPHORE_TRY_ACQUIRE_SUCCESS_{n}",
+      "freq": 230,
+      "op_id": 13743,
+      "capa_tags": [
+        "RSYN1"
+      ],
+      "source_block": "CoreLang5_Block6_Concurrency_And_Async"
+    },
+    {
+      "sym": "conc.cl{}_c{}_wfq_share_flow{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3",
+        "p4"
+      ],
+      "category": "generic",
+      "op": "op",
+      "template": "CL{n}_C{n}_WFQ_SHARE_FLOW{n}_{n}",
+      "freq": 230,
+      "op_id": 20746,
+      "capa_tags": [
+        "RSYN1"
+      ],
+      "source_block": "CoreLang5_Block6_Concurrency_And_Async"
+    },
+    {
+      "sym": "conc.cl{}_c{}_aimd_window_after_events_{}",
+      "args": [
+        "events"
+      ],
+      "category": "generic",
+      "op": "op",
+      "template": "CL{n}_C{n}_AIMD_WINDOW_AFTER_EVENTS_{n}",
+      "freq": 125,
+      "op_id": 65227,
+      "capa_tags": [
+        "RSYN1"
+      ],
+      "source_block": "CoreLang5_Block6_Concurrency_And_Async"
+    },
+    {
+      "sym": "conc.cl{}_c{}_async_inflight_bound_semaphore_{}",
+      "args": [
+        "semaphore"
+      ],
+      "category": "async_tasks",
+      "op": "op",
+      "template": "CL{n}_C{n}_ASYNC_INFLIGHT_BOUND_SEMAPHORE_{n}",
+      "freq": 125,
+      "op_id": 13731,
+      "capa_tags": [
+        "RSYN1"
+      ],
+      "source_block": "CoreLang5_Block6_Concurrency_And_Async"
+    },
+    {
+      "sym": "conc.cl{}_c{}_cancel_propagation_canceled_nodes_{}",
+      "args": [
+        "nodes"
+      ],
+      "category": "control",
+      "op": "control",
+      "template": "CL{n}_C{n}_CANCEL_PROPAGATION_CANCELED_NODES_{n}",
+      "freq": 125,
+      "op_id": 13987,
+      "capa_tags": [
+        "RSYN1"
+      ],
+      "source_block": "CoreLang5_Block6_Concurrency_And_Async"
+    },
+    {
+      "sym": "conc.cl{}_c{}_ewma_next_estimate_int_{}",
+      "args": [
+        "int"
+      ],
+      "category": "generic",
+      "op": "op",
+      "template": "CL{n}_C{n}_EWMA_NEXT_ESTIMATE_INT_{n}",
+      "freq": 125,
+      "op_id": 36324,
+      "capa_tags": [
+        "RSYN1"
+      ],
+      "source_block": "CoreLang5_Block6_Concurrency_And_Async"
+    },
+    {
+      "sym": "conc.cl{}_c{}_flow_control_credit_window_{}",
+      "args": [
+        "window"
+      ],
+      "category": "generic",
+      "op": "op",
+      "template": "CL{n}_C{n}_FLOW_CONTROL_CREDIT_WINDOW_{n}",
+      "freq": 125,
+      "op_id": 55217,
+      "capa_tags": [
+        "RSYN1"
+      ],
+      "source_block": "CoreLang5_Block6_Concurrency_And_Async"
+    },
+    {
+      "sym": "conc.cl{}_c{}_futex_wake_count_{}",
+      "args": [
+        "count"
+      ],
+      "category": "generic",
+      "op": "op",
+      "template": "CL{n}_C{n}_FUTEX_WAKE_COUNT_{n}",
+      "freq": 125,
+      "op_id": 3866,
+      "capa_tags": [
+        "RSYN1"
+      ],
+      "source_block": "CoreLang5_Block6_Concurrency_And_Async"
+    },
+    {
+      "sym": "conc.cl{}_c{}_timeout_pipeline_min_timeout_ms_{}",
+      "args": [
+        "ms"
+      ],
+      "category": "messaging",
+      "op": "control",
+      "template": "CL{n}_C{n}_TIMEOUT_PIPELINE_MIN_TIMEOUT_MS_{n}",
+      "freq": 125,
+      "op_id": 33751,
+      "capa_tags": [
+        "RSYN1"
+      ],
+      "source_block": "CoreLang5_Block6_Concurrency_And_Async"
+    },
+    {
+      "sym": "conc.cl{}_c{}_timer_wheel_slot_index_{}",
+      "args": [
+        "index"
+      ],
+      "category": "generic",
+      "op": "op",
+      "template": "CL{n}_C{n}_TIMER_WHEEL_SLOT_INDEX_{n}",
+      "freq": 125,
+      "op_id": 12365,
+      "capa_tags": [
+        "RSYN1"
+      ],
+      "source_block": "CoreLang5_Block6_Concurrency_And_Async"
+    }
+  ],
+  "alias": {
+    "CL{n}_C{n}_ASYNC_QUEUE_LATENCY_SLOTS_{n}": "conc.cl{}_c{}_async_queue_latency_slots_{}",
+    "CL{n}_C{n}_ASYNC_TIMEOUT_CANCELS_OP_{n}": "conc.cl{}_c{}_async_timeout_cancels_op_{}",
+    "CL{n}_C{n}_ATOMIC_FETCH_ADD_TOTAL_{n}": "conc.cl{}_c{}_atomic_fetch_add_total_{}",
+    "CL{n}_C{n}_BACKPRESSURE_QUEUE_DEPTH_AFTER_T_{n}": "conc.cl{}_c{}_backpressure_queue_depth_after_t_{}",
+    "CL{n}_C{n}_BARRIER_GENERATIONS_COMPLETED_{n}": "conc.cl{}_c{}_barrier_generations_completed_{}",
+    "CL{n}_C{n}_BARRIER_TRIPS_COUNT_{n}": "conc.cl{}_c{}_barrier_trips_count_{}",
+    "CL{n}_C{n}_CAS_ATTEMPTS_TO_REACH_TARGET_{n}": "conc.cl{}_c{}_cas_attempts_to_reach_target_{}",
+    "CL{n}_C{n}_CONDVAR_WAKE_COUNT_{n}": "conc.cl{}_c{}_condvar_wake_count_{}",
+    "CL{n}_C{n}_EVENTLOOP_MICROTASKS_BEFORE_FIRST_MACRO_{n}": "conc.cl{}_c{}_eventloop_microtasks_before_first_macro_{}",
+    "CL{n}_C{n}_MUTEX_PASSES_THROUGH_CS_{n}": "conc.cl{}_c{}_mutex_passes_through_cs_{}",
+    "CL{n}_C{n}_QUEUE_PROCESSED_BLOCKING_BOUNDED_{n}": "conc.cl{}_c{}_queue_processed_blocking_bounded_{}",
+    "CL{n}_C{n}_RWLOCK_PROCESSED_UNITS_WINDOW_{n}": "conc.cl{}_c{}_rwlock_processed_units_window_{}",
+    "CL{n}_C{n}_SCHED_ROUND_ROBIN_ROUNDS_NEEDED_{n}": "conc.cl{}_c{}_sched_round_robin_rounds_needed_{}",
+    "CL{n}_C{n}_SEMAPHORE_SUCCESSFUL_ACQUIRES_{n}": "conc.cl{}_c{}_semaphore_successful_acquires_{}",
+    "CL{n}_C{n}_STEAL_PER_WORKER_TASK_COUNT_{n}": "conc.cl{}_c{}_steal_per_worker_task_count_{}",
+    "CL{n}_C{n}_THREADPOOL_MAKESPAN_UPPERBOUND_{n}": "conc.cl{}_c{}_threadpool_makespan_upperbound_{}",
+    "CL{n}_C{n}_DEADLOCK_RISK_PATTERN_AB_BA_{n}": "conc.cl{}_c{}_deadlock_risk_pattern_ab_ba_{}",
+    "CL{n}_C{n}_ACTOR_MAILBOX_DROPS_{n}": "conc.cl{}_c{}_actor_mailbox_drops_{}",
+    "CL{n}_C{n}_ASYNC_FAN_IN_PROCESSED_{n}": "conc.cl{}_c{}_async_fan_in_processed_{}",
+    "CL{n}_C{n}_ASYNC_FAN_OUT_COMPLETED_{n}": "conc.cl{}_c{}_async_fan_out_completed_{}",
+    "CL{n}_C{n}_CB_STATE_FROM_FAILURES_{n}": "conc.cl{}_c{}_cb_state_from_failures_{}",
+    "CL{n}_C{n}_DEADLINE_RESIDUAL_TIME_{n}": "conc.cl{}_c{}_deadline_residual_time_{}",
+    "CL{n}_C{n}_FUTURES_PENDING_COUNT_{n}": "conc.cl{}_c{}_futures_pending_count_{}",
+    "CL{n}_C{n}_LOCK_FAIRNESS_SERVED_COUNT_{n}": "conc.cl{}_c{}_lock_fairness_served_count_{}",
+    "CL{n}_C{n}_PRIO_INVERSION_SEVERITY_{n}": "conc.cl{}_c{}_prio_inversion_severity_{}",
+    "CL{n}_C{n}_RATELIMIT_LEAKY_BUCKET_ACCEPTED_{n}": "conc.cl{}_c{}_ratelimit_leaky_bucket_accepted_{}",
+    "CL{n}_C{n}_RETRY_ATTEMPTS_WITH_BUDGET_{n}": "conc.cl{}_c{}_retry_attempts_with_budget_{}",
+    "CL{n}_C{n}_BATCH_FORMED_COUNT_{n}": "conc.cl{}_c{}_batch_formed_count_{}",
+    "CL{n}_C{n}_SEMAPHORE_TRY_ACQUIRE_SUCCESS_{n}": "conc.cl{}_c{}_semaphore_try_acquire_success_{}",
+    "CL{n}_C{n}_WFQ_SHARE_FLOW{n}_{n}": "conc.cl{}_c{}_wfq_share_flow{}_{}",
+    "CL{n}_C{n}_AIMD_WINDOW_AFTER_EVENTS_{n}": "conc.cl{}_c{}_aimd_window_after_events_{}",
+    "CL{n}_C{n}_ASYNC_INFLIGHT_BOUND_SEMAPHORE_{n}": "conc.cl{}_c{}_async_inflight_bound_semaphore_{}",
+    "CL{n}_C{n}_CANCEL_PROPAGATION_CANCELED_NODES_{n}": "conc.cl{}_c{}_cancel_propagation_canceled_nodes_{}",
+    "CL{n}_C{n}_EWMA_NEXT_ESTIMATE_INT_{n}": "conc.cl{}_c{}_ewma_next_estimate_int_{}",
+    "CL{n}_C{n}_FLOW_CONTROL_CREDIT_WINDOW_{n}": "conc.cl{}_c{}_flow_control_credit_window_{}",
+    "CL{n}_C{n}_FUTEX_WAKE_COUNT_{n}": "conc.cl{}_c{}_futex_wake_count_{}",
+    "CL{n}_C{n}_TIMEOUT_PIPELINE_MIN_TIMEOUT_MS_{n}": "conc.cl{}_c{}_timeout_pipeline_min_timeout_ms_{}",
+    "CL{n}_C{n}_TIMER_WHEEL_SLOT_INDEX_{n}": "conc.cl{}_c{}_timer_wheel_slot_index_{}"
+  }
+}

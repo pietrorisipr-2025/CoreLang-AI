@@ -1,0 +1,54 @@
+{
+  "block": "CoreLang5_Block10_Domain_Adapters_DA_core_primitives",
+  "version": "6.30R1",
+  "tokens": [
+    {
+      "sym": "da.adapter_load"
+    },
+    {
+      "sym": "da.adapter_save"
+    },
+    {
+      "sym": "da.adapter_emit"
+    },
+    {
+      "sym": "da.schema_validate"
+    },
+    {
+      "sym": "da.schema_normalize"
+    },
+    {
+      "sym": "da.map_fields"
+    },
+    {
+      "sym": "da.transform"
+    },
+    {
+      "sym": "da.enrich"
+    },
+    {
+      "sym": "da.filter"
+    },
+    {
+      "sym": "da.route"
+    },
+    {
+      "sym": "da.join"
+    },
+    {
+      "sym": "da.aggregate"
+    },
+    {
+      "sym": "da.format_json"
+    },
+    {
+      "sym": "da.format_csv"
+    },
+    {
+      "sym": "da.format_avro"
+    },
+    {
+      "sym": "da.format_parquet"
+    }
+  ]
+}

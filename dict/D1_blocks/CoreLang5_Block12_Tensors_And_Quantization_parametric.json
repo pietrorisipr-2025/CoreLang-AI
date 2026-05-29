@@ -1,0 +1,820 @@
+{
+  "block": "CoreLang5_Block12_Tensors_And_Quantization",
+  "version": "6.30R1",
+  "parametric": [
+    {
+      "sym": "tens.qprofile_define",
+      "args": [
+        "p1",
+        "p2",
+        "p3"
+      ],
+      "category": "qprofile",
+      "op": "define",
+      "template": "tens.qprofile_define_{}_{}_{}",
+      "freq": 1,
+      "op_id": 29203,
+      "capa_tags": [
+        "QPROF1",
+        "CASR1"
+      ],
+      "source_block": "CoreLang5_Block12_Tensors_And_Quantization",
+      "args_types": [
+        "any",
+        "any",
+        "any"
+      ],
+      "idempotent": false,
+      "side_effect": "none"
+    },
+    {
+      "sym": "tens.qprofile_autotune",
+      "args": [
+        "p1",
+        "p2"
+      ],
+      "category": "qprofile",
+      "op": "autotune",
+      "template": "tens.qprofile_autotune_{}_{}",
+      "freq": 1,
+      "op_id": 41600,
+      "capa_tags": [
+        "QPROF1",
+        "CASR1"
+      ],
+      "source_block": "CoreLang5_Block12_Tensors_And_Quantization",
+      "args_types": [
+        "any",
+        "any"
+      ],
+      "idempotent": false,
+      "side_effect": "none"
+    },
+    {
+      "sym": "tens.qprofile_rotate",
+      "args": [
+        "p1"
+      ],
+      "category": "qprofile",
+      "op": "rotate",
+      "template": "tens.qprofile_rotate_{}",
+      "freq": 1,
+      "op_id": 24407,
+      "capa_tags": [
+        "QPROF1",
+        "CASR1"
+      ],
+      "source_block": "CoreLang5_Block12_Tensors_And_Quantization",
+      "args_types": [
+        "any"
+      ],
+      "idempotent": false,
+      "side_effect": "none"
+    },
+    {
+      "sym": "tens.qprofile_gc",
+      "args": [
+        "p1"
+      ],
+      "category": "qprofile",
+      "op": "gc",
+      "template": "tens.qprofile_gc_{}",
+      "freq": 1,
+      "op_id": 12592,
+      "capa_tags": [
+        "QPROF1",
+        "CASR1"
+      ],
+      "source_block": "CoreLang5_Block12_Tensors_And_Quantization",
+      "args_types": [
+        "any"
+      ],
+      "idempotent": false,
+      "side_effect": "none"
+    },
+    {
+      "sym": "tens.quantize",
+      "args": [
+        "p1"
+      ],
+      "category": "quant",
+      "op": "encode",
+      "template": "tens.quantize_{}",
+      "freq": 1,
+      "op_id": 38282,
+      "capa_tags": [
+        "QPROF1",
+        "CASR1"
+      ],
+      "source_block": "CoreLang5_Block12_Tensors_And_Quantization",
+      "args_types": [
+        "any"
+      ],
+      "idempotent": false,
+      "side_effect": "write"
+    },
+    {
+      "sym": "tens.dequantize",
+      "args": [
+        "p1"
+      ],
+      "category": "quant",
+      "op": "decode",
+      "template": "tens.dequantize_{}",
+      "freq": 1,
+      "op_id": 42095,
+      "capa_tags": [
+        "QPROF1",
+        "CASR1"
+      ],
+      "source_block": "CoreLang5_Block12_Tensors_And_Quantization",
+      "args_types": [
+        "any"
+      ],
+      "idempotent": true,
+      "side_effect": "read"
+    },
+    {
+      "sym": "tens.pack_tensor",
+      "args": [
+        "p1",
+        "p2"
+      ],
+      "category": "pack",
+      "op": "pack",
+      "template": "tens.pack_tensor_{}_{}",
+      "freq": 1,
+      "op_id": 24517,
+      "capa_tags": [
+        "QPROF1",
+        "CASR1"
+      ],
+      "source_block": "CoreLang5_Block12_Tensors_And_Quantization",
+      "args_types": [
+        "any",
+        "any"
+      ],
+      "idempotent": false,
+      "side_effect": "write"
+    },
+    {
+      "sym": "tens.unpack_tensor",
+      "args": [
+        "p1"
+      ],
+      "category": "pack",
+      "op": "unpack",
+      "template": "tens.unpack_tensor_{}",
+      "freq": 1,
+      "op_id": 44929,
+      "capa_tags": [
+        "QPROF1",
+        "CASR1"
+      ],
+      "source_block": "CoreLang5_Block12_Tensors_And_Quantization",
+      "args_types": [
+        "any"
+      ],
+      "idempotent": true,
+      "side_effect": "read"
+    },
+    {
+      "sym": "tens.chunk",
+      "args": [
+        "p1",
+        "p2"
+      ],
+      "category": "layout",
+      "op": "chunk",
+      "template": "tens.chunk_{}_{}",
+      "freq": 1,
+      "op_id": 18772,
+      "capa_tags": [
+        "QPROF1",
+        "CASR1"
+      ],
+      "source_block": "CoreLang5_Block12_Tensors_And_Quantization",
+      "args_types": [
+        "any",
+        "any"
+      ],
+      "idempotent": false,
+      "side_effect": "none"
+    },
+    {
+      "sym": "tens.delta_block",
+      "args": [
+        "p1"
+      ],
+      "category": "delta",
+      "op": "encode",
+      "template": "tens.delta_block_{}",
+      "freq": 1,
+      "op_id": 40422,
+      "capa_tags": [
+        "QPROF1",
+        "CASR1"
+      ],
+      "source_block": "CoreLang5_Block12_Tensors_And_Quantization",
+      "args_types": [
+        "any"
+      ],
+      "idempotent": false,
+      "side_effect": "write"
+    },
+    {
+      "sym": "tens.pq_encode",
+      "args": [
+        "p1",
+        "p2"
+      ],
+      "category": "vector_quant",
+      "op": "encode",
+      "template": "tens.pq_encode_{}_{}",
+      "freq": 1,
+      "op_id": 58581,
+      "capa_tags": [
+        "QPROF1",
+        "CASR1"
+      ],
+      "source_block": "CoreLang5_Block12_Tensors_And_Quantization",
+      "args_types": [
+        "any",
+        "any"
+      ],
+      "idempotent": false,
+      "side_effect": "write"
+    },
+    {
+      "sym": "tens.pq_decode",
+      "args": [
+        "p1"
+      ],
+      "category": "vector_quant",
+      "op": "decode",
+      "template": "tens.pq_decode_{}",
+      "freq": 1,
+      "op_id": 7802,
+      "capa_tags": [
+        "QPROF1",
+        "CASR1"
+      ],
+      "source_block": "CoreLang5_Block12_Tensors_And_Quantization",
+      "args_types": [
+        "any"
+      ],
+      "idempotent": false,
+      "side_effect": "none"
+    },
+    {
+      "sym": "tens.rvq_encode",
+      "args": [
+        "p1",
+        "p2"
+      ],
+      "category": "vector_quant",
+      "op": "encode",
+      "template": "tens.rvq_encode_{}_{}",
+      "freq": 1,
+      "op_id": 38774,
+      "capa_tags": [
+        "QPROF1",
+        "CASR1"
+      ],
+      "source_block": "CoreLang5_Block12_Tensors_And_Quantization",
+      "args_types": [
+        "any",
+        "any"
+      ],
+      "idempotent": false,
+      "side_effect": "write"
+    },
+    {
+      "sym": "tens.rvq_decode",
+      "args": [
+        "p1"
+      ],
+      "category": "vector_quant",
+      "op": "decode",
+      "template": "tens.rvq_decode_{}",
+      "freq": 1,
+      "op_id": 38479,
+      "capa_tags": [
+        "QPROF1",
+        "CASR1"
+      ],
+      "source_block": "CoreLang5_Block12_Tensors_And_Quantization",
+      "args_types": [
+        "any"
+      ],
+      "idempotent": false,
+      "side_effect": "none"
+    },
+    {
+      "sym": "tens.clip",
+      "args": [
+        "p1",
+        "p2"
+      ],
+      "category": "arith",
+      "op": "clip",
+      "template": "tens.clip_{}_{}",
+      "freq": 1,
+      "op_id": 35973,
+      "capa_tags": [
+        "QPROF1",
+        "CASR1"
+      ],
+      "source_block": "CoreLang5_Block12_Tensors_And_Quantization",
+      "args_types": [
+        "any",
+        "any"
+      ],
+      "idempotent": false,
+      "side_effect": "none"
+    },
+    {
+      "sym": "tens.scale_shift",
+      "args": [
+        "p1",
+        "p2"
+      ],
+      "category": "arith",
+      "op": "affine",
+      "template": "tens.scale_shift_{}_{}",
+      "freq": 1,
+      "op_id": 13047,
+      "capa_tags": [
+        "QPROF1",
+        "CASR1"
+      ],
+      "source_block": "CoreLang5_Block12_Tensors_And_Quantization",
+      "args_types": [
+        "any",
+        "any"
+      ],
+      "idempotent": false,
+      "side_effect": "none"
+    },
+    {
+      "sym": "tens.sparsify",
+      "args": [
+        "p1"
+      ],
+      "category": "sparsity",
+      "op": "encode",
+      "template": "tens.sparsify_{}",
+      "freq": 1,
+      "op_id": 49304,
+      "capa_tags": [
+        "QPROF1",
+        "CASR1"
+      ],
+      "source_block": "CoreLang5_Block12_Tensors_And_Quantization",
+      "args_types": [
+        "any"
+      ],
+      "idempotent": false,
+      "side_effect": "write"
+    },
+    {
+      "sym": "tens.desparsify",
+      "args": [
+        "p1"
+      ],
+      "category": "sparsity",
+      "op": "decode",
+      "template": "tens.desparsify_{}",
+      "freq": 1,
+      "op_id": 23742,
+      "capa_tags": [
+        "QPROF1",
+        "CASR1"
+      ],
+      "source_block": "CoreLang5_Block12_Tensors_And_Quantization",
+      "args_types": [
+        "any"
+      ],
+      "idempotent": false,
+      "side_effect": "none"
+    },
+    {
+      "sym": "tens.cast",
+      "args": [
+        "p1"
+      ],
+      "category": "dtype",
+      "op": "cast",
+      "template": "tens.cast_{}",
+      "freq": 1,
+      "op_id": 29406,
+      "capa_tags": [
+        "QPROF1",
+        "CASR1"
+      ],
+      "source_block": "CoreLang5_Block12_Tensors_And_Quantization",
+      "args_types": [
+        "any"
+      ],
+      "idempotent": false,
+      "side_effect": "none"
+    },
+    {
+      "sym": "tens.compress",
+      "args": [
+        "p1"
+      ],
+      "category": "codec",
+      "op": "compress",
+      "template": "tens.compress_{}",
+      "freq": 1,
+      "op_id": 61824,
+      "capa_tags": [
+        "QPROF1",
+        "CASR1"
+      ],
+      "source_block": "CoreLang5_Block12_Tensors_And_Quantization",
+      "args_types": [
+        "any"
+      ],
+      "idempotent": false,
+      "side_effect": "none"
+    },
+    {
+      "sym": "tens.decompress",
+      "args": [
+        "p1"
+      ],
+      "category": "codec",
+      "op": "decompress",
+      "template": "tens.decompress_{}",
+      "freq": 1,
+      "op_id": 25243,
+      "capa_tags": [
+        "QPROF1",
+        "CASR1"
+      ],
+      "source_block": "CoreLang5_Block12_Tensors_And_Quantization",
+      "args_types": [
+        "any"
+      ],
+      "idempotent": false,
+      "side_effect": "none"
+    },
+    {
+      "sym": "tens.transpose",
+      "args": [
+        "p1"
+      ],
+      "category": "layout",
+      "op": "permute",
+      "template": "tens.transpose_{}",
+      "freq": 1,
+      "op_id": 13606,
+      "capa_tags": [
+        "QPROF1",
+        "CASR1"
+      ],
+      "source_block": "CoreLang5_Block12_Tensors_And_Quantization",
+      "args_types": [
+        "any"
+      ],
+      "idempotent": false,
+      "side_effect": "none"
+    },
+    {
+      "sym": "tens.reshape",
+      "args": [
+        "p1"
+      ],
+      "category": "layout",
+      "op": "reshape",
+      "template": "tens.reshape_{}",
+      "freq": 1,
+      "op_id": 34049,
+      "capa_tags": [
+        "QPROF1",
+        "CASR1"
+      ],
+      "source_block": "CoreLang5_Block12_Tensors_And_Quantization",
+      "args_types": [
+        "any"
+      ],
+      "idempotent": false,
+      "side_effect": "none"
+    },
+    {
+      "sym": "tens.broadcast",
+      "args": [
+        "p1"
+      ],
+      "category": "layout",
+      "op": "broadcast",
+      "template": "tens.broadcast_{}",
+      "freq": 1,
+      "op_id": 60038,
+      "capa_tags": [
+        "QPROF1",
+        "CASR1"
+      ],
+      "source_block": "CoreLang5_Block12_Tensors_And_Quantization",
+      "args_types": [
+        "any"
+      ],
+      "idempotent": false,
+      "side_effect": "none"
+    },
+    {
+      "sym": "tens.matmul_tile",
+      "args": [
+        "p1"
+      ],
+      "category": "compute",
+      "op": "matmul",
+      "template": "tens.matmul_tile_{}",
+      "freq": 1,
+      "op_id": 56750,
+      "capa_tags": [
+        "QPROF1",
+        "CASR1"
+      ],
+      "source_block": "CoreLang5_Block12_Tensors_And_Quantization",
+      "args_types": [
+        "any"
+      ],
+      "idempotent": false,
+      "side_effect": "none"
+    },
+    {
+      "sym": "tens.matmul_block",
+      "args": [
+        "p1"
+      ],
+      "category": "compute",
+      "op": "matmul",
+      "template": "tens.matmul_block_{}",
+      "freq": 1,
+      "op_id": 43439,
+      "capa_tags": [
+        "QPROF1",
+        "CASR1"
+      ],
+      "source_block": "CoreLang5_Block12_Tensors_And_Quantization",
+      "args_types": [
+        "any"
+      ],
+      "idempotent": false,
+      "side_effect": "none"
+    },
+    {
+      "sym": "tens.attn_pack",
+      "args": [
+        "p1"
+      ],
+      "category": "attn",
+      "op": "pack",
+      "template": "tens.attn_pack_{}",
+      "freq": 1,
+      "op_id": 281,
+      "capa_tags": [
+        "QPROF1",
+        "CASR1"
+      ],
+      "source_block": "CoreLang5_Block12_Tensors_And_Quantization",
+      "args_types": [
+        "any"
+      ],
+      "idempotent": false,
+      "side_effect": "none"
+    },
+    {
+      "sym": "tens.attn_delta",
+      "args": [
+        "p1"
+      ],
+      "category": "attn",
+      "op": "delta",
+      "template": "tens.attn_delta_{}",
+      "freq": 1,
+      "op_id": 3114,
+      "capa_tags": [
+        "QPROF1",
+        "CASR1"
+      ],
+      "source_block": "CoreLang5_Block12_Tensors_And_Quantization",
+      "args_types": [
+        "any"
+      ],
+      "idempotent": false,
+      "side_effect": "none"
+    },
+    {
+      "sym": "tens.embed_ref",
+      "args": [
+        "p1"
+      ],
+      "category": "ref",
+      "op": "embed",
+      "template": "tens.embed_ref_{}",
+      "freq": 1,
+      "op_id": 53442,
+      "capa_tags": [
+        "QPROF1",
+        "CASR1"
+      ],
+      "source_block": "CoreLang5_Block12_Tensors_And_Quantization",
+      "args_types": [
+        "any"
+      ],
+      "idempotent": false,
+      "side_effect": "none"
+    },
+    {
+      "sym": "tens.gather",
+      "args": [
+        "p1"
+      ],
+      "category": "index",
+      "op": "gather",
+      "template": "tens.gather_{}",
+      "freq": 1,
+      "op_id": 11862,
+      "capa_tags": [
+        "QPROF1",
+        "CASR1"
+      ],
+      "source_block": "CoreLang5_Block12_Tensors_And_Quantization",
+      "args_types": [
+        "any"
+      ],
+      "idempotent": false,
+      "side_effect": "none"
+    },
+    {
+      "sym": "tens.scatter",
+      "args": [
+        "p1"
+      ],
+      "category": "index",
+      "op": "scatter",
+      "template": "tens.scatter_{}",
+      "freq": 1,
+      "op_id": 55354,
+      "capa_tags": [
+        "QPROF1",
+        "CASR1"
+      ],
+      "source_block": "CoreLang5_Block12_Tensors_And_Quantization",
+      "args_types": [
+        "any"
+      ],
+      "idempotent": false,
+      "side_effect": "none"
+    },
+    {
+      "sym": "tens.reduce",
+      "args": [
+        "p1",
+        "p2"
+      ],
+      "category": "reduce",
+      "op": "reduce",
+      "template": "tens.reduce_{}_{}",
+      "freq": 1,
+      "op_id": 28530,
+      "capa_tags": [
+        "QPROF1",
+        "CASR1"
+      ],
+      "source_block": "CoreLang5_Block12_Tensors_And_Quantization",
+      "args_types": [
+        "any",
+        "any"
+      ],
+      "idempotent": false,
+      "side_effect": "none"
+    },
+    {
+      "sym": "tens.quant_error",
+      "args": [
+        "p1"
+      ],
+      "category": "quant",
+      "op": "metric",
+      "template": "tens.quant_error_{}",
+      "freq": 1,
+      "op_id": 38032,
+      "capa_tags": [
+        "QPROF1",
+        "CASR1"
+      ],
+      "source_block": "CoreLang5_Block12_Tensors_And_Quantization",
+      "args_types": [
+        "any"
+      ],
+      "idempotent": true,
+      "side_effect": "read"
+    },
+    {
+      "sym": "tens.calibrate",
+      "args": [
+        "p1"
+      ],
+      "category": "quant",
+      "op": "calibrate",
+      "template": "tens.calibrate_{}",
+      "freq": 1,
+      "op_id": 32496,
+      "capa_tags": [
+        "QPROF1",
+        "CASR1"
+      ],
+      "source_block": "CoreLang5_Block12_Tensors_And_Quantization",
+      "args_types": [
+        "any"
+      ],
+      "idempotent": true,
+      "side_effect": "read"
+    },
+    {
+      "sym": "tens.vectorize",
+      "args": [
+        "p1"
+      ],
+      "category": "compute",
+      "op": "vectorize",
+      "template": "tens.vectorize_{}",
+      "freq": 1,
+      "op_id": 28095,
+      "capa_tags": [
+        "QPROF1",
+        "CASR1"
+      ],
+      "source_block": "CoreLang5_Block12_Tensors_And_Quantization",
+      "args_types": [
+        "any"
+      ],
+      "idempotent": false,
+      "side_effect": "none"
+    },
+    {
+      "sym": "tens.reorder",
+      "args": [
+        "p1"
+      ],
+      "category": "layout",
+      "op": "reorder",
+      "template": "tens.reorder_{}",
+      "freq": 1,
+      "op_id": 18336,
+      "capa_tags": [
+        "QPROF1",
+        "CASR1"
+      ],
+      "source_block": "CoreLang5_Block12_Tensors_And_Quantization",
+      "args_types": [
+        "any"
+      ],
+      "idempotent": false,
+      "side_effect": "none"
+    }
+  ],
+  "alias": {
+    "tens.qprofile_define_{}_{}_{}": "tens.qprofile_define",
+    "tens.qprofile_autotune_{}_{}": "tens.qprofile_autotune",
+    "tens.qprofile_rotate_{}": "tens.qprofile_rotate",
+    "tens.qprofile_gc_{}": "tens.qprofile_gc",
+    "tens.quantize_{}": "tens.quantize",
+    "tens.dequantize_{}": "tens.dequantize",
+    "tens.pack_tensor_{}_{}": "tens.pack_tensor",
+    "tens.unpack_tensor_{}": "tens.unpack_tensor",
+    "tens.chunk_{}_{}": "tens.chunk",
+    "tens.delta_block_{}": "tens.delta_block",
+    "tens.pq_encode_{}_{}": "tens.pq_encode",
+    "tens.pq_decode_{}": "tens.pq_decode",
+    "tens.rvq_encode_{}_{}": "tens.rvq_encode",
+    "tens.rvq_decode_{}": "tens.rvq_decode",
+    "tens.clip_{}_{}": "tens.clip",
+    "tens.scale_shift_{}_{}": "tens.scale_shift",
+    "tens.sparsify_{}": "tens.sparsify",
+    "tens.desparsify_{}": "tens.desparsify",
+    "tens.cast_{}": "tens.cast",
+    "tens.compress_{}": "tens.compress",
+    "tens.decompress_{}": "tens.decompress",
+    "tens.transpose_{}": "tens.transpose",
+    "tens.reshape_{}": "tens.reshape",
+    "tens.broadcast_{}": "tens.broadcast",
+    "tens.matmul_tile_{}": "tens.matmul_tile",
+    "tens.matmul_block_{}": "tens.matmul_block",
+    "tens.attn_pack_{}": "tens.attn_pack",
+    "tens.attn_delta_{}": "tens.attn_delta",
+    "tens.embed_ref_{}": "tens.embed_ref",
+    "tens.gather_{}": "tens.gather",
+    "tens.scatter_{}": "tens.scatter",
+    "tens.reduce_{}_{}": "tens.reduce",
+    "tens.quant_error_{}": "tens.quant_error",
+    "tens.calibrate_{}": "tens.calibrate",
+    "tens.vectorize_{}": "tens.vectorize",
+    "tens.reorder_{}": "tens.reorder"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "packs": [
+    "dict/d3_packs/ckb_D3_logic.json",
+    "dict/d3_packs/ckb_D3_math.json",
+    "dict/d3_packs/ckb_D3_data_structures.json",
+    "dict/d3_packs/ckb_D3_algorithms.json",
+    "dict/d3_packs/ckb_D3_io.json",
+    "dict/d3_packs/ckb_D3_concurrency.json",
+    "dict/d3_packs/ckb_D3_interop.json",
+    "dict/d3_packs/ckb_D3_systems.json",
+    "dict/d3_packs/ckb_D3_optimization.json",
+    "dict/d3_packs/ckb_D3_domain_adapters.json"
+  ],
+  "combined_file": "dict/ckb_D3_phrases.json"
+}

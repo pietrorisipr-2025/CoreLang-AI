@@ -1,0 +1,458 @@
+{
+  "block": "CoreLang5_Block19_Dictionary_Dynamics",
+  "version": "6.30R1",
+  "parametric": [
+    {
+      "sym": "dict.train",
+      "args": [
+        "p1",
+        "p2"
+      ],
+      "args_types": [
+        "any",
+        "any"
+      ],
+      "constraints": {},
+      "category": "dict",
+      "op": "train",
+      "template": "dict.train_{}_{}",
+      "freq": 1,
+      "op_id": 19781,
+      "capa_tags": [
+        "CMP_ZSTD1"
+      ],
+      "source_block": "CoreLang5_Block19_Dictionary_Dynamics",
+      "idempotent": false,
+      "side_effect": "write",
+      "stability": "experimental",
+      "wire_cost_hint": 3,
+      "depends_on": [
+        "CMP_ZSTD1"
+      ]
+    },
+    {
+      "sym": "dict.score",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "dict",
+      "op": "score",
+      "template": "dict.score_{}",
+      "freq": 1,
+      "op_id": 40868,
+      "capa_tags": [
+        "CMP_ZSTD1"
+      ],
+      "source_block": "CoreLang5_Block19_Dictionary_Dynamics",
+      "idempotent": true,
+      "side_effect": "read",
+      "stability": "experimental",
+      "wire_cost_hint": 3,
+      "depends_on": [
+        "CMP_ZSTD1"
+      ]
+    },
+    {
+      "sym": "dict.apply",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "dict",
+      "op": "apply",
+      "template": "dict.apply_{}",
+      "freq": 1,
+      "op_id": 1097,
+      "capa_tags": [
+        "CMP_ZSTD1"
+      ],
+      "source_block": "CoreLang5_Block19_Dictionary_Dynamics",
+      "idempotent": false,
+      "side_effect": "write",
+      "stability": "experimental",
+      "wire_cost_hint": 3,
+      "depends_on": [
+        "CMP_ZSTD1"
+      ]
+    },
+    {
+      "sym": "dict.announce",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "dict",
+      "op": "announce",
+      "template": "dict.announce_{}",
+      "freq": 1,
+      "op_id": 57346,
+      "capa_tags": [
+        "CMP_ZSTD1",
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block19_Dictionary_Dynamics",
+      "idempotent": false,
+      "side_effect": "write",
+      "stability": "experimental",
+      "wire_cost_hint": 3,
+      "depends_on": [
+        "CMP_ZSTD1",
+        "MIC1"
+      ]
+    },
+    {
+      "sym": "dict.rotate",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "dict",
+      "op": "rotate",
+      "template": "dict.rotate_{}",
+      "freq": 1,
+      "op_id": 56300,
+      "capa_tags": [
+        "CMP_ZSTD1"
+      ],
+      "source_block": "CoreLang5_Block19_Dictionary_Dynamics",
+      "idempotent": false,
+      "side_effect": "write",
+      "stability": "experimental",
+      "wire_cost_hint": 3,
+      "depends_on": [
+        "CMP_ZSTD1"
+      ]
+    },
+    {
+      "sym": "dict.revoke",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "dict",
+      "op": "revoke",
+      "template": "dict.revoke_{}",
+      "freq": 1,
+      "op_id": 11489,
+      "capa_tags": [
+        "CMP_ZSTD1",
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block19_Dictionary_Dynamics",
+      "idempotent": false,
+      "side_effect": "write",
+      "stability": "experimental",
+      "wire_cost_hint": 3,
+      "depends_on": [
+        "CMP_ZSTD1",
+        "MIC1"
+      ]
+    },
+    {
+      "sym": "dict.pin",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "dict",
+      "op": "pin",
+      "template": "dict.pin_{}",
+      "freq": 1,
+      "op_id": 42312,
+      "capa_tags": [
+        "CMP_ZSTD1"
+      ],
+      "source_block": "CoreLang5_Block19_Dictionary_Dynamics",
+      "idempotent": false,
+      "side_effect": "none",
+      "stability": "experimental",
+      "wire_cost_hint": 3,
+      "depends_on": [
+        "CMP_ZSTD1"
+      ]
+    },
+    {
+      "sym": "dict.unpin",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "dict",
+      "op": "unpin",
+      "template": "dict.unpin_{}",
+      "freq": 1,
+      "op_id": 2902,
+      "capa_tags": [
+        "CMP_ZSTD1"
+      ],
+      "source_block": "CoreLang5_Block19_Dictionary_Dynamics",
+      "idempotent": false,
+      "side_effect": "none",
+      "stability": "experimental",
+      "wire_cost_hint": 3,
+      "depends_on": [
+        "CMP_ZSTD1"
+      ]
+    },
+    {
+      "sym": "dict.export",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "dict",
+      "op": "export",
+      "template": "dict.export_{}",
+      "freq": 1,
+      "op_id": 38904,
+      "capa_tags": [
+        "CMP_ZSTD1"
+      ],
+      "source_block": "CoreLang5_Block19_Dictionary_Dynamics",
+      "idempotent": true,
+      "side_effect": "read",
+      "stability": "experimental",
+      "wire_cost_hint": 3,
+      "depends_on": [
+        "CMP_ZSTD1"
+      ]
+    },
+    {
+      "sym": "dict.import",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "dict",
+      "op": "import",
+      "template": "dict.import_{}",
+      "freq": 1,
+      "op_id": 33061,
+      "capa_tags": [
+        "CMP_ZSTD1"
+      ],
+      "source_block": "CoreLang5_Block19_Dictionary_Dynamics",
+      "idempotent": false,
+      "side_effect": "none",
+      "stability": "experimental",
+      "wire_cost_hint": 3,
+      "depends_on": [
+        "CMP_ZSTD1"
+      ]
+    },
+    {
+      "sym": "dict.merkle",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "dict",
+      "op": "hash",
+      "template": "dict.merkle_{}",
+      "freq": 1,
+      "op_id": 31476,
+      "capa_tags": [
+        "CMP_ZSTD1",
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block19_Dictionary_Dynamics",
+      "idempotent": true,
+      "side_effect": "read",
+      "stability": "experimental",
+      "wire_cost_hint": 3,
+      "depends_on": [
+        "CMP_ZSTD1",
+        "MIC1"
+      ]
+    },
+    {
+      "sym": "dict.delta",
+      "args": [
+        "p1",
+        "p2"
+      ],
+      "args_types": [
+        "any",
+        "any"
+      ],
+      "constraints": {},
+      "category": "dict",
+      "op": "delta",
+      "template": "dict.delta_{}_{}",
+      "freq": 1,
+      "op_id": 3905,
+      "capa_tags": [
+        "CMP_ZSTD1",
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block19_Dictionary_Dynamics",
+      "idempotent": false,
+      "side_effect": "write",
+      "stability": "experimental",
+      "wire_cost_hint": 3,
+      "depends_on": [
+        "CMP_ZSTD1",
+        "MIC1"
+      ]
+    },
+    {
+      "sym": "dict.patch_apply",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "dict",
+      "op": "patch",
+      "template": "dict.patch_apply_{}",
+      "freq": 1,
+      "op_id": 3304,
+      "capa_tags": [
+        "CMP_ZSTD1",
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block19_Dictionary_Dynamics",
+      "idempotent": false,
+      "side_effect": "write",
+      "stability": "experimental",
+      "wire_cost_hint": 3,
+      "depends_on": [
+        "CMP_ZSTD1",
+        "MIC1"
+      ]
+    },
+    {
+      "sym": "dict.sign",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "dict",
+      "op": "sign",
+      "template": "dict.sign_{}",
+      "freq": 1,
+      "op_id": 53382,
+      "capa_tags": [
+        "CMP_ZSTD1",
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block19_Dictionary_Dynamics",
+      "idempotent": false,
+      "side_effect": "write",
+      "stability": "experimental",
+      "wire_cost_hint": 3,
+      "depends_on": [
+        "CMP_ZSTD1",
+        "MIC1"
+      ]
+    },
+    {
+      "sym": "dict.verify",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "dict",
+      "op": "verify",
+      "template": "dict.verify_{}",
+      "freq": 1,
+      "op_id": 10987,
+      "capa_tags": [
+        "CMP_ZSTD1",
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block19_Dictionary_Dynamics",
+      "idempotent": false,
+      "side_effect": "write",
+      "stability": "experimental",
+      "wire_cost_hint": 3,
+      "depends_on": [
+        "CMP_ZSTD1",
+        "MIC1"
+      ]
+    },
+    {
+      "sym": "dict.ttl",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "dict",
+      "op": "set",
+      "template": "dict.ttl_{}",
+      "freq": 1,
+      "op_id": 24617,
+      "capa_tags": [
+        "CMP_ZSTD1"
+      ],
+      "source_block": "CoreLang5_Block19_Dictionary_Dynamics",
+      "idempotent": false,
+      "side_effect": "write",
+      "stability": "experimental",
+      "wire_cost_hint": 3,
+      "depends_on": [
+        "CMP_ZSTD1"
+      ]
+    }
+  ],
+  "alias": {
+    "dict.train_{}_{}": "dict.train",
+    "dict.score_{}": "dict.score",
+    "dict.apply_{}": "dict.apply",
+    "dict.announce_{}": "dict.announce",
+    "dict.rotate_{}": "dict.rotate",
+    "dict.revoke_{}": "dict.revoke",
+    "dict.pin_{}": "dict.pin",
+    "dict.unpin_{}": "dict.unpin",
+    "dict.export_{}": "dict.export",
+    "dict.import_{}": "dict.import",
+    "dict.merkle_{}": "dict.merkle",
+    "dict.delta_{}_{}": "dict.delta",
+    "dict.patch_apply_{}": "dict.patch_apply",
+    "dict.sign_{}": "dict.sign",
+    "dict.verify_{}": "dict.verify",
+    "dict.ttl_{}": "dict.ttl"
+  }
+}

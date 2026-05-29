@@ -1,0 +1,398 @@
+{
+  "block": "CoreLang5_Block7_Interop_And_FFI",
+  "version": "6.30R1",
+  "parametric": [
+    {
+      "sym": "ffi.cl{}_c{}_jni_local_refs_survivors_{}",
+      "args": [
+        "survivors"
+      ],
+      "category": "marshalling",
+      "op": "op",
+      "template": "CL{n}_C{n}_JNI_LOCAL_REFS_SURVIVORS_{n}",
+      "freq": 445,
+      "op_id": 28422,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block7_Interop_And_FFI"
+    },
+    {
+      "sym": "ffi.cl{}_c{}_py_ctype_struct_size_with_pack_{}",
+      "args": [
+        "pack"
+      ],
+      "category": "marshalling",
+      "op": "op",
+      "template": "CL{n}_C{n}_PY_CTYPE_STRUCT_SIZE_WITH_PACK_{n}",
+      "freq": 445,
+      "op_id": 57734,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block7_Interop_And_FFI"
+    },
+    {
+      "sym": "ffi.cl{}_c{}_rust_niche_optimization_applies_{}",
+      "args": [
+        "applies"
+      ],
+      "category": "interop",
+      "op": "op",
+      "template": "CL{n}_C{n}_RUST_NICHE_OPTIMIZATION_APPLIES_{n}",
+      "freq": 445,
+      "op_id": 44442,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block7_Interop_And_FFI"
+    },
+    {
+      "sym": "ffi.cl{}_c{}_wasm_param_slots_count_{}",
+      "args": [
+        "count"
+      ],
+      "category": "wasm",
+      "op": "op",
+      "template": "CL{n}_C{n}_WASM_PARAM_SLOTS_COUNT_{n}",
+      "freq": 445,
+      "op_id": 21626,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block7_Interop_And_FFI"
+    },
+    {
+      "sym": "ffi.cl{}_c{}_capnproto_segment_table_bytes_{}",
+      "args": [
+        "bytes"
+      ],
+      "category": "interop",
+      "op": "op",
+      "template": "CL{n}_C{n}_CAPNPROTO_SEGMENT_TABLE_BYTES_{n}",
+      "freq": 444,
+      "op_id": 7667,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block7_Interop_And_FFI"
+    },
+    {
+      "sym": "ffi.cl{}_c{}_cffi_sysv_int_regs_used_{}",
+      "args": [
+        "used"
+      ],
+      "category": "abi",
+      "op": "op",
+      "template": "CL{n}_C{n}_CFFI_SYSV_INT_REGS_USED_{n}",
+      "freq": 444,
+      "op_id": 4321,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block7_Interop_And_FFI"
+    },
+    {
+      "sym": "ffi.cl{}_c{}_grpc_frame_length_bytes_{}",
+      "args": [
+        "bytes"
+      ],
+      "category": "interop",
+      "op": "op",
+      "template": "CL{n}_C{n}_GRPC_FRAME_LENGTH_BYTES_{n}",
+      "freq": 444,
+      "op_id": 25004,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block7_Interop_And_FFI"
+    },
+    {
+      "sym": "ffi.cl{}_c{}_nodeapi_persistent_handles_alive_{}",
+      "args": [
+        "alive"
+      ],
+      "category": "interop",
+      "op": "op",
+      "template": "CL{n}_C{n}_NODEAPI_PERSISTENT_HANDLES_ALIVE_{n}",
+      "freq": 444,
+      "op_id": 34574,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block7_Interop_And_FFI"
+    },
+    {
+      "sym": "ffi.cl{}_c{}_wasm_memory_pages_needed_{}",
+      "args": [
+        "needed"
+      ],
+      "category": "wasm",
+      "op": "op",
+      "template": "CL{n}_C{n}_WASM_MEMORY_PAGES_NEEDED_{n}",
+      "freq": 444,
+      "op_id": 35962,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block7_Interop_And_FFI"
+    },
+    {
+      "sym": "ffi.cl{}_c{}_callconv_cdecl_stack_bytes_{}",
+      "args": [
+        "bytes"
+      ],
+      "category": "abi",
+      "op": "call",
+      "template": "CL{n}_C{n}_CALLCONV_CDECL_STACK_BYTES_{n}",
+      "freq": 334,
+      "op_id": 34163,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block7_Interop_And_FFI"
+    },
+    {
+      "sym": "ffi.cl{}_c{}_c_struct_size_with_alignment_{}",
+      "args": [
+        "alignment"
+      ],
+      "category": "marshalling",
+      "op": "op",
+      "template": "CL{n}_C{n}_C_STRUCT_SIZE_WITH_ALIGNMENT_{n}",
+      "freq": 334,
+      "op_id": 12309,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block7_Interop_And_FFI"
+    },
+    {
+      "sym": "ffi.cl{}_c{}_endian_swap{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3",
+        "p4"
+      ],
+      "category": "marshalling",
+      "op": "op",
+      "template": "CL{n}_C{n}_ENDIAN_SWAP{n}_{n}",
+      "freq": 334,
+      "op_id": 47205,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block7_Interop_And_FFI"
+    },
+    {
+      "sym": "ffi.cl{}_c{}_marshal_utf{}le_bytes_with_nul_{}",
+      "args": [
+        "nul"
+      ],
+      "category": "marshalling",
+      "op": "op",
+      "template": "CL{n}_C{n}_MARSHAL_UTF{n}LE_BYTES_WITH_NUL_{n}",
+      "freq": 334,
+      "op_id": 26756,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block7_Interop_And_FFI"
+    },
+    {
+      "sym": "ffi.cl{}_c{}_network_ntohl{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3",
+        "p4"
+      ],
+      "category": "interop",
+      "op": "op",
+      "template": "CL{n}_C{n}_NETWORK_NTOHL{n}_{n}",
+      "freq": 334,
+      "op_id": 9107,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block7_Interop_And_FFI"
+    },
+    {
+      "sym": "ffi.cl{}_c{}_varint_uleb{}_size_bytes_{}",
+      "args": [
+        "bytes"
+      ],
+      "category": "interop",
+      "op": "op",
+      "template": "CL{n}_C{n}_VARINT_ULEB{n}_SIZE_BYTES_{n}",
+      "freq": 334,
+      "op_id": 27349,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block7_Interop_And_FFI"
+    },
+    {
+      "sym": "ffi.cl{}_c{}_abi_sysv_int_regs_used_{}",
+      "args": [
+        "used"
+      ],
+      "category": "abi",
+      "op": "op",
+      "template": "CL{n}_C{n}_ABI_SYSV_INT_REGS_USED_{n}",
+      "freq": 333,
+      "op_id": 43293,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block7_Interop_And_FFI"
+    },
+    {
+      "sym": "ffi.cl{}_c{}_abi_win{}_shadow_space_bytes_{}",
+      "args": [
+        "bytes"
+      ],
+      "category": "abi",
+      "op": "op",
+      "template": "CL{n}_C{n}_ABI_WIN{n}_SHADOW_SPACE_BYTES_{n}",
+      "freq": 333,
+      "op_id": 65149,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block7_Interop_And_FFI"
+    },
+    {
+      "sym": "ffi.cl{}_c{}_align_roundup_to_alignment_{}",
+      "args": [
+        "alignment"
+      ],
+      "category": "marshalling",
+      "op": "op",
+      "template": "CL{n}_C{n}_ALIGN_ROUNDUP_TO_ALIGNMENT_{n}",
+      "freq": 333,
+      "op_id": 6370,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block7_Interop_And_FFI"
+    },
+    {
+      "sym": "ffi.cl{}_c{}_bitfield_storage_bytes_{}",
+      "args": [
+        "bytes"
+      ],
+      "category": "interop",
+      "op": "op",
+      "template": "CL{n}_C{n}_BITFIELD_STORAGE_BYTES_{n}",
+      "freq": 333,
+      "op_id": 35360,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block7_Interop_And_FFI"
+    },
+    {
+      "sym": "ffi.cl{}_c{}_callconv_stack_cleanup_side_{}",
+      "args": [
+        "side"
+      ],
+      "category": "abi",
+      "op": "call",
+      "template": "CL{n}_C{n}_CALLCONV_STACK_CLEANUP_SIDE_{n}",
+      "freq": 333,
+      "op_id": 30837,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block7_Interop_And_FFI"
+    },
+    {
+      "sym": "ffi.cl{}_c{}_c_struct_size_with_pack{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3",
+        "p4"
+      ],
+      "category": "marshalling",
+      "op": "op",
+      "template": "CL{n}_C{n}_C_STRUCT_SIZE_WITH_PACK{n}_{n}",
+      "freq": 333,
+      "op_id": 31355,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block7_Interop_And_FFI"
+    },
+    {
+      "sym": "ffi.cl{}_c{}_ffi_dlopen_flags_mask_{}",
+      "args": [
+        "mask"
+      ],
+      "category": "dynamic_link",
+      "op": "op",
+      "template": "CL{n}_C{n}_FFI_DLOPEN_FLAGS_MASK_{n}",
+      "freq": 333,
+      "op_id": 54312,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block7_Interop_And_FFI"
+    },
+    {
+      "sym": "ffi.cl{}_c{}_hresult_is_failure_bit_{}",
+      "args": [
+        "bit"
+      ],
+      "category": "interop",
+      "op": "op",
+      "template": "CL{n}_C{n}_HRESULT_IS_FAILURE_BIT_{n}",
+      "freq": 333,
+      "op_id": 53367,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block7_Interop_And_FFI"
+    },
+    {
+      "sym": "ffi.cl{}_c{}_marshal_utf{}_cstr_bytes_with_nul_{}",
+      "args": [
+        "nul"
+      ],
+      "category": "marshalling",
+      "op": "op",
+      "template": "CL{n}_C{n}_MARSHAL_UTF{n}_CSTR_BYTES_WITH_NUL_{n}",
+      "freq": 333,
+      "op_id": 3565,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block7_Interop_And_FFI"
+    },
+    {
+      "sym": "ffi.cl{}_c{}_network_htons{}_{}",
+      "args": [
+        "p1",
+        "p2",
+        "p3",
+        "p4"
+      ],
+      "category": "interop",
+      "op": "op",
+      "template": "CL{n}_C{n}_NETWORK_HTONS{n}_{n}",
+      "freq": 333,
+      "op_id": 54963,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block7_Interop_And_FFI"
+    },
+    {
+      "sym": "ffi.cl{}_c{}_pointer_byte_offset_for_n_elems_{}",
+      "args": [
+        "elems"
+      ],
+      "category": "interop",
+      "op": "op",
+      "template": "CL{n}_C{n}_POINTER_BYTE_OFFSET_FOR_N_ELEMS_{n}",
+      "freq": 333,
+      "op_id": 23080,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block7_Interop_And_FFI"
+    },
+    {
+      "sym": "ffi.cl{}_c{}_protobuf_field_tag_value_{}",
+      "args": [
+        "value"
+      ],
+      "category": "interop",
+      "op": "op",
+      "template": "CL{n}_C{n}_PROTOBUF_FIELD_TAG_VALUE_{n}",
+      "freq": 333,
+      "op_id": 56803,
+      "capa_tags": [],
+      "source_block": "CoreLang5_Block7_Interop_And_FFI"
+    }
+  ],
+  "alias": {
+    "CL{n}_C{n}_JNI_LOCAL_REFS_SURVIVORS_{n}": "ffi.cl{}_c{}_jni_local_refs_survivors_{}",
+    "CL{n}_C{n}_PY_CTYPE_STRUCT_SIZE_WITH_PACK_{n}": "ffi.cl{}_c{}_py_ctype_struct_size_with_pack_{}",
+    "CL{n}_C{n}_RUST_NICHE_OPTIMIZATION_APPLIES_{n}": "ffi.cl{}_c{}_rust_niche_optimization_applies_{}",
+    "CL{n}_C{n}_WASM_PARAM_SLOTS_COUNT_{n}": "ffi.cl{}_c{}_wasm_param_slots_count_{}",
+    "CL{n}_C{n}_CAPNPROTO_SEGMENT_TABLE_BYTES_{n}": "ffi.cl{}_c{}_capnproto_segment_table_bytes_{}",
+    "CL{n}_C{n}_CFFI_SYSV_INT_REGS_USED_{n}": "ffi.cl{}_c{}_cffi_sysv_int_regs_used_{}",
+    "CL{n}_C{n}_GRPC_FRAME_LENGTH_BYTES_{n}": "ffi.cl{}_c{}_grpc_frame_length_bytes_{}",
+    "CL{n}_C{n}_NODEAPI_PERSISTENT_HANDLES_ALIVE_{n}": "ffi.cl{}_c{}_nodeapi_persistent_handles_alive_{}",
+    "CL{n}_C{n}_WASM_MEMORY_PAGES_NEEDED_{n}": "ffi.cl{}_c{}_wasm_memory_pages_needed_{}",
+    "CL{n}_C{n}_CALLCONV_CDECL_STACK_BYTES_{n}": "ffi.cl{}_c{}_callconv_cdecl_stack_bytes_{}",
+    "CL{n}_C{n}_C_STRUCT_SIZE_WITH_ALIGNMENT_{n}": "ffi.cl{}_c{}_c_struct_size_with_alignment_{}",
+    "CL{n}_C{n}_ENDIAN_SWAP{n}_{n}": "ffi.cl{}_c{}_endian_swap{}_{}",
+    "CL{n}_C{n}_MARSHAL_UTF{n}LE_BYTES_WITH_NUL_{n}": "ffi.cl{}_c{}_marshal_utf{}le_bytes_with_nul_{}",
+    "CL{n}_C{n}_NETWORK_NTOHL{n}_{n}": "ffi.cl{}_c{}_network_ntohl{}_{}",
+    "CL{n}_C{n}_VARINT_ULEB{n}_SIZE_BYTES_{n}": "ffi.cl{}_c{}_varint_uleb{}_size_bytes_{}",
+    "CL{n}_C{n}_ABI_SYSV_INT_REGS_USED_{n}": "ffi.cl{}_c{}_abi_sysv_int_regs_used_{}",
+    "CL{n}_C{n}_ABI_WIN{n}_SHADOW_SPACE_BYTES_{n}": "ffi.cl{}_c{}_abi_win{}_shadow_space_bytes_{}",
+    "CL{n}_C{n}_ALIGN_ROUNDUP_TO_ALIGNMENT_{n}": "ffi.cl{}_c{}_align_roundup_to_alignment_{}",
+    "CL{n}_C{n}_BITFIELD_STORAGE_BYTES_{n}": "ffi.cl{}_c{}_bitfield_storage_bytes_{}",
+    "CL{n}_C{n}_CALLCONV_STACK_CLEANUP_SIDE_{n}": "ffi.cl{}_c{}_callconv_stack_cleanup_side_{}",
+    "CL{n}_C{n}_C_STRUCT_SIZE_WITH_PACK{n}_{n}": "ffi.cl{}_c{}_c_struct_size_with_pack{}_{}",
+    "CL{n}_C{n}_FFI_DLOPEN_FLAGS_MASK_{n}": "ffi.cl{}_c{}_ffi_dlopen_flags_mask_{}",
+    "CL{n}_C{n}_HRESULT_IS_FAILURE_BIT_{n}": "ffi.cl{}_c{}_hresult_is_failure_bit_{}",
+    "CL{n}_C{n}_MARSHAL_UTF{n}_CSTR_BYTES_WITH_NUL_{n}": "ffi.cl{}_c{}_marshal_utf{}_cstr_bytes_with_nul_{}",
+    "CL{n}_C{n}_NETWORK_HTONS{n}_{n}": "ffi.cl{}_c{}_network_htons{}_{}",
+    "CL{n}_C{n}_POINTER_BYTE_OFFSET_FOR_N_ELEMS_{n}": "ffi.cl{}_c{}_pointer_byte_offset_for_n_elems_{}",
+    "CL{n}_C{n}_PROTOBUF_FIELD_TAG_VALUE_{n}": "ffi.cl{}_c{}_protobuf_field_tag_value_{}"
+  }
+}

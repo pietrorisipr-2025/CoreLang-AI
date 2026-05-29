@@ -1,0 +1,60 @@
+{
+  "block": "CoreLang5_Block9_Optimization_And_Profiling_PERF_core_primitives",
+  "version": "6.30R1",
+  "tokens": [
+    {
+      "sym": "perf.profile_cpu_start"
+    },
+    {
+      "sym": "perf.profile_cpu_stop"
+    },
+    {
+      "sym": "perf.sample_allocs_start"
+    },
+    {
+      "sym": "perf.sample_allocs_stop"
+    },
+    {
+      "sym": "perf.flamegraph_dump"
+    },
+    {
+      "sym": "perf.trace_begin"
+    },
+    {
+      "sym": "perf.trace_end"
+    },
+    {
+      "sym": "perf.perf_event_open"
+    },
+    {
+      "sym": "perf.ebpf_attach"
+    },
+    {
+      "sym": "perf.benchmark_start"
+    },
+    {
+      "sym": "perf.benchmark_stop"
+    },
+    {
+      "sym": "perf.metrics_export"
+    },
+    {
+      "sym": "perf.metric_counter"
+    },
+    {
+      "sym": "perf.metric_histogram"
+    },
+    {
+      "sym": "perf.optimize_inline"
+    },
+    {
+      "sym": "perf.optimize_unroll"
+    },
+    {
+      "sym": "perf.optimize_vectorize"
+    },
+    {
+      "sym": "perf.optimize_cache_blocking"
+    }
+  ]
+}

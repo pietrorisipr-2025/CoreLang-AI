@@ -1,0 +1,108 @@
+{
+  "block": "CoreLang5_Block13_CAS_and_References_CAS_core_primitives",
+  "version": "6.30R1",
+  "tokens": [
+    {
+      "sym": "cas.put"
+    },
+    {
+      "sym": "cas.get"
+    },
+    {
+      "sym": "cas.pin"
+    },
+    {
+      "sym": "cas.unpin"
+    },
+    {
+      "sym": "cas.prefetch"
+    },
+    {
+      "sym": "cas.list"
+    },
+    {
+      "sym": "cas.stat"
+    },
+    {
+      "sym": "cas.evict"
+    },
+    {
+      "sym": "cas.gc"
+    },
+    {
+      "sym": "cas.retry"
+    },
+    {
+      "sym": "cas.timeout"
+    },
+    {
+      "sym": "cas.quota"
+    },
+    {
+      "sym": "cas.lru_set"
+    },
+    {
+      "sym": "cas.cache_mode"
+    },
+    {
+      "sym": "cas.verify"
+    },
+    {
+      "sym": "cas.namespace"
+    },
+    {
+      "sym": "cas.export"
+    },
+    {
+      "sym": "cas.import"
+    },
+    {
+      "sym": "cas.encrypt"
+    },
+    {
+      "sym": "cas.decrypt"
+    },
+    {
+      "sym": "cas.access"
+    },
+    {
+      "sym": "cas.audit"
+    },
+    {
+      "sym": "cas.stats_emit"
+    },
+    {
+      "sym": "ref.hash"
+    },
+    {
+      "sym": "ref.inline"
+    },
+    {
+      "sym": "ref.pack"
+    },
+    {
+      "sym": "ref.unpack"
+    },
+    {
+      "sym": "ref.batch_put"
+    },
+    {
+      "sym": "ref.batch_get"
+    },
+    {
+      "sym": "ref.merge"
+    },
+    {
+      "sym": "ref.split"
+    },
+    {
+      "sym": "ref.remap"
+    },
+    {
+      "sym": "casr.request"
+    },
+    {
+      "sym": "casr.response"
+    }
+  ]
+}

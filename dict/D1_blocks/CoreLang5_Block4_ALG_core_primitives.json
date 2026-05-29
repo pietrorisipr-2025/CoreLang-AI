@@ -1,0 +1,123 @@
+{
+  "block": "CoreLang5_Block4_ALG_core_primitives",
+  "version": "6.30R1",
+  "tokens": [
+    {
+      "sym": "algo.sort_quick"
+    },
+    {
+      "sym": "algo.sort_merge"
+    },
+    {
+      "sym": "algo.sort_heap"
+    },
+    {
+      "sym": "algo.sort_insertion"
+    },
+    {
+      "sym": "algo.sort_shell"
+    },
+    {
+      "sym": "algo.sort_radix"
+    },
+    {
+      "sym": "algo.select_quickselect"
+    },
+    {
+      "sym": "algo.search_binary"
+    },
+    {
+      "sym": "algo.search_linear"
+    },
+    {
+      "sym": "algo.graph_bfs"
+    },
+    {
+      "sym": "algo.graph_dfs"
+    },
+    {
+      "sym": "algo.graph_dijkstra"
+    },
+    {
+      "sym": "algo.graph_bellman_ford"
+    },
+    {
+      "sym": "algo.graph_floyd_warshall"
+    },
+    {
+      "sym": "algo.graph_prim"
+    },
+    {
+      "sym": "algo.graph_kruskal"
+    },
+    {
+      "sym": "algo.graph_toposort"
+    },
+    {
+      "sym": "algo.graph_scc_kosaraju"
+    },
+    {
+      "sym": "algo.graph_scc_tarjan"
+    },
+    {
+      "sym": "algo.dp_knapsack"
+    },
+    {
+      "sym": "algo.dp_lcs"
+    },
+    {
+      "sym": "algo.dp_edit_distance"
+    },
+    {
+      "sym": "algo.greedy_interval_scheduling"
+    },
+    {
+      "sym": "algo.greedy_huffman"
+    },
+    {
+      "sym": "algo.string_kmp"
+    },
+    {
+      "sym": "algo.string_z"
+    },
+    {
+      "sym": "algo.string_rabin_karp"
+    },
+    {
+      "sym": "algo.string_suffix_array"
+    },
+    {
+      "sym": "algo.string_manacher"
+    },
+    {
+      "sym": "algo.sieve_eratosthenes"
+    },
+    {
+      "sym": "algo.modexp_fast"
+    },
+    {
+      "sym": "algo.modinv_extended_gcd"
+    },
+    {
+      "sym": "algo.hash_bloom"
+    },
+    {
+      "sym": "algo.hash_cuckoo"
+    },
+    {
+      "sym": "algo.stream_countmin"
+    },
+    {
+      "sym": "algo.stream_hyperloglog"
+    },
+    {
+      "sym": "algo.geom_convex_hull"
+    },
+    {
+      "sym": "algo.geom_line_intersection"
+    },
+    {
+      "sym": "algo.backtrack_nqueens"
+    }
+  ]
+}

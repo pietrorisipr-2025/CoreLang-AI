@@ -1,0 +1,371 @@
+{
+  "block": "CoreLang5_Block18_Token_Stream_Delta",
+  "version": "6.30R1",
+  "parametric": [
+    {
+      "sym": "tstream.delta_tokens",
+      "args": [
+        "p1",
+        "p2"
+      ],
+      "args_types": [
+        "any",
+        "any"
+      ],
+      "constraints": {},
+      "category": "tstream",
+      "op": "delta",
+      "template": "tstream.delta_tokens_{}_{}",
+      "freq": 1,
+      "op_id": 13081,
+      "capa_tags": [
+        "TSTREAM1"
+      ],
+      "source_block": "CoreLang5_Block18_Token_Stream_Delta",
+      "idempotent": false,
+      "side_effect": "none",
+      "stability": "experimental",
+      "wire_cost_hint": 3,
+      "depends_on": [
+        "TSTREAM1"
+      ]
+    },
+    {
+      "sym": "tstream.micro_update",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "tstream",
+      "op": "delta",
+      "template": "tstream.micro_update_{}",
+      "freq": 1,
+      "op_id": 6967,
+      "capa_tags": [
+        "TSTREAM1"
+      ],
+      "source_block": "CoreLang5_Block18_Token_Stream_Delta",
+      "idempotent": false,
+      "side_effect": "none",
+      "stability": "experimental",
+      "wire_cost_hint": 3,
+      "depends_on": [
+        "TSTREAM1"
+      ]
+    },
+    {
+      "sym": "tstream.window",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "tstream",
+      "op": "set",
+      "template": "tstream.window_{}",
+      "freq": 1,
+      "op_id": 48960,
+      "capa_tags": [
+        "TSTREAM1"
+      ],
+      "source_block": "CoreLang5_Block18_Token_Stream_Delta",
+      "idempotent": false,
+      "side_effect": "none",
+      "stability": "experimental",
+      "wire_cost_hint": 3,
+      "depends_on": [
+        "TSTREAM1"
+      ]
+    },
+    {
+      "sym": "tstream.entropy",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "tstream",
+      "op": "set",
+      "template": "tstream.entropy_{}",
+      "freq": 1,
+      "op_id": 27224,
+      "capa_tags": [
+        "TSTREAM1"
+      ],
+      "source_block": "CoreLang5_Block18_Token_Stream_Delta",
+      "idempotent": false,
+      "side_effect": "none",
+      "stability": "experimental",
+      "wire_cost_hint": 3,
+      "depends_on": [
+        "TSTREAM1"
+      ]
+    },
+    {
+      "sym": "tstream.flush",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "tstream",
+      "op": "flush",
+      "template": "tstream.flush_{}",
+      "freq": 1,
+      "op_id": 3391,
+      "capa_tags": [
+        "TSTREAM1",
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block18_Token_Stream_Delta",
+      "idempotent": false,
+      "side_effect": "none",
+      "stability": "experimental",
+      "wire_cost_hint": 3,
+      "depends_on": [
+        "TSTREAM1",
+        "MIC1"
+      ]
+    },
+    {
+      "sym": "tstream.commit",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "tstream",
+      "op": "commit",
+      "template": "tstream.commit_{}",
+      "freq": 1,
+      "op_id": 15411,
+      "capa_tags": [
+        "TSTREAM1",
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block18_Token_Stream_Delta",
+      "idempotent": false,
+      "side_effect": "none",
+      "stability": "experimental",
+      "wire_cost_hint": 3,
+      "depends_on": [
+        "TSTREAM1",
+        "MIC1"
+      ]
+    },
+    {
+      "sym": "tstream.rollback",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "tstream",
+      "op": "rollback",
+      "template": "tstream.rollback_{}",
+      "freq": 1,
+      "op_id": 56639,
+      "capa_tags": [
+        "TSTREAM1",
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block18_Token_Stream_Delta",
+      "idempotent": false,
+      "side_effect": "none",
+      "stability": "experimental",
+      "wire_cost_hint": 3,
+      "depends_on": [
+        "TSTREAM1",
+        "MIC1"
+      ]
+    },
+    {
+      "sym": "tstream.pack",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "tstream",
+      "op": "pack",
+      "template": "tstream.pack_{}",
+      "freq": 1,
+      "op_id": 42564,
+      "capa_tags": [
+        "TSTREAM1"
+      ],
+      "source_block": "CoreLang5_Block18_Token_Stream_Delta",
+      "idempotent": false,
+      "side_effect": "none",
+      "stability": "experimental",
+      "wire_cost_hint": 3,
+      "depends_on": [
+        "TSTREAM1"
+      ]
+    },
+    {
+      "sym": "tstream.tid",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "tstream",
+      "op": "set",
+      "template": "tstream.tid_{}",
+      "freq": 1,
+      "op_id": 51871,
+      "capa_tags": [
+        "TSTREAM1",
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block18_Token_Stream_Delta",
+      "idempotent": false,
+      "side_effect": "write",
+      "stability": "experimental",
+      "wire_cost_hint": 3,
+      "depends_on": [
+        "TSTREAM1",
+        "MIC1"
+      ]
+    },
+    {
+      "sym": "tstream.abort",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "tstream",
+      "op": "abort",
+      "template": "tstream.abort_{}",
+      "freq": 1,
+      "op_id": 38102,
+      "capa_tags": [
+        "TSTREAM1",
+        "MIC1"
+      ],
+      "source_block": "CoreLang5_Block18_Token_Stream_Delta",
+      "idempotent": false,
+      "side_effect": "write",
+      "stability": "experimental",
+      "wire_cost_hint": 3,
+      "depends_on": [
+        "TSTREAM1",
+        "MIC1"
+      ]
+    },
+    {
+      "sym": "tstream.merge",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "tstream",
+      "op": "merge",
+      "template": "tstream.merge_{}",
+      "freq": 1,
+      "op_id": 14336,
+      "capa_tags": [
+        "TSTREAM1"
+      ],
+      "source_block": "CoreLang5_Block18_Token_Stream_Delta",
+      "idempotent": false,
+      "side_effect": "write",
+      "stability": "experimental",
+      "wire_cost_hint": 3,
+      "depends_on": [
+        "TSTREAM1"
+      ]
+    },
+    {
+      "sym": "tstream.split",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "tstream",
+      "op": "split",
+      "template": "tstream.split_{}",
+      "freq": 1,
+      "op_id": 47667,
+      "capa_tags": [
+        "TSTREAM1"
+      ],
+      "source_block": "CoreLang5_Block18_Token_Stream_Delta",
+      "idempotent": false,
+      "side_effect": "write",
+      "stability": "experimental",
+      "wire_cost_hint": 3,
+      "depends_on": [
+        "TSTREAM1"
+      ]
+    },
+    {
+      "sym": "tstream.delta_entropy",
+      "args": [
+        "p1"
+      ],
+      "args_types": [
+        "any"
+      ],
+      "constraints": {},
+      "category": "tstream",
+      "op": "set",
+      "template": "tstream.delta_entropy_{}",
+      "freq": 1,
+      "op_id": 1242,
+      "capa_tags": [
+        "TSTREAM1"
+      ],
+      "source_block": "CoreLang5_Block18_Token_Stream_Delta",
+      "idempotent": false,
+      "side_effect": "write",
+      "stability": "experimental",
+      "wire_cost_hint": 3,
+      "depends_on": [
+        "TSTREAM1"
+      ]
+    }
+  ],
+  "alias": {
+    "tstream.delta_tokens_{}_{}": "tstream.delta_tokens",
+    "tstream.micro_update_{}": "tstream.micro_update",
+    "tstream.window_{}": "tstream.window",
+    "tstream.entropy_{}": "tstream.entropy",
+    "tstream.flush_{}": "tstream.flush",
+    "tstream.commit_{}": "tstream.commit",
+    "tstream.rollback_{}": "tstream.rollback",
+    "tstream.pack_{}": "tstream.pack",
+    "tstream.tid_{}": "tstream.tid",
+    "tstream.abort_{}": "tstream.abort",
+    "tstream.merge_{}": "tstream.merge",
+    "tstream.split_{}": "tstream.split",
+    "tstream.delta_entropy_{}": "tstream.delta_entropy"
+  }
+}
