@@ -1,0 +1,27 @@
+{
+  "proto_ver": "1.0",
+  "features": [
+    "zstd",
+    "crc32"
+  ],
+  "residual": {
+    "codec": "zstd",
+    "dict_id": "d1",
+    "level": 6
+  },
+  "limits": {
+    "max_frame": 32768,
+    "anchor_every": 8
+  },
+  "timeouts": {
+    "init_sec": 4.0,
+    "ack_sec": 4.0,
+    "ready_sec": 4.0
+  },
+  "retries": {
+    "init": 3,
+    "publish": 2
+  },
+  "peer_cache_dir": "peers",
+  "accept_d1_supplement": true
+}

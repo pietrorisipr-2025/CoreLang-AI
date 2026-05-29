@@ -1,0 +1,20 @@
+{
+  "symbol": "CMP_ZSTD1",
+  "registry": [
+    "raw",
+    "zlib",
+    "lz4",
+    "zstd"
+  ],
+  "select_policy": "auto",
+  "announce": {
+    "ZSTD_DICT1": {
+      "fields": [
+        "version",
+        "name",
+        "size"
+      ],
+      "blob": true
+    }
+  }
+}

@@ -1,0 +1,2 @@
+json_bytes,json_zlib_bytes,sframes_total_bytes,legacy_sframes_total_bytes,summary_bytes,residual_bytes,stream_inner_bytes,stream_packed_bytes,stream_codec,stream_dict,messages
+183610,62206,20400,129209,76603,52206,166580,19994,zstd,True,240

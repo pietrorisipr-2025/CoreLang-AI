@@ -1,0 +1,574 @@
+--- corelangai_orig/CoreLangAI_unified/cl5x_entropy.py	2026-05-28 21:39:37.519224798 +0000
++++ corelangai_work/CoreLangAI_unified/cl5x_entropy.py	2026-05-28 21:42:03.289509196 +0000
+@@ -1,7 +1,9 @@
+ 
+ # cl5x_entropy.py — extended entropy registry for CL6 v6.10
+ # Supports: raw, zlib ("z"), lz4 (if available), zstd (if available)
+-import zlib
++# v6.10.2 adds stream-level packing helpers for CL6 batch transport.
++import os, glob, hashlib, zlib
++from functools import lru_cache
+ 
+ try:
+     import lz4.frame as _lz4
+@@ -99,3 +101,113 @@
+         return best_kind, best_bytes
+     else:
+         return min(cand, key=lambda kv: len(kv[1]))
++
++
++# ---- stream-level entropy packing -------------------------------------------------
++# The per-frame entropy_pack_auto intentionally leaves tiny payloads raw.  That is
++# correct for individual residual frames, but wrong for a batch/stream made of many
++# small S-Frames.  The helpers below bypass the small-payload threshold and train a
++# deterministic zstd dictionary from the local CKB/codebook material when available.
++
++def _split_samples(blob:bytes, chunk:int=2048, max_bytes:int=131072):
++    blob = blob[:max_bytes]
++    out = []
++    for i in range(0, len(blob), chunk):
++        part = blob[i:i+chunk]
++        if len(part) >= 64:
++            out.append(part)
++    return out
++
++def _candidate_dict_files(project_root:str):
++    root = os.path.abspath(project_root or ".")
++    patterns = [
++        os.path.join(root, "dict", "*"),
++        os.path.join(root, "clean_libs", "*.json"),
++        os.path.join(root, "ckb_*.json"),
++        os.path.join(root, "*CKB*.json"),
++        os.path.join(root, "GLOBAL_MANIFEST_D*.json"),
++    ]
++    seen = set()
++    for pat in patterns:
++        for p in glob.glob(pat):
++            if p in seen or not os.path.isfile(p):
++                continue
++            seen.add(p)
++            yield p
++
++@lru_cache(maxsize=8)
++def _trained_zstd_dict(project_root:str=".", dict_size:int=8192):
++    if not _has_zstd:
++        return None, b""
++    samples = []
++    for p in _candidate_dict_files(project_root):
++        try:
++            data = open(p, "rb").read()
++        except Exception:
++            continue
++        samples.extend(_split_samples(data))
++        if len(samples) >= 512:
++            break
++    if len(samples) < 8:
++        return None, b""
++    try:
++        d = _zstd.train_dictionary(int(dict_size), samples)
++        raw = d.as_bytes()
++        return d, hashlib.blake2s(raw, digest_size=8).digest()
++    except Exception:
++        return None, b""
++
++def entropy_pack_stream_auto(data:bytes, policy:str="auto-byte-min", allowed_codecs:set=None,
++                             project_root:str=".", use_zstd_dict:bool=True,
++                             zstd_level:int|None=None):
++    """
++    Stream/batch compressor.  Unlike entropy_pack_auto(), this never applies the
++    <300 byte raw shortcut to the whole stream.  Returns (kind, payload, meta).
++    meta currently contains {"dict_id": hex} when zstd dictionary compression is used.
++    """
++    if allowed_codecs is None:
++        allowed_codecs = available_codecs()
++    allowed_codecs = set(allowed_codecs) | {"raw"}
++
++    n = len(data)
++    if n == 0:
++        return "raw", data, {}
++
++    cand = [("raw", data, {})]
++
++    if "zstd" in allowed_codecs and _has_zstd:
++        # Byte-min mode deliberately uses a strong level: the batch path exists for
++        # amortized compression, not for per-message latency.
++        lvl = int(zstd_level if zstd_level is not None else (19 if policy == "auto-byte-min" else 3))
++        try:
++            zd, zid = _trained_zstd_dict(os.path.abspath(project_root or ".")) if use_zstd_dict else (None, b"")
++            cctx = _zstd.ZstdCompressor(level=lvl, dict_data=zd) if zd is not None else _zstd.ZstdCompressor(level=lvl)
++            meta = {"dict_id": zid.hex()} if zid else {}
++            cand.append(("zstd", cctx.compress(data), meta))
++        except Exception:
++            pass
++
++    if "z" in allowed_codecs:
++        try:
++            cand.append(("z", zlib.compress(data, 6 if policy == "auto-byte-min" else 3), {}))
++        except Exception:
++            pass
++
++    if "lz4" in allowed_codecs and _has_lz4:
++        try:
++            cand.append(("lz4", _lz4.compress(data, compression_level=0), {}))
++        except Exception:
++            pass
++
++    return min(cand, key=lambda kv: len(kv[1]))
++
++def entropy_unpack_stream(kind:str, data:bytes, meta:dict|None=None, project_root:str=".")->bytes:
++    meta = meta or {}
++    if kind == "zstd" and _has_zstd:
++        dict_id = meta.get("dict_id")
++        if dict_id:
++            zd, zid = _trained_zstd_dict(os.path.abspath(project_root or "."))
++            if zd is not None and zid.hex() == dict_id:
++                return _zstd.ZstdDecompressor(dict_data=zd).decompress(data)
++        return _zstd.ZstdDecompressor().decompress(data)
++    return entropy_unpack(kind, data)
+--- corelangai_orig/CoreLangAI_unified/cl6_sframe_bitpack.py	2026-05-28 21:39:38.132445349 +0000
++++ corelangai_work/CoreLangAI_unified/cl6_sframe_bitpack.py	2026-05-28 21:42:14.105647207 +0000
+@@ -1,11 +1,12 @@
+ # cl5x_sframe_bitpack.py — bitpacked S-Frames header (v6.2)
+ # Header layout (2 bytes minimal):
+-#  bits: [ s_type(3) | flags(3) | cbv_small(4) | len_kind(2) | reserved(4) ]
++#  bits: [ s_type(3) | flags(3) | cbv_small(4) | len_kind_low(2) | len_kind_high/reserved(4) ]
+ #  s_type: 0..7 (SUM, PLAN, REQ, ANS, OBS, EVAL, DELTA, CKB)
+ #  flags: bit0 lossy_ok, bit1 delta, bit2 urgent
+ #  cbv_small: 0..15 (0==extended: varint follows)
+-#  len_kind: 0=raw(varint), 1=huf, 2=z, 3=reserved (payload packing hint)
+-#  reserved: future use
++#  len_kind: 0=raw, 1=huf, 2=z, 3=lz4, 4=zstd.  v6.10.2 stores
++#            len_kind_high in the formerly reserved low nibble, so old frames
++#            with zero reserved bits still decode unchanged.
+ # After header:
+ #   if cbv_small==0: varint cbv
+ #   varint ref_hash_len, ref_hash bytes
+@@ -31,7 +32,7 @@
+ def pack_header(s_type:int, flags:int, cbv:int, len_kind:int)->bytes:
+     cb_small = cbv if 1 <= cbv <= 15 else 0
+     b0 = ((s_type & 0x7) << 5) | ((flags & 0x7) << 2) | ((cb_small >> 2) & 0x3)
+-    b1 = (((cb_small & 0x3) << 6) | ((len_kind & 0x3) << 4))
++    b1 = (((cb_small & 0x3) << 6) | ((len_kind & 0x3) << 4) | ((len_kind >> 2) & 0x0F))
+     out = bytearray([b0, b1])
+     if cb_small == 0:
+         out += enc_varint(cbv)
+@@ -44,7 +45,7 @@
+     cb_small_hi = b0 & 0x3
+     cb_small_lo = (b1 >> 6) & 0x3
+     cb_small = (cb_small_hi << 2) | cb_small_lo
+-    len_kind = (b1 >> 4) & 0x3
++    len_kind = ((b1 & 0x0F) << 2) | ((b1 >> 4) & 0x3)
+     if cb_small == 0:
+         cbv, off = dec_varint(buf, off)
+     else:
+--- corelangai_orig/CoreLangAI_unified/cl5x_sframe_bitpack.py	2026-05-28 21:39:37.525201728 +0000
++++ corelangai_work/CoreLangAI_unified/cl5x_sframe_bitpack.py	2026-05-28 21:42:15.920760230 +0000
+@@ -1,11 +1,12 @@
+ # cl5x_sframe_bitpack.py — bitpacked S-Frames header (v6.2)
+ # Header layout (2 bytes minimal):
+-#  bits: [ s_type(3) | flags(3) | cbv_small(4) | len_kind(2) | reserved(4) ]
++#  bits: [ s_type(3) | flags(3) | cbv_small(4) | len_kind_low(2) | len_kind_high/reserved(4) ]
+ #  s_type: 0..7 (SUM, PLAN, REQ, ANS, OBS, EVAL, DELTA, CKB)
+ #  flags: bit0 lossy_ok, bit1 delta, bit2 urgent
+ #  cbv_small: 0..15 (0==extended: varint follows)
+-#  len_kind: 0=raw(varint), 1=huf, 2=z, 3=reserved (payload packing hint)
+-#  reserved: future use
++#  len_kind: 0=raw, 1=huf, 2=z, 3=lz4, 4=zstd.  v6.10.2 stores
++#            len_kind_high in the formerly reserved low nibble, so old frames
++#            with zero reserved bits still decode unchanged.
+ # After header:
+ #   if cbv_small==0: varint cbv
+ #   varint ref_hash_len, ref_hash bytes
+@@ -31,7 +32,7 @@
+ def pack_header(s_type:int, flags:int, cbv:int, len_kind:int)->bytes:
+     cb_small = cbv if 1 <= cbv <= 15 else 0
+     b0 = ((s_type & 0x7) << 5) | ((flags & 0x7) << 2) | ((cb_small >> 2) & 0x3)
+-    b1 = (((cb_small & 0x3) << 6) | ((len_kind & 0x3) << 4))
++    b1 = (((cb_small & 0x3) << 6) | ((len_kind & 0x3) << 4) | ((len_kind >> 2) & 0x0F))
+     out = bytearray([b0, b1])
+     if cb_small == 0:
+         out += enc_varint(cbv)
+@@ -44,7 +45,7 @@
+     cb_small_hi = b0 & 0x3
+     cb_small_lo = (b1 >> 6) & 0x3
+     cb_small = (cb_small_hi << 2) | cb_small_lo
+-    len_kind = (b1 >> 4) & 0x3
++    len_kind = ((b1 & 0x0F) << 2) | ((b1 >> 4) & 0x3)
+     if cb_small == 0:
+         cbv, off = dec_varint(buf, off)
+     else:
+--- corelangai_orig/CoreLangAI_unified/cl6_link.py	2026-05-28 21:39:37.519848034 +0000
++++ corelangai_work/CoreLangAI_unified/cl6_link.py	2026-05-28 21:43:25.884228049 +0000
+@@ -107,7 +107,7 @@
+ 
+ from cl6_sframe_bitpack import pack_sframe_bp, unpack_sframe_bp
+ from cl5x_delta_vcdiff import delta_encode, delta_decode
+-from cl5x_entropy import entropy_pack_auto, entropy_unpack, available_codecs
++from cl5x_entropy import entropy_pack_auto, entropy_unpack, available_codecs, entropy_pack_stream_auto, entropy_unpack_stream
+ from cl5x_qos_profiles import publish_semantic
+ from cl5x_adaptive_d2 import suggest_phrases, make_ckb_update_frame
+ from cl5x_msd_delta2 import MSDDelta2
+@@ -118,11 +118,31 @@
+ from cl6_capa import build_capa_frame, parse_capa_frame, negotiate
+ from cl6_resync import build_anchor, build_resync_request, parse_rs
+ 
++STREAM_BATCH_TYPE = 0
++STREAM_FULL_OBJECT_TYPE = 2
++STREAM_BATCH_FLAGS = 0b111
++STREAM_BATCH_MAGIC = b"CL6SB1"
++CODEC_TO_LEN_KIND = {'raw':0,'huf':1,'z':2,'lz4':3,'zstd':4}
++LEN_KIND_TO_CODEC = {0:'raw',1:'huf',2:'z',3:'lz4',4:'zstd'}
++
++def _pack_stream_envelope(kind:str, original_len:int, payload:bytes, meta:dict|None=None)->bytes:
++    header = json.dumps({"kind":kind, "original_len":int(original_len), "meta":meta or {}}, separators=(",",":")).encode("utf-8")
++    return STREAM_BATCH_MAGIC + _enc_varint(len(header)) + header + payload
++
++def _unpack_stream_envelope(payload:bytes):
++    if not payload.startswith(STREAM_BATCH_MAGIC):
++        raise ValueError("not a CL6 stream-batch envelope")
++    off = len(STREAM_BATCH_MAGIC)
++    n, off = _dec_varint(payload, off)
++    header = json.loads(payload[off:off+n].decode("utf-8")); off += n
++    return header, payload[off:]
++
+ class CL6Link:
+     def __init__(self, tx, on_object, manifest_path='ckb_layers_manifest.json', needed_blocks=None, auto_handshake=True,
+                  ttl_summary_sec=5.0, ttl_residual_sec=7.0, auto_d2=True, qprofile=None,
+                  residual_policy:str='auto-byte-min', mic_key:bytes=None, anchor_every:int=8,
+-                 rate_limit_bps:int=0, burst_bytes:int=32768, d3_path:str='ckb_D3_phrases.json', rsyn_buffer:int=64):
++                 rate_limit_bps:int=0, burst_bytes:int=32768, d3_path:str='ckb_D3_phrases.json', rsyn_buffer:int=64,
++                 batch_window:float=0.0, batch_max:int=0, stream_zstd_level:int|None=None):
+         self.tx = tx
+         self.on_object = on_object
+         self.cb = _default_codebook()
+@@ -149,7 +169,9 @@
+         self.metrics = {'rx_summary':0,'rx_residual':0,'reconstructed':0,'drops_summary_ttl':0,'drops_residual_ttl':0,
+                         'msd_frames_tx':0,'msd_frames_rx':0,'auto_choice':'','bytes_chosen':0,'bytes_other':0,
+                         'anchors_tx':0,'anchors_rx':0,'resync_req_tx':0,'resync_req_rx':0,'mic_used':0,
+-                        'resends':0,'bundled':0,'pacing_drops':0}
++                        'resends':0,'bundled':0,'pacing_drops':0,
++                        'stream_batches_tx':0,'stream_batches_rx':0,'stream_objects_tx':0,'stream_objects_rx':0,
++                        'stream_plain_bytes':0,'stream_packed_bytes':0,'stream_codec':''}
+         self.needed_blocks = needed_blocks or []; self.manifest_path = manifest_path
+         self.qprofile = self._resolve_qprofile(qprofile)
+         self.residual_policy = residual_policy
+@@ -159,7 +181,9 @@
+         self.entropy_policy = 'auto-byte-min'
+         self._msg_counter = 0
+         # CAPA
+-        self.local_capa = {"SFRAME":"bp1","DLT1":1,"MSD2":1,"MIC1":1,"RSYN1":1,"QPROF1":1}
++        self.local_capa = {"SFRAME":"bp1","DLT1":1,"MSD2":1,"MIC1":1,"RSYN1":1,"QPROF1":1,"STREAM_BATCH1":1}
++        if "lz4" in self.allowed_codecs: self.local_capa["CMP_LZ41"] = 1
++        if "zstd" in self.allowed_codecs: self.local_capa["CMP_ZSTD1"] = 1
+         self.peer_capa = None; self.capa_neg = None
+         # pacing
+         self.rate_limit_bps = int(rate_limit_bps) if rate_limit_bps else 0
+@@ -168,6 +192,14 @@
+         self._last_refill = time.time()
+         # D3 phrases
+         self.d3_path = d3_path
++        # Optional application-level batching for repeated send_object() calls.
++        # No background timer is used: call flush_batch() at the end of a burst,
++        # or set batch_max/batch_window so the next send_object() flushes naturally.
++        self.batch_window = float(batch_window or 0.0)
++        self.batch_max = int(batch_max or 0)
++        self.stream_zstd_level = stream_zstd_level
++        self._batch_queue: List[Tuple[dict,int]] = []
++        self._batch_started = 0.0
+         if auto_handshake:
+             self.handshake()
+ 
+@@ -317,8 +349,74 @@
+         return True
+ 
+ 
++    def _make_full_object_sframe(self, obj:dict):
++        """Build an uncompressed inner S-Frame carrying a full semantic object.
++        This is used only inside stream-batch envelopes: the whole concatenated
++        stream is entropy-compressed once, so small frames share one dictionary/state.
++        """
++        full_bin = self.enc.enc(obj)
++        ref = hashlib.blake2s(full_bin, digest_size=16).digest()
++        return ref, pack_sframe_bp(STREAM_FULL_OBJECT_TYPE, 0b000, cbv=self.cb.version, len_kind=0, ref_hash=ref, payload=full_bin)
++
++    def _publish_stream_batch(self, objs:List[dict], chid:int=1):
++        self._apply_capa_neg()
++        inner = bytearray()
++        refs = []
++        for obj in objs:
++            ref, sf = self._make_full_object_sframe(obj)
++            refs.append(ref)
++            inner += sf
++            self._collect_texts(obj)
++
++        plain = bytes(inner)
++        kind, packed, meta = entropy_pack_stream_auto(
++            plain,
++            policy='auto-byte-min',
++            allowed_codecs=self.allowed_codecs,
++            project_root=os.getcwd(),
++            use_zstd_dict=True,
++            zstd_level=self.stream_zstd_level,
++        )
++        envelope = _pack_stream_envelope(kind, len(plain), packed, meta)
++        outer = pack_sframe_bp(STREAM_BATCH_TYPE, STREAM_BATCH_FLAGS, cbv=self.cb.version, len_kind=0, ref_hash=b'', payload=envelope)
++        if not self._consume_tokens(len(outer)):
++            self.metrics['pacing_drops'] += 1
++            return False
++        publish_semantic(self.tx, 'RESIDUAL', outer, chid=chid)
++        self.metrics['stream_batches_tx'] += 1
++        self.metrics['stream_objects_tx'] += len(objs)
++        self.metrics['stream_plain_bytes'] += len(plain)
++        self.metrics['stream_packed_bytes'] += len(packed)
++        self.metrics['stream_codec'] = kind
++        self.metrics['bundled'] += len(objs)
++        self._maybe_update_d2()
++        return True
++
++    def flush_batch(self, chid:int|None=None):
++        """Flush objects accumulated by send_object() when batch_max/batch_window is enabled."""
++        if not self._batch_queue:
++            return False
++        if chid is None:
++            chid = self._batch_queue[0][1]
++        objs = [o for (o, _) in self._batch_queue]
++        self._batch_queue.clear()
++        self._batch_started = 0.0
++        return self.send_batch(objs, chid=chid)
++
+     def send_object(self, obj, chid=1):
+-        # Apply negotiated capa if present
++        # Optional batching path for repeated send_object() calls.
++        if self.batch_max > 0 or self.batch_window > 0:
++            now = time.time()
++            if not self._batch_queue:
++                self._batch_started = now
++            self._batch_queue.append((obj, chid))
++            max_hit = self.batch_max > 0 and len(self._batch_queue) >= self.batch_max
++            window_hit = self.batch_window > 0 and (now - self._batch_started) >= self.batch_window
++            if max_hit or window_hit:
++                return self.flush_batch(chid=chid)
++            return True
++
++        # Legacy single-object path: kept for wire compatibility with existing peers.
+         self._apply_capa_neg()
+ 
+         full_bin = self.enc.enc(obj)
+@@ -336,7 +434,7 @@
+         else:
+             if sz_msd < sz_dlt:
+                 chosen_kind, chosen_pack, chosen = kind_msd, pack_msd, 'MSD2'; other_sz = sz_dlt
+-# Optional MIC1
++        # Optional MIC1
+         sum_payload = sum_bin
+         res_payload = chosen_pack
+         if self.mic_key:
+@@ -345,7 +443,7 @@
+             self.metrics['mic_used'] += 1
+ 
+         sf_sum = pack_sframe_bp(1, 0b101, cbv=self.cb.version, len_kind=0, ref_hash=b'', payload=sum_payload)
+-        sf_res = pack_sframe_bp(7, 0b010, cbv=self.cb.version, len_kind={'raw':0,'huf':1,'z':2,'lz4':3,'zstd':4}.get(chosen_kind,0), ref_hash=ref, payload=res_payload)
++        sf_res = pack_sframe_bp(7, 0b010, cbv=self.cb.version, len_kind=CODEC_TO_LEN_KIND.get(chosen_kind,0), ref_hash=ref, payload=res_payload)
+ 
+         # pacing-aware publish (coalesced in-order)
+         ok1 = self._publish_sf(sf_sum, chid, len(sf_sum))
+@@ -354,27 +452,13 @@
+             self._record_ring(ref, sf_sum, sf_res)
+         self.metrics['auto_choice']=chosen; self.metrics['bytes_chosen']=len(chosen_pack); self.metrics['bytes_other']=int(other_sz)
+         self._collect_texts(obj); self._maybe_update_d2(); self._maybe_anchor(sum_bin, chid)
++        return ok1 and ok2
+ 
+     def send_batch(self, objs:List[dict], chid:int=1):
+-        # simple coalescing: encode all first, then publish in order (saves overhead in transports that batch writes)
+-        frames: List[Tuple[bytes,bytes,bytes]] = []  # (ref, sf_sum, sf_res)
+-        for obj in objs:
+-            full_bin = self.enc.enc(obj); sum_obj = _summarize(obj); sum_bin = self.enc.enc(sum_obj)
+-            ref = hashlib.blake2s(sum_bin, digest_size=16).digest()
+-            (kd, pd, sd), (km, pm, sm) = self._build_residual_candidates(sum_bin, full_bin, obj)
+-            chosen_kind, chosen_pack = (kd,pd); 
+-            if self.residual_policy!='delta-only' and sm < sd: chosen_kind, chosen_pack = (km,pm)
+-            sum_payload = sum_bin; res_payload = chosen_pack
+-            if self.mic_key:
+-                sum_payload = wrap_mic(sum_payload, self.mic_key); res_payload = wrap_mic(res_payload, self.mic_key)
+-            sf_sum = pack_sframe_bp(1, 0b101, cbv=self.cb.version, len_kind=0, ref_hash=b'', payload=sum_payload)
+-            sf_res = pack_sframe_bp(7, 0b010, cbv=self.cb.version, len_kind={'raw':0,'huf':1,'z':2,'lz4':3,'zstd':4}.get(chosen_kind,0), ref_hash=ref, payload=res_payload)
+-            frames.append((ref, sf_sum, sf_res))
+-        # publish
+-        for ref, sf_sum, sf_res in frames:
+-            if self._publish_sf(sf_sum, chid, len(sf_sum)) and self._publish_sf(sf_res, chid, len(sf_res)):
+-                self._record_ring(ref, sf_sum, sf_res)
+-                self.metrics['bundled'] += 1
++        # v6.10.2 stream-batch path: build all inner S-Frames uncompressed, then
++        # compress the concatenated stream once.  This avoids the old per-frame
++        # entropy reset and bypasses the <300-byte raw shortcut for tiny residuals.
++        return self._publish_stream_batch(list(objs or []), chid=chid)
+ 
+     def _request_resync(self, ref:bytes, chid:int=1):
+         if not self.capa_neg or not self.capa_neg.get("feat",{}).get("RSYN1",1):
+@@ -420,42 +504,93 @@
+         self.gc_buffers()
+         try:
+             sf, _ = unpack_sframe_bp(data, 0)
+-            s_type = sf['s_type']; kind=sf['len_kind']
+-            ref = sf['ref_hash']; payload = sf['payload']
+-            now = time.time()
+-            # unwrap MIC on SUMMARY to compute ref
+-            if s_type == 1:
+-                if self.mic_key and payload.startswith(b"MIC1"):
+-                    try: payload_checked = unwrap_mic(payload, self.mic_key)
+-                    except Exception: return
+-                    ref_calc = hashlib.blake2s(payload_checked, digest_size=16).digest()
+-                    payload = payload_checked
+-                else:
+-                    ref_calc = hashlib.blake2s(payload, digest_size=16).digest()
+-                self.summaries[ref_calc] = (payload, now)
+-                self.metrics['rx_summary'] += 1
+-                if ref_calc in self.residuals:
+-                    rk, rp, _ = self.residuals[ref_calc]
+-                    self._try_reconstruct(ref_calc, rk, rp)
+-                    if ref_calc in self.residuals: del self.residuals[ref_calc]
+-            elif s_type == 7:
+-                self.metrics['rx_residual'] += 1
+-                r = ref
+-                if r in self.summaries:
+-                    self._try_reconstruct(r, kind, payload)
+-                else:
+-                    self.residuals[r] = (kind, payload, now)
++            self._handle_sframe(sf)
+         except Exception:
+             pass
+ 
++    def _handle_sframe(self, sf:dict):
++        s_type = sf['s_type']; flags = sf.get('flags', 0); kind = sf['len_kind']
++        ref = sf['ref_hash']; payload = sf['payload']
++        now = time.time()
++
++        if s_type == STREAM_BATCH_TYPE and flags == STREAM_BATCH_FLAGS and payload.startswith(STREAM_BATCH_MAGIC):
++            return self._feed_stream_batch(payload)
++
++        if s_type == STREAM_FULL_OBJECT_TYPE:
++            try:
++                obj, off = self.dec.dec(payload, 0, 'val')
++                full_bin = payload[:off]
++            except Exception:
++                return False
++            self.on_object({"ref":ref.hex(),"summary_bin":b'',"full_bin":full_bin,"obj":obj})
++            self.metrics['stream_objects_rx'] += 1
++            self.metrics['reconstructed'] += 1
++            return True
++
++        # unwrap MIC on SUMMARY to compute ref
++        if s_type == 1:
++            if self.mic_key and payload.startswith(b"MIC1"):
++                try: payload_checked = unwrap_mic(payload, self.mic_key)
++                except Exception: return False
++                ref_calc = hashlib.blake2s(payload_checked, digest_size=16).digest()
++                payload = payload_checked
++            else:
++                ref_calc = hashlib.blake2s(payload, digest_size=16).digest()
++            self.summaries[ref_calc] = (payload, now)
++            self.metrics['rx_summary'] += 1
++            if ref_calc in self.residuals:
++                rk, rp, _ = self.residuals[ref_calc]
++                self._try_reconstruct(ref_calc, rk, rp)
++                if ref_calc in self.residuals: del self.residuals[ref_calc]
++            return True
++        elif s_type == 7:
++            self.metrics['rx_residual'] += 1
++            r = ref
++            if r in self.summaries:
++                self._try_reconstruct(r, kind, payload)
++            else:
++                self.residuals[r] = (kind, payload, now)
++            return True
++        return False
++
++    def _feed_stream_batch(self, payload:bytes):
++        try:
++            header, packed = _unpack_stream_envelope(payload)
++            kind = header.get("kind", "raw")
++            meta = header.get("meta", {}) or {}
++            plain = entropy_unpack_stream(kind, packed, meta=meta, project_root=os.getcwd())
++            if int(header.get("original_len", len(plain))) != len(plain):
++                return False
++        except Exception:
++            return False
++
++        off = 0
++        count = 0
++        try:
++            while off < len(plain):
++                sf, off = unpack_sframe_bp(plain, off)
++                self._handle_sframe(sf)
++                count += 1
++        except Exception:
++            return False
++        self.metrics['stream_batches_rx'] += 1
++        self.metrics['stream_codec'] = kind
++        return count > 0
++
+     def _try_reconstruct(self, ref:bytes, kind:int, payload:bytes):
+         sum_entry = self.summaries.get(ref)
+         if not sum_entry: return False
+         sum_bin, _ = sum_entry
+-        wire = entropy_unpack({0:'raw',1:'huf',2:'z',3:'lz4',4:'zstd'}.get(kind,'raw'), payload)
+-        if self.mic_key and wire.startswith(b"MIC1"):
+-            try: wire = unwrap_mic(wire, self.mic_key)
++        # Legacy compatibility: older frames are entropy-packed per residual.
++        # If MIC wraps the packed bytes, verify before decompression.
++        packed = payload
++        if self.mic_key and packed.startswith(b"MIC1"):
++            try: packed = unwrap_mic(packed, self.mic_key)
+             except Exception: self._request_resync(ref); return False
++        try:
++            wire = entropy_unpack(LEN_KIND_TO_CODEC.get(kind,'raw'), packed)
++        except Exception:
++            self._request_resync(ref); return False
+ 
+         obj=None; full_bin=None
+         try:
+--- corelangai_orig/CoreLangAI_unified/cl5x_bench_v62.py	2026-05-28 21:39:37.505530671 +0000
++++ corelangai_work/CoreLangAI_unified/cl5x_bench_v62.py	2026-05-28 21:43:44.993056327 +0000
+@@ -51,7 +51,8 @@
+ 
+ # make summary/residual and then delta+entropy on residual
+ from cl5x_delta_vcdiff import delta_encode
+-from cl5x_entropy import entropy_pack_auto
++from cl5x_entropy import entropy_pack_auto, entropy_pack_stream_auto
++from cl6_sframe_bitpack import pack_sframe_bp
+ 
+ def summarize_obj(obj):
+     def rec(x):
+@@ -88,6 +89,7 @@
+     cb=default_codebook(); enc=SEncoder(cb)
+     data=synthetic_messages()
+     json_bytes=zlib_bytes=sum_bytes=res_bytes=0
++    stream_inner = bytearray()
+     for obj in data:
+         js=json.dumps(obj, separators=(',',':')).encode('utf-8')
+         json_bytes+=len(js); zlib_bytes+=len(zlib.compress(js,6))
+@@ -98,8 +100,22 @@
+         kind, packed = entropy_pack_auto(residual)
+         sum_bytes += len(sum_bin) + 8   # + tiny header est.
+         res_bytes += len(packed) + 12   # + tiny header est.
+-    total = sum_bytes + res_bytes + 400  # + CKB-ish cost estimate
+-    return {'json_bytes':json_bytes, 'json_zlib_bytes':zlib_bytes, 'sframes_total_bytes':total, 'summary_bytes':sum_bytes, 'residual_bytes':res_bytes, 'messages':len(data)}
++        # v6.10.2 batch/stream path: full semantic object S-Frames are built raw
++        # first, then the whole stream is compressed once.  This deliberately
++        # bypasses the old per-frame <300 byte raw shortcut.
++        stream_inner += pack_sframe_bp(2, 0b000, cbv=cb.version, len_kind=0, ref_hash=b'', payload=full_bin)
++    legacy_total = sum_bytes + res_bytes + 400  # + CKB-ish cost estimate
++    stream_kind, stream_packed, stream_meta = entropy_pack_stream_auto(bytes(stream_inner), policy='auto-byte-min', project_root='.')
++    # Estimate one outer stream-batch S-Frame + the same CKB-ish fixed cost.
++    stream_outer = pack_sframe_bp(0, 0b111, cbv=cb.version, len_kind=0, ref_hash=b'', payload=stream_packed)
++    stream_total = len(stream_outer) + 400
++    return {'json_bytes':json_bytes, 'json_zlib_bytes':zlib_bytes,
++            'sframes_total_bytes':stream_total,
++            'legacy_sframes_total_bytes':legacy_total,
++            'summary_bytes':sum_bytes, 'residual_bytes':res_bytes,
++            'stream_inner_bytes':len(stream_inner), 'stream_packed_bytes':len(stream_packed),
++            'stream_codec':stream_kind, 'stream_dict':bool(stream_meta.get('dict_id')),
++            'messages':len(data)}
+ 
+ if __name__=='__main__':
+     r=run_bench()

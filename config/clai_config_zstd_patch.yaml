@@ -1,0 +1,4 @@
+# Patch di esempio: abilita CMP_ZSTD1
+codec:
+  registry: [raw, zlib, lz4, zstd]
+  prefer: zstd

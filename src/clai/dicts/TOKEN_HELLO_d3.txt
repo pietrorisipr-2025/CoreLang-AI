@@ -1,0 +1,1 @@
+CLDICT.v1|codec=zstd|profile=d3|dict_sha256=f770dc5252714c01410c160fe2592eeb9f82f16ee9f849ee6b11822c2db1853a|dict_id=0x11ad3883|dict_size=131072|coalesce=8|target=4096
